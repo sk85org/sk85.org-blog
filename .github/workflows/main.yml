@@ -18,8 +18,6 @@ jobs:
       - name: Execute command on the server
         run: 
           ssh -oStrictHostKeyChecking=no ${SSH_USERNAME}@${SSH_HOST} -i .secret_key "/root/home/core/repositories/ls.sh"
-      
-
     env: 
       SSH_HOST: ${{ secrets.SSH_HOST }}
       SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
