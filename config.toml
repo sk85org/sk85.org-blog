@@ -1,3 +1,56 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://XeF2.net"
+title = "XeF2.net/d"
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Your site description"
+  copyright = "Copyright © 2020 XeF2.net/d"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    title = "tags"
+    url = "/tags/"
+    weight = 12
+    
+  [[menu.main]]
+    identifier = "archives"
+    name = "archives"
+    title = "archives"
+    url = "/archives/"
+    weight = 11
+
+[permalinks]
+  posts = "/:sections/:year/:month/:day/"
+
+[taxonomies]
+  tag = "tags"
+  archive = "archives"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
