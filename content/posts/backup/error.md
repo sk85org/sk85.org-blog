@@ -1,0 +1,95 @@
+---
+title: "goのエラー処理"
+date: 2020-02-12T13:23:38+09:00
+---
+
+goはerrorインターフェイスを持っている、
+```
+type error interface {
+    Error() string
+}
+```
+
+よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。   
+<https://play.golang.org/p/cO0-r95Hd_r>
+```
+package main
+
+import (
+	"fmt"
+)
+
+type Error struct {
+	Msg  string
+	Code int
+}
+
+func (err *Error) Error() string {
+	return fmt.Sprintf("ErrorMessage [%s], ErrorCode [%d]", err.Msg, err.Code)
+}
+
+func test() error {
+	return &Error{Msg: "file not found", Code: 2}
+}
+
+func main() {
+	if err := test(); err != nil {
+		fmt.Println(err)
+	}
+}
+
+```
+ここでError()関数はどうやって実行されているか疑問に思って調べてみると   こんな記述が   
+> The fmt package formats an error value by calling its Error() string method.   
+> <https://blog.golang.org/error-handling-and-go>
+
+fmtパッケージでerrorインタフェイスを呼び出したときに、Error()が実行されるようになっているようだ。   
+errorインターフェイスとほぼ同じ、error2インターフェイスを実装してみる。   
+stringを返すError2()関数が実装れていれば、error2インターフェイスが使える。
+```
+type error2 interface {
+	Error2() string
+}
+```
+
+error2をerrorと同じように使ってfmt.Println(err)すると、当然ながらError2()は実行されず、   
+構造体の中身だけが出力される。<https://play.golang.org/p/R7V8pYmlZvl>
+```
+package main
+
+import (
+	"fmt"
+)
+
+type error2 interface {
+	Error2() string
+}
+
+type Error struct {
+	Msg  string
+	Code int
+}
+
+func (err *Error) Error2() string {
+	return fmt.Sprintf("ErrorMessage [%s], ErrorCode [%d]", err.Msg, err.Code)
+}
+
+func test() error2 {
+	return &Error{Msg: "file not found", Code: 2}
+}
+
+func main() {
+	if err := test(); err != nil {
+		fmt.Println(err)
+	}
+}
+```
+
+ここで、Error構造体にString()関数を追加してfmtから呼び出せる湯にしてやれば、
+fmt.Println(err)でError2()が実行され、オリジナル形式のエラーを作れる。<https://play.golang.org/p/bJ-vBtxVDvr>   
+注: String()関数はfmtのstringerインターフェイスに定義されている <https://go-tour-jp.appspot.com/methods/17>
+```
+func (p Error) String() string {
+	return fmt.Sprintf(p.Error2())
+}
+```
