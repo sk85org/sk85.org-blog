@@ -1,0 +1,26 @@
+name: Sync with server
+on: push
+jobs:
+  build:
+    name: rsync action
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Create Secret Key
+        run: |
+          echo "$SSH_PRIVATE_KEY" > .secret_key
+          chmod 600 .secret_key
+      - name: Rsync
+        run: |
+          #date > date.txt
+          #dry-run
+          #rsync -avcz --delete --dry-run --exclude ".git/" --exclude ".github/" --exclude ".secret_key" -e "ssh -i ./.secret_key -o StrictHostKeyChecking=no"  ./ ${SSH_USERNAME}@${SSH_HOST}:/root/home/core/repositories/test/
+          rsync -avcz --delete --exclude ".git/" --exclude ".github/" --exclude ".secret_key" -e "ssh -i ./.secret_key -o StrictHostKeyChecking=no"  ./ ${SSH_USERNAME}@${SSH_HOST}:/root/home/core/repositories/test/
+      - name: Execute command on the server
+        run: 
+          ssh -oStrictHostKeyChecking=no ${SSH_USERNAME}@${SSH_HOST} -i .secret_key "/root/home/core/repositories/ls.sh"
+
+    env: 
+      SSH_HOST: ${{ secrets.SSH_HOST }}
+      SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
+      SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
