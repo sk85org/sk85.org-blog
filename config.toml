@@ -11,6 +11,7 @@ pygmentsUseClasses = true
   copyright = "Copyright © 2020 XeF2.net/d"
   dark = "auto"
   highlight = true
+  imgresourceserver = "https://resources.xef2.net/imaginary/resize?"
 
 [menu]
   [[menu.main]]
