@@ -1,6 +1,8 @@
 ---
 title: "Hugoで作った静的サイトのデータをgithubで管理する"
 date: 2019-06-29T13:23:38+09:00
+tags: ["hugo"]
+archives: ["2019-06"]
 ---
 
 hugoでサイトを作るにあたって、Markdownファイルやテンプレートはgithub上で管理している。  
