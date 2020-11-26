@@ -6,9 +6,11 @@
     <description>Recent content in Tags on XeF2.net/d</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 09 Dec 2019 22:40:36 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://XeF2.net/d/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     
     
     
@@ -50,20 +52,9 @@ deco x20には1Gbpsの有線LANポートが2口あります。どちらにケー
 言いにくい単語をクイズ形式で無理に言わせるのは辞めようと奥さんと申し合わせ。
 経過 2020/09/20 発音の前に息を大きく吸っても音が出ないようなことが多かったが、ここ二週間ぐらいは大変調子が良い。
 言いにくそうな音も毎日変わって、傾向的なものがあるかよくわからない。この調子が続いてくれると良いのだけど
-経過 2020/10/04 あれ、最近吃音出てない？レベルで忘れていた。</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>誕生日が同じ</title>
-      <link>https://XeF2.net/d/posts/2020/08/02/</link>
-      <pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate>
-      
-      <guid>https://XeF2.net/d/posts/2020/08/02/</guid>
-      <description>誕生日が同じ人だと妙に親近感を感じる。
-いつもお世話になっているお隣さんは、奥様と息子さんが私と誕生日が同じ。
-そういえば大学時代に付き合っていた方とも同じだったし、高校時代に好きだった人とも同じだった。</description>
+経過 2020/10/04 あれ、最近吃音出てない？レベルで忘れていた。
+経過 2020/11/26 11月の第一週に、無音(口は空いているのに、音が出ず息だけ出る)型の吃音で、
+本人も体を揺らしながら頑張っていて見ていて辛かったが、一週間ぐらいで消失した。</description>
     </item>
     
     
@@ -288,38 +279,6 @@ package main import ( &amp;quot;fmt&amp;quot; ) type Error struct { Msg string C
     
     
     <item>
-      <title>20190816</title>
-      <link>https://XeF2.net/d/posts/2019/08/17/</link>
-      <pubDate>Sat, 17 Aug 2019 00:18:38 +0900</pubDate>
-      
-      <guid>https://XeF2.net/d/posts/2019/08/17/</guid>
-      <description>週初めに新しく導入した装置の搬入を行い無事立ち上がった。
-装置自体はありふれたものだが、色々とオプションを付けて面白いことができそうな構成になっている。
-導入した装置の設計をした方が担当営業で、嬉々と原理や細かい機構について教えてくれてとても良い。
-やっぱり自分の作ったものが売れると面白いよね。
-あとは試作品を2種類作って評価依頼して今週は終了。
-NMRパイプテクターの件 磁石を水道管に巻くだけでサビが取れると謳うNMRパイプテクター
-メトロの電車内広告でもたまに見る
-以前Facebookで「こんなすごい技術なら水道局が真っ先に導入するし、それをしないのは商品がまがい物だから」と書いたが、横浜市が買ってた。
-http://www.cml-office.org/wwatch/magne/yokohama-doc/index.html
-税金で高い磁石買って結局効果がありませんでしたって、行政がこんな子供だましに引っかかって恥ずかしいよなあ。
-日本技術士会千葉県支部は声明を出してて偉い https://www.engineer.or.jp/c_shibu/chiba/topics/006/attached/attach_6426_1.pdf</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>20190816のブックマーク</title>
-      <link>https://XeF2.net/d/posts/2019/08/16/</link>
-      <pubDate>Fri, 16 Aug 2019 23:54:06 +0900</pubDate>
-      
-      <guid>https://XeF2.net/d/posts/2019/08/16/</guid>
-      <description>https://maku77.github.io/mac/applescript/terminal.html</description>
-    </item>
-    
-    
-    
-    <item>
       <title>20200424のブックマーク</title>
       <link>https://XeF2.net/d/posts/2019/08/16/</link>
       <pubDate>Fri, 16 Aug 2019 23:54:06 +0900</pubDate>
@@ -342,17 +301,6 @@ https://gist.github.com/naoa/6777040
 https://qiita.com/naoa/items/38df1cb153f2bd1c1628
 systemd https://qiita.com/a_yasui/items/f2d8b57aa616e523ede4
 imageproxy https://github.com/willnorris/imageproxy</description>
-    </item>
-    
-    
-    
-    <item>
-      <title>仕事関係メモ</title>
-      <link>https://XeF2.net/d/posts/2019/08/16/</link>
-      <pubDate>Fri, 16 Aug 2019 23:54:06 +0900</pubDate>
-      
-      <guid>https://XeF2.net/d/posts/2019/08/16/</guid>
-      <description>https://maku77.github.io/mac/applescript/terminal.html</description>
     </item>
     
     
