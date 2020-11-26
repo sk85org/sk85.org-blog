@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your site description">
+    
+    <link rel="shortcut icon" href="https://XeF2.net/d/favicon.ico">
+    
+    <link rel="stylesheet" href="/d/css/style.min.css">
+
+    <title>goのエラー処理</title>
+</head>
+<body><header id="banner">
+    <h2><a href="https://XeF2.net/d">XeF2.net/d</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/d/posts/" title="posts">posts</a>
+            </li><li>
+                <a href="/d/archives/" title="archives">archives</a>
+            </li><li>
+                <a href="/d/tags/" title="tags">tags</a>
+            </li><li>
+                <a href="/d/about/" title="about">about</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>goのエラー処理</h1><time>February 12, 2020</time></header><p>goはerrorインターフェイスを持っている、</p>
+<pre><code>type error interface {
+    Error() string
+}
+</code></pre><p>よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。<br>
+<a href="https://play.golang.org/p/cO0-r95Hd_r">https://play.golang.org/p/cO0-r95Hd_r</a></p>
+<pre><code>package main
+
+import (
+	&quot;fmt&quot;
+)
+
+type Error struct {
+	Msg  string
+	Code int
+}
+
+func (err *Error) Error() string {
+	return fmt.Sprintf(&quot;ErrorMessage [%s], ErrorCode [%d]&quot;, err.Msg, err.Code)
+}
+
+func test() error {
+	return &amp;Error{Msg: &quot;file not found&quot;, Code: 2}
+}
+
+func main() {
+	if err := test(); err != nil {
+		fmt.Println(err)
+	}
+}
+
+</code></pre><p>ここでError()関数はどうやって実行されているか疑問に思って調べてみると   こんな記述が</p>
+<blockquote>
+<p>The fmt package formats an error value by calling its Error() string method.<br>
+<a href="https://blog.golang.org/error-handling-and-go">https://blog.golang.org/error-handling-and-go</a></p>
+</blockquote>
+<p>fmtパッケージでerrorインタフェイスを呼び出したときに、Error()が実行されるようになっているようだ。<br>
+errorインターフェイスとほぼ同じ、error2インターフェイスを実装してみる。<br>
+stringを返すError2()関数が実装れていれば、error2インターフェイスが使える。</p>
+<pre><code>type error2 interface {
+	Error2() string
+}
+</code></pre><p>error2をerrorと同じように使ってfmt.Println(err)すると、当然ながらError2()は実行されず、<br>
+構造体の中身だけが出力される。<a href="https://play.golang.org/p/R7V8pYmlZvl">https://play.golang.org/p/R7V8pYmlZvl</a></p>
+<pre><code>package main
+
+import (
+	&quot;fmt&quot;
+)
+
+type error2 interface {
+	Error2() string
+}
+
+type Error struct {
+	Msg  string
+	Code int
+}
+
+func (err *Error) Error2() string {
+	return fmt.Sprintf(&quot;ErrorMessage [%s], ErrorCode [%d]&quot;, err.Msg, err.Code)
+}
+
+func test() error2 {
+	return &amp;Error{Msg: &quot;file not found&quot;, Code: 2}
+}
+
+func main() {
+	if err := test(); err != nil {
+		fmt.Println(err)
+	}
+}
+</code></pre><p>ここで、Error構造体にString()関数を追加してfmtから呼び出せる湯にしてやれば、
+fmt.Println(err)でError2()が実行され、オリジナル形式のエラーを作れる。<a href="https://play.golang.org/p/bJ-vBtxVDvr">https://play.golang.org/p/bJ-vBtxVDvr</a><br>
+注: String()関数はfmtのstringerインターフェイスに定義されている <a href="https://go-tour-jp.appspot.com/methods/17">https://go-tour-jp.appspot.com/methods/17</a></p>
+<pre><code>func (p Error) String() string {
+	return fmt.Sprintf(p.Error2())
+}
+</code></pre></article>
+
+        </main><footer id="footer">
+    Copyright © 2020 XeF2.net/d
+</footer>
+</body>
+</html>
