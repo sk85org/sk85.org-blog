@@ -1,4 +1,4 @@
 ---
 title: "Home"
 ---
-This is some info about me.
+日常の記録
