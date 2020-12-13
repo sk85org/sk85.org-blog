@@ -43,7 +43,7 @@ pygmentsUseClasses = true
     weight = 11
 
 [permalinks]
-  posts = "/:sections/:year/:month/:day/"
+  posts = "/:sections/:year/:month/:day/:slug/"
 
 [taxonomies]
   tag = "tags"
