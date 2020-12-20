@@ -11,7 +11,7 @@
 {{ else if eq .Title "Archives"}}
 <h3>{{.Title}}</h3>
 <ul id="posts">
-    {{ range .Site.Taxonomies.archives.Alphabetical }}
+    {{ range .Site.Taxonomies.archives.Alphabetical.Reverse }}
     <li><a href="{{ "/archives/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a></li>
     {{ end }}
 </ul>
