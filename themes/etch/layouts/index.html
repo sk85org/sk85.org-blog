@@ -1,11 +1,5 @@
 {{ define "main" }}
 {{ .Content }}
-<form method="get" action="https://search.xef2.net">
-    <div>
-    <input type="text" name="phrase" value="" size="32" />
-    <input type="submit" value="Search" />
-    <input type="hidden" name="enc" value="UTF-8" />
-    </div>
-    </form>
+{{- partial "search.html" . -}}
 {{- partial "recentposts.html" . -}}
 {{ end }}
