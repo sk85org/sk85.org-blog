@@ -4,6 +4,7 @@ title = "About"
 ある化学徒
 
 - [XeF2.net](https://xef2.net/)
+- [Github](https://github.com/skt1984/)
 
 ### history
 というほどのものでもないですが
