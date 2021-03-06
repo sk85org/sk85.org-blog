@@ -1,5 +1,5 @@
-baseURL = "https://XeF2.net/d"
-title = "XeF2.net/d"
+baseURL = "https://sk85.org/d"
+title = "sk85.org/d"
 theme = "etch"
 languageCode = "en-US"
 enableInlineShortcodes = true
@@ -8,10 +8,10 @@ pygmentsUseClasses = true
 
 [params]
   description = "Your site description"
-  copyright = "Copyright © 2020 XeF2.net/d"
+  copyright = "sk85.org/d"
   dark = "auto"
   highlight = true
-  imgresourceserver = "https://resources.xef2.net/imaginary/resize?"
+  imgresourceserver = "https://resources.sk85.org/imaginary/resize?"
 
 [menu]
   [[menu.main]]

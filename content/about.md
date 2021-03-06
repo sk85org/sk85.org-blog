@@ -3,7 +3,7 @@ title = "About"
 +++
 ある化学徒
 
-- [XeF2.net](https://xef2.net/)
+- [sk85.org](https://sk85.org/)
 - [Github](https://github.com/skt1984/)
 
 ### history
@@ -19,5 +19,5 @@ conoha VPSに移行する。
 [Hyper Estraier](https://dbmx.net/hyperestraier/index.ja.html)をDocker上で動かして、全文検索をつける  
 https://github.com/skt1984/docker-HyperEstraier
 ####  2021-02-23
-念の為にxef2.netのフロントサーバーのアクセスログを取り始める。  
+念の為にフロントサーバーのアクセスログを取り始める。  
 ホスト上でcronと[Go Access](https://goaccess.io)の[dockerコンテナ](https://hub.docker.com/r/allinurl/goaccess)を使って、12時間ごとにログをhtml出力するように設定した。  
