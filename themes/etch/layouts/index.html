@@ -1,5 +1,7 @@
 {{ define "main" }}
 {{ .Content }}
-{{- partial "search.html" . -}}
+{{ if .Site.Params.enable_search }}
+    {{- partial "search.html" . -}}
+{{ end }}
 {{- partial "recentposts.html" . -}}
 {{ end }}

@@ -1,10 +1,10 @@
 <h3>Recent Posts</h3>
 <ul id="posts">
-{{ range first 15 site.RegularPages.ByDate.Reverse  }}
+{{ range first 14 site.RegularPages.ByDate.Reverse  }}
     <li>
         <a href="{{ .Permalink }}">
             {{ .Title }}
-            <small><time>{{ .Date.Format "Jan 2, 2006" }}</time></small>
+            <small><time>{{ .Date.Format "Mon. Jan 2, 2006" }}</time></small>
         </a>
     </li>
 {{ end }}
