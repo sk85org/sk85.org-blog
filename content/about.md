@@ -4,7 +4,7 @@ title = "About"
 ある化学徒
 
 - [sk85.org](https://sk85.org/)
-- [Github](https://github.com/skt1984/)
+- [Github](https://github.com/sk85org/)
 
 ### history
 というほどのものでもないですが
