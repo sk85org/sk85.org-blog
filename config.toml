@@ -13,7 +13,7 @@ pygmentsUseClasses = true
   highlight = true
   imgresourceserver = "https://resources.sk85.org/imaginary/resize?"
   enable_search = true
-  searchserver_url = "https://search.sk85.org"
+  searchserver_url = "https://search.sk85.org/cgi/"
 
 [menu]
   [[menu.main]]
