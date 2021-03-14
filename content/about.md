@@ -2,10 +2,18 @@
 title = "About"
 +++
 ある化学徒
-
-- [sk85.org](https://sk85.org/)
+- [sk85.org/](https://sk85.org/)
+- [sk85.org/d/](https://sk85.org/d/)
 - [Github](https://github.com/sk85org/)
 
+### Private
+- [sk85.org/restrect](https://sk85.org/restrect/)
+- [resources.sk85.org](https://resources.sk85.org/)
+- [wiki.sk85.org](https://wiki.sk85.org/)
+- [bookmark.sk85.org](https://bookmark.sk85.org/)
+
+This website is hosted on Conoha VPS.  
+Open ports: 22, 80/443
 ### history
 というほどのものでもないですが
 ####  2019-06-28
