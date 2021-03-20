@@ -5,7 +5,7 @@
         {{- if isset .Params "date" -}}
             <time>{{ .Date.Format "Mon. January 2, 2006" }}</time>
         {{- end -}}
-        <div id ="info">{{- .File.LogicalName -}}</div>
+        <time><div id ="filename">{{- .File.LogicalName -}}</div></time>
         {{- range .Params.tags -}}
             <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>&nbsp;
         {{- end -}}
