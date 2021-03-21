@@ -2,7 +2,7 @@ name: Sync with server
 on: push
 jobs:
   build:
-    name: rsync action
+    name: hugo deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
