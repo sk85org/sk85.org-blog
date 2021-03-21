@@ -10,14 +10,14 @@ jobs:
         run: |
           echo "$SSH_PRIVATE_KEY" > .secret_key
           chmod 600 .secret_key
-      - name: Rsync
-        run: |
-          #dry-run
-          #rsync -avcz --delete --dry-run --exclude ".git/" --exclude ".github/" --exclude ".secret_key" -e "ssh -i ./.secret_key -o StrictHostKeyChecking=no"  ./ ${SSH_USERNAME}@${SSH_HOST}:/root/home/core/repositories/test/
-          rsync -avcz --exclude ".secret_key" -e "ssh -i ./.secret_key -o StrictHostKeyChecking=no"  --delete ./ ${SSH_USERNAME}@${SSH_HOST}:/root/home/core/repositories/test/
+      #- name: Rsync
+      #  run: |
+      #    #dry-run
+      #    #rsync -avcz --delete --dry-run --exclude ".git/" --exclude ".github/" --exclude ".secret_key" -e "ssh -i ./.secret_key -o StrictHostKeyChecking=no"  ./ ${SSH_USERNAME}@${SSH_HOST}:/root/home/core/repositories/test/
+      #    rsync -avcz --exclude ".secret_key" -e "ssh -i ./.secret_key -o StrictHostKeyChecking=no"  --delete ./ ${SSH_USERNAME}@${SSH_HOST}:/root/home/core/repositories/test/
       - name: Execute command on the server
         run: 
-          ssh -oStrictHostKeyChecking=no ${SSH_USERNAME}@${SSH_HOST} -i .secret_key "/root/home/core/repositories/ls.sh"
+          ssh -oStrictHostKeyChecking=no ${SSH_USERNAME}@${SSH_HOST} -i .secret_key "/root/sk85org-blog-repository/deploy.sh"
     env: 
       SSH_HOST: ${{ secrets.SSH_HOST }}
       SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
