@@ -31,3 +31,5 @@ https://github.com/sk85org/docker-HyperEstraier
 ホスト上でcronと[Go Access](https://goaccess.io)の[dockerコンテナ](https://hub.docker.com/r/allinurl/goaccess)を使って、12時間ごとにログをhtml出力するように設定した。  
 ####  2021-03-07
 ドメインを変える
+####  2021-03-21
+Github ActionでVPSにrsyncでリポジトリを同期してからVPS上のhugoで静的ファイルを作成する方式を止めた。代わりにGithub ActionではファイルがpushされたらsshでVPS上のシェルスクリプトを実行するだけに変更。VPS上のシェルスクリプトで git pull してからhugoでデプロイ。自由度が上がった
