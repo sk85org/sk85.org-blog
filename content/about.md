@@ -13,7 +13,8 @@ title = "About"
 - [bookmark.sk85.org](https://bookmark.sk85.org/)
 
 This website is hosted on Conoha VPS.  
-Open ports: 22, 80/443
+Open ports: 22, 80/443.  
+[VPS backup status](https://sk85.org/backup_status.html)
 ### history
 というほどのものでもないですが
 ####  2019-06-28
