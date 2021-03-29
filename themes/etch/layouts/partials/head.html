@@ -4,7 +4,7 @@
     {{ with .Site.Params.description -}}
     <meta name="description" content="{{ . }}">
     {{ end }}
-    <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}/{{.Site.Params.rss_url}}" title="{{ .Site.Title }}" />
+    <link rel="alternate" type="application/rss+xml" href="{{ .Site.BaseURL }}/{{.Site.Params.rss_filename}}" title="{{ .Site.Title }}" />
     {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
     {{ range .AlternativeOutputFormats -}}
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}

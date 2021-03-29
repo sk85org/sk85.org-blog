@@ -16,12 +16,7 @@ enableGitInfo = true
   enable_search = true
   searchserver_url = "https://search.sk85.org/cgi/"
   filesearch_in_github = "https://github.com/sk85org/sk85.org-blog/search?q="
-  rss_url = "index.xml"
-
-[[params.social.rss]]
-title = "rss"
-icon = "ti-rss" # themify icon : https://themify.me/themify-icons
-link = "https://www.cgfootman.com/index.xml"
+  rss_filename = "index.xml"
 
 [menu]
   [[menu.main]]
