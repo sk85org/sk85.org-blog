@@ -10,7 +10,7 @@ title = "About"
 - [sk85.org/restrect](https://sk85.org/restrect/)
 - [resources.sk85.org](https://resources.sk85.org/)
 - [wiki.sk85.org](https://wiki.sk85.org/)
-- [bookmark.sk85.org](https://bookmark.sk85.org/)
+- [bookmark.sk85.org](https://bookmark.sk85.org/list/)
 
 This website is hosted on Conoha VPS.  
 Open ports: 22, 80/443.  
