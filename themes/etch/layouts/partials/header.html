@@ -9,5 +9,8 @@
             {{- end }}
         </ul>
     </nav>
+    {{ if .Site.Params.enable_search }}
+    {{- partial "search.html" . -}}
+{{ end }}
 </header>
 
