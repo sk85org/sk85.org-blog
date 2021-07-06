@@ -3,6 +3,9 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
+        {{ if .Site.Params.enable_search }}
+            {{- partial "search.html" . -}}
+        {{ end }}
         <main id="content">
         {{- block "main" . }}{{- end }}
         </main>
