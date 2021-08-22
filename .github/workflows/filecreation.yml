@@ -1,8 +1,7 @@
 name: Daily Automated File Creation
 on: 
-  push:
   schedule:
-    - cron:  '30 23 * * *'
+    - cron:  '0 16 * * *'
 jobs:
   report:
     runs-on: ubuntu-latest
