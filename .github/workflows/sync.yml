@@ -1,5 +1,13 @@
 name: Sync with server
-on: push
+on: 
+  #push:
+  workflow_run:
+    workflows:
+      - filecreation
+    branches:
+      - main
+    types: 
+      - completed
 jobs:
   build:
     name: hugo deploy
