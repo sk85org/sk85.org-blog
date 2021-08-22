@@ -17,7 +17,7 @@ slug_string = str(random.randint(10000, 1000000))
 
 
 tmpl_title = today.strftime("%Y-%m-%d") + "[draft]"
-tmpl_date = today.strftime("%Y-%m-%d") + "T21:00:00+09:00"
+tmpl_date = today.strftime("%Y-%m-%d") + "T00:00:00+09:00"
 tmpl_tag = "diary"
 tmpl_archive = today.strftime("%Y-%m")
 tmpl_slug = slug_string
