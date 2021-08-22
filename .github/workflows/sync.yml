@@ -3,7 +3,7 @@ on:
   #push:
   workflow_run:
     workflows:
-      - filecreation
+      - Daily Automated File Creation
     branches:
       - main
     types: 
