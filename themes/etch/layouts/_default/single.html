@@ -1,4 +1,14 @@
 {{ define "main" }}
+<script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
+<script type="text/javascript">
+hotkeys('n,p', function (event, handler){
+  switch (handler.key) {
+    case 'n': document.getElementById('next-post-link').click()
+      break;
+    case 'p': document.getElementById('previous-post-link').click()
+  }
+});
+</script>
 <article>
     <header id="post-header">
         <h1>{{ .Title }}</h1>
