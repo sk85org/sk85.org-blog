@@ -1,13 +1,13 @@
 <div class="next-post">
     {{with .Prev}}
-        <a href="{{.Permalink }}" id="next-post-link">
+        <a href="{{.Permalink }}" id="previous-post-link">
         ← {{.Title | truncate 20 "..."}}
         </a>
     {{end}}
     </div>
 <div class="previous-post">
     {{with .Next}}
-        <a href="{{.Permalink}}" id="previous-post-link">
+        <a href="{{.Permalink}}" id="next-post-link">
             {{.Title |truncate 20 "..."}} →
         </a>
     {{end}}
