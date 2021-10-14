@@ -25,7 +25,7 @@ jobs:
       #    rsync -avcz --exclude ".secret_key" -e "ssh -i ./.secret_key -o StrictHostKeyChecking=no"  --delete ./ ${SSH_USERNAME}@${SSH_HOST}:/root/home/core/repositories/test/
       - name: Execute command on the server
         run: 
-          ssh -oStrictHostKeyChecking=no ${SSH_USERNAME}@${SSH_HOST} -i .secret_key "/root/sk85org-blog-repository/deploy.sh"
+          ssh -oStrictHostKeyChecking=no ${SSH_USERNAME}@${SSH_HOST} -i .secret_key "/home/ubuntu/sk85org-blog-repository/deploy.sh"
     env: 
       SSH_HOST: ${{ secrets.SSH_HOST }}
       SSH_USERNAME: ${{ secrets.SSH_USERNAME }}
