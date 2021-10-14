@@ -8,11 +8,8 @@ title = "About"
 
 ### Private
 - [sk85.org/restrect](https://sk85.org/restrect/)
-- [resources.sk85.org](https://resources.sk85.org/)
-- [wiki.sk85.org](https://wiki.sk85.org/)
-- [bookmark.sk85.org](https://bookmark.sk85.org/list/)
 
-This website is hosted on Conoha VPS.  
+This website is hosted on Indigo VPS.  
 Open ports: 22, 80/443.  
 [VPS backup status](https://sk85.org/backup_status.html)
 ### history
@@ -34,3 +31,5 @@ https://github.com/sk85org/docker-HyperEstraier
 ドメインを変える
 ####  2021-03-21
 Github ActionでVPSにrsyncでリポジトリを同期してからVPS上のhugoで静的ファイルを作成する方式を止めた。代わりにGithub ActionではファイルがpushされたらsshでVPS上のシェルスクリプトを実行するだけに変更。VPS上のシェルスクリプトで git pull してからhugoでデプロイ。自由度が上がった
+####  2021-10-14
+VPSサーバーをindigoに変更
