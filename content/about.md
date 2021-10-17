@@ -5,10 +5,11 @@ title = "About"
 - [sk85.org/](https://sk85.org/)
 - [sk85.org/d/](https://sk85.org/d/)
 - [Github](https://github.com/sk85org/)
-
 ### Private
 - [sk85.org/restrect](https://sk85.org/restrect/)
 - [resources.sk85.org](https://resources.sk85.org/)
+### リンク集
+- [こつこつweb日記]({{< ref 20210320_904627.md >}})
 
 This website is hosted on Indigo VPS.  
 Open ports: 22, 80/443.  
