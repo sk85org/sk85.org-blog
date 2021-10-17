@@ -8,6 +8,7 @@ title = "About"
 
 ### Private
 - [sk85.org/restrect](https://sk85.org/restrect/)
+- [resources.sk85.org](https://resources.sk85.org/)
 
 This website is hosted on Indigo VPS.  
 Open ports: 22, 80/443.  
