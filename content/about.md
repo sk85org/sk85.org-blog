@@ -7,7 +7,7 @@ title = "About"
 - [Github](https://github.com/sk85org/)
 ### Private
 - [sk85.org/restrect](https://sk85.org/restrect/)
-- [resources.sk85.org](https://resources.sk85.org/)
+- [resources.sk85.org](https://img.sk85.org/)
 ### リンク集
 - [こつこつweb日記]({{< ref 20210320_904627.md >}})
 
