@@ -14,7 +14,7 @@ enableGitInfo = true
   highlight = true
   imgresourceserver = "https://img.sk85.org/imaginary/resize?"
   enable_search = true
-  searchserver_url = "https://search.sk85.org/cgi/"
+  searchserver_url = "https://dsearch.sk85.org/cgi/"
   file_specific_in_github = "https://github.com/sk85org/sk85.org-blog/blob/main/content/posts/"
   filesearch_in_github = "https://github.com/sk85org/sk85.org-blog/search?q="
   rss_filename = "index.xml"
