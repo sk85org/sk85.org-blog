@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "sk85.org/d"
+title = "d.sk85.org/"
 theme = "etch"
 languageCode = "en-US"
 enableInlineShortcodes = true

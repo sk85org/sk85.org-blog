@@ -3,17 +3,14 @@ title = "About"
 +++
 ある化学徒
 - [sk85.org/](https://sk85.org/)
-- [sk85.org/d/](https://sk85.org/d/)
+- [d.sk85.org/](https://d.sk85.org/)
 - [Github](https://github.com/sk85org/)
 ### Private
-- [sk85.org/restrect](https://sk85.org/restrect/)
 - [img.sk85.org](https://img.sk85.org/)
 ### リンク集
 - [こつこつweb日記]({{< ref 20210320_904627.md >}})
 
-This website is hosted on Indigo VPS.  
-Open ports: 22, 80/443.  
-[VPS backup status](https://sk85.org/backup_status.html)
+This website is hosted on Cloudfpare Pages.
 ### history
 というほどのものでもないですが
 ####  2019-06-28
@@ -35,3 +32,5 @@ https://github.com/sk85org/docker-HyperEstraier
 Github ActionでVPSにrsyncでリポジトリを同期してからVPS上のhugoで静的ファイルを作成する方式を止めた。代わりにGithub ActionではファイルがpushされたらsshでVPS上のシェルスクリプトを実行するだけに変更。VPS上のシェルスクリプトで git pull してからhugoでデプロイ。自由度が上がった
 ####  2021-10-14
 VPSサーバーをindigoに変更
+####  2021-12-14
+デプロイ先をCloudflare Pagesに。VPSを止めて管理から開放された
