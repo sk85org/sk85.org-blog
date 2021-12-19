@@ -2,23 +2,23 @@
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=description content="Your site description">
-<link rel=alternate type=application/rss+xml href=//index.xml title=d.sk85.org/>
-<link rel="shortcut icon" href=/favicon.ico>
-<link rel=stylesheet href=/css/style.min.css>
+<link rel=alternate type=application/rss+xml href=https://sk85org.github.io/sk85.org-blog//index.xml title=d.sk85.org/>
+<link rel="shortcut icon" href=https://sk85org.github.io/sk85.org-blog/favicon.ico>
+<link rel=stylesheet href=/sk85.org-blog/css/style.min.css>
 <title>Cloudflare Tunnelを使ってローカルのサーバーを安全に公開する</title>
 </head>
 <body><header id=banner>
-<h2><a href=/>d.sk85.org/</a></h2>
+<h2><a href=https://sk85org.github.io/sk85.org-blog/>d.sk85.org/</a></h2>
 <nav>
 <ul>
 <li>
-<a href=/posts/ title=posts>posts</a>
+<a href=/sk85.org-blog/posts/ title=posts>posts</a>
 </li><li>
-<a href=/archives/ title=archives>archives</a>
+<a href=/sk85.org-blog/archives/ title=archives>archives</a>
 </li><li>
-<a href=/tags/ title=tags>tags</a>
+<a href=/sk85.org-blog/tags/ title=tags>tags</a>
 </li><li>
-<a href=/about/ title=about>about</a>
+<a href=/sk85.org-blog/about/ title=about>about</a>
 </li>
 </ul>
 </nav>
@@ -37,8 +37,8 @@
 <header id=post-header>
 <h1>Cloudflare Tunnelを使ってローカルのサーバーを安全に公開する</h1><time>Sat. October 30, 2021</time><div id=filename>
 <a href=https://github.com/sk85org/sk85.org-blog/blob/main/content/posts//20211030_353859.md>20211030_353859.md</a>
-</div><a href=/tags/memo/>memo</a>&nbsp;<a href=/tags//></a>&nbsp;</header><h3 id=vpsをやめる>VPSをやめる</h3>
-<p>indigoのVPSサーバー上に<a href=https://tailscale.com/>Tailscale</a>をインストールして、自宅のサーバーにVPNで接続して、nginxのproxyとBASIC認証を使っていたのだけれど<a href=/posts/2021/09/28/429812/>*</a>、自宅からVPSサーバーを迂回して大きなファイルを転送するとループを検知してか、30分ぐらいIPアドレスがブロックされてしまう。運用も面倒だなと思っていたら、<a href=https://www.cloudflare.com/products/tunnel/>Cloudflare Tunnel</a>を使うと、無料で認証まで簡単にやってくれるらしい。実際やってみると簡単。VPS借りて手動でプロキシ立てるのがばからしくなる。</p>
+</div><a href=/sk85.org-blog/tags/memo/>memo</a>&nbsp;<a href=/sk85.org-blog/tags//></a>&nbsp;</header><h3 id=vpsをやめる>VPSをやめる</h3>
+<p>indigoのVPSサーバー上に<a href=https://tailscale.com/>Tailscale</a>をインストールして、自宅のサーバーにVPNで接続して、nginxのproxyとBASIC認証を使っていたのだけれど<a href=https://sk85org.github.io/sk85.org-blog/posts/2021/09/28/429812/>*</a>、自宅からVPSサーバーを迂回して大きなファイルを転送するとループを検知してか、30分ぐらいIPアドレスがブロックされてしまう。運用も面倒だなと思っていたら、<a href=https://www.cloudflare.com/products/tunnel/>Cloudflare Tunnel</a>を使うと、無料で認証まで簡単にやってくれるらしい。実際やってみると簡単。VPS借りて手動でプロキシ立てるのがばからしくなる。</p>
 <h3 id=メモ>メモ</h3>
 <h4 id=前提>前提</h4>
 <p>必要なのは</p>
@@ -127,13 +127,13 @@ $ sudo systemctl enable cloudflared
 </ul>
 </article><div class=pagination style=text-align:center>
 <span class=next-post>
-<a href=/posts/2021/10/30/300029/ id=previous-post-link>
+<a href=https://sk85org.github.io/sk85.org-blog/posts/2021/10/30/300029/ id=previous-post-link>
 ← 2021-10-30
 </a>
 </span>
 &nbsp;/&nbsp;
 <span class=previous-post>
-<a href=/posts/2021/10/31/59562/ id=next-post-link>
+<a href=https://sk85org.github.io/sk85.org-blog/posts/2021/10/31/59562/ id=next-post-link>
 2021-10-31 →
 </a>
 </span>
