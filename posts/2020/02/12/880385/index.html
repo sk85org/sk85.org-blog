@@ -1,0 +1,134 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Your site description">
+<link rel=alternate type=application/rss+xml href=//index.xml title=d.sk85.org/>
+<link rel="shortcut icon" href=/favicon.ico>
+<link rel=stylesheet href=/css/style.min.css>
+<title>goのエラー処理</title>
+</head>
+<body><header id=banner>
+<h2><a href=/>d.sk85.org/</a></h2>
+<nav>
+<ul>
+<li>
+<a href=/posts/ title=posts>posts</a>
+</li><li>
+<a href=/archives/ title=archives>archives</a>
+</li><li>
+<a href=/tags/ title=tags>tags</a>
+</li><li>
+<a href=/about/ title=about>about</a>
+</li>
+</ul>
+</nav>
+</header>
+<form method=get action=https://dsearch.sk85.org/cgi/>
+<div>
+<input type=text name=phrase size=20>
+<input type=submit value=Search>
+<input type=hidden name=enc value=UTF-8>
+</div>
+</form>
+<main id=content>
+<script src=https://unpkg.com/hotkeys-js/dist/hotkeys.min.js></script>
+<script type=text/javascript>hotkeys('n,p',function(b,a){switch(a.key){case'n':document.getElementById('next-post-link').click();break;case'p':document.getElementById('previous-post-link').click()}})</script>
+<article>
+<header id=post-header>
+<h1>goのエラー処理</h1><time>Wed. February 12, 2020</time><div id=filename>
+<a href=https://github.com/sk85org/sk85.org-blog/blob/main/content/posts//error_880385.md>error_880385.md</a>
+</div><a href=/tags/golang/>golang</a>&nbsp;</header><p>goはerrorインターフェイスを持っている、</p>
+<pre tabindex=0><code>type error interface {
+    Error() string
+}
+</code></pre><p>よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。<br>
+<a href=https://play.golang.org/p/cO0-r95Hd_r>https://play.golang.org/p/cO0-r95Hd_r</a></p>
+<pre tabindex=0><code>package main
+
+import (
+	&quot;fmt&quot;
+)
+
+type Error struct {
+	Msg  string
+	Code int
+}
+
+func (err *Error) Error() string {
+	return fmt.Sprintf(&quot;ErrorMessage [%s], ErrorCode [%d]&quot;, err.Msg, err.Code)
+}
+
+func test() error {
+	return &amp;Error{Msg: &quot;file not found&quot;, Code: 2}
+}
+
+func main() {
+	if err := test(); err != nil {
+		fmt.Println(err)
+	}
+}
+
+</code></pre><p>ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が</p>
+<blockquote>
+<p>The fmt package formats an error value by calling its Error() string method.<br>
+<a href=https://blog.golang.org/error-handling-and-go>https://blog.golang.org/error-handling-and-go</a></p>
+</blockquote>
+<p>fmtパッケージでerrorインタフェイスを呼び出したときに、Error()が実行されるようになっているようだ。<br>
+errorインターフェイスとほぼ同じ、error2インターフェイスを実装してみる。<br>
+stringを返すError2()関数が実装れていれば、error2インターフェイスが使える。</p>
+<pre tabindex=0><code>type error2 interface {
+	Error2() string
+}
+</code></pre><p>error2をerrorと同じように使ってfmt.Println(err)すると、当然ながらError2()は実行されず、<br>
+構造体の中身だけが出力される。<a href=https://play.golang.org/p/R7V8pYmlZvl>https://play.golang.org/p/R7V8pYmlZvl</a></p>
+<pre tabindex=0><code>package main
+
+import (
+	&quot;fmt&quot;
+)
+
+type error2 interface {
+	Error2() string
+}
+
+type Error struct {
+	Msg  string
+	Code int
+}
+
+func (err *Error) Error2() string {
+	return fmt.Sprintf(&quot;ErrorMessage [%s], ErrorCode [%d]&quot;, err.Msg, err.Code)
+}
+
+func test() error2 {
+	return &amp;Error{Msg: &quot;file not found&quot;, Code: 2}
+}
+
+func main() {
+	if err := test(); err != nil {
+		fmt.Println(err)
+	}
+}
+</code></pre><p>ここで、Error構造体にString()関数を追加してfmtから呼び出せる湯にしてやれば、
+fmt.Println(err)でError2()が実行され、オリジナル形式のエラーを作れる。<a href=https://play.golang.org/p/bJ-vBtxVDvr>https://play.golang.org/p/bJ-vBtxVDvr</a><br>
+注: String()関数はfmtのstringerインターフェイスに定義されている <a href=https://go-tour-jp.appspot.com/methods/17>https://go-tour-jp.appspot.com/methods/17</a></p>
+<pre tabindex=0><code>func (p Error) String() string {
+	return fmt.Sprintf(p.Error2())
+}
+</code></pre></article><div class=pagination style=text-align:center>
+<span class=next-post>
+<a href=/posts/2020/02/11/432922/ id=previous-post-link>
+← 我が家の唐揚げメモ
+</a>
+</span>
+&nbsp;/&nbsp;
+<span class=previous-post>
+<a href=/posts/2020/02/22/937013/ id=next-post-link>
+葱油メモ kiki麺を再現する →
+</a>
+</span>
+</div>
+</main><footer id=footer>
+</footer>
+</body>
+</html>

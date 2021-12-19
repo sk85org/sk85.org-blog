@@ -1,0 +1,99 @@
+<!doctype html><html><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Your site description">
+<link rel=alternate type=application/rss+xml href=//index.xml title=d.sk85.org/>
+<link rel="shortcut icon" href=/favicon.ico>
+<link rel=stylesheet href=/css/style.min.css>
+<title>Hugoで作った静的サイトのデータをgithubで管理する</title>
+</head>
+<body><header id=banner>
+<h2><a href=/>d.sk85.org/</a></h2>
+<nav>
+<ul>
+<li>
+<a href=/posts/ title=posts>posts</a>
+</li><li>
+<a href=/archives/ title=archives>archives</a>
+</li><li>
+<a href=/tags/ title=tags>tags</a>
+</li><li>
+<a href=/about/ title=about>about</a>
+</li>
+</ul>
+</nav>
+</header>
+<form method=get action=https://dsearch.sk85.org/cgi/>
+<div>
+<input type=text name=phrase size=20>
+<input type=submit value=Search>
+<input type=hidden name=enc value=UTF-8>
+</div>
+</form>
+<main id=content>
+<script src=https://unpkg.com/hotkeys-js/dist/hotkeys.min.js></script>
+<script type=text/javascript>hotkeys('n,p',function(b,a){switch(a.key){case'n':document.getElementById('next-post-link').click();break;case'p':document.getElementById('previous-post-link').click()}})</script>
+<article>
+<header id=post-header>
+<h1>Hugoで作った静的サイトのデータをgithubで管理する</h1><time>Sat. June 29, 2019</time><div id=filename>
+<a href=https://github.com/sk85org/sk85.org-blog/blob/main/content/posts//hugo_git_395779.md>hugo_git_395779.md</a>
+</div><a href=/tags/hugo/>hugo</a>&nbsp;</header><p>hugoでサイトを作るにあたって、Markdownファイルやテンプレートはgithub上で管理している。<br>
+github上のリポジトリにcommitがあるとgithubからwebhookが飛ぶ。<br>
+それを受け取ったサーバー上でgit pullして同期、その後hugoでデプロイ</p>
+<h3 id=webhookサーバーを書いた>Webhookサーバーを書いた</h3>
+<p><a href=https://github.com/skt1984/webhook>skt1984/webhook</a><br>
+hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行したいシェルスクリプトを指定する。</p>
+<pre tabindex=0><code>[
+    {
+        &quot;path&quot;: &quot;/hugo&quot;,
+        &quot;name&quot;: &quot;put&quot;,
+        &quot;shell&quot;: &quot;sh&quot;,
+        &quot;execute-command&quot;: &quot;hugo.sh&quot;,
+        &quot;execute-command-directry&quot;: &quot;/home/username/webhook&quot;,
+        &quot;X-GitHub-Event&quot;: &quot;push&quot;,
+        &quot;method&quot;: &quot;POST&quot;,
+        &quot;secret&quot;: &quot;secret_key&quot;
+    }
+]
+</code></pre><p>起動時にjsonファイルとポートの指定が可能</p>
+<pre tabindex=0><code>./webhook -f hook.json -p :8080
+</code></pre><p>github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定</p>
+<p>まずローカルにGitHubのリポジトリをcloneする</p>
+<pre tabindex=0><code>cd /home/username
+git clone git@github.com:username/repository.git
+</code></pre><p>hugoのbinaryを入手</p>
+<pre tabindex=0><code>cd /home/username/repository
+git pull
+cd /home/username/repository 
+/path/to/hugobinary/hugo -d /phome/username/public```
+</code></pre><ul>
+<li>systemdの登録について (userを指定しないとgitpull　できない・)</li>
+</ul>
+<pre tabindex=0><code>[Unit]
+Description = webhook
+
+[Service]
+ExecStart = /path/to/webhook/webhook -f /path/to/webhook/hook.json -p :8080
+Restart = always
+Type = simple
+User=user
+
+[Install]
+WantedBy = multi-user.target
+</code></pre></article><div class=pagination style=text-align:center>
+<span class=next-post>
+<a href=/posts/2019/06/28/125688/ id=previous-post-link>
+← UQ mobileに移行した
+</a>
+</span>
+&nbsp;/&nbsp;
+<span class=previous-post>
+<a href=/posts/2019/08/16/304588/ id=next-post-link>
+20200424のブックマーク →
+</a>
+</span>
+</div>
+</main><footer id=footer>
+</footer>
+</body>
+</html>
