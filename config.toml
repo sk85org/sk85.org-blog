@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://sk85org.github.io/sk85.org-blog/"
 title = "d.sk85.org/"
 theme = "etch"
 languageCode = "en-US"
