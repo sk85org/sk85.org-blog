@@ -2,8 +2,14 @@ name: GitHub Pages
 
 on:
   push:
-    #branches:
-    #  - main  # Set a branch to deploy
+  workflow_run:
+    workflows:
+      - Daily Automated File Creation
+    branches:
+      - main  # Set a branch to deploy
+    types: 
+      - completed
+    
 jobs:
   deploy:
     runs-on: ubuntu-20.04
