@@ -2,12 +2,12 @@ name: Sync with server
 on: 
   #push:
   workflow_run:
-    workflows:
-      - Daily Automated File Creation
-    branches:
-      - main
-    types: 
-      - completed
+    #workflows:
+    #  - Daily Automated File Creation
+    #branches:
+    #  - main
+    #types: 
+    #  - completed
 jobs:
   build:
     name: hugo deploy
