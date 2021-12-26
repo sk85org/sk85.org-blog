@@ -1,7 +1,7 @@
 name: Sync with server
 on: 
   #push:
-  workflow_run:
+  #workflow_run:
     #workflows:
     #  - Daily Automated File Creation
     #branches:
