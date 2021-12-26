@@ -1,5 +1,5 @@
 name: Sync with server
-on: 
+#on: 
   #push:
   #workflow_run:
     #workflows:
