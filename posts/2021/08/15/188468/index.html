@@ -5,11 +5,8 @@
 <link rel=alternate type=application/rss+xml href=//index.xml title=d.sk85.org/>
 <link rel="shortcut icon" href=/favicon.ico>
 <link rel=stylesheet href=/css/style.min.css>
-<title>WOLの設定</title>
-</head>
-<body><header id=banner>
-<h2><a href=/>d.sk85.org/</a></h2>
-<nav>
+<title>WOLの設定</title></head><body><header id=banner>
+<h2><a href=/>d.sk85.org/</a></h2><nav>
 <ul>
 <li>
 <a href=/posts/ title=posts>posts</a>
@@ -19,75 +16,51 @@
 <a href=/tags/ title=tags>tags</a>
 </li><li>
 <a href=/about/ title=about>about</a>
-</li>
-</ul>
-</nav>
-</header>
-<form method=get action=https://dsearch.sk85.org/cgi/>
+</li></ul></nav></header><form method=get action=https://dsearch.sk85.org/cgi/>
 <div>
 <input type=text name=phrase size=20>
 <input type=submit value=Search>
 <input type=hidden name=enc value=UTF-8>
-</div>
-</form>
-<main id=content>
+</div></form><main id=content>
 <script src=https://unpkg.com/hotkeys-js/dist/hotkeys.min.js></script>
-<script type=text/javascript>hotkeys('n,p',function(b,a){switch(a.key){case'n':document.getElementById('next-post-link').click();break;case'p':document.getElementById('previous-post-link').click()}})</script>
+<script type=text/javascript>hotkeys("n,p",function(t,e){switch(e.key){case"n":document.getElementById("next-post-link").click();break;case"p":document.getElementById("previous-post-link").click()}})</script>
 <article>
 <header id=post-header>
 <h1>WOLの設定</h1><time>Sun. August 15, 2021</time><div id=filename>
 <a href=https://github.com/sk85org/sk85.org-blog/blob/main/content/posts//20210815_188468.md>20210815_188468.md</a>
-</div><a href=/tags/memo/>memo</a>&nbsp;<a href=/tags//></a>&nbsp;</header><h2 id=wolが作動しないときの確認事項>WOLが作動しないときの確認事項</h2>
-<p>Windows 10でWake on Lan (WOL)できていたのに、突如できなくなったので設定を確認。<br>
-<a href=https://n-archives.net/software/nwol/wol-pc-setting/>Wake on LANによるWindows10遠隔起動の設定方法</a>が参考になる。</p>
-<p>以下の3項目を確認</p>
-<ol>
+</div><a href=/tags/memo/>memo</a>&nbsp;<a href=/tags//></a>&nbsp;</header><h2 id=wolが作動しないときの確認事項>WOLが作動しないときの確認事項</h2><p>Windows 10でWake on Lan (WOL)できていたのに、突如できなくなったので設定を確認。<br>
+<a href=https://n-archives.net/software/nwol/wol-pc-setting/>Wake on LANによるWindows10遠隔起動の設定方法</a>が参考になる。</p><p>以下の3項目を確認</p><ol>
 <li>LANアダプタの設定<br>
 WOL関係の項目が有効になっているか
 <div style=text-align:center>
 <img src="https://img.sk85.org/imaginary/resize?width=300&quality=80&file=20210815-04-02-33-GlrXClnZRz6w9MAq3LMk.png"></img>
 <figcaption><a href="https://img.sk85.org/imaginary/resize?width=2000&quality=100&file=20210815-04-02-33-GlrXClnZRz6w9MAq3LMk.png">
-(LargeSize)</a></figcaption>
-</div>
-<div style=text-align:center>
+(LargeSize)</a></figcaption></div><div style=text-align:center>
 <img src="https://img.sk85.org/imaginary/resize?width=300&quality=80&file=20210815-04-02-33-phD297rzYXWEM0QOG1n_.png"></img>
 <figcaption><a href="https://img.sk85.org/imaginary/resize?width=2000&quality=100&file=20210815-04-02-33-phD297rzYXWEM0QOG1n_.png">
-(LargeSize)</a></figcaption>
-</div>
-</li>
-<li>電源管理の設定<br>
+(LargeSize)</a></figcaption></div></li><li>電源管理の設定<br>
 高速スタートアップを無効にする
 <div style=text-align:center>
 <img src="https://img.sk85.org/imaginary/resize?width=300&quality=80&file=20210815-04-02-33-Ls-icuuAWVlI6wm8_CtU.png"></img>
 <figcaption><a href="https://img.sk85.org/imaginary/resize?width=2000&quality=100&file=20210815-04-02-33-Ls-icuuAWVlI6wm8_CtU.png">
-(LargeSize)</a></figcaption>
-</div>
-</li>
-<li>BIOSの設定<br>
-BIOSでWOLを有効にする</li>
-</ol>
-<p>今回は高速スタートアップ有効になっており、BIOSのWOL関係の設定値がdisableになっていた。<br>
-(何故今までWOLが動いていたのかわからない)</p>
-<h2 id=docekrでwolサーバーを動かす>docekrでWOLサーバーを動かす</h2>
-<p><a href=https://github.com/dabondi/go-rest-wol>daBONDi/go-rest-wol</a>を利用<br>
-注意点はコンテナを<a href=https://docs.docker.jp/network/host.html>ホスト・ネットワーク</a>で動かすこと。これをしないとUDPパケットが通らない。ホストモードではポートが競合するのでメジャーな80は使わずに、9090で動かしている。<a href=https://ja.wikipedia.org/wiki/Wake-on-LAN>UDPパケットはポート7 or 9に送信するらしい。</a></p>
-<pre tabindex=0><code>version: '3'
+(LargeSize)</a></figcaption></div></li><li>BIOSの設定<br>
+BIOSでWOLを有効にする</li></ol><p>今回は高速スタートアップ有効になっており、BIOSのWOL関係の設定値がdisableになっていた。<br>
+(何故今までWOLが動いていたのかわからない)</p><h2 id=docekrでwolサーバーを動かす>docekrでWOLサーバーを動かす</h2><p><a href=https://github.com/dabondi/go-rest-wol>daBONDi/go-rest-wol</a>を利用<br>
+注意点はコンテナを<a href=https://docs.docker.jp/network/host.html>ホスト・ネットワーク</a>で動かすこと。これをしないとUDPパケットが通らない。ホストモードではポートが競合するのでメジャーな80は使わずに、9090で動かしている。<a href=https://ja.wikipedia.org/wiki/Wake-on-LAN>UDPパケットはポート7 or 9に送信するらしい。</a></p><pre tabindex=0><code>version: &#39;3&#39;
 services:
   wol:
-    image: &quot;dabondi/go-rest-wol&quot;
+    image: &#34;dabondi/go-rest-wol&#34;
     environment: 
       WOLHTTPPORT: 9090
     #ports:
-    #  - &quot;80:8080&quot;
+    #  - &#34;80:8080&#34;
     volumes:
       - ./computer.csv:/app/computer.csv
     network_mode: host
 </code></pre><div style=text-align:center>
 <img src="https://img.sk85.org/imaginary/resize?width=300&quality=80&file=20210815-04-11-48-h5ygVQudUQuoOWew8XJ_.png"></img>
 <figcaption><a href="https://img.sk85.org/imaginary/resize?width=2000&quality=100&file=20210815-04-11-48-h5ygVQudUQuoOWew8XJ_.png">
-(LargeSize)</a></figcaption>
-</div>
-</article><div class=pagination style=text-align:center>
+(LargeSize)</a></figcaption></div></article><div class=pagination style=text-align:center>
 <span class=next-post>
 <a href=/posts/2021/08/15/276614/ id=previous-post-link>
 ← 2021-08-15
@@ -99,8 +72,5 @@ services:
 covid-19に対する雑感 →
 </a>
 </span>
-</div>
-</main><footer id=footer>
-</footer>
-</body>
-</html>
+</div></main><footer id=footer>
+</footer></body></html>

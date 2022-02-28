@@ -5,11 +5,8 @@
 <link rel=alternate type=application/rss+xml href=//index.xml title=d.sk85.org/>
 <link rel="shortcut icon" href=/favicon.ico>
 <link rel=stylesheet href=/css/style.min.css>
-<title>2022-02-21</title>
-</head>
-<body><header id=banner>
-<h2><a href=/>d.sk85.org/</a></h2>
-<nav>
+<title>2022-02-21</title></head><body><header id=banner>
+<h2><a href=/>d.sk85.org/</a></h2><nav>
 <ul>
 <li>
 <a href=/posts/ title=posts>posts</a>
@@ -19,64 +16,29 @@
 <a href=/tags/ title=tags>tags</a>
 </li><li>
 <a href=/about/ title=about>about</a>
-</li>
-</ul>
-</nav>
-</header>
-<form method=get action=https://dsearch.sk85.org/cgi/>
+</li></ul></nav></header><form method=get action=https://dsearch.sk85.org/cgi/>
 <div>
 <input type=text name=phrase size=20>
 <input type=submit value=Search>
 <input type=hidden name=enc value=UTF-8>
-</div>
-</form>
-<main id=content>
+</div></form><main id=content>
 <script src=https://unpkg.com/hotkeys-js/dist/hotkeys.min.js></script>
-<script type=text/javascript>hotkeys('n,p',function(b,a){switch(a.key){case'n':document.getElementById('next-post-link').click();break;case'p':document.getElementById('previous-post-link').click()}})</script>
+<script type=text/javascript>hotkeys("n,p",function(t,e){switch(e.key){case"n":document.getElementById("next-post-link").click();break;case"p":document.getElementById("previous-post-link").click()}})</script>
 <article>
 <header id=post-header>
 <h1>2022-02-21</h1><time>Mon. February 21, 2022</time><div id=filename>
 <a href=https://github.com/sk85org/sk85.org-blog/blob/main/content/posts//20220221_620217.md>20220221_620217.md</a>
-</div><a href=/tags/diary/>diary</a>&nbsp;<a href=/tags//></a>&nbsp;</header><h4 id=午前>午前</h4>
+</div><a href=/tags/diary/>diary</a>&nbsp;<a href=/tags//></a>&nbsp;</header><h4 id=午前>午前</h4><ul>
+<li>朝は調子が悪く送迎を変わってもらう</li><li>9:00過ぎに出社</li><li>実験2つ仕込む</li><li>ミーティング</li></ul><h4 id=午後>午後</h4><ul>
+<li>書類仕事</li><li>朝の実験1つ片づける
 <ul>
-<li>朝は調子が悪く送迎を変わってもらう</li>
-<li>9:00過ぎに出社</li>
-<li>実験2つ仕込む</li>
-<li>ミーティング</li>
-</ul>
-<h4 id=午後>午後</h4>
-<ul>
-<li>書類仕事</li>
-<li>朝の実験1つ片づける
-<ul>
-<li>思ったより時間がかかってしまった</li>
-</ul>
-</li>
-<li>少し書類仕事をやって帰宅</li>
-<li>23:00に就寝</li>
-</ul>
-<h4 id=体調>体調</h4>
-<ul>
-<li>80%</li>
-</ul>
-<h4 id=その他>その他</h4>
-<h3 id=pgroonga>PGroonga</h3>
-<p><a href=https://github.com/hackmdio/codimd>codimd</a>はさくっとメモを取るのに良いが、検索機能がついていない。dbはPostgreSQLなので、<a href=https://pgroonga.github.io/ja/>PGroonga - PostgreSQLで高速日本語全文検索！</a>を試してみる。</p>
-<ul>
+<li>思ったより時間がかかってしまった</li></ul></li><li>少し書類仕事をやって帰宅</li><li>23:00に就寝</li></ul><h4 id=体調>体調</h4><ul>
+<li>80%</li></ul><h4 id=その他>その他</h4><h3 id=pgroonga>PGroonga</h3><p><a href=https://github.com/hackmdio/codimd>codimd</a>はさくっとメモを取るのに良いが、検索機能がついていない。dbはPostgreSQLなので、<a href=https://pgroonga.github.io/ja/>PGroonga - PostgreSQLで高速日本語全文検索！</a>を試してみる。</p><ul>
 <li>pgroongaのdockerイメージ
 <ul>
-<li><a href=https://github.com/pgroonga/docker>pgroonga/docker</a></li>
-<li>バージョンはcodimdで使っているPostgreSQLと同じ11系のgroonga/pgroonga:2.3.3-alpine-11</li>
-<li>dbに接続して&rsquo;CREATE EXTENSION pgroonga&rsquo;するのを忘れずに
+<li><a href=https://github.com/pgroonga/docker>pgroonga/docker</a></li><li>バージョンはcodimdで使っているPostgreSQLと同じ11系のgroonga/pgroonga:2.3.3-alpine-11</li><li>dbに接続して&rsquo;CREATE EXTENSION pgroonga&rsquo;するのを忘れずに
 <ul>
-<li><a href=https://pgroonga.github.io/ja/install/ubuntu.html>Ubuntuにインストール | PGroonga</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>codimdのデータ構造はこんな感じ</li>
-</ul>
-<pre tabindex=0><code> List of databases
+<li><a href=https://pgroonga.github.io/ja/install/ubuntu.html>Ubuntuにインストール | PGroonga</a></li></ul></li></ul></li><li>codimdのデータ構造はこんな感じ</li></ul><pre tabindex=0><code> List of databases
    Name    | Owner  | Encoding |  Collate   |   Ctype    | Access privileges
 -----------+--------+----------+------------+------------+-------------------
  codimd    | codimd | UTF8     | en_US.utf8 | en_US.utf8 |
@@ -97,7 +59,7 @@ Schema |      Name      |   Type   | Owner
  public | Sessions       | table    | codimd
  public | Users          | table    | codimd
 
-  Table &quot;public.Notes&quot;
+  Table &#34;public.Notes&#34;
       Column      |           Type           | Collation | Nullable |             Default
 ------------------+--------------------------+-----------+----------+---------------------------------
  id               | uuid                     |           | not null |
@@ -106,8 +68,8 @@ Schema |      Name      |   Type   | Owner
  title            | text                     |           |          |
  createdAt        | timestamp with time zone |           |          |
  updatedAt        | timestamp with time zone |           |          |
- shortid          | character varying(255)   |           | not null | '0000000000'::character varying
- permission       | &quot;enum_Notes_permission&quot;  |           |          |
+ shortid          | character varying(255)   |           | not null | &#39;0000000000&#39;::character varying
+ permission       | &#34;enum_Notes_permission&#34;  |           |          |
  viewcount        | integer                  |           |          | 0
  lastchangeuserId | uuid                     |           |          |
  lastchangeAt     | timestamp with time zone |           |          |
@@ -115,18 +77,14 @@ Schema |      Name      |   Type   | Owner
  savedAt          | timestamp with time zone |           |          |
  authorship       | text                     |           |          |
  deletedAt        | timestamp with time zone |           |          |
-</code></pre><p>とりあえず興味があるのはNoteテーブルの、titleとcontentなので、インデックスを作る</p>
-<pre tabindex=0><code>CREATE INDEX pgroonga_content_index ON &quot;Note&quot; USING pgroonga (content);
-CREATE INDEX pgroonga_title_index ON &quot;Note&quot; USING pgroonga (title);
-</code></pre><p>検索は<a href=https://pgroonga.github.io/ja/tutorial/>チュートリアル | PGroonga</a>を参照</p>
-<pre tabindex=0><code>単一カラム検索
-SELECT title, shortid FROM &quot;Notes&quot; WHERE title &amp;@~ 'キーワード';
+</code></pre><p>とりあえず興味があるのはNoteテーブルの、titleとcontentなので、インデックスを作る</p><pre tabindex=0><code>CREATE INDEX pgroonga_content_index ON &#34;Note&#34; USING pgroonga (content);
+CREATE INDEX pgroonga_title_index ON &#34;Note&#34; USING pgroonga (title);
+</code></pre><p>検索は<a href=https://pgroonga.github.io/ja/tutorial/>チュートリアル | PGroonga</a>を参照</p><pre tabindex=0><code>単一カラム検索
+SELECT title, shortid FROM &#34;Notes&#34; WHERE title &amp;@~ &#39;キーワード&#39;;
 
 複数カラムのOR検索
-SELECT title, shortid FROM &quot;Notes&quot; WHERE title &amp;@~ 'キーワード' OR conetnt &amp;@~ 'キーワード';
-</code></pre><p>psycopg2からの操作も可能</p>
-<h4 id=今日のtabs>今日のTabs</h4>
-</article><div class=pagination style=text-align:center>
+SELECT title, shortid FROM &#34;Notes&#34; WHERE title &amp;@~ &#39;キーワード&#39; OR conetnt &amp;@~ &#39;キーワード&#39;;
+</code></pre><p>psycopg2からの操作も可能</p><h4 id=今日のtabs>今日のTabs</h4></article><div class=pagination style=text-align:center>
 <span class=next-post>
 <a href=/posts/2022/02/20/804421/ id=previous-post-link>
 ← 2022-02-20
@@ -138,8 +96,5 @@ SELECT title, shortid FROM &quot;Notes&quot; WHERE title &amp;@~ 'キーワー�
 2022-02-22 →
 </a>
 </span>
-</div>
-</main><footer id=footer>
-</footer>
-</body>
-</html>
+</div></main><footer id=footer>
+</footer></body></html>

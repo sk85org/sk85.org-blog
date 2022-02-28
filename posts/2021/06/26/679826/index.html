@@ -5,11 +5,8 @@
 <link rel=alternate type=application/rss+xml href=//index.xml title=d.sk85.org/>
 <link rel="shortcut icon" href=/favicon.ico>
 <link rel=stylesheet href=/css/style.min.css>
-<title>2021-06-26</title>
-</head>
-<body><header id=banner>
-<h2><a href=/>d.sk85.org/</a></h2>
-<nav>
+<title>2021-06-26</title></head><body><header id=banner>
+<h2><a href=/>d.sk85.org/</a></h2><nav>
 <ul>
 <li>
 <a href=/posts/ title=posts>posts</a>
@@ -19,70 +16,41 @@
 <a href=/tags/ title=tags>tags</a>
 </li><li>
 <a href=/about/ title=about>about</a>
-</li>
-</ul>
-</nav>
-</header>
-<form method=get action=https://dsearch.sk85.org/cgi/>
+</li></ul></nav></header><form method=get action=https://dsearch.sk85.org/cgi/>
 <div>
 <input type=text name=phrase size=20>
 <input type=submit value=Search>
 <input type=hidden name=enc value=UTF-8>
-</div>
-</form>
-<main id=content>
+</div></form><main id=content>
 <script src=https://unpkg.com/hotkeys-js/dist/hotkeys.min.js></script>
-<script type=text/javascript>hotkeys('n,p',function(b,a){switch(a.key){case'n':document.getElementById('next-post-link').click();break;case'p':document.getElementById('previous-post-link').click()}})</script>
+<script type=text/javascript>hotkeys("n,p",function(t,e){switch(e.key){case"n":document.getElementById("next-post-link").click();break;case"p":document.getElementById("previous-post-link").click()}})</script>
 <article>
 <header id=post-header>
 <h1>2021-06-26</h1><time>Sat. June 26, 2021</time><div id=filename>
 <a href=https://github.com/sk85org/sk85.org-blog/blob/main/content/posts//20210626_679826.md>20210626_679826.md</a>
-</div><a href=/tags/diary/>diary</a>&nbsp;<a href=/tags//></a>&nbsp;</header><h4 id=午前>午前</h4>
+</div><a href=/tags/diary/>diary</a>&nbsp;<a href=/tags//></a>&nbsp;</header><h4 id=午前>午前</h4><ul>
+<li>6:30起床</li><li>ダラダラと過ごす</li><li>息子の自転車を取りに行く
 <ul>
-<li>6:30起床</li>
-<li>ダラダラと過ごす</li>
-<li>息子の自転車を取りに行く
-<ul>
-<li>帰りはタクシーで</li>
-</ul>
-</li>
-<li>昼食は回転寿司</li>
-</ul>
-<h4 id=午後>午後</h4>
-<ul>
-<li>歯医者で治療</li>
-<li>何したか忘れてしまった</li>
-<li>25:00就寝</li>
-</ul>
-<h4 id=体調>体調</h4>
-<ul>
-<li>普通</li>
-</ul>
-<h4 id=その他>その他</h4>
-<h4 id=flickrを表示するshortcodeを作成>flickrを表示するshortcodeを作成</h4>
-<p>ビデオはアップロードする数自体は少ないので無料枠に到達するまではflickrにアップロードするようにした。こんなshortcodeを作成して、flickr.htmlとして保存。</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=p>&lt;</span><span class=nt>div</span> <span class=na>style</span><span class=o>=</span><span class=s>&#39;text-align:center;&#39;</span><span class=p>&gt;</span>
-    <span class=p>&lt;</span><span class=nt>a</span> <span class=na>data-flickr-embed</span><span class=o>=</span><span class=s>&#34;true&#34;</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;https://www.flickr.com/photos/{{.Get &#34;</span><span class=na>href</span><span class=err>&#34;}}&#34;</span> <span class=na>title</span><span class=o>=</span><span class=s>&#34;{{.Get &#34;</span><span class=na>title</span><span class=err>&#34;}}&#34;</span><span class=p>&gt;</span>
-        <span class=p>&lt;</span><span class=nt>img</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://live.staticflickr.com/{{.Get &#34;</span><span class=na>thumbnail</span><span class=err>&#34;}}&#34;</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;{{.Get &#34;</span><span class=na>width</span><span class=err>&#34;}}&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;{{.Get &#34;</span><span class=na>height</span><span class=err>&#34;}}&#34;</span> <span class=na>alt</span><span class=o>=</span><span class=s>&#34;{{.Get &#34;</span><span class=na>title</span><span class=err>&#34;}}&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>a</span><span class=p>&gt;</span>
-    <span class=p>&lt;</span><span class=nt>script</span> <span class=na>async</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;//embedr.flickr.com/assets/client-code.js&#34;</span> <span class=na>charset</span><span class=o>=</span><span class=s>&#34;utf-8&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
-<span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
-</code></pre></div><p>呼び出しはこんな感じ。パラメーターはflickrのshareボタンを押すと出てくる埋め込みhtmlコードをクリップボードにコピーして<a href=https://www.keyboardmaestro.com/main/>Keyboard Maestro</a>で抜き出すようにした。</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html>{{ <span class=p>&lt;</span><span class=nt>flickr</span> <span class=na>href</span><span class=o>=</span> <span class=s>&#34;193320954@N03/51271803976&#34;</span> <span class=na>thumbnail</span><span class=o>=</span> <span class=s>&#34;31337/51271803976_07c52fa4d9_w.jpg&#34;</span> 
-<span class=na>title</span><span class=o>=</span><span class=s>&#34;PLAにインサートナットを熱圧入&#34;</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;225&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;400&#34;</span><span class=p>&gt;</span>}}
-</code></pre></div><p><div style=text-align:center>
+<li>帰りはタクシーで</li></ul></li><li>昼食は回転寿司</li></ul><h4 id=午後>午後</h4><ul>
+<li>歯医者で治療</li><li>何したか忘れてしまった</li><li>25:00就寝</li></ul><h4 id=体調>体調</h4><ul>
+<li>普通</li></ul><h4 id=その他>その他</h4><h4 id=flickrを表示するshortcodeを作成>flickrを表示するshortcodeを作成</h4><p>ビデオはアップロードする数自体は少ないので無料枠に到達するまではflickrにアップロードするようにした。こんなshortcodeを作成して、flickr.htmlとして保存。</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>div</span> <span class=na>style</span><span class=o>=</span><span class=s>&#39;text-align:center;&#39;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>a</span> <span class=na>data-flickr-embed</span><span class=o>=</span><span class=s>&#34;true&#34;</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;https://www.flickr.com/photos/{{.Get &#34;</span><span class=na>href</span><span class=err>&#34;}}&#34;</span> <span class=na>title</span><span class=o>=</span><span class=s>&#34;{{.Get &#34;</span><span class=na>title</span><span class=err>&#34;}}&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>        <span class=p>&lt;</span><span class=nt>img</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://live.staticflickr.com/{{.Get &#34;</span><span class=na>thumbnail</span><span class=err>&#34;}}&#34;</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;{{.Get &#34;</span><span class=na>width</span><span class=err>&#34;}}&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;{{.Get &#34;</span><span class=na>height</span><span class=err>&#34;}}&#34;</span> <span class=na>alt</span><span class=o>=</span><span class=s>&#34;{{.Get &#34;</span><span class=na>title</span><span class=err>&#34;}}&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>a</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>script</span> <span class=na>async</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;//embedr.flickr.com/assets/client-code.js&#34;</span> <span class=na>charset</span><span class=o>=</span><span class=s>&#34;utf-8&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span></code></pre></div><p>呼び出しはこんな感じ。パラメーターはflickrのshareボタンを押すと出てくる埋め込みhtmlコードをクリップボードにコピーして<a href=https://www.keyboardmaestro.com/main/>Keyboard Maestro</a>で抜き出すようにした。</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>{{ <span class=p>&lt;</span><span class=nt>flickr</span> <span class=na>href</span><span class=o>=</span> <span class=s>&#34;193320954@N03/51271803976&#34;</span> <span class=na>thumbnail</span><span class=o>=</span> <span class=s>&#34;31337/51271803976_07c52fa4d9_w.jpg&#34;</span> 
+</span></span><span class=line><span class=cl><span class=na>title</span><span class=o>=</span><span class=s>&#34;PLAにインサートナットを熱圧入&#34;</span> <span class=na>width</span><span class=o>=</span><span class=s>&#34;225&#34;</span> <span class=na>height</span><span class=o>=</span><span class=s>&#34;400&#34;</span><span class=p>&gt;</span>}}
+</span></span></code></pre></div><p><div style=text-align:center>
 <a data-flickr-embed=true href=https://www.flickr.com/photos/193320954@N03/51271803976 title=PLAにインサートナットを熱圧入>
 <img src=https://live.staticflickr.com/31337/51271803976_07c52fa4d9_w.jpg width=225 height=400 alt=PLAにインサートナットを熱圧入></a>
 <script async src=//embedr.flickr.com/assets/client-code.js></script>
-</div>
-<br>
+</div><br>
 画像も呼び出せる。
 <div style=text-align:center>
 <a data-flickr-embed=true href=https://www.flickr.com/photos/side8-photograph/2487083500 title=宮古島「池間大橋」>
 <img src=https://live.staticflickr.com/2191/2487083500_a0f5bdbf23.jpg width=500 height=335 alt=宮古島「池間大橋」></a>
 <script async src=//embedr.flickr.com/assets/client-code.js></script>
-</div>
-</p>
-</article><div class=pagination style=text-align:center>
+</div></p></article><div class=pagination style=text-align:center>
 <span class=next-post>
 <a href=/posts/2021/06/25/325900/ id=previous-post-link>
 ← 2021-06-25
@@ -94,8 +62,5 @@
 2021-06-27 →
 </a>
 </span>
-</div>
-</main><footer id=footer>
-</footer>
-</body>
-</html>
+</div></main><footer id=footer>
+</footer></body></html>
