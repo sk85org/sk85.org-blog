@@ -1,48 +1,15 @@
-<!doctype html><html><head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Your site description">
-<link rel=alternate type=application/rss+xml href=//index.xml title=d.sk85.org/>
-<link rel="shortcut icon" href=/favicon.ico>
-<link rel=stylesheet href=/css/style.min.css>
-<title>自宅のintel-nucにVPS経由でssh tunnelする</title></head><body><header id=banner>
-<h2><a href=/>d.sk85.org/</a></h2><nav>
-<ul>
-<li>
-<a href=/posts/ title=posts>posts</a>
-</li><li>
-<a href=/archives/ title=archives>archives</a>
-</li><li>
-<a href=/tags/ title=tags>tags</a>
-</li><li>
-<a href=/about/ title=about>about</a>
-</li></ul></nav></header><form method=get action=https://dsearch.sk85.org/cgi/>
-<div>
-<input type=text name=phrase size=20>
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Your site description"><link rel=alternate type=application/rss+xml href=//index.xml title=d.sk85.org/><link rel="shortcut icon" href=/favicon.ico><link rel=stylesheet href=/css/style.min.css><title>自宅のintel-nucにVPS経由でssh tunnelする</title></head><body><header id=banner><h2><a href=/>d.sk85.org/</a></h2><nav><ul><li><a href=/posts/ title=posts>posts</a></li><li><a href=/archives/ title=archives>archives</a></li><li><a href=/tags/ title=tags>tags</a></li><li><a href=/about/ title=about>about</a></li></ul></nav></header><form method=get action=https://dsearch.sk85.org/cgi/><div><input type=text name=phrase size=20>
 <input type=submit value=Search>
-<input type=hidden name=enc value=UTF-8>
-</div></form><main id=content>
-<script src=https://unpkg.com/hotkeys-js/dist/hotkeys.min.js></script>
-<script type=text/javascript>hotkeys("n,p",function(t,e){switch(e.key){case"n":document.getElementById("next-post-link").click();break;case"p":document.getElementById("previous-post-link").click()}})</script>
-<article>
-<header id=post-header>
-<h1>自宅のintel-nucにVPS経由でssh tunnelする</h1><time>Tue. February 23, 2021</time><div id=filename>
-<a href=https://github.com/sk85org/sk85.org-blog/blob/main/content/posts//20210223_245718.md>20210223_245718.md</a>
-</div><a href=/tags/memo/>memo</a>&nbsp;<a href=/tags//></a>&nbsp;</header><p>ここが大変参考になり、ほぼ真似しただけです。<br>
-<a href=https://blog.alprosys.com/2019/01/06/reverse-ssh-tunneling/>https://blog.alprosys.com/2019/01/06/reverse-ssh-tunneling/</a></p><h3 id=概要>概要</h3><p>sshのトンネル機能を利用して、自宅外からVPS経由で自宅サーバー(intel-nuc)にsshでログインする</p><h3 id=自宅サーバーの設定>自宅サーバーの設定</h3><h4 id=sshの設定>sshの設定</h4><ol>
-<li>VPSにログインできるように、自宅サーバーの公開鍵をvpsの.ssh/authorized_keysに登録する</li><li>configファイルを.ssh/以下に作成する</li></ol><pre tabindex=0><code>    Host vps-ssh-tunnel
+<input type=hidden name=enc value=UTF-8></div></form><main id=content><script src=https://unpkg.com/hotkeys-js/dist/hotkeys.min.js></script>
+<script type=text/javascript>hotkeys("n,p",function(t,e){switch(e.key){case"n":document.getElementById("next-post-link").click();break;case"p":document.getElementById("previous-post-link").click()}})</script><article><header id=post-header><h1>自宅のintel-nucにVPS経由でssh tunnelする</h1><time>Tue. February 23, 2021</time><div id=filename><a href=https://github.com/sk85org/sk85.org-blog/blob/main/content/posts//20210223_245718.md>20210223_245718.md</a></div><a href=/tags/memo/>memo</a>&nbsp;<a href=/tags//></a>&nbsp;</header><p>ここが大変参考になり、ほぼ真似しただけです。<br><a href=https://blog.alprosys.com/2019/01/06/reverse-ssh-tunneling/>https://blog.alprosys.com/2019/01/06/reverse-ssh-tunneling/</a></p><h3 id=概要>概要</h3><p>sshのトンネル機能を利用して、自宅外からVPS経由で自宅サーバー(intel-nuc)にsshでログインする</p><h3 id=自宅サーバーの設定>自宅サーバーの設定</h3><h4 id=sshの設定>sshの設定</h4><ol><li>VPSにログインできるように、自宅サーバーの公開鍵をvpsの.ssh/authorized_keysに登録する</li><li>configファイルを.ssh/以下に作成する</li></ol><pre tabindex=0><code>    Host vps-ssh-tunnel
     HostName public.example.com
     User vps
     ServerAliveInterval 60
     ExitOnForwardFailure yes
     TCPKeepAlive no
     IdentityFile /path/to/public.example.com.rev.id_ecdsa
-</code></pre><ol start=3>
-<li>ssh vps-ssh-tunnel して接続確認</li></ol><h4 id=自動起動の設定>自動起動の設定</h4><ol>
-<li>systemdのserviceを作る<br>
-~/.config/systemd/user/以下にvps-ssh-tunnel.serviceを作成
-踏み台がVPS(外部)でnucは内部なので、SSHではリモートフォワードを使う</li></ol><ul>
-<li><a href="https://blue-red.ddo.jp/~ao/wiki/wiki.cgi?page=SSH%A4%CB%A4%E8%A4%EB%A5%DD%A1%BC%A5%C8%A5%D5%A5%A9%A5%EF%A1%BC%A5%C7%A5%A3%A5%F3%A5%B0#p3">SSHによるポートフォワーディング</a></li></ul><pre tabindex=0><code>    [Unit]
+</code></pre><ol start=3><li>ssh vps-ssh-tunnel して接続確認</li></ol><h4 id=自動起動の設定>自動起動の設定</h4><ol><li>systemdのserviceを作る<br>~/.config/systemd/user/以下にvps-ssh-tunnel.serviceを作成
+踏み台がVPS(外部)でnucは内部なので、SSHではリモートフォワードを使う</li></ol><ul><li><a href="https://blue-red.ddo.jp/~ao/wiki/wiki.cgi?page=SSH%A4%CB%A4%E8%A4%EB%A5%DD%A1%BC%A5%C8%A5%D5%A5%A9%A5%EF%A1%BC%A5%C7%A5%A3%A5%F3%A5%B0#p3">SSHによるポートフォワーディング</a></li></ul><pre tabindex=0><code>    [Unit]
     Description= SSH Tunneling to VPS
     [Service]
     ExecStart=ssh -NR 2222:intel-nuc:22 vps-ssh-tunnel
@@ -50,29 +17,21 @@
     Restart=always
     [Install]
     WantedBy=default.target
-</code></pre><p>この設定でVPSサーバー上でport 2222に流れる通信がintel-nucのport 22に転送される。</p><ol start=2>
-<li>起動を確認</li></ol><pre tabindex=0><code>    systemctl --user daemon-reload
+</code></pre><p>この設定でVPSサーバー上でport 2222に流れる通信がintel-nucのport 22に転送される。</p><ol start=2><li>起動を確認</li></ol><pre tabindex=0><code>    systemctl --user daemon-reload
     systemctl --user start public-rev
     systemctl --user enable public-rev
     systemctl --user status して動いていることを確認
-</code></pre><ol start=3>
-<li>一般ユーザーでもserviceを起動起動する<br>
-ユーザーレベルで起動したサービスは起動直後やログオフ時には実行されないようなので、<br>
-以下を参考に設定を変える<br>
-<a href=https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service>https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service</a><br>
-/etc/systemd/logind.conf の</li></ol><pre tabindex=0><code>    KillUserProcesses=no
+</code></pre><ol start=3><li>一般ユーザーでもserviceを起動起動する<br>ユーザーレベルで起動したサービスは起動直後やログオフ時には実行されないようなので、<br>以下を参考に設定を変える<br><a href=https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service>https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service</a><br>/etc/systemd/logind.conf の</li></ol><pre tabindex=0><code>    KillUserProcesses=no
 </code></pre><p>また</p><pre tabindex=0><code>    loginctl enable-linger &lt;username&gt;
 </code></pre><p>をするらしい。</p><h3 id=vpsサーバーの設定>VPSサーバーの設定</h3><p>自宅サーバーにログインできるように、VPSサーバーの公開鍵を自宅サーバーの.ssh/authorized_keysに登録する。VPSサーバー上で自宅サーバーに接続できるか確認</p><pre tabindex=0><code>    ssh username@localhost -p 2222 でログインできるか確認
-</code></pre><h3 id=クライアントの設定>クライアントの設定</h3><p>ターミナル上でVPSにログインして、そこからまたintel-nucに接続するのが面倒なので、<br>
-クライアントの.ssh/configに以下を追加</p><pre tabindex=0><code>    Host private.intel-nuc
+</code></pre><h3 id=クライアントの設定>クライアントの設定</h3><p>ターミナル上でVPSにログインして、そこからまたintel-nucに接続するのが面倒なので、<br>クライアントの.ssh/configに以下を追加</p><pre tabindex=0><code>    Host private.intel-nuc
     HostName localhost
     Port 2222
     User username
     ProxyCommand ssh -W %h:%p vps@public.example.com
     DynamicForward 2222
     ServerAliveInterval 60
-</code></pre><p>ssh private.intel-nuc でvps経由で接続できるか確認</p><h3 id=sftpでも接続する>SFTPでも接続する</h3><p>参考 <a href=https://qiita.com/Zero_Kohaku/items/308c73fa1ab355699032>SSHトンネルでSFTP接続</a><br>
-クライアント端末のターミナル上で、VPSに対してローカルフォワードで接続する。
+</code></pre><p>ssh private.intel-nuc でvps経由で接続できるか確認</p><h3 id=sftpでも接続する>SFTPでも接続する</h3><p>参考 <a href=https://qiita.com/Zero_Kohaku/items/308c73fa1ab355699032>SSHトンネルでSFTP接続</a><br>クライアント端末のターミナル上で、VPSに対してローカルフォワードで接続する。
 VPS上でのフォワード先をlocalhostにしてやれば、クライアント端末のポート2000からの通信を、VPSのポート2222対してフォワードして、2222に対する通信は更に、intel-nucのポート22にリモートフォワードされることになる。</p><pre tabindex=0><code>ssh -L 2000:localhost:2222 vps@public.example.com
 </code></pre><p>トンネルを確立した状態で、FFFTPやTRANSMITでlocalhost:2222に接続すればVPS経由でsftpができる。
 クライアントの.ssh/configに以下を追加</p><pre tabindex=0><code>    Host private.intel-nuc.sftp
@@ -80,19 +39,6 @@ VPS上でのフォワード先をlocalhostにしてやれば、クライアン�
     User vps
     LocalForward 2000 localhost:2222
     IdentityFile /path/to/public.example.com.rev.id_ecdsa
-</code></pre><p>こうすれば、ターミナル上で<br>
-ssh private.intel-nuc.sftp<br>
-で接続できるので便利</p></article><div class=pagination style=text-align:center>
-<span class=next-post>
-<a href=/posts/2021/02/22/517455/ id=previous-post-link>
-← 2021-02-22
-</a>
-</span>
+</code></pre><p>こうすれば、ターミナル上で<br>ssh private.intel-nuc.sftp<br>で接続できるので便利</p></article><div class=pagination style=text-align:center><span class=next-post><a href=/posts/2021/02/22/517455/ id=previous-post-link>← 2021-02-22</a></span>
 &nbsp;/&nbsp;
-<span class=previous-post>
-<a href=/posts/2021/02/23/427801/ id=next-post-link>
-2021-02-23 →
-</a>
-</span>
-</div></main><footer id=footer>
-</footer></body></html>
+<span class=previous-post><a href=/posts/2021/02/23/427801/ id=next-post-link>2021-02-23 →</a></span></div></main><footer id=footer></footer></body></html>
