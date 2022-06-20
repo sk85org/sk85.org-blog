@@ -1,6 +1,7 @@
 <div style='text-align:center;'>
-    <img src="{{.Site.Params.imgresourceserver}}width={{.Get "width"}}&quality=80&file={{.Get "file"}}" loading=“lazy”></img>
-    <figcaption><a href="{{.Site.Params.imgresourceserver}}width=2000&quality=100&file={{.Get "file"}}">
+    <a href="{{.Site.Params.imgresourceserver}}width=2000&quality=100&file={{.Get "file"}}">
+    <img src="{{.Site.Params.imgresourceserver}}width={{.Get "width"}}&quality=80&file={{.Get "file"}}" loading=“lazy”></img></a>
+    <figcaption>
             {{.Get "title"}}
-            (LargeSize)</a></figcaption>
+            </figcaption>
 </div>
