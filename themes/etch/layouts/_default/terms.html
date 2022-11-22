@@ -15,13 +15,6 @@
     <li><a href="{{ "/archives/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a></li>
     {{ end }}
 </ul>
-{{ else if eq .Title "Nnn"}}
-<h3>{{.Title}}N年日記</h3>
-<ul id="posts">
-    {{ range .Site.Taxonomies.nnn.Alphabetical.Reverse }}
-    <li><a href="{{ "/nnn/" | relURL }}{{ .Name | urlize }}">{{ .Name }}({{ .Count }})</a></li>
-    {{ end }}
-</ul>
 {{ end }}
 {{ end }}
 

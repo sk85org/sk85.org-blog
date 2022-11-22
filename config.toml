@@ -55,7 +55,6 @@ ignoreErrors = ["error-remote-getjson"]
 [taxonomies]
   tag = "tags"
   archive = "archives"
-  nnn = "nnn"
 
 [markup.goldmark.renderer]
   # Allow HTML in Markdown
