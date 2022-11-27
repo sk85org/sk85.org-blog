@@ -1,64 +1,46 @@
 baseURL = "/"
-title = "d.sk85.org/"
-theme = "etch"
-languageCode = "en-US"
-enableInlineShortcodes = true
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-enableGitInfo = true
-ignoreErrors = ["error-remote-getjson"]
+languageCode = 'en-us'
+title = 'd.sk85.org'
+theme = 'minimal'
 
 [params]
-  description = "Your site description"
-  copyright = ""
-  dark = "auto"
-  highlight = true
   imgresourceserver = "https://img.sk85.org/imaginary/resize?"
   enable_search = true
   searchserver_url = "https://dsearch.sk85.org/cgi/"
-  file_specific_in_github = "https://github.com/sk85org/sk85.org-blog/blob/main/content/posts/"
-  filesearch_in_github = "https://github.com/sk85org/sk85.org-blog/search?q="
-  rss_filename = "index.xml"
 
+[permalinks]
+  posts = "/:sections/:year/:month/:day/:slug/"
+[taxonomies]
+  tag = "tags"
+  archive = "archives"
+  nnn = "n年日記"
+  
+  
 [menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "posts"
-    title = "posts"
-    url = "/posts/"
-    weight = 10
-
   [[menu.main]]
     identifier = "about"
     name = "about"
     title = "about"
     url = "/about/"
-    weight = 30
+    weight = 4
 
   [[menu.main]]
     identifier = "tags"
     name = "tags"
     title = "tags"
     url = "/tags/"
-    weight = 12
+    weight = 3
     
   [[menu.main]]
     identifier = "archives"
     name = "archives"
     title = "archives"
     url = "/archives/"
-    weight = 11
+    weight = 2
 
-[permalinks]
-  posts = "/:sections/:year/:month/:day/:slug/"
-
-[taxonomies]
-  tag = "tags"
-  archive = "archives"
-
-[markup.goldmark.renderer]
-  # Allow HTML in Markdown
-  unsafe = true
-
-  [markup.tableOfContents]
-    ordered = true
+  [[menu.main]]
+    identifier = "top"
+    name = "top"
+    title = "top"
+    url = "/"
+    weight = 1

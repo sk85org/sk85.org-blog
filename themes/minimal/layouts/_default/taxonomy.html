@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{- partial "search.html" . -}}
+    <ul>
+      {{- range .Data.Pages }}
+      <li>
+        <time>{{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})</time>&ensp;
+        <a href="{{ .RelPermalink}}">{{ .Title }}</a>
+    {{- end }}
+  </ul>
+{{ end }}

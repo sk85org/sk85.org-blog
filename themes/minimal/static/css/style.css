@@ -1,0 +1,51 @@
+body {
+  max-width: 800px;
+  padding: 1em;
+  line-height: 1.7em;
+}
+
+h1:before {
+  content: '# '
+}
+
+h2:before {
+  content: '## '
+}
+h3:before {
+  content: '### '
+}
+
+h4:before {
+  content: '#### '
+}
+
+li {
+    list-style: none;
+    text-indent:-.75em
+}
+
+li:before {
+  content: '- '
+}
+
+dt {
+  list-style: none;
+  text-indent:0.75em
+}
+
+dt:before {
+  content: '- '
+}
+
+span#menu:before{
+  content: '/'
+}
+
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+input[type=text] {
+  border: 1.0px solid black;
+  border-radius: 4px;
+}

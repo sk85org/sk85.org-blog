@@ -1,0 +1,5 @@
+<header>
+  {{ range .Site.Menus.main.ByWeight -}}
+      <a href="{{ .URL }}" title="{{ .Title }}"><span id="menu">{{- .Name -}}</span></a>&nbsp;
+  {{- end }}
+</header>

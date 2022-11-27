@@ -1,0 +1,32 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<span>
+  {{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})
+</span>
+|
+{{ if .Params.tags }}
+  Tags:
+  {{ with .Params.tags }}
+  {{ range . }}
+  {{ $href := print (absURL "tags/") (urlize .) }}
+  <span>
+    <a href="{{ $href }}">{{ . }}</a>
+  </span>
+  {{ end }}
+  {{ end }}
+{{ end }}
+|
+{{ if .Params.n年日記 }}
+  {{ with .Params.n年日記 }}
+  {{ range . }}
+  {{ $href := print (absURL "n年日記/") (urlize .) }}
+  <span>
+    <a href="{{ $href }}">n年日記</a>
+  </spam>
+  {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ .Content }}
+{{- partial "singlepage_pagenation" . -}}
+{{ end }}

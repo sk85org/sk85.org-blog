@@ -1,0 +1,23 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{- partial "search.html" . -}}
+{{ if eq .Data.Plural "archives" }} 
+<ul>
+  {{- $plural := .Data.Plural }}
+  {{- range $index, $term := .Data.Terms.Alphabetical.Reverse }}
+    <li><a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ $term.Name | urlize }}">{{ $term.Name }}</a> ({{ $term.Count }})
+  {{- end }}
+</ul>
+
+{{ else if eq .Data.Plural "tags" }} 
+
+<ul>
+  {{- $plural := .Data.Plural }}
+  {{- range $index, $term := .Data.Terms.Alphabetical }}
+    <li><a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ $term.Name | urlize }}">{{ $term.Name }}</a> ({{ $term.Count }})
+  {{- end }}
+</ul>
+
+{{ end }}
+
+{{ end }}

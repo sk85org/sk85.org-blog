@@ -1,0 +1,12 @@
+{{ define "main" }}
+    {{ $month := findRE `^[0-9]{2}` .Title}}
+    {{ $day := findRE `[0-9]{2}$` .Title}}
+    <h1>{{index $month 0}}月{{index $day 0}}日 (n年日記)</h1>
+    {{- partial "search.html" . -}}
+    <dl>
+      {{- range .Data.Pages }}
+      <dt><a href="{{ .RelPermalink}}"><time>{{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})</time></a></dt>
+      <dd>{{ .Summary | safeHTML }}</dd>
+    {{- end }}
+    </dl>
+{{ end }}

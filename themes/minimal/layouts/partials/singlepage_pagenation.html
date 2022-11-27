@@ -1,0 +1,23 @@
+<script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
+<script type="text/javascript">
+hotkeys('n,p', function (event, handler){
+  switch (handler.key) {
+    case 'n': document.getElementById('next-post-link').click()
+      break;
+    case 'p': document.getElementById('previous-post-link').click()
+  }
+});
+</script>
+<div id="pagination">
+    {{with .Prev}}
+        <a href="{{.Permalink }}" id="previous-post-link">
+            <span>Prev</span>
+        </a>
+    {{end}}
+    &ensp;
+    {{with .Next}}
+        <a href="{{.Permalink}}" id="next-post-link">
+            <span>Next</span>
+        </a>
+    {{end}}
+</div>
