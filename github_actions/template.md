@@ -3,7 +3,8 @@ title: {{ title }}
 date: {{ date }}
 draft: false
 tags: ["{{ tag }}", ""]
-archives: {{ archive }}
+archives: ["{{ archive }}"]
+n年日記: ["{{ nnn }}"]
 slug: {{ slug }}
 ---
 #### 午前
