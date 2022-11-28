@@ -26,7 +26,7 @@ tmpl_slug = slug_string
 filename = today.strftime("%Y%m%d") + "_" + slug_string + ".md"
 print(filename)
 
-file_content = md_tmpl.render(title= tmpl_title, date=tmpl_date, tag=tmpl_tag, archive=tmpl_archive, nnn=tmp_nnn slug=tmpl_slug)
+file_content = md_tmpl.render(title= tmpl_title, date=tmpl_date, tag=tmpl_tag, archive=tmp_archive, nnn=tmp_nnn slug=tmpl_slug)
 
 filepath = os.path.join(md_summary_file_path, filename)
 
