@@ -20,7 +20,7 @@ tmpl_title = today.strftime("%Y-%m-%d") + "[draft]"
 tmpl_date = today.strftime("%Y-%m-%d") + "T00:00:00+09:00"
 tmpl_tag = "diary"
 tmpl_archive = today.strftime("%Y-%m")
-tmp_nnn = today.strftime("%m%d")
+tmpl_nnn = today.strftime("%m%d")
 tmpl_slug = slug_string
 
 filename = today.strftime("%Y%m%d") + "_" + slug_string + ".md"
