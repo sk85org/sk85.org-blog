@@ -2,21 +2,21 @@
   <h1 class="title">{{ .Site.Title }}</h1>
   {{- partial "search.html" . -}}
   {{ .Content }}
-  <h2>Recent Posts</h3>
+  <h2>Recent Posts</h2>
     <ul>
     {{ range first 10 site.RegularPages.ByDate.Reverse  }}
         <li>
-            <time>{{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})</time>&ensp;
+            <time datetime="{{.Date.Format "2006-01-02"}}">{{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})</time>&ensp;
             <a href="{{ .Permalink }}">{{ .Title }}</a>
         </li>
         
     {{ end }}
     </ul>
-    <h2>Recent Modified</h3>
+    <h2>Recent Modified</h2>
     <ul>
         {{ range first 5 site.RegularPages.ByLastmod.Reverse }}
         <li>
-          <time>{{.Lastmod.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Lastmod.Format "Monday")}})</time>&ensp;
+          <time datetime="{{.Lastmod.Format "2006-01-02"}}">{{.Lastmod.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Lastmod.Format "Monday")}})</time>&ensp;
           <a href="{{ .Permalink }}">{{ .Title }}</a>  
         </li>
     {{ end }}
