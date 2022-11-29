@@ -37,7 +37,7 @@ dt:before {
   content: '- '
 }
 
-span#menu:before{
+span.menu:before{
   content: '/'
 }
 
