@@ -4,6 +4,6 @@ Tags:
 <span><a href=/tags/hugo>hugo</a></span>
 |
 <span><a href=/n%E5%B9%B4%E6%97%A5%E8%A8%98/1213>n年日記</a></span><p>conoha VPSへの移行に伴って、hugoのデプロイ方法を変更した。<br>今までは、GitHubにpushするとGitHubからVPSにWebhookが飛び、<br>それを起点にVPSからリポジトリをpullして、VPS上でデプロイしていた。</p><p>それを変更し、Gtihub actionを利用してpushを起点にしてVPSに<br>変更ファイルをrsyncして、VPS側で静的ファイルを出力するように変更した。<br>VPSへの同期の方法しか変わっていないが、VPS側でwebhookサーバーを立てる必要がなくなった。</p><script src=https://unpkg.com/hotkeys-js/dist/hotkeys.min.js></script>
-<script type=text/javascript>hotkeys("n,p",function(e,t){switch(t.key){case"n":document.getElementById("next-post-link").click();break;case"p":document.getElementById("previous-post-link").click()}})</script><div id=pagination><a href=/posts/2020/12/12/683040/ id=previous-post-link><span>Prev</span></a>
+<script>hotkeys("n,p",function(e,t){switch(t.key){case"n":document.getElementById("next-post-link").click();break;case"p":document.getElementById("previous-post-link").click()}})</script><div id=pagination><a href=/posts/2020/12/12/683040/ id=previous-post-link><span>Prev</span></a>
 &ensp;
 <a href=/posts/2020/12/13/388521/ id=next-post-link><span>Next</span></a></div><footer></footer></body></html>
