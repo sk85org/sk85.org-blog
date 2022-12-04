@@ -4,6 +4,16 @@ body {
   line-height: 1.7em;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1E2022;
+    color: #DDDDDD;
+  }
+  a {
+    color: #9A9A9B;
+  }
+}
+
 h1:before {
   content: '# '
 }
