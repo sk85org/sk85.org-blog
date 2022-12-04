@@ -1,5 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
+{{- partial "search.html" . -}}
 <time datetime="{{.Date.Format "2006-01-02"}}" id="single_page_date">
   {{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})
 </time>
@@ -26,7 +27,6 @@
   {{ end }}
   {{ end }}
 {{ end }}
-
 {{ .Content }}
 {{- partial "singlepage_pagenation" . -}}
 {{ end }}
