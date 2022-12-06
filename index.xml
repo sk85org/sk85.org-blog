@@ -844,4 +844,5 @@ https://github.com/sk85org/docker-HyperEstraier
 2021-03-07 ドメインを変える
 2021-03-21 Github ActionでVPSにrsyncでリポジトリを同期してからVPS上のhugoで静的ファイルを作成する方式を止めた。代わりにGithub ActionではファイルがpushされたらsshでVPS上のシェルスクリプトを実行するだけに変更。VPS上のシェルスクリプトで git pull してからhugoでデプロイ。自由度が上がった
 2021-10-14 VPSサーバーをindigoに変更
-2021-12-14 デプロイ先をCloudflare Pagesに。VPSを止めて管理から開放された</description></item></channel></rss>
+2021-12-14 デプロイ先をCloudflare Pagesに。VPSを止めて管理から開放された &amp;ndash;&amp;gt;
+2022-12 デザインをシンプルにする n年日記機能をつける</description></item></channel></rss>
