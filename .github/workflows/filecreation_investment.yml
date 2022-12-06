@@ -1,0 +1,24 @@
+name: Daily Automated File Creation
+on: 
+  workflow_dispatch:
+  schedule:
+    - cron:  '30 6 15 * *'
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create File
+        run: |
+          date
+          sudo timedatectl set-timezone Asia/Tokyo
+          date
+          python github_actions/md_creation_investment.py
+      - name: Commit File
+        run: |
+          ls
+          git config --global user.name 'Github Actions'
+          git config --global user.email 'GithubActions@github.com'
+          git add .
+          git commit -am "Created by Github Actions"
+          git push
