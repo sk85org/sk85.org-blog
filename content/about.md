@@ -34,3 +34,7 @@ Github ActionでVPSにrsyncでリポジトリを同期してからVPS上のhugo�
 VPSサーバーをindigoに変更
 ####  2021-12-14
 デプロイ先をCloudflare Pagesに。VPSを止めて管理から開放された
+--> 
+#### 2022-12
+- デザインをシンプルにする
+- n年日記機能をつける
