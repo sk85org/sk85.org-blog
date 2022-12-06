@@ -1,4 +1,4 @@
-name: Daily Automated File Creation
+name: Monthly Automated File Creation (investment)
 on: 
   workflow_dispatch:
   schedule:
