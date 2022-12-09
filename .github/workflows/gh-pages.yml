@@ -11,28 +11,28 @@ on:
       - main  # Set a branch to deploy
     types: 
       - completed
+    
 jobs:
   deploy:
     runs-on: ubuntu-20.04
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: Set current datetime as env variable
-        env:
-          TZ: 'Asia/Tokyo' # タイムゾーン指定
-      - name: Show date and time
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
       - uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
           # extended: true
+
       - name: Build
-        run: hugo --minify
+        run: hugo --gc --minify --cleanDestinationDir
+        env:
+          TZ: 'Asia/Tokyo'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
