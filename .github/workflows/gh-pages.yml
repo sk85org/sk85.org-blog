@@ -18,9 +18,9 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: Change timezone
-       env:
-         TZ: "Asia/Tokyo"
+      - name: Set current datetime as env variable
+        env:
+          TZ: 'Asia/Tokyo' # タイムゾーン指定
       - name: Show date and time
         run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
     steps:
