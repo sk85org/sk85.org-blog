@@ -52,6 +52,10 @@ span.menu:before{
   content: '/'
 }
 
+span.img{
+  display: block;
+  text-align: center;
+}
 
 input[type=text]:focus {
   background-color: lightblue;
