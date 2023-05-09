@@ -3,6 +3,7 @@ languageCode = 'ja'
 title = 'd.sk85.org'
 theme = 'minimal'
 enableGitInfo = true
+
 [params]
   imgresourceserver = "https://img.sk85.org/imaginary/resize?"
   enable_search = true
