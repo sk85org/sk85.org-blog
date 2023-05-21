@@ -3,7 +3,6 @@ languageCode = 'ja'
 title = 'd.sk85.org'
 theme = 'minimal'
 enableGitInfo = true
-disqusShortname = "https-d-sk85-org"
 
 [params]
   imgresourceserver = "https://img.sk85.org/imaginary/resize?"
