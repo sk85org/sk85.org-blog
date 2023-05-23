@@ -4,13 +4,18 @@ title = 'd.sk85.org'
 theme = 'minimal'
 enableGitInfo = true
 
+[outputs]
+  home = ["HTML", "JSON"]
+
 [params]
   imgresourceserver = "https://img.sk85.org/imaginary/resize?"
   enable_search = true
   searchserver_url = "https://dsearch.sk85.org/cgi/"
+  rss_base_url = 'https://d.sk85.org'
 
 [permalinks]
   posts = "/:sections/:year/:month/:day/:slug/"
+
 [taxonomies]
   tag = "tags"
   archive = "archives"
