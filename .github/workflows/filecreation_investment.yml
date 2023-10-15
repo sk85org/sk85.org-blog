@@ -1,8 +1,8 @@
 name: Monthly Automated File Creation (investment)
-on: 
+on:
   workflow_dispatch:
   schedule:
-    - cron:  '30 6 15 * *'
+    - cron: "30 6 28 * *"
 jobs:
   report:
     runs-on: ubuntu-latest
