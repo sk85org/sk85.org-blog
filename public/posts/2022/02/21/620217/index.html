@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+      <meta name="filename" content="20220221_620217.md" />
+    
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    
+    
+    <title>2022-02-21</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/font.css"/>
+
+</head>
+<body><header>
+  <a href="/" title="top"><span class="menu">top</span></a>&nbsp;<a href="/archives/" title="archives"><span class="menu">archives</span></a>&nbsp;<a href="/tags/" title="tags"><span class="menu">tags</span></a>&nbsp;<a href="/about/" title="about"><span class="menu">about</span></a>&nbsp;
+</header>
+
+<h1>2022-02-21</h1>
+<form method="get" action=https://dsearch.sk85.org/cgi/>
+    <input type="text" name="phrase" value="" size="20" />
+    <input type="submit" value="Search" />
+    <input type="hidden" name="enc" value="UTF-8" />
+</form>
+<time datetime="2022-02-21" id="single_page_date">
+  2022-02-21&ensp;(月)
+</time>
+|
+
+  Tags:
+  
+  
+  
+  <span>
+    <a href="//localhost:1313/tags/diary">diary</a>
+  </span>
+  
+  
+  <span>
+    <a href="//localhost:1313/tags/"></a>
+  </span>
+  
+  
+
+|
+
+  
+  
+  
+  <span>
+    <a href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0221">n年日記</a>
+  </span>
+  
+  
+
+<h2 id="午前">午前</h2>
+<ul>
+<li>朝は調子が悪く送迎を変わってもらう</li>
+<li>9:00過ぎに出社</li>
+<li>実験2つ仕込む</li>
+<li>ミーティング</li>
+</ul>
+<h2 id="午後">午後</h2>
+<ul>
+<li>書類仕事</li>
+<li>朝の実験1つ片づける
+<ul>
+<li>思ったより時間がかかってしまった</li>
+</ul>
+</li>
+<li>少し書類仕事をやって帰宅</li>
+<li>23:00に就寝</li>
+</ul>
+<h2 id="体調">体調</h2>
+<ul>
+<li>80%</li>
+</ul>
+<h2 id="その他">その他</h2>
+<h3 id="pgroonga">PGroonga</h3>
+<p><a href="https://github.com/hackmdio/codimd">codimd</a>はさくっとメモを取るのに良いが、検索機能がついていない。dbはPostgreSQLなので、<a href="https://pgroonga.github.io/ja/">PGroonga - PostgreSQLで高速日本語全文検索！</a>を試してみる。</p>
+<ul>
+<li>pgroongaのdockerイメージ
+<ul>
+<li><a href="https://github.com/pgroonga/docker">pgroonga/docker</a></li>
+<li>バージョンはcodimdで使っているPostgreSQLと同じ11系のgroonga/pgroonga:2.3.3-alpine-11</li>
+<li>dbに接続して&rsquo;CREATE EXTENSION pgroonga&rsquo;するのを忘れずに
+<ul>
+<li><a href="https://pgroonga.github.io/ja/install/ubuntu.html">Ubuntuにインストール | PGroonga</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>codimdのデータ構造はこんな感じ</li>
+</ul>
+<pre tabindex="0"><code> List of databases
+   Name    | Owner  | Encoding |  Collate   |   Ctype    | Access privileges
+-----------+--------+----------+------------+------------+-------------------
+ codimd    | codimd | UTF8     | en_US.utf8 | en_US.utf8 |
+ postgres  | codimd | UTF8     | en_US.utf8 | en_US.utf8 |
+ template0 | codimd | UTF8     | en_US.utf8 | en_US.utf8 | =c/codimd        +
+           |        |          |            |            | codimd=CTc/codimd
+ template1 | codimd | UTF8     | en_US.utf8 | en_US.utf8 | =c/codimd        +
+           |        |          |            |            | codimd=CTc/codimd
+
+List of relations
+Schema |      Name      |   Type   | Owner
+--------+----------------+----------+--------
+ public | Authors        | table    | codimd
+ public | Authors_id_seq | sequence | codimd
+ public | Notes          | table    | codimd
+ public | Revisions      | table    | codimd
+ public | SequelizeMeta  | table    | codimd
+ public | Sessions       | table    | codimd
+ public | Users          | table    | codimd
+
+  Table &#34;public.Notes&#34;
+      Column      |           Type           | Collation | Nullable |             Default
+------------------+--------------------------+-----------+----------+---------------------------------
+ id               | uuid                     |           | not null |
+ ownerId          | uuid                     |           |          |
+ content          | text                     |           |          |
+ title            | text                     |           |          |
+ createdAt        | timestamp with time zone |           |          |
+ updatedAt        | timestamp with time zone |           |          |
+ shortid          | character varying(255)   |           | not null | &#39;0000000000&#39;::character varying
+ permission       | &#34;enum_Notes_permission&#34;  |           |          |
+ viewcount        | integer                  |           |          | 0
+ lastchangeuserId | uuid                     |           |          |
+ lastchangeAt     | timestamp with time zone |           |          |
+ alias            | character varying(255)   |           |          |
+ savedAt          | timestamp with time zone |           |          |
+ authorship       | text                     |           |          |
+ deletedAt        | timestamp with time zone |           |          |
+</code></pre><p>とりあえず興味があるのはNoteテーブルの、titleとcontentなので、インデックスを作る</p>
+<pre tabindex="0"><code>CREATE INDEX pgroonga_content_index ON &#34;Note&#34; USING pgroonga (content);
+CREATE INDEX pgroonga_title_index ON &#34;Note&#34; USING pgroonga (title);
+</code></pre><p>検索は<a href="https://pgroonga.github.io/ja/tutorial/">チュートリアル | PGroonga</a>を参照</p>
+<pre tabindex="0"><code>単一カラム検索
+SELECT title, shortid FROM &#34;Notes&#34; WHERE title &amp;@~ &#39;キーワード&#39;;
+
+複数カラムのOR検索
+SELECT title, shortid FROM &#34;Notes&#34; WHERE title &amp;@~ &#39;キーワード&#39; OR conetnt &amp;@~ &#39;キーワード&#39;;
+</code></pre><p>psycopg2からの操作も可能</p>
+<h2 id="今日のtabs">今日のTabs</h2>
+<script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
+<script>
+hotkeys('n,p', function (event, handler){
+  switch (handler.key) {
+    case 'n': document.getElementById('next-post-link').click()
+      break;
+    case 'p': document.getElementById('previous-post-link').click()
+  }
+});
+</script>
+<div id="pagination">
+    
+        <a href="//localhost:1313/posts/2022/02/20/804421/" id="previous-post-link">
+            <span>Prev</span>
+        </a>
+    
+    &ensp;
+    
+        <a href="//localhost:1313/posts/2022/02/22/959430/" id="next-post-link">
+            <span>Next</span>
+        </a>
+    
+    <script src="https://utteranc.es/client.js"
+    repo="sk85org/sk85.org-blog-comment"
+    issue-term="pathname"
+    theme="preferred-color-scheme"
+    crossorigin="anonymous"
+    async>
+</script>
+</div><footer>
+  
+</footer></body>
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2019-08 on d.sk85.org</title>
+    <link>//localhost:1313/archives/2019-08/</link>
+    <description>Recent content in 2019-08 on d.sk85.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/archives/2019-08/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20200424のブックマーク</title>
+      <link>//localhost:1313/posts/2019/08/16/304588/</link>
+      <pubDate>Fri, 16 Aug 2019 23:54:06 +0900</pubDate>
+      <guid>//localhost:1313/posts/2019/08/16/304588/</guid>
+      <description>javascript https://github.com/naptha/tesseract.js#tesseractjs&#xA;https://qiita.com/kskinaba/items/3e8887d45b11f9132012&#xA;golang https://ashitani.jp/golangtips/tips_time.html&#xA;https://www.tweeeety.blog/entry/2017/08/17/021040&#xA;http://www.spinute.org/go-by-example/&#xA;https://www.programming-books.io/essential/go/&#xA;https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/&#xA;https://qiita.com/rtok/items/46eadbf7b0b7a1b0eb08&#xA;https://qiita.com/sh-tatsuno/items/0c32c01eaeaf2d726fdf&#xA;cgo https://qiita.com/taiyo/items/d89cb99a52d9cea9b3de&#xA;https://github.com/chai2010/cgo&#xA;https://qiita.com/74th/items/0362bea2012ef253c539&#xA;golangでgroongaを使う https://gist.github.com/msh5/2dc2914fbc901b309511f7c9b95e3a46&#xA;https://gist.github.com/naoa/6777040&#xA;https://qiita.com/naoa/items/38df1cb153f2bd1c1628&#xA;systemd https://qiita.com/a_yasui/items/f2d8b57aa616e523ede4&#xA;imageproxy https://github.com/willnorris/imageproxy</description>
+    </item>
+  </channel>
+</rss>

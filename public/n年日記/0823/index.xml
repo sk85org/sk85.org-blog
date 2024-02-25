@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>0823 on d.sk85.org</title>
+    <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0823/</link>
+    <description>Recent content in 0823 on d.sk85.org</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Thu, 24 Aug 2023 22:43:43 +0900</lastBuildDate>
+    <atom:link href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0823/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023-08-23</title>
+      <link>//localhost:1313/posts/2023/08/23/841972/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0900</pubDate>
+      <guid>//localhost:1313/posts/2023/08/23/841972/</guid>
+      <description>午前 出社 一つ実験を仕込む 明日の分離の準備 分離樹脂の用意とか ミーティング 午後 明日のサンプル届く 会議 大型装置の移設について、ミーティング うーん、無理そう 朝の実験の分析とか、明日の分離検討の用意とか 18:30 ごろ退社 体調 事業所が変わるかもしれず、不安感が強くて嫌だなあ 夜も眠りが浅い その他 今日の Tabs </description>
+    </item>
+    <item>
+      <title>2022-08-23</title>
+      <link>//localhost:1313/posts/2022/08/23/82969/</link>
+      <pubDate>Tue, 23 Aug 2022 00:00:00 +0900</pubDate>
+      <guid>//localhost:1313/posts/2022/08/23/82969/</guid>
+      <description>午前 不安な気持ちで出社 不安に感じることはないはずなのにね 確認のための実験 ミーティング 午後 実験継続 上席と評価について面談 色々とネガティブになっていた点が少しだがクリアになった 定時で退社 散髪 体調 その他 今日のTabs </description>
+    </item>
+    <item>
+      <title>2021-08-23</title>
+      <link>//localhost:1313/posts/2021/08/23/157413/</link>
+      <pubDate>Mon, 23 Aug 2021 00:00:00 +0900</pubDate>
+      <guid>//localhost:1313/posts/2021/08/23/157413/</guid>
+      <description>午前 有休 息子は風邪を持ち直して登園 コストコ しらすピザ, チキン, ハンバーガー, ハイローラー 午後 読書 息子迎え 夕食はハイローラー 息子を寝かしつけるときに寝てしまった 体調 良好 その他 agkozak/zsh-z gsamokovarov/jump&#xA;Rebuild FMで紹介されていたzsh-zを入れてみたけれど便利 zshの補完 - Qiita </description>
+    </item>
+  </channel>
+</rss>

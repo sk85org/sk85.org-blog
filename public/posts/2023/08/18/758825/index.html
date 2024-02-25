@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+      <meta name="filename" content="20230818_758825.md" />
+    
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    
+    
+    <title>Nintendo Switchで参加可能なMinecraftサーバーを立てる</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/font.css"/>
+
+</head>
+<body><header>
+  <a href="/" title="top"><span class="menu">top</span></a>&nbsp;<a href="/archives/" title="archives"><span class="menu">archives</span></a>&nbsp;<a href="/tags/" title="tags"><span class="menu">tags</span></a>&nbsp;<a href="/about/" title="about"><span class="menu">about</span></a>&nbsp;
+</header>
+
+<h1>Nintendo Switchで参加可能なMinecraftサーバーを立てる</h1>
+<form method="get" action=https://dsearch.sk85.org/cgi/>
+    <input type="text" name="phrase" value="" size="20" />
+    <input type="submit" value="Search" />
+    <input type="hidden" name="enc" value="UTF-8" />
+</form>
+<time datetime="2023-08-18" id="single_page_date">
+  2023-08-18&ensp;(金)
+</time>
+|
+
+  Tags:
+  
+  
+  
+  <span>
+    <a href="//localhost:1313/tags/diary">diary</a>
+  </span>
+  
+  
+  <span>
+    <a href="//localhost:1313/tags/minecraft">minecraft</a>
+  </span>
+  
+  
+
+|
+
+  
+  
+  
+  <span>
+    <a href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0818">n年日記</a>
+  </span>
+  
+  
+
+<p>息子は Minecraft が大好きだ。Nintendo Switch 版を使っており、木を切って土を掘り返しては日々拠点を作り、剣を作り牛を狩っている。そろそろマルチプレイも体験してもいいだろうということで、自宅に Minecraft サーバーを構築した。いろいろと設定が面倒だったので、Nintendo Switch (BEDROCK 版)で気軽にマルチプレイをしたいなら Realms を使うのが一番だと思う。友達と遊ぶようになれば、さすがに Realms になるのかな。</p>
+<h2 id="nintendo-switch-でマルチプレイするために必須の契約">Nintendo Switch でマルチプレイするために必須の契約</h2>
+<p>Nintendo Online を契約していないと、そもそもオンラインプレイができない。</p>
+<ul>
+<li>Nintendo Online のサブスクリプション</li>
+<li>マイクロソフトアカウント (無料、子供用に新規作成する必要がある)</li>
+</ul>
+<h2 id="サーバーを立てる">サーバーを立てる</h2>
+<h3 id="docker-minecraft-bedrock-server">docker-minecraft-bedrock-server</h3>
+<p>今回は BEDROCK 版サーバーを docker で起動したいので<a href="docker-minecraft-bedrock-server">itzg/docker-minecraft-bedrock-server</a>を使用した。docker-compose.yml を下のように作成して、docker-compose up で起動。docker-compose.yml における environment の詳細は<a href="https://hikicomoron.net/minecraft_server_properties_be">【マイクラ統合版】server.properties の設定一覧と解説【サーバー設定】 ｜ ひきこもろん</a>が詳しい。難易度は easy, ゲームオーバーになってもアイテムをドロップしない設定にしたいのでチートモードを有効に。アイテムをドロップしない 「/gamerule keepInventory true」 コマンドを叩くために、DEFAULT_PLAYER_PERMISSION_LEVEL を operator に設定。DEFAULT_PLAYER_PERMISSION_LEVEL は本来は member にして、個別のユーザーに管理者権限を付与するべきだが息子と二人しか遊ばないのであえて operator にしている。データのバックアップとかはまた後日</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-docker-compose.yml" data-lang="docker-compose.yml"><span style="display:flex;"><span><span style="color:#f92672">version</span>: <span style="color:#e6db74">&#39;3.4&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">services</span>:
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">bds</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">container_name</span>: <span style="color:#ae81ff">bds</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">restart</span>: <span style="color:#ae81ff">always</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">image</span>: <span style="color:#ae81ff">itzg/minecraft-bedrock-server:latest</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">environment</span>:
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">SERVER_NAME</span>: <span style="color:#ae81ff">jitaku</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">EULA</span>: <span style="color:#e6db74">&#34;TRUE&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">GAMEMODE</span>: <span style="color:#ae81ff">survival</span> <span style="color:#75715e">#ゲームモード</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">ONLINE_MODE</span>: <span style="color:#e6db74">&#34;false&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">TICK_DISTANCE</span>: <span style="color:#ae81ff">12</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">ALLOW_CHEATS</span>: <span style="color:#e6db74">&#34;true&#34;</span> <span style="color:#75715e">#チートの許可</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">DIFFICULTY</span>: <span style="color:#ae81ff">easy</span> <span style="color:#75715e">#難易度</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">LEVEL_NAME</span>: <span style="color:#ae81ff">MY WORLD</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">DEFAULT_PLAYER_PERMISSION_LEVEL</span>: <span style="color:#ae81ff">operator</span> <span style="color:#75715e">#参加者のデフォルト権限</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">TZ</span>: <span style="color:#ae81ff">Asia/Tokyo</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">ports</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#ae81ff">19132</span>:<span style="color:#ae81ff">19132</span><span style="color:#ae81ff">/udp</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">volumes</span>:
+</span></span><span style="display:flex;"><span>      - <span style="color:#ae81ff">./data:/data</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">stdin_open</span>: <span style="color:#66d9ef">true</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">tty</span>: <span style="color:#66d9ef">true</span>
+</span></span></code></pre></div><h3 id="pc-の統合版から接続確認">PC の統合版から接続確認</h3>
+<p>先ほど起動したマインクラフトサーバーのインスタンスに接続できるか確認する。
+<span class = "img" style='text-align:center;'>
+    <a href="https://img.sk85.org/imaginary/resize?width=2000&quality=100&file=20230819-08-06-13-fx8qRTM3lGMdI-yP22EO.png">
+    <img src="https://img.sk85.org/imaginary/resize?width=600&quality=80&file=20230819-08-06-13-fx8qRTM3lGMdI-yP22EO.png" loading=“lazy”></a>
+    <figcaption>
+            
+            </figcaption>
+        </span>
+</p>
+<h3 id="dns-サーバーを立てる">DNS サーバーを立てる</h3>
+<p>ここからが面倒くさい。Switch 版マインクラフトは決まったホスト(特集サーバー)にしか接続できないため、ホストを偽装する必要がある。私は dnsmasq を使ったが何でも良いので、ローカルネットワークに DNS サーバーを立てて、以下のようにホストを偽装する。</p>
+<pre tabindex="0"><code>192.168.0.200 geo.hivebedrock.network
+192.168.0.200 play.galaxite.net
+192.168.0.200 mco.mineplex.com
+192.168.0.200 mco.cubecraft.net
+192.168.0.200 play.pixelparadise.gg
+192.168.0.200 mco.lbsg.net
+192.168.0.200 play.inpvp.net
+</code></pre><ul>
+<li><a href="https://qiita.com/yukimasaki/items/50f84065fb98733c9508">ローカル DNS サーバーを構築し Nintendo Switch 版マインクラフトで外部サーバーに接続する方法 - Qiita</a></li>
+</ul>
+<p>自前で DNS サーバーを立てずに、<a href="https://github.com/Pugmatt/BedrockConnect#publicly-available-bedrockconnect-instances">BedrockConnect</a>が提供している DNS サーバー
+を使う手もあるが、日本からだと接続が遅く、DNS ポイズニングっぽいものを提供している DNS サーバーを設定するのはちょっとねえ。</p>
+<h3 id="nintendo-switch-でプライマリ-dns-サーバーを指定">Nintendo Switch でプライマリ DNS サーバーを指定</h3>
+<p>ローカルネットワークに立てた DNS サーバーを Switch におけるプライマリ DNS に設定する。
+<span class = "img" style='text-align:center;'>
+    <a href="https://img.sk85.org/imaginary/resize?width=2000&quality=100&file=20230819-09-21-49-CBrlralxEbfbP5Vz9qUu.png">
+    <img src="https://img.sk85.org/imaginary/resize?width=600&quality=80&file=20230819-09-21-49-CBrlralxEbfbP5Vz9qUu.png" loading=“lazy”></a>
+    <figcaption>
+            
+            </figcaption>
+        </span>
+</p>
+<h3 id="さて繋がるかな">さて繋がるかな</h3>
+<p>マインクラフトを再起動して、子供用のマイクロソフトアカウントでログインする。サーバーの所に特集サーバーが表示されているが、サーバー名が先ほど docker で立てたサーバーインスタンスで設定しているものになっていれば OK。
+<span class = "img" style='text-align:center;'>
+    <a href="https://img.sk85.org/imaginary/resize?width=2000&quality=100&file=20230819-09-19-55-uyzUi_6eJuZetaW9pN3t.jpg">
+    <img src="https://img.sk85.org/imaginary/resize?width=600&quality=80&file=20230819-09-19-55-uyzUi_6eJuZetaW9pN3t.jpg" loading=“lazy”></a>
+    <figcaption>
+            
+            </figcaption>
+        </span>
+</p>
+<script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
+<script>
+hotkeys('n,p', function (event, handler){
+  switch (handler.key) {
+    case 'n': document.getElementById('next-post-link').click()
+      break;
+    case 'p': document.getElementById('previous-post-link').click()
+  }
+});
+</script>
+<div id="pagination">
+    
+        <a href="//localhost:1313/posts/2023/08/17/782099/" id="previous-post-link">
+            <span>Prev</span>
+        </a>
+    
+    &ensp;
+    
+        <a href="//localhost:1313/posts/2023/08/18/658500/" id="next-post-link">
+            <span>Next</span>
+        </a>
+    
+    <script src="https://utteranc.es/client.js"
+    repo="sk85org/sk85.org-blog-comment"
+    issue-term="pathname"
+    theme="preferred-color-scheme"
+    crossorigin="anonymous"
+    async>
+</script>
+</div><footer>
+  
+</footer></body>
+</html>

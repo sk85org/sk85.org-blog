@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+      <meta name="filename" content="20200212_880385.md" />
+    
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    
+    
+    <title>goのエラー処理</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css"/>
+<link rel="stylesheet" href="/css/font.css"/>
+
+</head>
+<body><header>
+  <a href="/" title="top"><span class="menu">top</span></a>&nbsp;<a href="/archives/" title="archives"><span class="menu">archives</span></a>&nbsp;<a href="/tags/" title="tags"><span class="menu">tags</span></a>&nbsp;<a href="/about/" title="about"><span class="menu">about</span></a>&nbsp;
+</header>
+
+<h1>goのエラー処理</h1>
+<form method="get" action=https://dsearch.sk85.org/cgi/>
+    <input type="text" name="phrase" value="" size="20" />
+    <input type="submit" value="Search" />
+    <input type="hidden" name="enc" value="UTF-8" />
+</form>
+<time datetime="2020-02-12" id="single_page_date">
+  2020-02-12&ensp;(水)
+</time>
+|
+
+  Tags:
+  
+  
+  
+  <span>
+    <a href="//localhost:1313/tags/golang">golang</a>
+  </span>
+  
+  
+
+|
+
+  
+  
+  
+  <span>
+    <a href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0212">n年日記</a>
+  </span>
+  
+  
+
+<p>goはerrorインターフェイスを持っている、</p>
+<pre tabindex="0"><code>type error interface {
+    Error() string
+}
+</code></pre><p>よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。<br>
+<a href="https://play.golang.org/p/cO0-r95Hd_r">https://play.golang.org/p/cO0-r95Hd_r</a></p>
+<pre tabindex="0"><code>package main
+
+import (
+	&#34;fmt&#34;
+)
+
+type Error struct {
+	Msg  string
+	Code int
+}
+
+func (err *Error) Error() string {
+	return fmt.Sprintf(&#34;ErrorMessage [%s], ErrorCode [%d]&#34;, err.Msg, err.Code)
+}
+
+func test() error {
+	return &amp;Error{Msg: &#34;file not found&#34;, Code: 2}
+}
+
+func main() {
+	if err := test(); err != nil {
+		fmt.Println(err)
+	}
+}
+</code></pre><p>ここでError()関数はどうやって実行されているか疑問に思って調べてみると   こんな記述が</p>
+<blockquote>
+<p>The fmt package formats an error value by calling its Error() string method.<br>
+<a href="https://blog.golang.org/error-handling-and-go">https://blog.golang.org/error-handling-and-go</a></p>
+</blockquote>
+<p>fmtパッケージでerrorインタフェイスを呼び出したときに、Error()が実行されるようになっているようだ。<br>
+errorインターフェイスとほぼ同じ、error2インターフェイスを実装してみる。<br>
+stringを返すError2()関数が実装れていれば、error2インターフェイスが使える。</p>
+<pre tabindex="0"><code>type error2 interface {
+	Error2() string
+}
+</code></pre><p>error2をerrorと同じように使ってfmt.Println(err)すると、当然ながらError2()は実行されず、<br>
+構造体の中身だけが出力される。<a href="https://play.golang.org/p/R7V8pYmlZvl">https://play.golang.org/p/R7V8pYmlZvl</a></p>
+<pre tabindex="0"><code>package main
+
+import (
+	&#34;fmt&#34;
+)
+
+type error2 interface {
+	Error2() string
+}
+
+type Error struct {
+	Msg  string
+	Code int
+}
+
+func (err *Error) Error2() string {
+	return fmt.Sprintf(&#34;ErrorMessage [%s], ErrorCode [%d]&#34;, err.Msg, err.Code)
+}
+
+func test() error2 {
+	return &amp;Error{Msg: &#34;file not found&#34;, Code: 2}
+}
+
+func main() {
+	if err := test(); err != nil {
+		fmt.Println(err)
+	}
+}
+</code></pre><p>ここで、Error構造体にString()関数を追加してfmtから呼び出せる湯にしてやれば、
+fmt.Println(err)でError2()が実行され、オリジナル形式のエラーを作れる。<a href="https://play.golang.org/p/bJ-vBtxVDvr">https://play.golang.org/p/bJ-vBtxVDvr</a><br>
+注: String()関数はfmtのstringerインターフェイスに定義されている <a href="https://go-tour-jp.appspot.com/methods/17">https://go-tour-jp.appspot.com/methods/17</a></p>
+<pre tabindex="0"><code>func (p Error) String() string {
+	return fmt.Sprintf(p.Error2())
+}
+</code></pre><script src="https://unpkg.com/hotkeys-js/dist/hotkeys.min.js"></script>
+<script>
+hotkeys('n,p', function (event, handler){
+  switch (handler.key) {
+    case 'n': document.getElementById('next-post-link').click()
+      break;
+    case 'p': document.getElementById('previous-post-link').click()
+  }
+});
+</script>
+<div id="pagination">
+    
+        <a href="//localhost:1313/posts/2020/02/11/432922/" id="previous-post-link">
+            <span>Prev</span>
+        </a>
+    
+    &ensp;
+    
+        <a href="//localhost:1313/posts/2020/02/22/937013/" id="next-post-link">
+            <span>Next</span>
+        </a>
+    
+    <script src="https://utteranc.es/client.js"
+    repo="sk85org/sk85.org-blog-comment"
+    issue-term="pathname"
+    theme="preferred-color-scheme"
+    crossorigin="anonymous"
+    async>
+</script>
+</div><footer>
+  
+</footer></body>
+</html>
