@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>プラレール on d.sk85.org</title>
-    <link>//localhost:1313/tags/%E3%83%97%E3%83%A9%E3%83%AC%E3%83%BC%E3%83%AB/</link>
+    <link>//localhost:56934/tags/%E3%83%97%E3%83%A9%E3%83%AC%E3%83%BC%E3%83%AB/</link>
     <description>Recent content in プラレール on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/%E3%83%97%E3%83%A9%E3%83%AC%E3%83%BC%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:56934/tags/%E3%83%97%E3%83%A9%E3%83%AC%E3%83%BC%E3%83%AB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>プラレール自動制御</title>
-      <link>//localhost:1313/posts/2020/12/28/595555/</link>
+      <link>//localhost:56934/posts/2020/12/28/595555/</link>
       <pubDate>Mon, 28 Dec 2020 23:19:42 +0900</pubDate>
-      <guid>//localhost:1313/posts/2020/12/28/595555/</guid>
+      <guid>//localhost:56934/posts/2020/12/28/595555/</guid>
       <description>子供(2歳児)はプラレール好きで、最近はループやトンネルよりも複数車両が秩序を維持しながら走るのが面白いようだ。市販で手に入るのは経路を変更する2部品。&#xA;R-16 自動ポイントレール R-19 自動ターンアウトレール これだけだと停車-発車の制御ができないのでArduinoを使って制御してみよう。</description>
     </item>
   </channel>

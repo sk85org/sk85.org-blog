@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0621 on d.sk85.org</title>
-    <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0621/</link>
+    <link>//localhost:56934/n%E5%B9%B4%E6%97%A5%E8%A8%98/0621/</link>
     <description>Recent content in 0621 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 23 Jun 2023 23:58:44 +0900</lastBuildDate>
-    <atom:link href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0621/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:56934/n%E5%B9%B4%E6%97%A5%E8%A8%98/0621/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-06-21</title>
-      <link>//localhost:1313/posts/2023/06/21/176074/</link>
+      <link>//localhost:56934/posts/2023/06/21/176074/</link>
       <pubDate>Wed, 21 Jun 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/posts/2023/06/21/176074/</guid>
+      <guid>//localhost:56934/posts/2023/06/21/176074/</guid>
       <description>午前 今日の会議担当なので気が重い 昨日の実験の後処理 進捗会議 午後 技術系の会議で担当 発表には、ほとんど質問が出ず 実験少し 残業して 19:00 ごろ自宅到着 体調 78 その他 今日の Tabs </description>
     </item>
     <item>
       <title>2022-06-21</title>
-      <link>//localhost:1313/posts/2022/06/21/849680/</link>
+      <link>//localhost:56934/posts/2022/06/21/849680/</link>
       <pubDate>Tue, 21 Jun 2022 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/posts/2022/06/21/849680/</guid>
+      <guid>//localhost:56934/posts/2022/06/21/849680/</guid>
       <description>午前 インターン対応 午後 自分少し インターン対応 体調 悪め その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-06-21</title>
-      <link>//localhost:1313/posts/2021/06/21/176895/</link>
+      <link>//localhost:56934/posts/2021/06/21/176895/</link>
       <pubDate>Mon, 21 Jun 2021 22:03:24 +0900</pubDate>
-      <guid>//localhost:1313/posts/2021/06/21/176895/</guid>
+      <guid>//localhost:56934/posts/2021/06/21/176895/</guid>
       <description>午前 7:00起床 月曜なので息子は登園拒否 いつもより遅めの登園 会社で健康診断 金曜日の実験の後処理 お昼前に新しい実験開始 チームミーティング 午後 分析を依頼 午前中の実験のチェック うまく行っているようなので後処理 ほぼ定時で帰宅 ふるさと納税の餃子を夕食に 23:00就寝 体調 普通 その他 ahamoに移行したときのdポイントが振り込まれていた </description>
     </item>
   </channel>

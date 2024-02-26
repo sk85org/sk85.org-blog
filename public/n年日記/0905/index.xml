@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0905 on d.sk85.org</title>
-    <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0905/</link>
+    <link>//localhost:56934/n%E5%B9%B4%E6%97%A5%E8%A8%98/0905/</link>
     <description>Recent content in 0905 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 11 Sep 2023 19:02:30 +0900</lastBuildDate>
-    <atom:link href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0905/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:56934/n%E5%B9%B4%E6%97%A5%E8%A8%98/0905/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-09-05</title>
-      <link>//localhost:1313/posts/2023/09/05/836888/</link>
+      <link>//localhost:56934/posts/2023/09/05/836888/</link>
       <pubDate>Tue, 05 Sep 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/posts/2023/09/05/836888/</guid>
+      <guid>//localhost:56934/posts/2023/09/05/836888/</guid>
       <description>午前 朝から広島で会議 午後 午後も広島で会議 19:45 ごろ終了 夕食はラーメン 体調 80 その他 広島は良いところだ 今日の Tabs </description>
     </item>
     <item>
       <title>2022-09-05</title>
-      <link>//localhost:1313/posts/2022/09/05/68391/</link>
+      <link>//localhost:56934/posts/2022/09/05/68391/</link>
       <pubDate>Mon, 05 Sep 2022 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/posts/2022/09/05/68391/</guid>
+      <guid>//localhost:56934/posts/2022/09/05/68391/</guid>
       <description>午前 息子通園 実験 ミーティング 午後 実験続き 資料作成など 体調 74 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-09-05</title>
-      <link>//localhost:1313/posts/2021/09/05/110770/</link>
+      <link>//localhost:56934/posts/2021/09/05/110770/</link>
       <pubDate>Sun, 05 Sep 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/posts/2021/09/05/110770/</guid>
+      <guid>//localhost:56934/posts/2021/09/05/110770/</guid>
       <description>午前 8:30起床 息子の朝食は奥さんが替わってくれた 9:30過ぎに家にいたいと大泣きする息子を連れてスイミングに 僕は奥さんのヘルプに レッスン中は大丈夫だったようだ マクドナルドで時間を潰す 合流して昼食へ 午後 お昼寝 16:00前に起きる このサイトにhotkeys.jsを導入 pキーで前日、nキーで翌日の日記に飛べるようにした なかなか快適 サイトで使っているHyper Estraierで検索漏れをなくすためにインデックスをN-gramで登録するようした。インデックスを消して、estcmd createコマンドに-apnオプションを付けるだけ。後は再度インデックス作成。 息子と近くのマンションの公開空地へ散歩に行く スーパーで買物 寝かしつけ 体調 良好 その他 今日のTabs 【試してみた】新発売格安3DCAD “Solidworks for Makers” 1万円台で使えるSW。｜まきブログ ～Machina Blog～ おー、Solidworksがサブスクに。試してみたい ゲーミングPCの奥深さを知り、キャプチャーボードの接続に悪戦苦闘したステイホーム生活 | のっちはゲームがしたい！ 特別編 - 音楽ナタリー ローゼンバーグ事件 - Wikipedia ラズエズノイ号事件 - Wikipedia NASの選択肢増える：TerraMaster 本格展開と10Gbモデル F2-422 – mono-logue 自宅のQNAPをリプレイスしようか考え中 ストレージが厳しいだけで、4Tにすればしばらく持つか 接続経路によるストレージの転送速度：M1Mac – mono-logue ストレジーの接続方法によって性能が変わるようだ SVX日記 - dockerでcronを使わずに周期実行 </description>
     </item>
   </channel>

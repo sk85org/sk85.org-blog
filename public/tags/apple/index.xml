@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apple on d.sk85.org</title>
-    <link>//localhost:1313/tags/apple/</link>
+    <link>//localhost:56934/tags/apple/</link>
     <description>Recent content in Apple on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/apple/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:56934/tags/apple/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>買ってよかったもの2020</title>
-      <link>//localhost:1313/posts/2020/12/12/683040/</link>
+      <link>//localhost:56934/posts/2020/12/12/683040/</link>
       <pubDate>Sat, 12 Dec 2020 13:23:34 +0900</pubDate>
-      <guid>//localhost:1313/posts/2020/12/12/683040/</guid>
+      <guid>//localhost:56934/posts/2020/12/12/683040/</guid>
       <description>DELL U3219Q 5年ぐらい前に買ったLGの27インチ4kをDell U3219Q (31.5インチ 4K)に交換。&#xA;U3219QはKVMが付いているすぐれもので、MacBookProはUSB Type-C、Windowsのデスクトップ機はDPとUSBで接続した。液晶側で映像入力ソースを変更すると、KVMも自動的に入力ソースに合わせてくれるので、今までみたいにUSBスイッチャーでカチカチやらなくてもよいのが最高。&#xA;本体側面についているUSBポートも当然切り替わるので、ここに認証用のYubikeyドングルを挿して使っている。&#xA;さらにUSB Type-Cの端子はUSB PD対応で90W給電ができる。未来だ、、、&#xA;Apple Watch SE 使っていたAppleWatch 3をwatchOS 7にアップデートしようとしたら、&#xA;容量が足りないと言われたので初期化してアップデート&amp;amp;復元したのに、&#xA;その後すぐに3GBぐらいの追加アップデートがまた降ってきた。&#xA;ストレージが8GBのAppleWatch 3でアップデートのたびに初期化するのはちょっと、、&#xA;けど機能的には3で問題ないと悩んでいたら、ちょうどぶつけて画面を割ってしまった。&#xA;通知を受け取るのがメインなので、6ではなくSEで十分。&#xA;画面も大きくなり、動作も早くなったので快適</description>
     </item>
   </channel>

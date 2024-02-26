@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020-04 on d.sk85.org</title>
-    <link>//localhost:1313/archives/2020-04/</link>
+    <link>//localhost:56934/archives/2020-04/</link>
     <description>Recent content in 2020-04 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate>
-    <atom:link href="//localhost:1313/archives/2020-04/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:56934/archives/2020-04/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>久々にPCの自作を</title>
-      <link>//localhost:1313/posts/2020/04/26/634065/</link>
+      <link>//localhost:56934/posts/2020/04/26/634065/</link>
       <pubDate>Sun, 26 Apr 2020 09:00:36 +0900</pubDate>
-      <guid>//localhost:1313/posts/2020/04/26/634065/</guid>
+      <guid>//localhost:56934/posts/2020/04/26/634065/</guid>
       <description>日本政府が10万円もくれるので自作PCを組もうぜ、と友人たちと盛り上がったのでパーツ買った。&#xA;パーツ構成 http://niku.webcrow.jp/u/QVB98&#xA;【CPU】AMD Ryzen 5 3600 BOX \26,378 @ドスパラ&#xA;【CPUクーラー】サイズ 虎徹 MarkII SCKTT-2000 \3,850 @ドスパラ&#xA;【メモリ】G.Skill F4-3200C16D-32GSXWB [DDR4 PC4-25600 16GB 2枚組] \17,957 @ドスパラ&#xA;【マザーボード】ASRock B450 Steel Legend \11,900 @ドスパラ&#xA;【ビデオカード】ASRock Radeon RX 5500 XT Challenger D 8G OC [PCIExp 8GB] \24,980 @ドスパラ&#xA;【サウンド】&#xA;【SSD】WESTERN DIGITAL WD Blue SN550 NVMe WDS100T2B0C \14,190 @ドスパラ&#xA;【HDD】&#xA;【光学ドライブ】&#xA;【ケース】Fractal Design Define R6 FD-CA-DEF-R6-BK [ブラック] \15,257 @ドスパラ&#xA;【電源】Thermaltake SMART 600W STANDARD PS-SPD-0600NPCWJP-W \5,478 @ドスパラ</description>
     </item>
     <item>
       <title>iPhoneテストモードでdsds状態時に接続先確認</title>
-      <link>//localhost:1313/posts/2020/04/14/274232/</link>
+      <link>//localhost:56934/posts/2020/04/14/274232/</link>
       <pubDate>Tue, 14 Apr 2020 09:00:36 +0900</pubDate>
-      <guid>//localhost:1313/posts/2020/04/14/274232/</guid>
+      <guid>//localhost:56934/posts/2020/04/14/274232/</guid>
       <description>Rakuten Mobileで発行したesimはiphoneでも使えるという情報がtwitterで上がっていたので早速検討。&#xA;UQ-mobileを主回線に、Rakuten Mobileをデータ通信のみの副回線に設定。&#xA;通話アプリでUQとRakuten両方が選択できるようになる。&#xA;iphoneは電話アプリで3001#12345# と入力すればテストモードが起動して、&#xA;LTE &amp;ndash;&amp;gt; Serving Cell Infoから掴んでいるバンドを確認することができる。&#xA;細かい説明はここがわかりやすい&#xA;項目 説明 sel_plmn_mcc カントリーコード 日本だと440 sel_plmn_mnc 事業者コード KDDI: 50, 51, 53 (楽天ローミング用) Rakuten: 11 freq_band_ind 割当周波数帯 au: 11, 18, 28, 41, 42, Rakuten: 3のみ 通話アプリで接続回線を変えて、テストモードを起動すれば副回線の楽天が&#xA;自社網かauのローミングのどちらを使っているか確認することができる。&#xA;テストモードはステータスが更新されるのに結構時間がかかるので、タイムスタンプで最新の情報か確認する必要がある。</description>
     </item>
   </channel>
