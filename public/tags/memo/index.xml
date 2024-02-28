@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Memo on d.sk85.org</title>
-    <link>//localhost:56934/tags/memo/</link>
+    <link>//localhost:58576/tags/memo/</link>
     <description>Recent content in Memo on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Wed, 09 Aug 2023 23:12:42 +0900</lastBuildDate>
-    <atom:link href="//localhost:56934/tags/memo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:58576/tags/memo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>大丈夫リスト</title>
-      <link>//localhost:56934/posts/2022/01/23/710463/</link>
+      <link>//localhost:58576/posts/2022/01/23/710463/</link>
       <pubDate>Sun, 23 Jan 2022 22:04:03 +0900</pubDate>
-      <guid>//localhost:56934/posts/2022/01/23/710463/</guid>
+      <guid>//localhost:58576/posts/2022/01/23/710463/</guid>
       <description>しんどく、冷静でいられないときに読む大丈夫リスト&#xA;会社は業績が安定している リストラにあうとかは無さそう 有給は自由に取れる 残業代も満額出る 上司は厳しいが仕事に対してストイックなだけでパワハラではない 紳士的 ロジカルに物事を考え、指摘しているだけ 今の仕事がうまくいっていないのは、多くの中の 1 件 間に合わないことは珍しいことではない 何か対策があるはず 仕事がうまくいかず怒鳴られている訳ではない 毎年普通の評価で特段評価が低いわけではない 能力が著しく低いというわけではない 奥さんは正社員で安定した職についている 節約と貯金をがんばっている 貯金がそこそこある 現金, 投資信託, 持ち家 夫婦合わせると今の状態でも息子の大学までの学費は大丈夫 家族 3 人仲がいい 奥さんは僕のことをちゃんと考えてくれる 二人とも健康 みんな不安 みんな何かしら不安だったりしんどかったりする 僕だけ変な訳ではない 人生とはそういうものだ なんとかなる気がする これまでも何とかしてきた 10 年近く会社で仕事ができているので、それなりに自分のことを褒めていい 自分を褒める できていないことがある一方、できていることがある できていることは褒めてあげる 自分は能力がなくできない、という極端な思考に注意する </description>
     </item>
     <item>
       <title>今の精神状態</title>
-      <link>//localhost:56934/posts/2022/01/22/436120/</link>
+      <link>//localhost:58576/posts/2022/01/22/436120/</link>
       <pubDate>Sat, 22 Jan 2022 18:33:35 +0900</pubDate>
-      <guid>//localhost:56934/posts/2022/01/22/436120/</guid>
+      <guid>//localhost:58576/posts/2022/01/22/436120/</guid>
       <description>メンタル的に弱っている 原因は納期が近い仕事 全くうまくいかない 自分が仕事に取り組み始めた頃の分析がまずかった もっとうまく出来たはず、と攻めている 仕事がうまくいかないのを全部自分のせいと感じている 責任感を感じ過ぎている 上司からのアドバイスも叱責と感じてしまい、打ち合わせが憂鬱 マイナスの根拠の無い思考が出てきている 自分は能力がない &amp;ndash;&amp;gt;失望される &amp;ndash;&amp;gt;解雇される 対策 まずは会社に行けていることをよしとする 自己肯定する 短期の目的に固執しない とりあえず家族が健康で、安全な国に住んでいるので大丈夫と思う </description>
     </item>
     <item>
       <title>Cloudflare Tunnelを使ってローカルのサーバーを安全に公開する</title>
-      <link>//localhost:56934/posts/2021/10/30/353859/</link>
+      <link>//localhost:58576/posts/2021/10/30/353859/</link>
       <pubDate>Sat, 30 Oct 2021 15:09:27 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/30/353859/</guid>
+      <guid>//localhost:58576/posts/2021/10/30/353859/</guid>
       <description>VPSをやめる indigoのVPSサーバー上にTailscaleをインストールして、自宅のサーバーにVPNで接続して、nginxのproxyとBASIC認証を使っていたのだけれど*、自宅からVPSサーバーを迂回して大きなファイルを転送するとループを検知してか、30分ぐらいIPアドレスがブロックされてしまう。運用も面倒だなと思っていたら、Cloudflare Tunnelを使うと、無料で認証まで簡単にやってくれるらしい。実際やってみると簡単。VPS借りて手動でプロキシ立てるのがばからしくなる。&#xA;メモ 前提 必要なのは&#xA;自分でネームサーバーを設定できる独自ドメイン Cloudflareにドメインを登録してネームサーバーをCloudflareに設定する Cloudflareが現状のDNS設定を読み込んでくれ、ネームサーバーの変更をガイドしてくれる&#xA;Cloudflare for Teamsに登録 アプリケーションの追加 Cloudflare for Teamsのダッシュボードからアプリケーションを追加する。Application URLはアクセスしたいURLを指定する。認証方法はメールアドレスや、IPアドレス、国等いろいろと選べる。 cloudflaredのインストール Get started · Cloudflare for Teams documentation&#xA;ログインとTunnelsの作成(tunnelの作成はnon rootで可能) $ cloudflared tunnel login #(表示されるURLにアクセスする) $ loudflared tunnel create NAME #(NAMEは任意のチャンネル名) Tunnel credentials written to /path/to/.cloudflared/&amp;lt;Tunnel-UUID&amp;gt;.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel. ダッシュボードから作成したTunnelsのTunnel-UUIDが確認できる。削除はCLIもしくはダッシュボードから可能。 ホームフォルダ上の.cloudflaredディレクトリの中に設定ファイルconfig.ymlを作成する。 サーバー上のサービスとバーチャルホストを対応させる。サービスごとにTunnelを作成することもできるが、簡単にするためにIngress rulesにする。</description>
     </item>
     <item>
       <title>WOLの設定</title>
-      <link>//localhost:56934/posts/2021/08/15/188468/</link>
+      <link>//localhost:58576/posts/2021/08/15/188468/</link>
       <pubDate>Sun, 15 Aug 2021 11:48:05 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/08/15/188468/</guid>
+      <guid>//localhost:58576/posts/2021/08/15/188468/</guid>
       <description>WOLが作動しないときの確認事項 Windows 10でWake on Lan (WOL)できていたのに、突如できなくなったので設定を確認。&#xA;Wake on LANによるWindows10遠隔起動の設定方法が参考になる。&#xA;以下の3項目を確認&#xA;LANアダプタの設定&#xA;WOL関係の項目が有効になっているか 電源管理の設定&#xA;高速スタートアップを無効にする BIOSの設定&#xA;BIOSでWOLを有効にする 今回は高速スタートアップ有効になっており、BIOSのWOL関係の設定値がdisableになっていた。&#xA;(何故今までWOLが動いていたのかわからない)&#xA;docekrでWOLサーバーを動かす daBONDi/go-rest-wolを利用&#xA;注意点はコンテナをホスト・ネットワークで動かすこと。これをしないとUDPパケットが通らない。ホストモードではポートが競合するのでメジャーな80は使わずに、9090で動かしている。UDPパケットはポート7 or 9に送信するらしい。&#xA;version: &amp;#39;3&amp;#39; services: wol: image: &amp;#34;dabondi/go-rest-wol&amp;#34; environment: WOLHTTPPORT: 9090 #ports: # - &amp;#34;80:8080&amp;#34; volumes: - ./computer.csv:/app/computer.csv network_mode: host 追記(2022/06/09) WOLが効かなくなりwindows 11に上げたからかと思い設定をチェックしたが異常なし。結局、UEFIの設定が消えていた模様。ACPI ConfigurarionのPCIE Devices Power On をEnableにしたら解決。トラブルの際は、どの電源状態(S0~S5)でWOLが有効にならないかチェックしてから対応した方が良い。 参考: ASRockのマザーボードでWOLできない人はここをチェック | デジカシ</description>
     </item>
     <item>
       <title>こつこつweb日記</title>
-      <link>//localhost:56934/posts/2021/03/20/904627/</link>
+      <link>//localhost:58576/posts/2021/03/20/904627/</link>
       <pubDate>Sat, 20 Mar 2021 21:41:51 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/03/20/904627/</guid>
+      <guid>//localhost:58576/posts/2021/03/20/904627/</guid>
       <description>アフィリエイトサイト全盛期, 記事と関係ない画像を入れまくった「いかがでしたでしょうか」サイトが無限増殖し、google の結果は汚染されてしまった。&#xA;そのような状況の中でも、広告が少なく(もしくは入れず)こつこつと記事を書き続けているサイトをたまに見つける。Google の検索上位には決して出てこないが、素晴らしいサイトがまだインターネットには残っている。&#xA;技術系 tbsmcd.net ぺけみさお(xmisao)のポートフォリオ text․superbrothers․dev r7kamura.com portal shit! モジログ 僕は発展途上技術者 日記系 不定期性写真日記 text.Baldanders.info 銀河の歴史がまた１ページ - LastUpdate ５丁目通信（仮称） – とある５丁目で活動する Web プログラマーの覚え書きです。それと家業のアパート経営について。 じっぽ当直日誌・スーパーマイルド＠はてな いつか電池がきれるまで chalow で更新されています マスタカの ChangeLog メモ たつをの ChangeLog tdiary で更新されています 会長@腹部日記 ただのにっき SVX 日記 igaiga diary HsbtDiary Hyper Nikki System で更新されています なかのにっき NetBSD 絹の日記 </description>
     </item>
     <item>
       <title>自宅のintel-nucにVPS経由でssh tunnelする</title>
-      <link>//localhost:56934/posts/2021/02/23/245718/</link>
+      <link>//localhost:58576/posts/2021/02/23/245718/</link>
       <pubDate>Tue, 23 Feb 2021 15:56:46 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/02/23/245718/</guid>
+      <guid>//localhost:58576/posts/2021/02/23/245718/</guid>
       <description>ここが大変参考になり、ほぼ真似しただけです。&#xA;https://blog.alprosys.com/2019/01/06/reverse-ssh-tunneling/&#xA;概要 sshのトンネル機能を利用して、自宅外からVPS経由で自宅サーバー(intel-nuc)にsshでログインする&#xA;自宅サーバーの設定 sshの設定 VPSにログインできるように、自宅サーバーの公開鍵をvpsの.ssh/authorized_keysに登録する configファイルを.ssh/以下に作成する Host vps-ssh-tunnel HostName public.example.com User vps ServerAliveInterval 60 ExitOnForwardFailure yes TCPKeepAlive no IdentityFile /path/to/public.example.com.rev.id_ecdsa ssh vps-ssh-tunnel して接続確認 自動起動の設定 systemdのserviceを作る&#xA;~/.config/systemd/user/以下にvps-ssh-tunnel.serviceを作成 踏み台がVPS(外部)でnucは内部なので、SSHではリモートフォワードを使う SSHによるポートフォワーディング [Unit] Description= SSH Tunneling to VPS [Service] ExecStart=ssh -NR 2222:intel-nuc:22 vps-ssh-tunnel Type=simple Restart=always [Install] WantedBy=default.target この設定でVPSサーバー上でport 2222に流れる通信がintel-nucのport 22に転送される。&#xA;起動を確認 systemctl --user daemon-reload systemctl --user start public-rev systemctl --user enable public-rev systemctl --user status して動いていることを確認 一般ユーザーでもserviceを起動起動する&#xA;ユーザーレベルで起動したサービスは起動直後やログオフ時には実行されないようなので、&#xA;以下を参考に設定を変える&#xA;https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service&#xA;/etc/systemd/logind.conf の KillUserProcesses=no また</description>
     </item>
     <item>
       <title>思考の癖改善メモ</title>
-      <link>//localhost:56934/posts/2021/02/07/872227/</link>
+      <link>//localhost:58576/posts/2021/02/07/872227/</link>
       <pubDate>Sun, 07 Feb 2021 22:08:44 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/02/07/872227/</guid>
+      <guid>//localhost:58576/posts/2021/02/07/872227/</guid>
       <description>精神科医から指摘されたのは、過度のマイナス思考によるうつ状態 改善のためのメモ&#xA;精神科医からのアドバイス 2021-02-07 劣等感と過剰な不安について&#xA;自分と他人を置き換えて考える (客観視) 相手がわからないからと言って、相手を劣った人間だと思いますか？ (私はそう思いません)&#xA;そう思えるなら絶対に大丈夫です。変えていけます&#xA;生まれ持った性格はあるが、癖の部分は意識することで変えていける&#xA;結果と過程を分ける 結果を意識するから不安になる。まず結果を思考から排除して過程に集中&#xA;奥さんと話した内容 2021-02-07 日曜日の憂鬱感 奥さんにとって、日曜夕方が憂鬱なのは、また明日から仕事が始まるという憂鬱感。&#xA;僕は「また明日から叱られないか, トラブルが起きないか, 指摘を受けないか, 嫌な気落ちにならないか」という不安があり憂鬱&#xA;人が叱責されているのを見ていられない (自分が怒られているように感じる) 会議が苦手 (怒られないか, 指摘されないか不安で自身がなく、出たくない) どこからが修正が必要で、どこまでが性格か？ 得意なことと苦手なこと 大きな目標を与えられた時、具体的な戦略がない状態で目標を達成できるかばかりに焦点が行き不安になり、&#xA;戦略を立てられなくなる。逆に細かいタスクの処理能力は高い&#xA;不安の広がり 2021-02-18 不安が出始めるときは、最初に特定の具体的な不安があり、具体的な不安から具体性のない不安に薄く広がっていく。 仕事に関する不安(スケジュールより遅れている等) &amp;ndash;&amp;gt; ちゃんとできるか？ &amp;ndash;&amp;gt; ちゃんとできないと評価が下がる, 叱責されるかも&#xA;&amp;ndash;&amp;gt; 降格？ &amp;ndash;&amp;gt; 解雇 &amp;ndash;&amp;gt; 家族離散 ?&#xA;精神科医からのアドバイス 2021-02-19 天気で体調や倦怠感が変わる 血圧の影響 普通の人でも天気で気分が変わるので、エネルギーが少ないときは大きく影響する 自分と他人の境界線が曖昧 (人が叱責されるのも苦手な件) いい意味では思いやりがあるが、曖昧すぎると弊害が大きい 境界線を意識する 自分を他人として見る 他人が叱責されているとして、その人は本当に凹んでいるのだろうか？ 体調記録表は継続したほうが良い 項目に、良かったことももっと書いたほうが良い 調子がいいときはコメントが少なく、悪いほうをより悪く捉える傾向がある 周期的に波があることを認識して、認知療法の役に立つ 大きな目標の処理が苦手 small step で どこからが修正が必要で、どこまでが性格か？ 生まれ持ったり環境が作ってきた性格はあるが、思考のくせ(習慣)は変えられる </description>
     </item>
     <item>
       <title>iOS appランキング</title>
-      <link>//localhost:56934/posts/2021/01/31/686310/</link>
+      <link>//localhost:58576/posts/2021/01/31/686310/</link>
       <pubDate>Sun, 31 Jan 2021 22:23:40 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/01/31/686310/</guid>
+      <guid>//localhost:58576/posts/2021/01/31/686310/</guid>
       <description>カテゴリ別に見られて便利&#xA;https://appfigures.com/top-apps/</description>
     </item>
     <item>
       <title>Tp-Link Deco X20に関するメモ</title>
-      <link>//localhost:56934/posts/2020/08/31/269927/</link>
+      <link>//localhost:58576/posts/2020/08/31/269927/</link>
       <pubDate>Mon, 31 Aug 2020 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2020/08/31/269927/</guid>
+      <guid>//localhost:58576/posts/2020/08/31/269927/</guid>
       <description>Tp-Link Deco X20 (3 pack)を導入した。&#xA;https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/ アフィリエイトサイトでは「Wifi6だから早い」とか「メッシュWifiすごい」、といった本当にどうでもいいトラフィックの無駄使い程度の情報しかなく、 価格.comの質問回答はかなり不正確なので、誰かのために書いておきます。&#xA;我が家にやってきたx20。かわいい 2台(もしくは3台)をルーターから有線で分岐させられますか？ できます。スイッチングハブを経由させてももちろん問題ありません。&#xA;https://www.tp-link.com/jp/support/faq/2399/&#xA;ということは2台(もしくは3台)をすべてブリッジモード(アクセスポイントモード)として動作させることが可能ということですか？ そうです。メインのdeco X20を決める必要がありますが、メインのdeco X20が必ずしもルーターモードである必要はありません。 正確には各端末をルーター or ブリッジモードに設定するわけではなく、メインのdeco X20およびメイン以外のdexo X20があるだけです。&#xA;ブリッジモードでルーターから有線で分岐させた場合はEthernet Backhaulは有効になりますか？ なります。&#xA;解説 Both possible 自宅では上記のようなネットワーク構成になっています。メッシュwifiネットワーク全体としてブリッジモードでルーターからハブを介していないdexo X20をメインに設定しています。 公式の設定アプリでブリッジモードにした後に、地球のロゴ(わかりにくい)をクリックすると接続されているdeco x20一覧が出てきます。この画面でメインの端末がどれか、またメインの端末を変更することができます。 各端末をクリックすると詳細が出てきます。この画面では選択された端末が、メインのdeco X20とどのような接続形式を取っているか確認できます。 Connected via ethernet 試しにLANケーブルを抜いてみると自動的にメインのdexo X20とワイヤレスで接続されます。 Connected via wireless 不満点 5GHz帯と2.4GHz帯でSSIDを分けることができない。 モバイルアプリ経由で設定するタイプのIoT端末の場合、5GHz帯に対応していなければ一度deco X20の5GHzをoffにして2.4GHzに接続して設定しなければいけない場合がある。&#xA;おまけ ハブとしても使える&#xA;deco x20には1Gbpsの有線LANポートが2口あります。どちらにケーブルを刺しても端末が上位のネットワークを自動で認識してくれます。残ったポートに有線でパソコン等を接続することができます。 webベースの管理画面がある(一応)&#xA;作り込みが甘いですが、ブラウザから端末のipアドレスにアクセスするとコントロールパネルを見ることができます。 web control panel </description>
     </item>
     <item>
       <title>外食</title>
-      <link>//localhost:56934/posts/2020/06/01/912695/</link>
+      <link>//localhost:58576/posts/2020/06/01/912695/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2020/06/01/912695/</guid>
+      <guid>//localhost:58576/posts/2020/06/01/912695/</guid>
       <description>ラーメン 本郷 中華蕎麦にし乃 https://tabelog.com/tokyo/A1310/A131004/13218311/ 神田 勝本 (二種類の麺が美味しかった) https://tabelog.com/tokyo/A1310/A131003/13192433/ 勝本 (神田 勝本のほうが好みかな) https://tabelog.com/tokyo/A1310/A131003/13179757/ 茅場町 ラーメン雷鳥 https://tabelog.com/tokyo/A1302/A130203/13142437/ 曙橋 GACHI https://tabelog.com/tokyo/A1309/A130903/13160799/ 八丁堀 竹井幸彦 八丁堀茅場町店 (まぜそば美味しかった) https://tabelog.com/tokyo/A1302/A130203/13129490/ 十条 煮干そば 流。(煮干しそばとチャーシュー丼美味しかった) https://tabelog.com/tokyo/A1323/A132304/13175140/ ろく月(ぱっつんした麺で白湯スープが濃厚で美味しかった) https://lord.takerunba.com/entry/2020/07/25/103000 東銀座 八五 https://tabelog.com/tokyo/A1301/A130101/13228602/ 神保町 麺魚 https://www.mengyo.net 油そばを食べたが、ベーシックに鯛ラーメンにすればよかったかも 神保町 黒須 - 神保町/ラーメン | 食べログ 秋葉原 粋な一生 https://tabelog.com/tokyo/A1310/A131001/13021102/ 麺屋 音 （オト） - 北千住/ラーメン [食べログ] 煮干しラーメンがおいしい。混ぜそばもなかなか 中華そば いづる - 大門/ラーメン [食べログ] 中国家庭料理 楊 （中国家庭料理 ヤン） - 十条/中華料理 [食べログ] 永吉 - 西川口/中華料理 | 食べログ 排骨担々 五ノ井 - 神保町/担々麺 | 食べログ 神保町 汁なし担担麺専門 キング軒 魚 中野マグロマート https://tabelog.</description>
     </item>
   </channel>

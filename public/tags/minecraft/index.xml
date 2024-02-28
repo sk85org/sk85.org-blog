@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Minecraft on d.sk85.org</title>
-    <link>//localhost:56934/tags/minecraft/</link>
+    <link>//localhost:58576/tags/minecraft/</link>
     <description>Recent content in Minecraft on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 15 Oct 2023 00:05:13 +0900</lastBuildDate>
-    <atom:link href="//localhost:56934/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:58576/tags/minecraft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nintendo Switchで参加可能なMinecraftサーバーを立てる</title>
-      <link>//localhost:56934/posts/2023/08/18/758825/</link>
+      <link>//localhost:58576/posts/2023/08/18/758825/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2023/08/18/758825/</guid>
+      <guid>//localhost:58576/posts/2023/08/18/758825/</guid>
       <description>息子は Minecraft が大好きだ。Nintendo Switch 版を使っており、木を切って土を掘り返しては日々拠点を作り、剣を作り牛を狩っている。そろそろマルチプレイも体験してもいいだろうということで、自宅に Minecraft サーバーを構築した。いろいろと設定が面倒だったので、Nintendo Switch (BEDROCK 版)で気軽にマルチプレイをしたいなら Realms を使うのが一番だと思う。友達と遊ぶようになれば、さすがに Realms になるのかな。&#xA;Nintendo Switch でマルチプレイするために必須の契約 Nintendo Online を契約していないと、そもそもオンラインプレイができない。&#xA;Nintendo Online のサブスクリプション マイクロソフトアカウント (無料、子供用に新規作成する必要がある) サーバーを立てる docker-minecraft-bedrock-server 今回は BEDROCK 版サーバーを docker で起動したいのでitzg/docker-minecraft-bedrock-serverを使用した。docker-compose.yml を下のように作成して、docker-compose up で起動。docker-compose.yml における environment の詳細は【マイクラ統合版】server.properties の設定一覧と解説【サーバー設定】 ｜ ひきこもろんが詳しい。難易度は easy, ゲームオーバーになってもアイテムをドロップしない設定にしたいのでチートモードを有効に。アイテムをドロップしない 「/gamerule keepInventory true」 コマンドを叩くために、DEFAULT_PLAYER_PERMISSION_LEVEL を operator に設定。DEFAULT_PLAYER_PERMISSION_LEVEL は本来は member にして、個別のユーザーに管理者権限を付与するべきだが息子と二人しか遊ばないのであえて operator にしている。データのバックアップとかはまた後日&#xA;version: &amp;#39;3.4&amp;#39; services: bds: container_name: bds restart: always image: itzg/minecraft-bedrock-server:latest environment: SERVER_NAME: jitaku EULA: &amp;#34;TRUE&amp;#34; GAMEMODE: survival #ゲームモード ONLINE_MODE: &amp;#34;false&amp;#34; TICK_DISTANCE: 12 ALLOW_CHEATS: &amp;#34;true&amp;#34; #チートの許可 DIFFICULTY: easy #難易度 LEVEL_NAME: MY WORLD DEFAULT_PLAYER_PERMISSION_LEVEL: operator #参加者のデフォルト権限 TZ: Asia/Tokyo ports: - 19132:19132/udp volumes: - .</description>
     </item>
     <item>
       <title>2023-06-05</title>
-      <link>//localhost:56934/posts/2023/06/05/719852/</link>
+      <link>//localhost:58576/posts/2023/06/05/719852/</link>
       <pubDate>Mon, 05 Jun 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2023/06/05/719852/</guid>
+      <guid>//localhost:58576/posts/2023/06/05/719852/</guid>
       <description>午前 息子通園 実験 ミーティング 午後 実験続き 明日は学会なので早めに退社 体調 80 その他 Minecraft を Parsec でリモートプレイ ゲーム用のデスクトップ PC に Parsec を入れて Mac からマインクラフトをやってみると思いのほか快適 ネットワークの遅延は有線だと遅延が 0.4msec ぐらい、wifi だと 3msec ぐらい Parsec の良いところはゲスト側のコントローラー設定をホストで仮想 USB としてマッピングしてくれる JAVA 版だとControllable (Forge) - Minecraft Mods - CurseForgeという mod を入れることで、コントローラーが利用可能になるが、contollable は bluetooth と相性が悪いようでケーブルを繋げないと動作しなかった。 Parsec だと入力デバイスはホストで仮想 USB として認識されるので、ゲスト側は bluetooth でも全く問題ない Parsec、apple TV 用のアプリが出ると良いなあ Death Stranding も簡単にリモートプレイ出来た Steam Link が いらない子になった Parsec はハードウェアエンコーダー/デコーダーを使っているので、良い GPU を使えばもっと快適になるのだろうか？ 今日の Tabs </description>
     </item>
   </channel>

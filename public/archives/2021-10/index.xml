@@ -2,234 +2,234 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2021-10 on d.sk85.org</title>
-    <link>//localhost:56934/archives/2021-10/</link>
+    <link>//localhost:58576/archives/2021-10/</link>
     <description>Recent content in 2021-10 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 25 Feb 2024 23:30:39 +0900</lastBuildDate>
-    <atom:link href="//localhost:56934/archives/2021-10/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:58576/archives/2021-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021-10-31</title>
-      <link>//localhost:56934/posts/2021/10/31/59562/</link>
+      <link>//localhost:58576/posts/2021/10/31/59562/</link>
       <pubDate>Sun, 31 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/31/59562/</guid>
+      <guid>//localhost:58576/posts/2021/10/31/59562/</guid>
       <description>午前 6:30起床 息子に朝食を作る 朝一で選挙へ cloudflaredを触って遊ぶ 夕食用の鯛を買いに角上魚類へ 良いのが無かったので断念 午後 ふるさと納税でブルーシールのアイスが届く 3DプリンタをKlipperに対応させようと調査 スーパーに買い物に 体調 普通 その他 今日のTabs Overview - Klipper documentation Klipper on Ender 3 V2: How to Install It | All3DP How to Use OctoPrint with BLTouch – Simply Explained | All3DP 【3Dプリンタ】Ender-3 ProにKlipperファームウェアを導入した – OctoPi＋Klipper編 | あること・ないこと日記 Turing Complete </description>
     </item>
     <item>
       <title>Cloudflare Tunnelを使ってローカルのサーバーを安全に公開する</title>
-      <link>//localhost:56934/posts/2021/10/30/353859/</link>
+      <link>//localhost:58576/posts/2021/10/30/353859/</link>
       <pubDate>Sat, 30 Oct 2021 15:09:27 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/30/353859/</guid>
+      <guid>//localhost:58576/posts/2021/10/30/353859/</guid>
       <description>VPSをやめる indigoのVPSサーバー上にTailscaleをインストールして、自宅のサーバーにVPNで接続して、nginxのproxyとBASIC認証を使っていたのだけれど*、自宅からVPSサーバーを迂回して大きなファイルを転送するとループを検知してか、30分ぐらいIPアドレスがブロックされてしまう。運用も面倒だなと思っていたら、Cloudflare Tunnelを使うと、無料で認証まで簡単にやってくれるらしい。実際やってみると簡単。VPS借りて手動でプロキシ立てるのがばからしくなる。&#xA;メモ 前提 必要なのは&#xA;自分でネームサーバーを設定できる独自ドメイン Cloudflareにドメインを登録してネームサーバーをCloudflareに設定する Cloudflareが現状のDNS設定を読み込んでくれ、ネームサーバーの変更をガイドしてくれる&#xA;Cloudflare for Teamsに登録 アプリケーションの追加 Cloudflare for Teamsのダッシュボードからアプリケーションを追加する。Application URLはアクセスしたいURLを指定する。認証方法はメールアドレスや、IPアドレス、国等いろいろと選べる。 cloudflaredのインストール Get started · Cloudflare for Teams documentation&#xA;ログインとTunnelsの作成(tunnelの作成はnon rootで可能) $ cloudflared tunnel login #(表示されるURLにアクセスする) $ loudflared tunnel create NAME #(NAMEは任意のチャンネル名) Tunnel credentials written to /path/to/.cloudflared/&amp;lt;Tunnel-UUID&amp;gt;.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel. ダッシュボードから作成したTunnelsのTunnel-UUIDが確認できる。削除はCLIもしくはダッシュボードから可能。 ホームフォルダ上の.cloudflaredディレクトリの中に設定ファイルconfig.ymlを作成する。 サーバー上のサービスとバーチャルホストを対応させる。サービスごとにTunnelを作成することもできるが、簡単にするためにIngress rulesにする。</description>
     </item>
     <item>
       <title>2021-10-30</title>
-      <link>//localhost:56934/posts/2021/10/30/300029/</link>
+      <link>//localhost:58576/posts/2021/10/30/300029/</link>
       <pubDate>Sat, 30 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/30/300029/</guid>
+      <guid>//localhost:58576/posts/2021/10/30/300029/</guid>
       <description>午前 8:30起床 10:00ごろ近くのモールに買い物に 午後 だらだらとcloudflareの設定をいじる ユニクロに冬物を買いに 公園で遊ぶ 夕食は一年ぶりぐらいに鳥貴族 23:30就寝 体調 普通 その他 lm_sensorsでファンの回転数が取れない 先日導入したサーバーにlm_sensorsをインストールしてもファン回転数や電圧が取れない。&#xA;これで解決した: how to display fan speeds - Ask Ubuntu&#xA;/etc/default/grubを編集して GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;acpi_enforce_resources=lax&amp;#34; にする $ sudo update-grub $ reboot 今日のTabs （最後の挨拶）ドイツという国 3Dプリンタ＆メカ設計入門 ｜ Interface – CQ出版 3d </description>
     </item>
     <item>
       <title>2021-10-29</title>
-      <link>//localhost:56934/posts/2021/10/29/255712/</link>
+      <link>//localhost:58576/posts/2021/10/29/255712/</link>
       <pubDate>Fri, 29 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/29/255712/</guid>
+      <guid>//localhost:58576/posts/2021/10/29/255712/</guid>
       <description>午前 昨日の失敗が心配であまり眠れず 7:00起床 子供通園 見積もりを確認 昨日の実験失敗原因の分析検討 どうしていいかわからない ミーティング 午後 報告書の作成 午前の続き 原料が壊れているわけではなさそう 回収は出来ることは幸運だ ある条件を使うと、収束させられることがわかった 実証実験して水に溶けなくなることを確認 分析的にも問題ない よ、よかった 残業2時間 懸念事項も片づいて良い週末になりそうだ 時間をかけた案件で最後にこういうことがあると、本当に気がめいる 体調 普通 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-28</title>
-      <link>//localhost:56934/posts/2021/10/28/387685/</link>
+      <link>//localhost:58576/posts/2021/10/28/387685/</link>
       <pubDate>Thu, 28 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/28/387685/</guid>
+      <guid>//localhost:58576/posts/2021/10/28/387685/</guid>
       <description>午前 7:00起床 息子通園 8:30出社 昨日の実験結果をもとに大きな量で試験 分析的は問題ないので後処理 ミーティング 午後 後処理を継続 なんか変だぞ 装置で加熱しても全然飛ばない なぜか成分の多くが水に溶ける 失敗の原因 昨日の検討実験で、何か変だと思ったが自分に都合が良い分析結果を採用した 大丈夫「だろう」と思った 別の分析方法を試さなかった どうしても今週中に終わらせたかったので焦っていた 相当へこみますな 現状をまとめたスライドを作成 夜も心配になってなかなか眠れず 体調 ふつう その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-27</title>
-      <link>//localhost:56934/posts/2021/10/27/962504/</link>
+      <link>//localhost:58576/posts/2021/10/27/962504/</link>
       <pubDate>Wed, 27 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/27/962504/</guid>
+      <guid>//localhost:58576/posts/2021/10/27/962504/</guid>
       <description>午前 9:00ごろ出社 実験 ミーティング 午後 長めの打ち合わせ 実験継続 なんか変だが、モニタリングではおかしいところはないので、何とかなるでしょう これが翌日大きな問題を生むことに 体調 普通 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-26</title>
-      <link>//localhost:56934/posts/2021/10/26/972422/</link>
+      <link>//localhost:58576/posts/2021/10/26/972422/</link>
       <pubDate>Tue, 26 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/26/972422/</guid>
+      <guid>//localhost:58576/posts/2021/10/26/972422/</guid>
       <description>午前 風邪のためか眠りが浅い 10:00過ぎに出社 悪寒とのどが痛くパソコン持ち帰って勤務 ミーティング 食欲がないのでカロリーメイトとスポーツドリンク 午後 進捗の打ち合わせ 見積もりの作成 広告の確認 いつの間にか悪寒が治まっていた 体調 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-25</title>
-      <link>//localhost:56934/posts/2021/10/25/816424/</link>
+      <link>//localhost:58576/posts/2021/10/25/816424/</link>
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/25/816424/</guid>
+      <guid>//localhost:58576/posts/2021/10/25/816424/</guid>
       <description>午前 風邪気味のため休み 熱はなし、のどの痛みあり 午後 計算用サーバーを組む GPUは不要なので内蔵GPUを利用 Core i5 10400なで温度も高くならない さくっとubuntuを入れてターミナルから利用 dockerをインストール gpasswd -a USER docker で一般ユーザーからもdockerコマンドが使えるようにする LVM を拡張 さすがに64GBメモリを積んでいると早いな データをすべてメモリに格納して計算させている あとは温度 夜はなかなか眠れず 体調 風邪気味 熱はないがのどが痛い その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-24</title>
-      <link>//localhost:56934/posts/2021/10/24/619500/</link>
+      <link>//localhost:58576/posts/2021/10/24/619500/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/24/619500/</guid>
+      <guid>//localhost:58576/posts/2021/10/24/619500/</guid>
       <description>午前 息子は責が苦しく夜中に何度か起きていた 朝は咳が改善 家でゆっくり過ごす 回転すしをテイクアウト 午後 微熱 終日家で過ごす 体調 風邪気味 その他 計算用サーバーの構成 とにかくメモリが必要なのでGPUは未搭載&#xA;http://niku.webcrow.jp/u/fA1eo&#xA;【CPU】インテル Core i5 10400 BOX ¥18,580&#xA;【CPUクーラー】AINEX CC-06S ¥1,300&#xA;【メモリ】CFD CFD Selection W4U2666CM-16GR [DDR4 PC4-21300 16GB 2枚組] ¥28,820 x2&#xA;【マザーボード】ASUS PRIME B460M-A ¥9,680&#xA;【SSD】WESTERN DIGITAL WD Blue SN550 NVMe WDS500G2B0C ¥6,470&#xA;【ケース】Thermaltake Versa H17 CA-1J1-00S1NN-00 ¥2,855&#xA;【電源】玄人志向 KRPW-BK650W/85+ ¥5,849&#xA;【合計】¥ 73,554&#xA;今日のTabs </description>
     </item>
     <item>
       <title>2021-10-23</title>
-      <link>//localhost:56934/posts/2021/10/23/630249/</link>
+      <link>//localhost:58576/posts/2021/10/23/630249/</link>
       <pubDate>Sat, 23 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/23/630249/</guid>
+      <guid>//localhost:58576/posts/2021/10/23/630249/</guid>
       <description>午前 はれ 6:30ごろ起床 本日は息子の運動会 今年は時間を区切ってクラスごとにやるようだ 8:30ごろ公園に行き、9:00ごろから開始 家ではほとんど踊らない息子だが、かけっこや、協調運動、行進が出来ていて驚いた 息子は運動会が嫌だ怖いと言っており、私も小さい頃は運動会が嫌だったが、親の立場で見ると良いものだ 午後 奥さんがお弁当を作ってくれたので、電車で大きな公園に行き外で食べる 息子の咳が出始める 元気だが夕方にかけて咳が続く 夜は空咳がひどくて23:00ごろまで眠れず、夜中も何回か起きていた 添い寝をしていたのでおそらく24:00ごろ就寝 体調 ふつう その他 NUCを新調しようか 家で使っているNUCはCeleron J3455が搭載されていて、消費電力が低くファンレスなのが良いのだけれど、CPUが対応していない命令があるようで解析ソフトが動かなかった。どうしようかねえ。買うなら、NUC11PAHi5にメモリ16GBぐらいか&#xA;今日のTabs おやすみ</description>
     </item>
     <item>
       <title>2021-10-22</title>
-      <link>//localhost:56934/posts/2021/10/22/47753/</link>
+      <link>//localhost:58576/posts/2021/10/22/47753/</link>
       <pubDate>Fri, 22 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/22/47753/</guid>
+      <guid>//localhost:58576/posts/2021/10/22/47753/</guid>
       <description>午前 雨が降って寒い 7:00起床 8:30に出社 昨日の作業が終わってないので、引き続き 詰まってた お客さんとの面談の議事録作成 調査業務 ミーティング 午後 資料作成 長めの会議 作業を少しやってほぼ定時で帰宅 雨が降っていたのでバスで駅まで帰宅 早めに就寝 体調 普通 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-21</title>
-      <link>//localhost:56934/posts/2021/10/21/322677/</link>
+      <link>//localhost:58576/posts/2021/10/21/322677/</link>
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/21/322677/</guid>
+      <guid>//localhost:58576/posts/2021/10/21/322677/</guid>
       <description>午前 7:00起床 息子と通園 8:30出社 昨日の実験の後処理 ミーティング 午後 調査業務 お客さんと打ち合わせ 議事録作成 残業2時間 昔のボスの依頼で、某企業の人に連絡とったら出向してた とりあえず一緒に焼き肉に行く約束をした 焼肉ヒロミヤ 四谷4号店 体調 お疲れ気味 やることが多すぎて、もうぐったり その他 今日のTabs キハの国から～蒼き線路でどこまでも～ わい(なつ)さんはTwitterを使っています 「屋根めんどうだyo https://t.co/KaJjSL82ka」 / Twitter 屋根の作例 【3Dプリンタ】Ender3 V2にBLTouch(オートレベリング)機能を適応する手順！ | ぶらり＠web走り書き Fusion360でラックギアやインターナルギアが作れるようになりました【FM Gears】 - 創成ミライ 東京化学同人さんはTwitterを使っています 「先月に続き、雑誌のインパクトファクターを稼ぐためのプロのエディターの存在など、学術誌の現状を生々しく伝えます。新世代ジャーナルの在り方なども。「論文審査は本当にきちんとされているのか？」（有賀克彦先生）現代化学 2021年11月号 [雑誌] https://t.co/0rHT02NMaI @amazonJPより https://t.co/iZvvZLUpGI」 / Twitter </description>
     </item>
     <item>
       <title>2021-10-20</title>
-      <link>//localhost:56934/posts/2021/10/20/994643/</link>
+      <link>//localhost:58576/posts/2021/10/20/994643/</link>
       <pubDate>Wed, 20 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/20/994643/</guid>
+      <guid>//localhost:58576/posts/2021/10/20/994643/</guid>
       <description>午前 6:55起床 朝一で会議のため出社 8:00前から海外現法ち打ち合わせ また会議 ミーティング 午後 またまた技術系の会議 実験 ほぼ定時で帰宅 夕食の時に、息子が食べたかったキュウリを全部食べてしまって息子は激怒していた 23:00ごろ布団に入ったが、0時半ぐらいまで眠れず 体調 普通 その他 今日のTabs なし</description>
     </item>
     <item>
       <title>2021-10-19</title>
-      <link>//localhost:56934/posts/2021/10/19/279947/</link>
+      <link>//localhost:58576/posts/2021/10/19/279947/</link>
       <pubDate>Tue, 19 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/19/279947/</guid>
+      <guid>//localhost:58576/posts/2021/10/19/279947/</guid>
       <description>午前 7:00起床 息子通園 資料を作成 昨日の実験の後処理 分析するとうまく抽出できていた ミーティング 午後 新しい実験の開始 海外支社にプレゼン ほぼ聞いてるだけ 研究所体制について打ち合わせ 昨日のミーティングで久しぶりにお会いした先生から電話、しばしば雑談 1.5時間残業 23:30就寝 体調 ふつう その他 M1 Pro, Maxプロセッサ搭載14, 16インチMBP発表 まずTouchBarさようなら、本当に必要がない機能だった。&#xA;M1と比べて数の暴力でトランジスタ数を上げてSoCのサイズを大型化してきた。5nmプロセスで現実的な歩留まりで大きなダイを作れるのはすごい技術だ。ダイサイズ増加による消費電力増に対応するため、バッテリも増やしたのでM1のMBAに対して300gの大幅な重量増ですが、こればかりは仕方がない。MBPとMBAで明確にターゲットユーザーが区分けされていて分かりやすい。クリエーターじゃない人は軽くて安いファンレスMBAで十分でしょう。&#xA;Apple、GPUを1チップに統合して驚異的な性能を発揮する「M1 Pro」、「M1 Max」 - PC Watch 【笠原一輝のユビキタス情報局】CPUもGPUも最高性能となったM1 ProとM1 Max、課題はアプリケーション対応 - PC Watch MacBook Air - 仕様 - Apple（日本） 14インチと16インチMacBook Pro - 仕様 - Apple（日本） 今日のTabs なし</description>
     </item>
     <item>
       <title>2021-10-18</title>
-      <link>//localhost:56934/posts/2021/10/18/517603/</link>
+      <link>//localhost:58576/posts/2021/10/18/517603/</link>
       <pubDate>Mon, 18 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/18/517603/</guid>
+      <guid>//localhost:58576/posts/2021/10/18/517603/</guid>
       <description>午前 朝調子が悪く息子を送った後横になる 10:00に出社 打ち合わせのためにレジュメまとめる ミーティング 午後 打ち合わせ お客さんからややきつめの言葉が営業の方に ボールを相手に投げる 少し実験 資料作成と調査 定時に帰宅 マンションの公開空地で子供に対する暴行事件が発生 中年女性が逮捕される、よくうろうろしているあの人かなあ 誰にせよ子供に暴行するなんて許せませんね 体調 普通 その他 今日のTabs Fusion360でラックギアやインターナルギアが作れるようになりました【FM Gears】 - 創成ミライ 超簡単！ Fusion 360で歯車を作成する方法 | モデログ </description>
     </item>
     <item>
       <title>2021-10-17</title>
-      <link>//localhost:56934/posts/2021/10/17/141518/</link>
+      <link>//localhost:58576/posts/2021/10/17/141518/</link>
       <pubDate>Sun, 17 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/17/141518/</guid>
+      <guid>//localhost:58576/posts/2021/10/17/141518/</guid>
       <description>午前 朝から寒い、秋を通り越して冬がきた 7:30起床 息子に朝食のサンドイッチを作る 雨の中スイミングスクールへ 僕は留守番して消防点検の対応 午後 昼食後にすぐに昼寝 夕方雨が上がったので図書館に 保育園のお友達に合う 翌日の朝食をコンビニで買いつつ帰宅 23:30ごろ帰宅 体調 ふつう その他 今日のTabs おやすみ</description>
     </item>
     <item>
       <title>2021-10-16</title>
-      <link>//localhost:56934/posts/2021/10/16/72672/</link>
+      <link>//localhost:58576/posts/2021/10/16/72672/</link>
       <pubDate>Sat, 16 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/16/72672/</guid>
+      <guid>//localhost:58576/posts/2021/10/16/72672/</guid>
       <description>午前 7:00ごろ起床 個人用のブックマークサイトを自宅のサーバーに移す作業 10:00ごろ家族で池袋へ向けて出発 パルコ前からIKEBUSに乗ってサンシャインへ 丸亀製麺で昼食 タル鶏天頼んだら思ったより大きくて、サイドのてんぷらをテイクアウト 午後 噴水前で小田急のイベントをやっていてプラレールを走らせていた イケサンパークで遊ぶ 15:00ごろに荒川線で大塚へ ぼんごでテイクアウトしようかと思ったら大変込んでいたので断念 帰宅してお昼寝 夕方スーパーへ 安かったのでカツオのたたきを 24:00ごろ就寝 体調 普通 その他 今日のTabs Plare Search は自作・改造プラレールの情報サイトです。 めちゃくちゃ便利 知られざる30年の開発史 - 日経サイエンス LiDARスキャナで部屋を3D化してBlenderでツーバイ材DIYの設計したらうまくできました｜鷲羽宗一郎｜note docker composeのserviceをグループ化 RISC-V OSを作ろう (1) ～ブート処理 - VA Linux エンジニアブログ ClipPaste: Universal Clipboard 2.3 - Mac、Android、iPhone・iPad間でコピー＆ペーストを実現 - 新しもの好きのダウンロード 機械翻訳アプリ「DeepL翻訳 for iOS」がiOS 15の新機能「Text from Camera」に対応し、カメラでテキストをスキャンし瞬時に翻訳を行うことが可能に。 ホテルメイドの贅沢パン～ザ・ペニンシュラ東京の「メープルクロッカン」 なかなか買えないんだよなあ、自作してみるか？ </description>
     </item>
     <item>
       <title>2021-10-15</title>
-      <link>//localhost:56934/posts/2021/10/15/924927/</link>
+      <link>//localhost:58576/posts/2021/10/15/924927/</link>
       <pubDate>Fri, 15 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/15/924927/</guid>
+      <guid>//localhost:58576/posts/2021/10/15/924927/</guid>
       <description>午前 7:00起床 本日有給 奥さんと秋葉原のビックカメラへ 奥さんはかばんを物色 僕はappleコーナー辺りで時間を潰す M1X出るのかなあ 駅前のほん田で40分ほど並んでラーメンを食べる 大盛り頼んだら思った以上に麺が多くておなかいっぱい 午後 品川でケーキを買って帰宅 僕は別の店でケーキを買う 夜は寝かしつけをしていたら寝落ちしてしまった 体調 普通 その他 今日のTabs おやすみ</description>
     </item>
     <item>
       <title>2021-10-14</title>
-      <link>//localhost:56934/posts/2021/10/14/112817/</link>
+      <link>//localhost:58576/posts/2021/10/14/112817/</link>
       <pubDate>Thu, 14 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/14/112817/</guid>
+      <guid>//localhost:58576/posts/2021/10/14/112817/</guid>
       <description>午前 7:00起床 子供通園して出社 ひたすら昨日の続き、取り込まれた物質を回収 ミーティング 午後 実験続き 急ぎの報告書作成 残業2時間 体調 普通 その他 今日のTabs お休み</description>
     </item>
     <item>
       <title>2021-10-13</title>
-      <link>//localhost:56934/posts/2021/10/13/383042/</link>
+      <link>//localhost:58576/posts/2021/10/13/383042/</link>
       <pubDate>Wed, 13 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/13/383042/</guid>
+      <guid>//localhost:58576/posts/2021/10/13/383042/</guid>
       <description>午前 7:00 起床 9:00 前に出社 昨日の実験の続き うーむ、まだ残っている ミーティング 午後 技術系の会議 三時間近くかかってしまった 実験の続き まだ残っている 定時で退社 帰りに髪を切る 23:30 就寝 体調 普通 その他 iPadOS 15 の JIS キーボードが US 配列と認識される問題は iPadOS 15.0.2 にすると解決 往復プラレールが発売される、これは楽しみだ。改造して路面電車にしよう S-40 レールで往復！H5系はやぶさ&#xA;ついに通常プラレールにも往復車両が…！&#xA;って、はやぶさ多すぎだろ。 pic.twitter.com/Q0ynTLC5FC&#xA;&amp;mdash; ゆう P_kiesFan (@P_kiesFan21) October 12, 2021 proxy サーバーを立てる tailscale 経由で自宅のサーバーにつなげた ZeroSSL ではワイルドカード証明は有料 Let&amp;rsquo;s Encrypt ではワイルドカード証明には DNS-01 認証が必要だが、更新も DNS 認証なので手動更新が必要 Let’s Encrypt client and ACME library written in Go. 無料の SSL 証明書が得られる ZeroSSL を使ってみた lego コマンドで Let&amp;rsquo;s Encrypt - Mazn.</description>
     </item>
     <item>
       <title>2021-10-12</title>
-      <link>//localhost:56934/posts/2021/10/12/43501/</link>
+      <link>//localhost:58576/posts/2021/10/12/43501/</link>
       <pubDate>Tue, 12 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/12/43501/</guid>
+      <guid>//localhost:58576/posts/2021/10/12/43501/</guid>
       <description>午前 7:00起床 息子通園 昨日の実験片づけ 大きな量で実験 ミーティング 午後 午前の実験の後処理 うーむ金属に取り込まれてしまった 無理やりいろいろ試して抽出する 時間がかかっている、よくない 残業1.5時間 体調 普通 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-11</title>
-      <link>//localhost:56934/posts/2021/10/11/108330/</link>
+      <link>//localhost:58576/posts/2021/10/11/108330/</link>
       <pubDate>Mon, 11 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/11/108330/</guid>
+      <guid>//localhost:58576/posts/2021/10/11/108330/</guid>
       <description>午前 7:00起床 パンケーキを食べる 息子通園 精製作業 ミーティング 午後 作業続き 会議 作業続き とてもうまくいった 残業1時間して帰宅 体調 普通 その他 今日のTabs お休み</description>
     </item>
     <item>
       <title>2021-10-10</title>
-      <link>//localhost:56934/posts/2021/10/10/918381/</link>
+      <link>//localhost:58576/posts/2021/10/10/918381/</link>
       <pubDate>Sun, 10 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/10/918381/</guid>
+      <guid>//localhost:58576/posts/2021/10/10/918381/</guid>
       <description>午前 6:30起床 息子に朝食を作る QNAPの環境構築 息子はスイミング 午後 息子腹痛で調子が悪いとのことなので、15:00ぐらいまで寝かせる 治ったようだ 夕方公園に散歩に スーパーによって帰宅 24:00就寝 体調 普通 その他 QNAP環境構築 QTS 5にアップデート 管理用アカウントを作ってデフォルトのadminアカウントを無効にする 管理用アカウントに公開鍵を登録 Qsirch5.0を入れてみたが、自分の用途には合わない。 GUIの使い勝手はよいが一回一回ログインしなければいけないのが面倒 PDFを検索したいだけなので、PDF検索システムの方が便利かな Container Stationは良くできている sshで接続してdockerコマンドが使える 16GBメモリがあるのはいいね Plexを導入 ローカルのメディアファイルをすべてplexに移す リモートアクセスを有効に iOSにplexのアプリを導入してストリーミングできるようにする 長年のiPhoneに音楽を同期するの面倒くさい問題が解決した うまく同期できないファイルもあった TS-231Pの初期化とストレージの安全消去 ボリュームを削除して、RAIDを解除して安全消去で上書き 安全消去が出来ない場合は、新しく非RAIDでボリュームを作って再度削除してからもう一度試す 今日のTabs なし</description>
     </item>
     <item>
       <title>2021-10-09</title>
-      <link>//localhost:56934/posts/2021/10/09/540119/</link>
+      <link>//localhost:58576/posts/2021/10/09/540119/</link>
       <pubDate>Sat, 09 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/09/540119/</guid>
+      <guid>//localhost:58576/posts/2021/10/09/540119/</guid>
       <description>午前 7:30起床 奥さんはお土産用のベーグルを買いに行く 息子と早めに奥さんの実家へ出発 最寄り駅で集合 午後 回転すしを食べて実家へ 二人とも元気そうで何より おばあちゃんの家も訪問して息子の顔を見せる 16:30ごろ家を出る 子供の寝かしつけをしながら寝てしまう 体調 普通 その他 今日のTabs なし</description>
     </item>
     <item>
       <title>2021-10-08</title>
-      <link>//localhost:56934/posts/2021/10/08/133438/</link>
+      <link>//localhost:58576/posts/2021/10/08/133438/</link>
       <pubDate>Fri, 08 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/08/133438/</guid>
+      <guid>//localhost:58576/posts/2021/10/08/133438/</guid>
       <description>午前 7:00起床 息子通園 昨日の実験の継続 結果分析 ミーティング 午後 会議資料作成 会議 別の研究所に二日間で作った試作品を送付 QNAP一式が届く 体調 普通 その他 QNAPのTS-251Dが届く TS-251D W4N2400CM-8G*2 WD40EZAZ*2 8GBメモリ2枚を刺して起動、問題なく稼働。TS-231Pに刺さっていたHDD-1本をTS-251Dのベイ1に刺して、WD40EZAZをベイ2に刺すと自動でミラーリングしてくれた。その後、ベイ1の古いHDDを取り出して残りのWD40EZAZを差し込む。これでベイ1のHDDもミラーリングされる。最後に、容量を拡張して終了。&#xA;今日のTabs なし</description>
     </item>
     <item>
       <title>2021-10-07</title>
-      <link>//localhost:56934/posts/2021/10/07/732119/</link>
+      <link>//localhost:58576/posts/2021/10/07/732119/</link>
       <pubDate>Thu, 07 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/07/732119/</guid>
+      <guid>//localhost:58576/posts/2021/10/07/732119/</guid>
       <description>午前 7:00起床 息子通園 そのまま出社 ひたすら実験 ミーティング 午後 ひたすら実験 残業1時間 体調 普通 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-06</title>
-      <link>//localhost:56934/posts/2021/10/06/373298/</link>
+      <link>//localhost:58576/posts/2021/10/06/373298/</link>
       <pubDate>Wed, 06 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/06/373298/</guid>
+      <guid>//localhost:58576/posts/2021/10/06/373298/</guid>
       <description>午前 7:00起床 8:30ごろに出社 昨日の実験の分析 なかなかうまくいっている 月曜の実験の後処理継続 ミーティング 昼食はサイゼリア 午後 技術系の会議で発表 分析の続き 進んでいるようなので、今日も継続 ほぼ定時で帰宅 今日はゆっくりしてたな 24:00就寝 体調 普通 その他 QNAPのTS-251Dを買う QTS 5が公開鍵認証に対応したので、これはいい。メモリは16GB運用で実績のあるW4N2400CM-8G*2枚を発注。ビックカメラ.comだとWDのWD40EZAZが購入制限で一台しか買えなかったので、もう一台は実店舗で買おう。&#xA;今日のTabs ウクライナ発個人プロジェクトGitLabが1兆円規模のIPOへ、その4つの教訓 | Coral Capital Tsai Ing-wen: Taiwan and the Fight for Democracy 今日からできるサイバー脅威インテリジェンスの話-実践編- - NFLabs. エンジニアブログ macOSの暗号化zipファイルはパスワード無しで解凍できる - NFLabs. エンジニアブログ なるほど、.DS_Storeはパターンが決まっていて既知平文攻撃ができるのか </description>
     </item>
     <item>
       <title>2021-10-05</title>
-      <link>//localhost:56934/posts/2021/10/05/604886/</link>
+      <link>//localhost:58576/posts/2021/10/05/604886/</link>
       <pubDate>Tue, 05 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/05/604886/</guid>
+      <guid>//localhost:58576/posts/2021/10/05/604886/</guid>
       <description>午前 7:00起床 息子通園 昨日の実験の精製 設備の業者対応 実験の後処理 午後 研究所の会議 ミーティング 昨日依頼があった案件を急いで仕込む 会議資料作成 残業1.5時間 24:00就寝 体調 忙しいが良好 その他 今日のTabs ContainerStationでDocker×UbuntuにSSH接続する方法【QNAP】 – 35からのプログラミング </description>
     </item>
     <item>
       <title>2021-10-04</title>
-      <link>//localhost:56934/posts/2021/10/04/210214/</link>
+      <link>//localhost:58576/posts/2021/10/04/210214/</link>
       <pubDate>Mon, 04 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/04/210214/</guid>
+      <guid>//localhost:58576/posts/2021/10/04/210214/</guid>
       <description>午前 7:00起床 子供通園 月曜にしてはやる気がある 朝から大きな量で実験 ミーティング 午後 人事関連書類の確認 午前の後処理 急ぎで作って欲しいサンプル依頼が来て、大急ぎで準備 残業1時間ちょっと 夕食は奥さんが作ったいくらの醤油漬けとサーモン丼 23:30に就寝 体調 月曜にしては良い その他 今日のTabs 奥神楽坂のフレンチビストロ「ラ グラティチュード」のランチ│夫婦で世界と日本を旅する生活 Bistro la gratitude - tatzulog </description>
     </item>
     <item>
       <title>2021-10-03</title>
-      <link>//localhost:56934/posts/2021/10/03/91235/</link>
+      <link>//localhost:58576/posts/2021/10/03/91235/</link>
       <pubDate>Sun, 03 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/03/91235/</guid>
+      <guid>//localhost:58576/posts/2021/10/03/91235/</guid>
       <description>午前 7:30起床 奥さんが息子の朝食を作ってくれていた 水泳教室に連れて行く 待っている間は、近くのハンバーガー屋でPovoを使ってネットサーフィン M1のMBAが快適だ、バッテリもほとんど減らない 昼食は回転すし 午後 昼寝 息子と遊んで、その間に奥さんが昼寝 スーパーに行く イカと筋子が安かった イカは唐揚げにして、筋子は醤油漬けに 明日から仕事なので、22:30就寝 体調 問題なし その他 今日のTabs おやすみ</description>
     </item>
     <item>
       <title>2021-10-02[通院12回目]</title>
-      <link>//localhost:56934/posts/2021/10/02/337604/</link>
+      <link>//localhost:58576/posts/2021/10/02/337604/</link>
       <pubDate>Sat, 02 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/02/337604/</guid>
+      <guid>//localhost:58576/posts/2021/10/02/337604/</guid>
       <description>午前 7:30起床 息子と家で遊んでから公園に行く 自宅で昼食 昨日半額で買った、麻婆豆腐焼きそば 午後 昼寝 息子は奥さんと公園に自宅で作業 駅ナカのラーメン屋で夕食をとる Povoで番号をとって使い放題オプション使ってみた 快適 今までは外で作業するときはネットカフェでやっていたが、今後は使い放題オプションを活用して図書館等でも良いかも 心療内科 23:30ごろ帰宅してすぐに就寝 体調 普通 その他 心療内科 12回目 朝の調子が優れない 夜眠れない日が多い 眠れないときはBZDを多めに 部下の仕事がうまくいっておらず上席からの指導が気掛かり 指導を叱責ととらえずに、物事をよくするためのアドバイスととらえる 叱責という言葉を使わない たしからに指導を叱責と同一視していた 今日のTabs pilotmoon/PopClip-Extensions: Documentation and source code for PopClip extensions. PopClipエクステンションの作り方 macOS版「辞書 by 物書堂」用PopClip拡張を作った – おもむくがままに nginxでHTMLを改変 - rougeref’s diary nginxのHttpSubModuleを使ってHTML内のリンクを書き換えてみた | blog.fukata.org 備忘録: nginx でアクセス元 IP レンジに応じて Web アプリケーションを切り替える - Qiita 無料の SSL 証明書が得られる ZeroSSL を使ってみた 【ゆっくり解説】抗体 - ニコニコ動画 WIPO PATENTSCOPE マーカッシュ構造検索の利用方法 (特許検索)｜Smartworks Inc.　/ 酒井美里｜note 光速の文献管理ソフト「Paperpile」 | Chem-Station (ケムステ) \と¥の問題 - 立命館大学情報理工学部セキュリティ・ネットワークコース　プログラミング言語サポートページ </description>
     </item>
     <item>
       <title>2021-10-01</title>
-      <link>//localhost:56934/posts/2021/10/01/192777/</link>
+      <link>//localhost:58576/posts/2021/10/01/192777/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/10/01/192777/</guid>
+      <guid>//localhost:58576/posts/2021/10/01/192777/</guid>
       <description>午前 台風 7:00起床 朝吐き気あり 二度寝して8:10に家を出る 雨が強いのでバスで出社 昨日の続き ミーティング 上席から、昨日同様部下の実験の進め方について指導を受ける ミーティング 午後 午前の作業継続 長めの会議 途中で居眠りしてしまった、良くないですね 作業継続 事務作業 残業1時間 帰りもバスで来たく 体調 持ち直してきた ここ数日調子が悪かったのコーヒーを夜に飲んでいたからと思われる その他 今日のTabs 1 A.M Study Session 📚 - [lofi hip hop/chill beats] - YouTube 東芝など、6分で充電できる次世代電池を2023年度に商業化へ | 日経クロステック（xTECH） </description>
     </item>
   </channel>

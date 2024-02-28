@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020-02 on d.sk85.org</title>
-    <link>//localhost:56934/archives/2020-02/</link>
+    <link>//localhost:58576/archives/2020-02/</link>
     <description>Recent content in 2020-02 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate>
-    <atom:link href="//localhost:56934/archives/2020-02/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:58576/archives/2020-02/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>葱油メモ kiki麺を再現する</title>
-      <link>//localhost:56934/posts/2020/02/22/937013/</link>
+      <link>//localhost:58576/posts/2020/02/22/937013/</link>
       <pubDate>Sat, 22 Feb 2020 09:00:36 +0900</pubDate>
-      <guid>//localhost:56934/posts/2020/02/22/937013/</guid>
+      <guid>//localhost:58576/posts/2020/02/22/937013/</guid>
       <description>台湾にはkiki麺という素晴らしいインスタントラーメンがあるのだけど、&#xA;それを自宅で再現するための研究。&#xA;KiKi食品雜貨&#xA;もちろん本物のほうが美味しいけど、kiki感は出ている。&#xA;葱油 ネタ元はここ https://cookpad.com/recipe/5524382&#xA;材料 万能ネギ1束(白いところが少ないやつ) サラダ油200ml 醤油 300ml 砂糖大さじ5 作り方 万能ねぎをザックリと切る サラダ油に入れる ネギがいきなり焦げないように超弱火で20~30分加熱 ネギの水分が完全に抜けてカサカサしたら火を止めてネギを出す。(そのまま加熱し続けると焦げて苦くなるので) 醤油と砂糖を入れて弱火で完全に砂糖を溶かす。(醤油が沸騰しないように100度以下で入れる) 十分に冷まして瓶詰め kiki麺再現バージョン 材料 徳島半田麺 作り方 葱油とにんにくチューブをお好みで混ぜる 半田麺は塩分が強いので多めの水で茹でる 湯で時間は表記-1分 葱油と絡める </description>
     </item>
     <item>
       <title>goのエラー処理</title>
-      <link>//localhost:56934/posts/2020/02/12/880385/</link>
+      <link>//localhost:58576/posts/2020/02/12/880385/</link>
       <pubDate>Wed, 12 Feb 2020 13:23:38 +0900</pubDate>
-      <guid>//localhost:56934/posts/2020/02/12/880385/</guid>
+      <guid>//localhost:58576/posts/2020/02/12/880385/</guid>
       <description>goはerrorインターフェイスを持っている、&#xA;type error interface { Error() string } よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。&#xA;https://play.golang.org/p/cO0-r95Hd_r&#xA;package main import ( &amp;#34;fmt&amp;#34; ) type Error struct { Msg string Code int } func (err *Error) Error() string { return fmt.Sprintf(&amp;#34;ErrorMessage [%s], ErrorCode [%d]&amp;#34;, err.Msg, err.Code) } func test() error { return &amp;amp;Error{Msg: &amp;#34;file not found&amp;#34;, Code: 2} } func main() { if err := test(); err != nil { fmt.Println(err) } } ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が&#xA;The fmt package formats an error value by calling its Error() string method.</description>
     </item>
   </channel>

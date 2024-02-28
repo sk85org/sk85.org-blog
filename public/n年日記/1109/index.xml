@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1109 on d.sk85.org</title>
-    <link>//localhost:56934/n%E5%B9%B4%E6%97%A5%E8%A8%98/1109/</link>
+    <link>//localhost:58576/n%E5%B9%B4%E6%97%A5%E8%A8%98/1109/</link>
     <description>Recent content in 1109 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 09 Nov 2023 22:56:20 +0900</lastBuildDate>
-    <atom:link href="//localhost:56934/n%E5%B9%B4%E6%97%A5%E8%A8%98/1109/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:58576/n%E5%B9%B4%E6%97%A5%E8%A8%98/1109/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-11-09</title>
-      <link>//localhost:56934/posts/2023/11/09/557534/</link>
+      <link>//localhost:58576/posts/2023/11/09/557534/</link>
       <pubDate>Thu, 09 Nov 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2023/11/09/557534/</guid>
+      <guid>//localhost:58576/posts/2023/11/09/557534/</guid>
       <description>午前 4:00 前に目が覚め、そこから眠れず 朝デパスを飲んで少しうとうとしたが、気持ち悪い 息子通園 会社でスポーツドリンク 飲んでる途中で吐きそうになったよ 上席と少し相談案件、相談して良かった 別事業所からのサポート その間に少し精製の実験 ミーティング 午後 昼食はおにぎり一個、お弁当食べられず 実験続き 実験のサポート なんとなく条件固まった 19:00 ごろ退社 管理職論の本を読み始める 23:00 過ぎに就寝 体調 66 思ったこと/話したこと なるべくしんどいとは言わないようにはしているが、しんどそうな姿を見るのもストレスだよね。 奥さんは不安で眠れないというのが無いらしい 数字 68 だがその割に、結構動けたぞ。 回復期か？ その他 今日の Tabs </description>
     </item>
     <item>
       <title>2022-11-09</title>
-      <link>//localhost:56934/posts/2022/11/09/368049/</link>
+      <link>//localhost:58576/posts/2022/11/09/368049/</link>
       <pubDate>Wed, 09 Nov 2022 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2022/11/09/368049/</guid>
+      <guid>//localhost:58576/posts/2022/11/09/368049/</guid>
       <description>午前 運動のため徒歩で東十条へ 蒲田屋でおにぎりを買う 奥さんと家で食べる 午後 昼寝 マックで家計簿をかくなど 夜は軽めに 体調 80 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-11-09</title>
-      <link>//localhost:56934/posts/2021/11/09/363229/</link>
+      <link>//localhost:58576/posts/2021/11/09/363229/</link>
       <pubDate>Tue, 09 Nov 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:56934/posts/2021/11/09/363229/</guid>
+      <guid>//localhost:58576/posts/2021/11/09/363229/</guid>
       <description>午前 雨 子供通園して今日も夏休み たまっていた家計簿を片づける 北千住の麺屋音で煮干しラーメンと和玉を 午後 駅前の店で塩大福を買って常磐線上野経由で帰宅 家計簿の続き ほぼ静的ファイルの配信だけになったので、サーバーをindigo VPSの一番安いプランに変更 サーバーの証明書はLet&amp;rsquo;s Encrypで取得 cloudflareを置いてフロントとサーバー間の通信を保護 cloudflarでAlways Use HTTPSが有効になっていると、証明書の取得が出来なかったので無効に 体調 普通 その他 今日のTabs Let&amp;rsquo;s Encryptの自動更新がエラーになっていた - miyasakura’s diary ベスト・プラクティス - 80 番ポートを開放しよう - Let&amp;rsquo;s Encrypt - フリーな SSL/TLS 証明書 </description>
     </item>
   </channel>

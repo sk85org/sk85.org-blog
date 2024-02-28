@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019-06 on d.sk85.org</title>
-    <link>//localhost:56934/archives/2019-06/</link>
+    <link>//localhost:58576/archives/2019-06/</link>
     <description>Recent content in 2019-06 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate>
-    <atom:link href="//localhost:56934/archives/2019-06/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:58576/archives/2019-06/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugoで作った静的サイトのデータをgithubで管理する</title>
-      <link>//localhost:56934/posts/2019/06/29/395779/</link>
+      <link>//localhost:58576/posts/2019/06/29/395779/</link>
       <pubDate>Sat, 29 Jun 2019 13:23:38 +0900</pubDate>
-      <guid>//localhost:56934/posts/2019/06/29/395779/</guid>
+      <guid>//localhost:58576/posts/2019/06/29/395779/</guid>
       <description>hugoでサイトを作るにあたって、Markdownファイルやテンプレートはgithub上で管理している。&#xA;github上のリポジトリにcommitがあるとgithubからwebhookが飛ぶ。&#xA;それを受け取ったサーバー上でgit pullして同期、その後hugoでデプロイ&#xA;Webhookサーバーを書いた skt1984/webhook&#xA;hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行したいシェルスクリプトを指定する。&#xA;[ { &amp;#34;path&amp;#34;: &amp;#34;/hugo&amp;#34;, &amp;#34;name&amp;#34;: &amp;#34;put&amp;#34;, &amp;#34;shell&amp;#34;: &amp;#34;sh&amp;#34;, &amp;#34;execute-command&amp;#34;: &amp;#34;hugo.sh&amp;#34;, &amp;#34;execute-command-directry&amp;#34;: &amp;#34;/home/username/webhook&amp;#34;, &amp;#34;X-GitHub-Event&amp;#34;: &amp;#34;push&amp;#34;, &amp;#34;method&amp;#34;: &amp;#34;POST&amp;#34;, &amp;#34;secret&amp;#34;: &amp;#34;secret_key&amp;#34; } ] 起動時にjsonファイルとポートの指定が可能&#xA;./webhook -f hook.json -p :8080 github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定&#xA;まずローカルにGitHubのリポジトリをcloneする&#xA;cd /home/username git clone git@github.com:username/repository.git hugoのbinaryを入手&#xA;cd /home/username/repository git pull cd /home/username/repository /path/to/hugobinary/hugo -d /phome/username/public``` systemdの登録について (userを指定しないとgitpull　できない・) [Unit] Description = webhook [Service] ExecStart = /path/to/webhook/webhook -f /path/to/webhook/hook.json -p :8080 Restart = always Type = simple User=user [Install] WantedBy = multi-user.</description>
     </item>
     <item>
       <title>UQ mobileに移行した</title>
-      <link>//localhost:56934/posts/2019/06/28/125688/</link>
+      <link>//localhost:58576/posts/2019/06/28/125688/</link>
       <pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate>
-      <guid>//localhost:56934/posts/2019/06/28/125688/</guid>
+      <guid>//localhost:58576/posts/2019/06/28/125688/</guid>
       <description>SB → IIJmio → LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmioやLINE Mobileが悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安simだからと諦めていた(ただし「1Mbps以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞るLINE Mobileはどうかと思う)。計算してみるとUQでも月額は大きく変わらない。そして、お試しでUQから借りたsimで大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)&#xA;移行に必要な費用 項目 費用 備考 LINE 解約手数料 10584 LINE MNP転出手数料 3240 UQ SIMパッケージ料金 0 キャンペーンのため 端末代 31,644 HUAWEI nova lite3 端末売却 -13600 手持ちのsimフリー端末を使うため キャッシュバック -9000 入金は数カ後だが初期費用として扱う 合計 22768 プラン選択 UQ mobileは翌月のプランを自由に変更でき、なおかつ容量の繰越が可能。&#xA;私の場合は通信量が4GB/monthのため、データを無駄なく消費しきれば、 プランM (1ヶ月) → プランS (5ヶ月) → プランM → &amp;hellip; のサイクルとなる。&#xA;繰越上限はプランMで6GB, プランSで2GBなので、それぞれのプランで「基本容量+繰越容量(基本データ分)」が12GBと4GBを超えることはない。 また前月に繰越した容量は当月末まで有効。増量オプション付与容量は「追加購入容量」という扱いなので、 基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから90日。(ややこしい)&#xA;月 プラン 基本容量 増量オプション付与 繰越容量(基本容量) 繰越容量(倍増オプション) 使用量 基本容量残量 増量オプション残量 1 M 6 3 0 0 -4 2 3 2 S 2 1 2 3 -4 0 4 3 S 2 1 0 4 -4 0 3 4 S 2 1 0 3 -4 0 2 5 S 2 1 0 2 -4 0 1 6 S 2 1 0 1 -4 0 0 ちなみに通信量を5GB/monthとすると、</description>
     </item>
   </channel>
