@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1025 on d.sk85.org</title>
-    <link>//localhost:58576/n%E5%B9%B4%E6%97%A5%E8%A8%98/1025/</link>
+    <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/1025/</link>
     <description>Recent content in 1025 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 29 Oct 2023 00:29:22 +0900</lastBuildDate>
-    <atom:link href="//localhost:58576/n%E5%B9%B4%E6%97%A5%E8%A8%98/1025/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/1025/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-10-25</title>
-      <link>//localhost:58576/posts/2023/10/25/627305/</link>
+      <link>//localhost:1313/posts/2023/10/25/627305/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2023/10/25/627305/</guid>
+      <guid>//localhost:1313/posts/2023/10/25/627305/</guid>
       <description>午前 息子通園 憂鬱 朝から実験 薬品を頼み忘れたが、なんとかなった 後処理まで ミーティング 進め方について、着実に進めるようにと指示 午後 昼食時間に実験ノートを書く 会議 朝の実験の精製の続き 形になってきた 19:00 ごろ退社 26:00 ごろ就寝 体調 74 その他 息子の勉強を見ている時の話 思ったこと/話したこと 今日の Tabs </description>
     </item>
     <item>
       <title>2022-10-25</title>
-      <link>//localhost:58576/posts/2022/10/25/320550/</link>
+      <link>//localhost:1313/posts/2022/10/25/320550/</link>
       <pubDate>Tue, 25 Oct 2022 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2022/10/25/320550/</guid>
+      <guid>//localhost:1313/posts/2022/10/25/320550/</guid>
       <description>午前 だるい 頭がいたい 発熱なし 本日も休み 横になって過ごす 奥さんはPCR陽性 午後 抗原検査 ばっちり出るだろうと思ったら陰性 早めに眠る 体調 だるい その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-10-25</title>
-      <link>//localhost:58576/posts/2021/10/25/816424/</link>
+      <link>//localhost:1313/posts/2021/10/25/816424/</link>
       <pubDate>Mon, 25 Oct 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2021/10/25/816424/</guid>
+      <guid>//localhost:1313/posts/2021/10/25/816424/</guid>
       <description>午前 風邪気味のため休み 熱はなし、のどの痛みあり 午後 計算用サーバーを組む GPUは不要なので内蔵GPUを利用 Core i5 10400なで温度も高くならない さくっとubuntuを入れてターミナルから利用 dockerをインストール gpasswd -a USER docker で一般ユーザーからもdockerコマンドが使えるようにする LVM を拡張 さすがに64GBメモリを積んでいると早いな データをすべてメモリに格納して計算させている あとは温度 夜はなかなか眠れず 体調 風邪気味 熱はないがのどが痛い その他 今日のTabs </description>
     </item>
   </channel>

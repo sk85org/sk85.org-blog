@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1105 on d.sk85.org</title>
-    <link>//localhost:58576/n%E5%B9%B4%E6%97%A5%E8%A8%98/1105/</link>
+    <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/1105/</link>
     <description>Recent content in 1105 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 05 Nov 2023 23:02:42 +0900</lastBuildDate>
-    <atom:link href="//localhost:58576/n%E5%B9%B4%E6%97%A5%E8%A8%98/1105/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/1105/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-11-05</title>
-      <link>//localhost:58576/posts/2023/11/05/226494/</link>
+      <link>//localhost:1313/posts/2023/11/05/226494/</link>
       <pubDate>Sun, 05 Nov 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2023/11/05/226494/</guid>
+      <guid>//localhost:1313/posts/2023/11/05/226494/</guid>
       <description>午前 明け方息子が吐いてしまう 自宅で過ごす -LLM で遊んだり 奥さんはスーパーに 奥さんはグアムように ahamo に NMP 完了 午後 昼食は昨日の残りを 息子は小さいおむすび一個 時間を空けつつ少しづつ固形物を食べさせていく 少しお昼寝 夜スーパーに行く 明日は息子が保育園休むのでレゴを買う 夕食は昨日の残りとサラダなど 生物は大体片付いた 息子はおむすびとスープ お風呂に入れた後に、スープの残りを お腹減っていると言っているし、もう嘔吐は大丈夫かな グアム旅行の損害保険などを契約する 体調 76 三連休奥さんには世話にになった 子供が体調悪かったのは残念だが、昨年に続き無事食事会ができた その他 今日の Tabs </description>
     </item>
     <item>
       <title>2022-11-05</title>
-      <link>//localhost:58576/posts/2022/11/05/777454/</link>
+      <link>//localhost:1313/posts/2022/11/05/777454/</link>
       <pubDate>Sat, 05 Nov 2022 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2022/11/05/777454/</guid>
+      <guid>//localhost:1313/posts/2022/11/05/777454/</guid>
       <description>午前 子供の運動会 ダンスやかけっこ、玉入れ 公園で少し遊ぶ 昼食は開店寿司 午後 自宅でお昼寝 ちょっとしたwebサービスを作る 体調 80 その他 今日のTabs </description>
     </item>
     <item>
       <title>2021-11-05</title>
-      <link>//localhost:58576/posts/2021/11/05/353672/</link>
+      <link>//localhost:1313/posts/2021/11/05/353672/</link>
       <pubDate>Fri, 05 Nov 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2021/11/05/353672/</guid>
+      <guid>//localhost:1313/posts/2021/11/05/353672/</guid>
       <description>午前 7:05起床 息子通園 帰宅して入浴、8:00から在宅勤務 見積もりの確認と実験計画 ミーティング 時間がないので、自宅で昼食 午後 次年度の計画について長めの会議 報告書作成 稟議作成 資料作成 17:30 息子迎え 21:00 仕事再開 報告書作成 23:30終了 明日から夏休みなので仕事が長くなってしまった 体調 普通 その他 Ender 3 V2基盤バージョン 4.2.2らしい 今日のTabs 3Dプリンタ関係 Prevent USB from powering 3D-printer display - Arjen Stens USBからの給電を遮断する方法 「Ender3 V2改造」本格静音化MOD　メインボード・PSU・ホットエンド・造形物冷却用4つの騒音ファンを静音ファンに交換 | 暮ラシノオト 【Ender3 V2静音化対策その①】電源(PSU)用ファン&amp;amp;メインボード冷却用ファンを交換してみました！効果は非常に大きいのでオススメです！ | ぶらり＠web走り書き Ender-3のノズルの正面ファンを交換してみる 〜ファンを交換すると静音化できるのか？〜 | 3PySci 静穏化 Udauda Blog3/2020-09-11/ Ender3V2にBLTouchつけた！ オートレベリング mriscoc/Marlin_Ender3v2: This Marlin is an optimized firmware for Ender 3v2 3D printers. | It is based upon original Marlin repository and has many improvements from the bugfix branch.</description>
     </item>
   </channel>

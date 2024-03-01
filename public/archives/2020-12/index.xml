@@ -2,73 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2020-12 on d.sk85.org</title>
-    <link>//localhost:58576/archives/2020-12/</link>
+    <link>//localhost:1313/archives/2020-12/</link>
     <description>Recent content in 2020-12 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate>
-    <atom:link href="//localhost:58576/archives/2020-12/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/archives/2020-12/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>プラレール自動制御</title>
-      <link>//localhost:58576/posts/2020/12/28/595555/</link>
+      <link>//localhost:1313/posts/2020/12/28/595555/</link>
       <pubDate>Mon, 28 Dec 2020 23:19:42 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/28/595555/</guid>
+      <guid>//localhost:1313/posts/2020/12/28/595555/</guid>
       <description>子供(2歳児)はプラレール好きで、最近はループやトンネルよりも複数車両が秩序を維持しながら走るのが面白いようだ。市販で手に入るのは経路を変更する2部品。&#xA;R-16 自動ポイントレール R-19 自動ターンアウトレール これだけだと停車-発車の制御ができないのでArduinoを使って制御してみよう。</description>
     </item>
     <item>
       <title>2020-12-26のブックマーク</title>
-      <link>//localhost:58576/posts/2020/12/26/530501/</link>
+      <link>//localhost:1313/posts/2020/12/26/530501/</link>
       <pubDate>Sat, 26 Dec 2020 18:44:22 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/26/530501/</guid>
+      <guid>//localhost:1313/posts/2020/12/26/530501/</guid>
       <description>バーチャルトレーダーの罪深さ&#xA;https://kabutouma.hatenablog.com/entry/2020/12/26/155455</description>
     </item>
     <item>
       <title>物事を判断するときの基準</title>
-      <link>//localhost:58576/posts/2020/12/25/412728/</link>
+      <link>//localhost:1313/posts/2020/12/25/412728/</link>
       <pubDate>Fri, 25 Dec 2020 15:33:15 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/25/412728/</guid>
+      <guid>//localhost:1313/posts/2020/12/25/412728/</guid>
       <description>人によって基準は様々だと思うけど、僕の場合は結局以下の３つに行き着く。&#xA;子供が不自由なく進学できる 奥さんが幸せに暮らせる 自分の心身が健康 だから、上記の３つが満たされていれば変化の必要はないのだけれど、&#xA;そこが人間の難しいところで、自分のキャリアや研究についての希望がむくむくと&#xA;出てきてしまうのだ。</description>
     </item>
     <item>
       <title>自分の思考特性</title>
-      <link>//localhost:58576/posts/2020/12/23/343869/</link>
+      <link>//localhost:1313/posts/2020/12/23/343869/</link>
       <pubDate>Wed, 23 Dec 2020 22:56:20 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/23/343869/</guid>
+      <guid>//localhost:1313/posts/2020/12/23/343869/</guid>
       <description>嫌な(不安な)事象発生 0分~ 5時間 でまず回避や退避を考える&#xA;ほとんど頭が回ってない。悪い方に掘り下げ、食欲がなくなったり吐きそうになる&#xA;気持ち的には-100&#xA;回復期 ~1日&#xA;気持ちは回避や退避が継続。 実は大したこと無い、大丈夫なんじゃない？と少し気持ちが落ち着いてくる。&#xA;-50ぐらい？&#xA;過回復からマイナスへ ~1.5日&#xA;自分に都合が良いように物事を捉え、うまくいくような妄想をする。&#xA;ここで回復したと誤認すると大変危険。&#xA;20ぐらい。 それからすぐに、我に返ってマイナスに戻る。&#xA;メタ認知しつつ定常状態へ ~3日 問題を分解しはじめる。戦略を練る。&#xA;事実と希望を分別 最低限のラインはなにか？ 目標で譲れないのはなにか？ 不確定事項はなにか？ それは制御可能か？ 最小限の努力でやるためには？ そして、自分の気持ちをメタ認知し始める。&#xA;嫌なことはなにか？ 原因は事実か想像(印象)か? 回避可能か？ 我慢できないほど本当にいやか？ これを繰り返しながら、だんだん振れ幅が小さくなり、0に落ち着く。 この0まで戻す期間を短くするのが重要だ。</description>
     </item>
     <item>
       <title>紅葉</title>
-      <link>//localhost:58576/posts/2020/12/20/146397/</link>
+      <link>//localhost:1313/posts/2020/12/20/146397/</link>
       <pubDate>Sun, 20 Dec 2020 15:10:33 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/20/146397/</guid>
+      <guid>//localhost:1313/posts/2020/12/20/146397/</guid>
       <description>12月も半ばなのに、まだ紅葉だった </description>
     </item>
     <item>
       <title>胡椒餅</title>
-      <link>//localhost:58576/posts/2020/12/17/261305/</link>
+      <link>//localhost:1313/posts/2020/12/17/261305/</link>
       <pubDate>Thu, 17 Dec 2020 22:35:23 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/17/261305/</guid>
+      <guid>//localhost:1313/posts/2020/12/17/261305/</guid>
       <description>Table of Contents 胡椒餅が食べられるお店 四ツ谷一餅堂 台湾豆乳大王 胡椒餅の通販 チャイデリカ 長崎成功胡椒餅 胡椒餅の店舗購入 KALDI 胡椒餅 胡椒餅の本 はじめての台湾料理 胡椒餅作り方 1回目 2回目 (8個) 3回目 (10個 + 小2個) 4回目 (10個 + 小2個) 5回目 (12個) 包み方の参考 焼き 課題 リンク 胡椒餅が好きなのでまとめ。&#xA;胡椒餅が食べられるお店 四ツ谷一餅堂 https://www.instagram.com/yotsuya_ippindo/&#xA;窯で焼いた胡椒餅が食べられる&#xA;1個450円ぐらい、台湾豆乳大王よりも大きい。肉はばら肉タイプ 台湾豆乳大王 https://twitter.com/taiwantonyudaio&#xA;https://www.instagram.com/taiwan_tonyu_daio/&#xA;台湾の朝ごはん系。太陽餅もあり&#xA;胡椒餅の通販 チャイデリカ 長崎成功胡椒餅 http://chaeon.shop-pro.jp/?mode&#xA;電子レンジで温めてから、オーブントースターで表面を焼くタイプ。&#xA;胡椒がしっかり効いていて美味しい。 胡椒餅の店舗購入 KALDI 胡椒餅 1個330円、やや小降り&#xA;電子レンジで温めてから、オーブントースターで表面を焼くタイプ。&#xA;胡椒がしっかり効いている本場タイプではなく、甘味もあり&#xA;おいしい 胡椒餅の本 はじめての台湾料理 はじめての台湾料理 (星野奈々子著)に胡椒餅のレシピあり&#xA;材料も最低限で、簡単な作り方&#xA;https://calil.jp/book/486506284X&#xA;胡椒餅作り方 1回目 タネ (初回) 全部混ぜて練る&#xA;豚ひき肉 460g 醤油 大さじ3+1/2 五香粉 小さじ2+1/2 胡椒 小さじ2 塩 小さじ4 ネギ 150 (もっと多くても良いかも) 皮 (検討中) 全部混ぜて練て、寝かせて錬て、伸ばす これだと生地が固くなり、焼いているときに割れて肉汁が出てしまう。</description>
     </item>
     <item>
       <title>hugoのURL構成を変更した</title>
-      <link>//localhost:58576/posts/2020/12/13/388521/</link>
+      <link>//localhost:1313/posts/2020/12/13/388521/</link>
       <pubDate>Sun, 13 Dec 2020 23:05:43 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/13/388521/</guid>
+      <guid>//localhost:1313/posts/2020/12/13/388521/</guid>
       <description>フォルダでの管理をやめ、contents/post以下に YYYYMMDD_XXXXXX.md 命名ルール (X:数字)のファイルを置くようにした。&#xA;ファイルのフロントマターにslug: XXXXXXを指定するようにした。&#xA;URLの構成を変えて、/posts/YYYY/MM/DD/XXXXXX/でアクセスできるようにしたので、&#xA;一日に複数の記事をかけるようになった。分類はtagのみ。</description>
     </item>
     <item>
       <title>hugoのデプロイ方法を変更した</title>
-      <link>//localhost:58576/posts/2020/12/13/758287/</link>
+      <link>//localhost:1313/posts/2020/12/13/758287/</link>
       <pubDate>Sun, 13 Dec 2020 14:38:13 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/13/758287/</guid>
+      <guid>//localhost:1313/posts/2020/12/13/758287/</guid>
       <description>conoha VPSへの移行に伴って、hugoのデプロイ方法を変更した。&#xA;今までは、GitHubにpushするとGitHubからVPSにWebhookが飛び、&#xA;それを起点にVPSからリポジトリをpullして、VPS上でデプロイしていた。&#xA;それを変更し、Gtihub actionを利用してpushを起点にしてVPSに&#xA;変更ファイルをrsyncして、VPS側で静的ファイルを出力するように変更した。&#xA;VPSへの同期の方法しか変わっていないが、VPS側でwebhookサーバーを立てる必要がなくなった。</description>
     </item>
     <item>
       <title>買ってよかったもの2020</title>
-      <link>//localhost:58576/posts/2020/12/12/683040/</link>
+      <link>//localhost:1313/posts/2020/12/12/683040/</link>
       <pubDate>Sat, 12 Dec 2020 13:23:34 +0900</pubDate>
-      <guid>//localhost:58576/posts/2020/12/12/683040/</guid>
+      <guid>//localhost:1313/posts/2020/12/12/683040/</guid>
       <description>DELL U3219Q 5年ぐらい前に買ったLGの27インチ4kをDell U3219Q (31.5インチ 4K)に交換。&#xA;U3219QはKVMが付いているすぐれもので、MacBookProはUSB Type-C、Windowsのデスクトップ機はDPとUSBで接続した。液晶側で映像入力ソースを変更すると、KVMも自動的に入力ソースに合わせてくれるので、今までみたいにUSBスイッチャーでカチカチやらなくてもよいのが最高。&#xA;本体側面についているUSBポートも当然切り替わるので、ここに認証用のYubikeyドングルを挿して使っている。&#xA;さらにUSB Type-Cの端子はUSB PD対応で90W給電ができる。未来だ、、、&#xA;Apple Watch SE 使っていたAppleWatch 3をwatchOS 7にアップデートしようとしたら、&#xA;容量が足りないと言われたので初期化してアップデート&amp;amp;復元したのに、&#xA;その後すぐに3GBぐらいの追加アップデートがまた降ってきた。&#xA;ストレージが8GBのAppleWatch 3でアップデートのたびに初期化するのはちょっと、、&#xA;けど機能的には3で問題ないと悩んでいたら、ちょうどぶつけて画面を割ってしまった。&#xA;通知を受け取るのがメインなので、6ではなくSEで十分。&#xA;画面も大きくなり、動作も早くなったので快適</description>
     </item>
   </channel>

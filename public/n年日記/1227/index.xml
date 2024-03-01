@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1227 on d.sk85.org</title>
-    <link>//localhost:58576/n%E5%B9%B4%E6%97%A5%E8%A8%98/1227/</link>
+    <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/1227/</link>
     <description>Recent content in 1227 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 31 Dec 2023 09:50:22 +0900</lastBuildDate>
-    <atom:link href="//localhost:58576/n%E5%B9%B4%E6%97%A5%E8%A8%98/1227/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/1227/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023-12-27</title>
-      <link>//localhost:58576/posts/2023/12/27/752872/</link>
+      <link>//localhost:1313/posts/2023/12/27/752872/</link>
       <pubDate>Wed, 27 Dec 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2023/12/27/752872/</guid>
+      <guid>//localhost:1313/posts/2023/12/27/752872/</guid>
       <description>午前 出社 やや気分は重め 実験とか 午後 長めの午後会議 夕方まで続いたので、ラボの片付けなどを少しする 18:00 過ぎに退社 体調 74 その他 今日の Tabs </description>
     </item>
     <item>
       <title>2022-12-27[draft]</title>
-      <link>//localhost:58576/posts/2022/12/27/292773/</link>
+      <link>//localhost:1313/posts/2022/12/27/292773/</link>
       <pubDate>Tue, 27 Dec 2022 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2022/12/27/292773/</guid>
+      <guid>//localhost:1313/posts/2022/12/27/292773/</guid>
       <description>午前 出社 実験の後処理など ミーティング 午後 午後から自宅勤務 夕方息子のお迎え 体調 80 その他 今日の Tabs </description>
     </item>
     <item>
       <title>2021-12-27</title>
-      <link>//localhost:58576/posts/2021/12/27/667393/</link>
+      <link>//localhost:1313/posts/2021/12/27/667393/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0900</pubDate>
-      <guid>//localhost:58576/posts/2021/12/27/667393/</guid>
+      <guid>//localhost:1313/posts/2021/12/27/667393/</guid>
       <description>午前 息子通園 8:30出社 本日午後半休 午後 秋葉原で買い物 5Pの中継 使っているケーブルが少し太いのと、持っている電工ペンチが安物過ぎて失敗 Molex (モレックス) 51005-0500 2.0mmピッチ 電線対電線 51005/51006シリーズ リセプタクルハウジング 5P Molex (モレックス) 50013-8000 【2.0mm】51005/51006シリーズ リセプタクルハウジング(51005)用コンタクトピン Molex (モレックス) 51006-0500 2.0mmピッチ 電線対電線 51005/51006シリーズ プラグハウジング 5P Molex (モレックス) 50012-8000 【2.0mnm】51005/51006シリーズ プラグハウジング(51006)用コンタクトピン 2P中継 オーム電機 DZ-DC24A8 中継コネクタ NDC2420 8個入 これは良い、僕みたいなへたくそでも中継できる 息子お迎え 体調 普通 その他 今日のTabs RSS関係 feedbin/feedbin: A nice place to read on the web. miniflux/v2: Minimalist and opinionated feed reader RSS-Bridge/rss-bridge: The RSS feed for websites missing it 圧着端子 電子工作でコネクタを作る！ おすすめの圧着工具 - fumiLab </description>
     </item>
   </channel>
