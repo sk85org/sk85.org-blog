@@ -6,8 +6,22 @@
     <description>Recent content in N年日記 on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 Mar 2024 01:06:32 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2024 01:06:38 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0303</title>
+      <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0303/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0900</pubDate>
+      <guid>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0303/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>0302</title>
+      <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0302/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0900</pubDate>
+      <guid>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0302/</guid>
+      <description></description>
+    </item>
     <item>
       <title>0301</title>
       <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0301/</link>
@@ -2547,20 +2561,6 @@
       <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0304/</link>
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0900</pubDate>
       <guid>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0304/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>0303</title>
-      <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0303/</link>
-      <pubDate>Fri, 03 Mar 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0303/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>0302</title>
-      <link>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0302/</link>
-      <pubDate>Thu, 02 Mar 2023 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/0302/</guid>
       <description></description>
     </item>
     <item>

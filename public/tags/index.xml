@@ -6,13 +6,27 @@
     <description>Recent content in Tags on d.sk85.org</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 01 Mar 2024 01:06:32 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 Mar 2024 01:06:38 +0900</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diary</title>
       <link>//localhost:1313/tags/diary/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0900</pubDate>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0900</pubDate>
       <guid>//localhost:1313/tags/diary/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>吃音</title>
+      <link>//localhost:1313/tags/%E5%90%83%E9%9F%B3/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0900</pubDate>
+      <guid>//localhost:1313/tags/%E5%90%83%E9%9F%B3/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>メンタルヘルス</title>
+      <link>//localhost:1313/tags/%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%98%E3%83%AB%E3%82%B9/</link>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0900</pubDate>
+      <guid>//localhost:1313/tags/%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%98%E3%83%AB%E3%82%B9/</guid>
       <description></description>
     </item>
     <item>
@@ -20,20 +34,6 @@
       <link>//localhost:1313/tags/%E6%8A%95%E8%B3%87/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0900</pubDate>
       <guid>//localhost:1313/tags/%E6%8A%95%E8%B3%87/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>メンタルヘルス</title>
-      <link>//localhost:1313/tags/%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%98%E3%83%AB%E3%82%B9/</link>
-      <pubDate>Fri, 02 Feb 2024 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/tags/%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%98%E3%83%AB%E3%82%B9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>吃音</title>
-      <link>//localhost:1313/tags/%E5%90%83%E9%9F%B3/</link>
-      <pubDate>Wed, 31 Jan 2024 00:00:00 +0900</pubDate>
-      <guid>//localhost:1313/tags/%E5%90%83%E9%9F%B3/</guid>
       <description></description>
     </item>
     <item>
