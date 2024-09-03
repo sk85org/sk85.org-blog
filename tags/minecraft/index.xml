@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Minecraft on d.sk85.org</title><link>/tags/minecraft/</link><description>Recent content in Minecraft on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 15 Oct 2023 00:05:13 +0900</lastBuildDate><atom:link href="/tags/minecraft/index.xml" rel="self" type="application/rss+xml"/><item><title>Nintendo Switchで参加可能なMinecraftサーバーを立てる</title><link>/posts/2023/08/18/758825/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0900</pubDate><guid>/posts/2023/08/18/758825/</guid><description>息子は Minecraft が大好きだ。Nintendo Switch 版を使っており、木を切って土を掘り返しては日々拠点を作り、剣を作り牛を狩っている。そろそろマルチプレイも体験してもいいだろうということで、自宅に Minecraft サーバーを構築した。いろいろと設定が面倒だったので、Nintendo Switch (BEDROCK 版)で気軽にマルチプレイをしたいなら Realms を使うのが一番だと思う。友達と遊ぶようになれば、さすがに Realms になるのかな。
-Nintendo Switch でマルチプレイするために必須の契約 Nintendo Online を契約していないと、そもそもオンラインプレイができない。
-Nintendo Online のサブスクリプション マイクロソフトアカウント (無料、子供用に新規作成する必要がある) サーバーを立てる docker-minecraft-bedrock-server 今回は BEDROCK 版サーバーを docker で起動したいのでitzg/docker-minecraft-bedrock-serverを使用した。docker-compose.yml を下のように作成して、docker-compose up で起動。docker-compose.yml における environment の詳細は【マイクラ統合版】server.properties の設定一覧と解説【サーバー設定】 ｜ ひきこもろんが詳しい。難易度は easy, ゲームオーバーになってもアイテムをドロップしない設定にしたいのでチートモードを有効に。アイテムをドロップしない 「/gamerule keepInventory true」 コマンドを叩くために、DEFAULT_PLAYER_PERMISSION_LEVEL を operator に設定。DEFAULT_PLAYER_PERMISSION_LEVEL は本来は member にして、個別のユーザーに管理者権限を付与するべきだが息子と二人しか遊ばないのであえて operator にしている。データのバックアップとかはまた後日
-version: &amp;#39;3.4&amp;#39; services: bds: container_name: bds restart: always image: itzg/minecraft-bedrock-server:latest environment: SERVER_NAME: jitaku EULA: &amp;#34;TRUE&amp;#34; GAMEMODE: survival #ゲームモード ONLINE_MODE: &amp;#34;false&amp;#34; TICK_DISTANCE: 12 ALLOW_CHEATS: &amp;#34;true&amp;#34; #チートの許可 DIFFICULTY: easy #難易度 LEVEL_NAME: MY WORLD DEFAULT_PLAYER_PERMISSION_LEVEL: operator #参加者のデフォルト権限 TZ: Asia/Tokyo ports: - 19132:19132/udp volumes: - .</description></item><item><title>2023-06-05</title><link>/posts/2023/06/05/719852/</link><pubDate>Mon, 05 Jun 2023 00:00:00 +0900</pubDate><guid>/posts/2023/06/05/719852/</guid><description>午前 息子通園 実験 ミーティング 午後 実験続き 明日は学会なので早めに退社 体調 80 その他 Minecraft を Parsec でリモートプレイ ゲーム用のデスクトップ PC に Parsec を入れて Mac からマインクラフトをやってみると思いのほか快適 ネットワークの遅延は有線だと遅延が 0.4msec ぐらい、wifi だと 3msec ぐらい Parsec の良いところはゲスト側のコントローラー設定をホストで仮想 USB としてマッピングしてくれる JAVA 版だとControllable (Forge) - Minecraft Mods - CurseForgeという mod を入れることで、コントローラーが利用可能になるが、contollable は bluetooth と相性が悪いようでケーブルを繋げないと動作しなかった。 Parsec だと入力デバイスはホストで仮想 USB として認識されるので、ゲスト側は bluetooth でも全く問題ない Parsec、apple TV 用のアプリが出ると良いなあ Death Stranding も簡単にリモートプレイ出来た Steam Link が いらない子になった Parsec はハードウェアエンコーダー/デコーダーを使っているので、良い GPU を使えばもっと快適になるのだろうか？ 今日の Tabs</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Minecraft on d.sk85.org</title><link>/tags/minecraft/</link><description>Recent content in Minecraft on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 15 Oct 2023 00:05:13 +0900</lastBuildDate><atom:link href="/tags/minecraft/index.xml" rel="self" type="application/rss+xml"/><item><title>Nintendo Switchで参加可能なMinecraftサーバーを立てる</title><link>/posts/2023/08/18/758825/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0900</pubDate><guid>/posts/2023/08/18/758825/</guid><description>&lt;p>息子は Minecraft が大好きだ。Nintendo Switch 版を使っており、木を切って土を掘り返しては日々拠点を作り、剣を作り牛を狩っている。そろそろマルチプレイも体験してもいいだろうということで、自宅に Minecraft サーバーを構築した。いろいろと設定が面倒だったので、Nintendo Switch (BEDROCK 版)で気軽にマルチプレイをしたいなら Realms を使うのが一番だと思う。友達と遊ぶようになれば、さすがに Realms になるのかな。&lt;/p>
+&lt;h2 id="nintendo-switch-でマルチプレイするために必須の契約">Nintendo Switch でマルチプレイするために必須の契約&lt;/h2>
+&lt;p>Nintendo Online を契約していないと、そもそもオンラインプレイができない。&lt;/p>
+&lt;ul>
+&lt;li>Nintendo Online のサブスクリプション&lt;/li>
+&lt;li>マイクロソフトアカウント (無料、子供用に新規作成する必要がある)&lt;/li>
+&lt;/ul>
+&lt;h2 id="サーバーを立てる">サーバーを立てる&lt;/h2>
+&lt;h3 id="docker-minecraft-bedrock-server">docker-minecraft-bedrock-server&lt;/h3>
+&lt;p>今回は BEDROCK 版サーバーを docker で起動したいので&lt;a href="docker-minecraft-bedrock-server">itzg/docker-minecraft-bedrock-server&lt;/a>を使用した。docker-compose.yml を下のように作成して、docker-compose up で起動。docker-compose.yml における environment の詳細は&lt;a href="https://hikicomoron.net/minecraft_server_properties_be">【マイクラ統合版】server.properties の設定一覧と解説【サーバー設定】 ｜ ひきこもろん&lt;/a>が詳しい。難易度は easy, ゲームオーバーになってもアイテムをドロップしない設定にしたいのでチートモードを有効に。アイテムをドロップしない 「/gamerule keepInventory true」 コマンドを叩くために、DEFAULT_PLAYER_PERMISSION_LEVEL を operator に設定。DEFAULT_PLAYER_PERMISSION_LEVEL は本来は member にして、個別のユーザーに管理者権限を付与するべきだが息子と二人しか遊ばないのであえて operator にしている。データのバックアップとかはまた後日&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-docker-compose.yml" data-lang="docker-compose.yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">version&lt;/span>: &lt;span style="color:#e6db74">&amp;#39;3.4&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">services&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">bds&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">container_name&lt;/span>: &lt;span style="color:#ae81ff">bds&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">restart&lt;/span>: &lt;span style="color:#ae81ff">always&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#ae81ff">itzg/minecraft-bedrock-server:latest&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">environment&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">SERVER_NAME&lt;/span>: &lt;span style="color:#ae81ff">jitaku&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">EULA&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;TRUE&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">GAMEMODE&lt;/span>: &lt;span style="color:#ae81ff">survival&lt;/span> &lt;span style="color:#75715e">#ゲームモード&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ONLINE_MODE&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;false&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">TICK_DISTANCE&lt;/span>: &lt;span style="color:#ae81ff">12&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ALLOW_CHEATS&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;true&amp;#34;&lt;/span> &lt;span style="color:#75715e">#チートの許可&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">DIFFICULTY&lt;/span>: &lt;span style="color:#ae81ff">easy&lt;/span> &lt;span style="color:#75715e">#難易度&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">LEVEL_NAME&lt;/span>: &lt;span style="color:#ae81ff">MY WORLD&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">DEFAULT_PLAYER_PERMISSION_LEVEL&lt;/span>: &lt;span style="color:#ae81ff">operator&lt;/span> &lt;span style="color:#75715e">#参加者のデフォルト権限&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">TZ&lt;/span>: &lt;span style="color:#ae81ff">Asia/Tokyo&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">ports&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">19132&lt;/span>:&lt;span style="color:#ae81ff">19132&lt;/span>&lt;span style="color:#ae81ff">/udp&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">volumes&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">./data:/data&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">stdin_open&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">tty&lt;/span>: &lt;span style="color:#66d9ef">true&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>2023-06-05</title><link>/posts/2023/06/05/719852/</link><pubDate>Mon, 05 Jun 2023 00:00:00 +0900</pubDate><guid>/posts/2023/06/05/719852/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>実験続き&lt;/li>
+&lt;li>明日は学会なので早めに退社&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>80&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>Minecraft を Parsec でリモートプレイ
+&lt;ul>
+&lt;li>ゲーム用のデスクトップ PC に Parsec を入れて Mac からマインクラフトをやってみると思いのほか快適&lt;/li>
+&lt;li>ネットワークの遅延は有線だと遅延が 0.4msec ぐらい、wifi だと 3msec ぐらい&lt;/li>
+&lt;li>Parsec の良いところはゲスト側のコントローラー設定をホストで仮想 USB としてマッピングしてくれる&lt;/li>
+&lt;li>JAVA 版だと&lt;a href="https://www.curseforge.com/minecraft/mc-mods/controllable/files/4511169">Controllable (Forge) - Minecraft Mods - CurseForge&lt;/a>という mod を入れることで、コントローラーが利用可能になるが、contollable は bluetooth と相性が悪いようでケーブルを繋げないと動作しなかった。&lt;/li>
+&lt;li>Parsec だと入力デバイスはホストで仮想 USB として認識されるので、ゲスト側は bluetooth でも全く問題ない&lt;/li>
+&lt;li>Parsec、apple TV 用のアプリが出ると良いなあ&lt;/li>
+&lt;li>Death Stranding も簡単にリモートプレイ出来た&lt;/li>
+&lt;li>Steam Link が いらない子になった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Parsec はハードウェアエンコーダー/デコーダーを使っているので、良い GPU を使えばもっと快適になるのだろうか？&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item></channel></rss>

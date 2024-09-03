@@ -1,3 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0821 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0821/</link><description>Recent content in 0821 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 21 Aug 2024 21:59:53 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0821/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-08-21[息子は今日で夏休み終わり/ 言語訓練も卒業]</title><link>/posts/2024/08/21/370946/</link><pubDate>Wed, 21 Aug 2024 00:00:00 +0900</pubDate><guid>/posts/2024/08/21/370946/</guid><description>午前 夏休み 3 日目 奥さんは在宅 子供と市営のプールに行く 午後 １時間ほど泳いで 12:00 ごろ終了 アリオ川口で昼食 ゲーセンで遊ぶ 電気屋でおもちゃを見て帰宅 帽子を無くしたことに気が付く １時間ほど休憩して、息子と再度アリオに行って探したが見つからず 言語訓練 本人が訓練に前向きになっていない、症状は安定していて本人は困っていなさそうなので、これ以上訓練しても効果が見込めない。ということで先生から今日で訓練を終了するとのお達し。ここに来るの嫌がりませんか？と聞かれて、最近は「なんで治ってるのに行かなきゃいけないの」と怒ってますという話をする。また重くなったら電話してくださいとのこと。確かに本人が困ってないと病気じゃないからなあ。自宅で声の練習は続けよう ちゃんとした先生で、あくまでも症状や訓練効果を見ての判断だが、言われた時は「あ、投げられた」みたいに感じてしまった。 体調 70 その他 息子の歯が抜けそう。 昼前から偏頭痛がひどい 今日の Tabs</description></item><item><title>2023-08-21</title><link>/posts/2023/08/21/548735/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0900</pubDate><guid>/posts/2023/08/21/548735/</guid><description>午前 子供通園 気分が優れず、書類仕事が多く在宅勤務 調査業務 ミーティング 午後 調査業務続き 装置移設についてミーティング うーん、大変そう。あと事業所が変わるのが不安だ。 息子のお迎え 仕事のパフォーマンスが上がらず、勤務終了後に仕事続き ある程度まで仕上げる 体調 76 その他 サラリーマンの宿命とは言いつつ、トータル 1 時間ぐらい移動時間が延びるのは嫌だなあ 今日の Tabs</description></item><item><title>2022-08-21</title><link>/posts/2022/08/21/955510/</link><pubDate>Sun, 21 Aug 2022 00:00:00 +0900</pubDate><guid>/posts/2022/08/21/955510/</guid><description>午前 息子の朝食に卵とトマトの炒め物を作る 水回り掃除 息子と奥さんはプールへ 昼食は自宅で 午後 夕方公園に遊びに行く 自転車の整備 夕方から憂鬱 体調 75 朝不安感が強かった その他 今日のTabs</description></item><item><title>2021-08-21</title><link>/posts/2021/08/21/126670/</link><pubDate>Sat, 21 Aug 2021 17:14:16 +0900</pubDate><guid>/posts/2021/08/21/126670/</guid><description>午前 息子朝から熱が高め 小児科に連れて行く、混んでいた RSVとhMPVはマイナス ネブライザーで気管支拡張薬吸引 ツロブテロール貼付剤と風邪薬と座薬を処方された しんどいのか食欲なし 午後 長時間お昼寝 図書館で本を借りてくる 正義を振りかざす「極端な人」の正体 (光文社新書) | カーリル 夕食も食欲なし 座薬を入れて就寝 体調 普通 その他 GitHub Actions sk85.org-blog/.github/workflows/
-GithubActionsを利用して日記ファイル(md形式)をテンプレートエンジンで定期作成して、サーバーにデプロイするようにした。Keyboard Maestroのスクリプトでも簡単に作れるけど、GitHubのコードエディタでも作れるとipadでの編集が楽かなと思って。GitHub ActionsはUTCで動いているので、起動する時間に注意が必要。ジョブを実行するマシンではタイムゾーンを設定するとJSTで書ける。
-ワークフローをトリガーするイベント Crontab.guru - The cron schedule expression editor 『GitHub Actions 実践入門』の商業版が販売開始しました - 生産性向上ブログを購入</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0821 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0821/</link><description>Recent content in 0821 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 21 Aug 2024 21:59:53 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0821/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-08-21[息子は今日で夏休み終わり/ 言語訓練も卒業]</title><link>/posts/2024/08/21/370946/</link><pubDate>Wed, 21 Aug 2024 00:00:00 +0900</pubDate><guid>/posts/2024/08/21/370946/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>夏休み 3 日目&lt;/li>
+&lt;li>奥さんは在宅&lt;/li>
+&lt;li>子供と市営のプールに行く&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>１時間ほど泳いで 12:00 ごろ終了&lt;/li>
+&lt;li>アリオ川口で昼食&lt;/li>
+&lt;li>ゲーセンで遊ぶ&lt;/li>
+&lt;li>電気屋でおもちゃを見て帰宅&lt;/li>
+&lt;li>帽子を無くしたことに気が付く&lt;/li>
+&lt;li>１時間ほど休憩して、息子と再度アリオに行って探したが見つからず&lt;/li>
+&lt;li>言語訓練
+&lt;ul>
+&lt;li>本人が訓練に前向きになっていない、症状は安定していて本人は困っていなさそうなので、これ以上訓練しても効果が見込めない。ということで先生から今日で訓練を終了するとのお達し。ここに来るの嫌がりませんか？と聞かれて、最近は「なんで治ってるのに行かなきゃいけないの」と怒ってますという話をする。また重くなったら電話してくださいとのこと。確かに本人が困ってないと病気じゃないからなあ。自宅で声の練習は続けよう&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ちゃんとした先生で、あくまでも症状や訓練効果を見ての判断だが、言われた時は「あ、投げられた」みたいに感じてしまった。&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>70&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>息子の歯が抜けそう。&lt;/li>
+&lt;li>昼前から偏頭痛がひどい&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2023-08-21</title><link>/posts/2023/08/21/548735/</link><pubDate>Mon, 21 Aug 2023 00:00:00 +0900</pubDate><guid>/posts/2023/08/21/548735/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>子供通園&lt;/li>
+&lt;li>気分が優れず、書類仕事が多く在宅勤務&lt;/li>
+&lt;li>調査業務&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>調査業務続き&lt;/li>
+&lt;li>装置移設についてミーティング
+&lt;ul>
+&lt;li>うーん、大変そう。あと事業所が変わるのが不安だ。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>息子のお迎え&lt;/li>
+&lt;li>仕事のパフォーマンスが上がらず、勤務終了後に仕事続き
+&lt;ul>
+&lt;li>ある程度まで仕上げる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>76&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>サラリーマンの宿命とは言いつつ、トータル 1 時間ぐらい移動時間が延びるのは嫌だなあ&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-08-21</title><link>/posts/2022/08/21/955510/</link><pubDate>Sun, 21 Aug 2022 00:00:00 +0900</pubDate><guid>/posts/2022/08/21/955510/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子の朝食に卵とトマトの炒め物を作る&lt;/li>
+&lt;li>水回り掃除&lt;/li>
+&lt;li>息子と奥さんはプールへ&lt;/li>
+&lt;li>昼食は自宅で&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>夕方公園に遊びに行く&lt;/li>
+&lt;li>自転車の整備&lt;/li>
+&lt;li>夕方から憂鬱&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>75&lt;/li>
+&lt;li>朝不安感が強かった&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-08-21</title><link>/posts/2021/08/21/126670/</link><pubDate>Sat, 21 Aug 2021 17:14:16 +0900</pubDate><guid>/posts/2021/08/21/126670/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子朝から熱が高め&lt;/li>
+&lt;li>小児科に連れて行く、混んでいた
+&lt;ul>
+&lt;li>RSVと&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%88%E3%83%A1%E3%82%BF%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A2%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9">hMPV&lt;/a>はマイナス&lt;/li>
+&lt;li>ネブライザーで気管支拡張薬吸引&lt;/li>
+&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%84%E3%83%AD%E3%83%96%E3%83%86%E3%83%AD%E3%83%BC%E3%83%AB">ツロブテロール貼付剤&lt;/a>と風邪薬と座薬を処方された&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>しんどいのか食欲なし&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>長時間お昼寝&lt;/li>
+&lt;li>図書館で本を借りてくる
+&lt;ul>
+&lt;li>&lt;a href="https://calil.jp/book/4334044956">正義を振りかざす「極端な人」の正体 (光文社新書) | カーリル&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夕食も食欲なし&lt;/li>
+&lt;li>座薬を入れて就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="github-actions">GitHub Actions&lt;/h4>
+&lt;p>&lt;a href="https://github.com/sk85org/sk85.org-blog/tree/main/.github/workflows">sk85.org-blog/.github/workflows/&lt;/a>&lt;br>
+GithubActionsを利用して日記ファイル(md形式)をテンプレートエンジンで定期作成して、サーバーにデプロイするようにした。Keyboard Maestroのスクリプトでも簡単に作れるけど、GitHubのコードエディタでも作れるとipadでの編集が楽かなと思って。GitHub ActionsはUTCで動いているので、起動する時間に注意が必要。ジョブを実行するマシンではタイムゾーンを設定するとJSTで書ける。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://docs.github.com/ja/actions/reference/events-that-trigger-workflows#scheduled-events">ワークフローをトリガーするイベント&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://crontab.guru/">Crontab.guru - The cron schedule expression editor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.kaizenprogrammer.com/entry/2020/06/19/085529">『GitHub Actions 実践入門』の商業版が販売開始しました - 生産性向上ブログ&lt;/a>を購入&lt;/li>
+&lt;/ul></description></item></channel></rss>

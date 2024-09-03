@@ -1,25 +1,1110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2021-10 on d.sk85.org</title><link>/archives/2021-10/</link><description>Recent content in 2021-10 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 01 Apr 2024 23:02:33 +0900</lastBuildDate><atom:link href="/archives/2021-10/index.xml" rel="self" type="application/rss+xml"/><item><title>2021-10-31</title><link>/posts/2021/10/31/59562/</link><pubDate>Sun, 31 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/31/59562/</guid><description>午前 6:30起床 息子に朝食を作る 朝一で選挙へ cloudflaredを触って遊ぶ 夕食用の鯛を買いに角上魚類へ 良いのが無かったので断念 午後 ふるさと納税でブルーシールのアイスが届く 3DプリンタをKlipperに対応させようと調査 スーパーに買い物に 体調 普通 その他 今日のTabs Overview - Klipper documentation Klipper on Ender 3 V2: How to Install It | All3DP How to Use OctoPrint with BLTouch – Simply Explained | All3DP 【3Dプリンタ】Ender-3 ProにKlipperファームウェアを導入した – OctoPi＋Klipper編 | あること・ないこと日記 Turing Complete</description></item><item><title>Cloudflare Tunnelを使ってローカルのサーバーを安全に公開する</title><link>/posts/2021/10/30/353859/</link><pubDate>Sat, 30 Oct 2021 15:09:27 +0900</pubDate><guid>/posts/2021/10/30/353859/</guid><description>VPSをやめる indigoのVPSサーバー上にTailscaleをインストールして、自宅のサーバーにVPNで接続して、nginxのproxyとBASIC認証を使っていたのだけれど*、自宅からVPSサーバーを迂回して大きなファイルを転送するとループを検知してか、30分ぐらいIPアドレスがブロックされてしまう。運用も面倒だなと思っていたら、Cloudflare Tunnelを使うと、無料で認証まで簡単にやってくれるらしい。実際やってみると簡単。VPS借りて手動でプロキシ立てるのがばからしくなる。
-メモ 前提 必要なのは
-自分でネームサーバーを設定できる独自ドメイン Cloudflareにドメインを登録してネームサーバーをCloudflareに設定する Cloudflareが現状のDNS設定を読み込んでくれ、ネームサーバーの変更をガイドしてくれる
-Cloudflare for Teamsに登録 アプリケーションの追加 Cloudflare for Teamsのダッシュボードからアプリケーションを追加する。Application URLはアクセスしたいURLを指定する。認証方法はメールアドレスや、IPアドレス、国等いろいろと選べる。 cloudflaredのインストール Get started · Cloudflare for Teams documentation
-ログインとTunnelsの作成(tunnelの作成はnon rootで可能) $ cloudflared tunnel login #(表示されるURLにアクセスする) $ loudflared tunnel create NAME #(NAMEは任意のチャンネル名) Tunnel credentials written to /path/to/.cloudflared/&amp;lt;Tunnel-UUID&amp;gt;.json. cloudflared chose this file based on where your origin certificate was found. Keep this file secret. To revoke these credentials, delete the tunnel. ダッシュボードから作成したTunnelsのTunnel-UUIDが確認できる。削除はCLIもしくはダッシュボードから可能。 ホームフォルダ上の.cloudflaredディレクトリの中に設定ファイルconfig.ymlを作成する。 サーバー上のサービスとバーチャルホストを対応させる。サービスごとにTunnelを作成することもできるが、簡単にするためにIngress rulesにする。</description></item><item><title>2021-10-30</title><link>/posts/2021/10/30/300029/</link><pubDate>Sat, 30 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/30/300029/</guid><description>午前 8:30起床 10:00ごろ近くのモールに買い物に 午後 だらだらとcloudflareの設定をいじる ユニクロに冬物を買いに 公園で遊ぶ 夕食は一年ぶりぐらいに鳥貴族 23:30就寝 体調 普通 その他 lm_sensorsでファンの回転数が取れない 先日導入したサーバーにlm_sensorsをインストールしてもファン回転数や電圧が取れない。
-これで解決した: how to display fan speeds - Ask Ubuntu
-/etc/default/grubを編集して GRUB_CMDLINE_LINUX_DEFAULT=&amp;#34;acpi_enforce_resources=lax&amp;#34; にする $ sudo update-grub $ reboot 今日のTabs （最後の挨拶）ドイツという国 3Dプリンタ＆メカ設計入門 ｜ Interface – CQ出版 3d</description></item><item><title>2021-10-29</title><link>/posts/2021/10/29/255712/</link><pubDate>Fri, 29 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/29/255712/</guid><description>午前 昨日の失敗が心配であまり眠れず 7:00起床 子供通園 見積もりを確認 昨日の実験失敗原因の分析検討 どうしていいかわからない ミーティング 午後 報告書の作成 午前の続き 原料が壊れているわけではなさそう 回収は出来ることは幸運だ ある条件を使うと、収束させられることがわかった 実証実験して水に溶けなくなることを確認 分析的にも問題ない よ、よかった 残業2時間 懸念事項も片づいて良い週末になりそうだ 時間をかけた案件で最後にこういうことがあると、本当に気がめいる 体調 普通 その他 今日のTabs</description></item><item><title>2021-10-28</title><link>/posts/2021/10/28/387685/</link><pubDate>Thu, 28 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/28/387685/</guid><description>午前 7:00起床 息子通園 8:30出社 昨日の実験結果をもとに大きな量で試験 分析的は問題ないので後処理 ミーティング 午後 後処理を継続 なんか変だぞ 装置で加熱しても全然飛ばない なぜか成分の多くが水に溶ける 失敗の原因 昨日の検討実験で、何か変だと思ったが自分に都合が良い分析結果を採用した 大丈夫「だろう」と思った 別の分析方法を試さなかった どうしても今週中に終わらせたかったので焦っていた 相当へこみますな 現状をまとめたスライドを作成 夜も心配になってなかなか眠れず 体調 ふつう その他 今日のTabs</description></item><item><title>2021-10-27</title><link>/posts/2021/10/27/962504/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/27/962504/</guid><description>午前 9:00ごろ出社 実験 ミーティング 午後 長めの打ち合わせ 実験継続 なんか変だが、モニタリングではおかしいところはないので、何とかなるでしょう これが翌日大きな問題を生むことに 体調 普通 その他 今日のTabs</description></item><item><title>2021-10-26</title><link>/posts/2021/10/26/972422/</link><pubDate>Tue, 26 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/26/972422/</guid><description>午前 風邪のためか眠りが浅い 10:00過ぎに出社 悪寒とのどが痛くパソコン持ち帰って勤務 ミーティング 食欲がないのでカロリーメイトとスポーツドリンク 午後 進捗の打ち合わせ 見積もりの作成 広告の確認 いつの間にか悪寒が治まっていた 体調 その他 今日のTabs</description></item><item><title>2021-10-25</title><link>/posts/2021/10/25/816424/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/25/816424/</guid><description>午前 風邪気味のため休み 熱はなし、のどの痛みあり 午後 計算用サーバーを組む GPUは不要なので内蔵GPUを利用 Core i5 10400なで温度も高くならない さくっとubuntuを入れてターミナルから利用 dockerをインストール gpasswd -a USER docker で一般ユーザーからもdockerコマンドが使えるようにする LVM を拡張 さすがに64GBメモリを積んでいると早いな データをすべてメモリに格納して計算させている あとは温度 夜はなかなか眠れず 体調 風邪気味 熱はないがのどが痛い その他 今日のTabs</description></item><item><title>2021-10-24</title><link>/posts/2021/10/24/619500/</link><pubDate>Sun, 24 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/24/619500/</guid><description>午前 息子は責が苦しく夜中に何度か起きていた 朝は咳が改善 家でゆっくり過ごす 回転すしをテイクアウト 午後 微熱 終日家で過ごす 体調 風邪気味 その他 計算用サーバーの構成 とにかくメモリが必要なのでGPUは未搭載
-http://niku.webcrow.jp/u/fA1eo
-【CPU】インテル Core i5 10400 BOX ¥18,580
-【CPUクーラー】AINEX CC-06S ¥1,300
-【メモリ】CFD CFD Selection W4U2666CM-16GR [DDR4 PC4-21300 16GB 2枚組] ¥28,820 x2
-【マザーボード】ASUS PRIME B460M-A ¥9,680
-【SSD】WESTERN DIGITAL WD Blue SN550 NVMe WDS500G2B0C ¥6,470
-【ケース】Thermaltake Versa H17 CA-1J1-00S1NN-00 ¥2,855
-【電源】玄人志向 KRPW-BK650W/85+ ¥5,849
-【合計】¥ 73,554
-今日のTabs</description></item><item><title>2021-10-23</title><link>/posts/2021/10/23/630249/</link><pubDate>Sat, 23 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/23/630249/</guid><description>午前 はれ 6:30ごろ起床 本日は息子の運動会 今年は時間を区切ってクラスごとにやるようだ 8:30ごろ公園に行き、9:00ごろから開始 家ではほとんど踊らない息子だが、かけっこや、協調運動、行進が出来ていて驚いた 息子は運動会が嫌だ怖いと言っており、私も小さい頃は運動会が嫌だったが、親の立場で見ると良いものだ 午後 奥さんがお弁当を作ってくれたので、電車で大きな公園に行き外で食べる 息子の咳が出始める 元気だが夕方にかけて咳が続く 夜は空咳がひどくて23:00ごろまで眠れず、夜中も何回か起きていた 添い寝をしていたのでおそらく24:00ごろ就寝 体調 ふつう その他 NUCを新調しようか 家で使っているNUCはCeleron J3455が搭載されていて、消費電力が低くファンレスなのが良いのだけれど、CPUが対応していない命令があるようで解析ソフトが動かなかった。どうしようかねえ。買うなら、NUC11PAHi5にメモリ16GBぐらいか
-今日のTabs おやすみ</description></item><item><title>2021-10-22</title><link>/posts/2021/10/22/47753/</link><pubDate>Fri, 22 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/22/47753/</guid><description>午前 雨が降って寒い 7:00起床 8:30に出社 昨日の作業が終わってないので、引き続き 詰まってた お客さんとの面談の議事録作成 調査業務 ミーティング 午後 資料作成 長めの会議 作業を少しやってほぼ定時で帰宅 雨が降っていたのでバスで駅まで帰宅 早めに就寝 体調 普通 その他 今日のTabs</description></item><item><title>2021-10-21</title><link>/posts/2021/10/21/322677/</link><pubDate>Thu, 21 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/21/322677/</guid><description>午前 7:00起床 息子と通園 8:30出社 昨日の実験の後処理 ミーティング 午後 調査業務 お客さんと打ち合わせ 議事録作成 残業2時間 昔のボスの依頼で、某企業の人に連絡とったら出向してた とりあえず一緒に焼き肉に行く約束をした 焼肉ヒロミヤ 四谷4号店 体調 お疲れ気味 やることが多すぎて、もうぐったり その他 今日のTabs キハの国から～蒼き線路でどこまでも～ わい(なつ)さんはTwitterを使っています 「屋根めんどうだyo https://t.co/KaJjSL82ka」 / Twitter 屋根の作例 【3Dプリンタ】Ender3 V2にBLTouch(オートレベリング)機能を適応する手順！ | ぶらり＠web走り書き Fusion360でラックギアやインターナルギアが作れるようになりました【FM Gears】 - 創成ミライ 東京化学同人さんはTwitterを使っています 「先月に続き、雑誌のインパクトファクターを稼ぐためのプロのエディターの存在など、学術誌の現状を生々しく伝えます。新世代ジャーナルの在り方なども。「論文審査は本当にきちんとされているのか？」（有賀克彦先生）現代化学 2021年11月号 [雑誌] https://t.co/0rHT02NMaI @amazonJPより https://t.co/iZvvZLUpGI」 / Twitter</description></item><item><title>2021-10-20</title><link>/posts/2021/10/20/994643/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/20/994643/</guid><description>午前 6:55起床 朝一で会議のため出社 8:00前から海外現法ち打ち合わせ また会議 ミーティング 午後 またまた技術系の会議 実験 ほぼ定時で帰宅 夕食の時に、息子が食べたかったキュウリを全部食べてしまって息子は激怒していた 23:00ごろ布団に入ったが、0時半ぐらいまで眠れず 体調 普通 その他 今日のTabs なし</description></item><item><title>2021-10-19</title><link>/posts/2021/10/19/279947/</link><pubDate>Tue, 19 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/19/279947/</guid><description>午前 7:00起床 息子通園 資料を作成 昨日の実験の後処理 分析するとうまく抽出できていた ミーティング 午後 新しい実験の開始 海外支社にプレゼン ほぼ聞いてるだけ 研究所体制について打ち合わせ 昨日のミーティングで久しぶりにお会いした先生から電話、しばしば雑談 1.5時間残業 23:30就寝 体調 ふつう その他 M1 Pro, Maxプロセッサ搭載14, 16インチMBP発表 まずTouchBarさようなら、本当に必要がない機能だった。
-M1と比べて数の暴力でトランジスタ数を上げてSoCのサイズを大型化してきた。5nmプロセスで現実的な歩留まりで大きなダイを作れるのはすごい技術だ。ダイサイズ増加による消費電力増に対応するため、バッテリも増やしたのでM1のMBAに対して300gの大幅な重量増ですが、こればかりは仕方がない。MBPとMBAで明確にターゲットユーザーが区分けされていて分かりやすい。クリエーターじゃない人は軽くて安いファンレスMBAで十分でしょう。
-Apple、GPUを1チップに統合して驚異的な性能を発揮する「M1 Pro」、「M1 Max」 - PC Watch 【笠原一輝のユビキタス情報局】CPUもGPUも最高性能となったM1 ProとM1 Max、課題はアプリケーション対応 - PC Watch MacBook Air - 仕様 - Apple（日本） 14インチと16インチMacBook Pro - 仕様 - Apple（日本） 今日のTabs なし</description></item><item><title>2021-10-18</title><link>/posts/2021/10/18/517603/</link><pubDate>Mon, 18 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/18/517603/</guid><description>午前 朝調子が悪く息子を送った後横になる 10:00に出社 打ち合わせのためにレジュメまとめる ミーティング 午後 打ち合わせ お客さんからややきつめの言葉が営業の方に ボールを相手に投げる 少し実験 資料作成と調査 定時に帰宅 マンションの公開空地で子供に対する暴行事件が発生 中年女性が逮捕される、よくうろうろしているあの人かなあ 誰にせよ子供に暴行するなんて許せませんね 体調 普通 その他 今日のTabs Fusion360でラックギアやインターナルギアが作れるようになりました【FM Gears】 - 創成ミライ 超簡単！ Fusion 360で歯車を作成する方法 | モデログ</description></item><item><title>2021-10-17</title><link>/posts/2021/10/17/141518/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/17/141518/</guid><description>午前 朝から寒い、秋を通り越して冬がきた 7:30起床 息子に朝食のサンドイッチを作る 雨の中スイミングスクールへ 僕は留守番して消防点検の対応 午後 昼食後にすぐに昼寝 夕方雨が上がったので図書館に 保育園のお友達に合う 翌日の朝食をコンビニで買いつつ帰宅 23:30ごろ帰宅 体調 ふつう その他 今日のTabs おやすみ</description></item><item><title>2021-10-16</title><link>/posts/2021/10/16/72672/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/16/72672/</guid><description>午前 7:00ごろ起床 個人用のブックマークサイトを自宅のサーバーに移す作業 10:00ごろ家族で池袋へ向けて出発 パルコ前からIKEBUSに乗ってサンシャインへ 丸亀製麺で昼食 タル鶏天頼んだら思ったより大きくて、サイドのてんぷらをテイクアウト 午後 噴水前で小田急のイベントをやっていてプラレールを走らせていた イケサンパークで遊ぶ 15:00ごろに荒川線で大塚へ ぼんごでテイクアウトしようかと思ったら大変込んでいたので断念 帰宅してお昼寝 夕方スーパーへ 安かったのでカツオのたたきを 24:00ごろ就寝 体調 普通 その他 今日のTabs Plare Search は自作・改造プラレールの情報サイトです。 めちゃくちゃ便利 知られざる30年の開発史 - 日経サイエンス LiDARスキャナで部屋を3D化してBlenderでツーバイ材DIYの設計したらうまくできました｜鷲羽宗一郎｜note docker composeのserviceをグループ化 RISC-V OSを作ろう (1) ～ブート処理 - VA Linux エンジニアブログ ClipPaste: Universal Clipboard 2.3 - Mac、Android、iPhone・iPad間でコピー＆ペーストを実現 - 新しもの好きのダウンロード 機械翻訳アプリ「DeepL翻訳 for iOS」がiOS 15の新機能「Text from Camera」に対応し、カメラでテキストをスキャンし瞬時に翻訳を行うことが可能に。 ホテルメイドの贅沢パン～ザ・ペニンシュラ東京の「メープルクロッカン」 なかなか買えないんだよなあ、自作してみるか？</description></item><item><title>2021-10-15</title><link>/posts/2021/10/15/924927/</link><pubDate>Fri, 15 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/15/924927/</guid><description>午前 7:00起床 本日有給 奥さんと秋葉原のビックカメラへ 奥さんはかばんを物色 僕はappleコーナー辺りで時間を潰す M1X出るのかなあ 駅前のほん田で40分ほど並んでラーメンを食べる 大盛り頼んだら思った以上に麺が多くておなかいっぱい 午後 品川でケーキを買って帰宅 僕は別の店でケーキを買う 夜は寝かしつけをしていたら寝落ちしてしまった 体調 普通 その他 今日のTabs おやすみ</description></item><item><title>2021-10-14</title><link>/posts/2021/10/14/112817/</link><pubDate>Thu, 14 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/14/112817/</guid><description>午前 7:00起床 子供通園して出社 ひたすら昨日の続き、取り込まれた物質を回収 ミーティング 午後 実験続き 急ぎの報告書作成 残業2時間 体調 普通 その他 今日のTabs お休み</description></item><item><title>2021-10-13</title><link>/posts/2021/10/13/383042/</link><pubDate>Wed, 13 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/13/383042/</guid><description>午前 7:00 起床 9:00 前に出社 昨日の実験の続き うーむ、まだ残っている ミーティング 午後 技術系の会議 三時間近くかかってしまった 実験の続き まだ残っている 定時で退社 帰りに髪を切る 23:30 就寝 体調 普通 その他 iPadOS 15 の JIS キーボードが US 配列と認識される問題は iPadOS 15.0.2 にすると解決 往復プラレールが発売される、これは楽しみだ。改造して路面電車にしよう S-40 レールで往復！H5系はやぶさ
-ついに通常プラレールにも往復車両が…！
-って、はやぶさ多すぎだろ。 pic.twitter.com/Q0ynTLC5FC
-&amp;mdash; ゆう P_kiesFan (@P_kiesFan21) October 12, 2021 proxy サーバーを立てる tailscale 経由で自宅のサーバーにつなげた ZeroSSL ではワイルドカード証明は有料 Let&amp;rsquo;s Encrypt ではワイルドカード証明には DNS-01 認証が必要だが、更新も DNS 認証なので手動更新が必要 Let’s Encrypt client and ACME library written in Go. 無料の SSL 証明書が得られる ZeroSSL を使ってみた lego コマンドで Let&amp;rsquo;s Encrypt - Mazn.</description></item><item><title>2021-10-12</title><link>/posts/2021/10/12/43501/</link><pubDate>Tue, 12 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/12/43501/</guid><description>午前 7:00起床 息子通園 昨日の実験片づけ 大きな量で実験 ミーティング 午後 午前の実験の後処理 うーむ金属に取り込まれてしまった 無理やりいろいろ試して抽出する 時間がかかっている、よくない 残業1.5時間 体調 普通 その他 今日のTabs</description></item><item><title>2021-10-11</title><link>/posts/2021/10/11/108330/</link><pubDate>Mon, 11 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/11/108330/</guid><description>午前 7:00起床 パンケーキを食べる 息子通園 精製作業 ミーティング 午後 作業続き 会議 作業続き とてもうまくいった 残業1時間して帰宅 体調 普通 その他 今日のTabs お休み</description></item><item><title>2021-10-10</title><link>/posts/2021/10/10/918381/</link><pubDate>Sun, 10 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/10/918381/</guid><description>午前 6:30起床 息子に朝食を作る QNAPの環境構築 息子はスイミング 午後 息子腹痛で調子が悪いとのことなので、15:00ぐらいまで寝かせる 治ったようだ 夕方公園に散歩に スーパーによって帰宅 24:00就寝 体調 普通 その他 QNAP環境構築 QTS 5にアップデート 管理用アカウントを作ってデフォルトのadminアカウントを無効にする 管理用アカウントに公開鍵を登録 Qsirch5.0を入れてみたが、自分の用途には合わない。 GUIの使い勝手はよいが一回一回ログインしなければいけないのが面倒 PDFを検索したいだけなので、PDF検索システムの方が便利かな Container Stationは良くできている sshで接続してdockerコマンドが使える 16GBメモリがあるのはいいね Plexを導入 ローカルのメディアファイルをすべてplexに移す リモートアクセスを有効に iOSにplexのアプリを導入してストリーミングできるようにする 長年のiPhoneに音楽を同期するの面倒くさい問題が解決した うまく同期できないファイルもあった TS-231Pの初期化とストレージの安全消去 ボリュームを削除して、RAIDを解除して安全消去で上書き 安全消去が出来ない場合は、新しく非RAIDでボリュームを作って再度削除してからもう一度試す 今日のTabs なし</description></item><item><title>2021-10-09</title><link>/posts/2021/10/09/540119/</link><pubDate>Sat, 09 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/09/540119/</guid><description>午前 7:30起床 奥さんはお土産用のベーグルを買いに行く 息子と早めに奥さんの実家へ出発 最寄り駅で集合 午後 回転すしを食べて実家へ 二人とも元気そうで何より おばあちゃんの家も訪問して息子の顔を見せる 16:30ごろ家を出る 子供の寝かしつけをしながら寝てしまう 体調 普通 その他 今日のTabs なし</description></item><item><title>2021-10-08</title><link>/posts/2021/10/08/133438/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/08/133438/</guid><description>午前 7:00起床 息子通園 昨日の実験の継続 結果分析 ミーティング 午後 会議資料作成 会議 別の研究所に二日間で作った試作品を送付 QNAP一式が届く 体調 普通 その他 QNAPのTS-251Dが届く TS-251D W4N2400CM-8G*2 WD40EZAZ*2 8GBメモリ2枚を刺して起動、問題なく稼働。TS-231Pに刺さっていたHDD-1本をTS-251Dのベイ1に刺して、WD40EZAZをベイ2に刺すと自動でミラーリングしてくれた。その後、ベイ1の古いHDDを取り出して残りのWD40EZAZを差し込む。これでベイ1のHDDもミラーリングされる。最後に、容量を拡張して終了。
-今日のTabs なし</description></item><item><title>2021-10-07</title><link>/posts/2021/10/07/732119/</link><pubDate>Thu, 07 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/07/732119/</guid><description>午前 7:00起床 息子通園 そのまま出社 ひたすら実験 ミーティング 午後 ひたすら実験 残業1時間 体調 普通 その他 今日のTabs</description></item><item><title>2021-10-06</title><link>/posts/2021/10/06/373298/</link><pubDate>Wed, 06 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/06/373298/</guid><description>午前 7:00起床 8:30ごろに出社 昨日の実験の分析 なかなかうまくいっている 月曜の実験の後処理継続 ミーティング 昼食はサイゼリア 午後 技術系の会議で発表 分析の続き 進んでいるようなので、今日も継続 ほぼ定時で帰宅 今日はゆっくりしてたな 24:00就寝 体調 普通 その他 QNAPのTS-251Dを買う QTS 5が公開鍵認証に対応したので、これはいい。メモリは16GB運用で実績のあるW4N2400CM-8G*2枚を発注。ビックカメラ.comだとWDのWD40EZAZが購入制限で一台しか買えなかったので、もう一台は実店舗で買おう。
-今日のTabs ウクライナ発個人プロジェクトGitLabが1兆円規模のIPOへ、その4つの教訓 | Coral Capital Tsai Ing-wen: Taiwan and the Fight for Democracy 今日からできるサイバー脅威インテリジェンスの話-実践編- - NFLabs. エンジニアブログ macOSの暗号化zipファイルはパスワード無しで解凍できる - NFLabs. エンジニアブログ なるほど、.DS_Storeはパターンが決まっていて既知平文攻撃ができるのか</description></item><item><title>2021-10-05</title><link>/posts/2021/10/05/604886/</link><pubDate>Tue, 05 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/05/604886/</guid><description>午前 7:00起床 息子通園 昨日の実験の精製 設備の業者対応 実験の後処理 午後 研究所の会議 ミーティング 昨日依頼があった案件を急いで仕込む 会議資料作成 残業1.5時間 24:00就寝 体調 忙しいが良好 その他 今日のTabs ContainerStationでDocker×UbuntuにSSH接続する方法【QNAP】 – 35からのプログラミング</description></item><item><title>2021-10-04</title><link>/posts/2021/10/04/210214/</link><pubDate>Mon, 04 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/04/210214/</guid><description>午前 7:00起床 子供通園 月曜にしてはやる気がある 朝から大きな量で実験 ミーティング 午後 人事関連書類の確認 午前の後処理 急ぎで作って欲しいサンプル依頼が来て、大急ぎで準備 残業1時間ちょっと 夕食は奥さんが作ったいくらの醤油漬けとサーモン丼 23:30に就寝 体調 月曜にしては良い その他 今日のTabs 奥神楽坂のフレンチビストロ「ラ グラティチュード」のランチ│夫婦で世界と日本を旅する生活 Bistro la gratitude - tatzulog</description></item><item><title>2021-10-03</title><link>/posts/2021/10/03/91235/</link><pubDate>Sun, 03 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/03/91235/</guid><description>午前 7:30起床 奥さんが息子の朝食を作ってくれていた 水泳教室に連れて行く 待っている間は、近くのハンバーガー屋でPovoを使ってネットサーフィン M1のMBAが快適だ、バッテリもほとんど減らない 昼食は回転すし 午後 昼寝 息子と遊んで、その間に奥さんが昼寝 スーパーに行く イカと筋子が安かった イカは唐揚げにして、筋子は醤油漬けに 明日から仕事なので、22:30就寝 体調 問題なし その他 今日のTabs おやすみ</description></item><item><title>2021-10-02[通院12回目]</title><link>/posts/2021/10/02/337604/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/02/337604/</guid><description>午前 7:30起床 息子と家で遊んでから公園に行く 自宅で昼食 昨日半額で買った、麻婆豆腐焼きそば 午後 昼寝 息子は奥さんと公園に自宅で作業 駅ナカのラーメン屋で夕食をとる Povoで番号をとって使い放題オプション使ってみた 快適 今までは外で作業するときはネットカフェでやっていたが、今後は使い放題オプションを活用して図書館等でも良いかも 心療内科 23:30ごろ帰宅してすぐに就寝 体調 普通 その他 心療内科 12回目 朝の調子が優れない 夜眠れない日が多い 眠れないときはBZDを多めに 部下の仕事がうまくいっておらず上席からの指導が気掛かり 指導を叱責ととらえずに、物事をよくするためのアドバイスととらえる 叱責という言葉を使わない たしからに指導を叱責と同一視していた 今日のTabs pilotmoon/PopClip-Extensions: Documentation and source code for PopClip extensions. PopClipエクステンションの作り方 macOS版「辞書 by 物書堂」用PopClip拡張を作った – おもむくがままに nginxでHTMLを改変 - rougeref’s diary nginxのHttpSubModuleを使ってHTML内のリンクを書き換えてみた | blog.fukata.org 備忘録: nginx でアクセス元 IP レンジに応じて Web アプリケーションを切り替える - Qiita 無料の SSL 証明書が得られる ZeroSSL を使ってみた 【ゆっくり解説】抗体 - ニコニコ動画 WIPO PATENTSCOPE マーカッシュ構造検索の利用方法 (特許検索)｜Smartworks Inc.　/ 酒井美里｜note 光速の文献管理ソフト「Paperpile」 | Chem-Station (ケムステ) \と¥の問題 - 立命館大学情報理工学部セキュリティ・ネットワークコース　プログラミング言語サポートページ</description></item><item><title>2021-10-01</title><link>/posts/2021/10/01/192777/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/01/192777/</guid><description>午前 台風 7:00起床 朝吐き気あり 二度寝して8:10に家を出る 雨が強いのでバスで出社 昨日の続き ミーティング 上席から、昨日同様部下の実験の進め方について指導を受ける ミーティング 午後 午前の作業継続 長めの会議 途中で居眠りしてしまった、良くないですね 作業継続 事務作業 残業1時間 帰りもバスで来たく 体調 持ち直してきた ここ数日調子が悪かったのコーヒーを夜に飲んでいたからと思われる その他 今日のTabs 1 A.M Study Session 📚 - [lofi hip hop/chill beats] - YouTube 東芝など、6分で充電できる次世代電池を2023年度に商業化へ | 日経クロステック（xTECH）</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2021-10 on d.sk85.org</title><link>/archives/2021-10/</link><description>Recent content in 2021-10 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 01 Apr 2024 23:02:33 +0900</lastBuildDate><atom:link href="/archives/2021-10/index.xml" rel="self" type="application/rss+xml"/><item><title>2021-10-31</title><link>/posts/2021/10/31/59562/</link><pubDate>Sun, 31 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/31/59562/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>6:30起床&lt;/li>
+&lt;li>息子に朝食を作る&lt;/li>
+&lt;li>朝一で選挙へ&lt;/li>
+&lt;li>cloudflaredを触って遊ぶ&lt;/li>
+&lt;li>夕食用の鯛を買いに角上魚類へ
+&lt;ul>
+&lt;li>良いのが無かったので断念&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>ふるさと納税でブルーシールのアイスが届く&lt;/li>
+&lt;li>3DプリンタをKlipperに対応させようと調査&lt;/li>
+&lt;li>スーパーに買い物に&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.klipper3d.org/Overview.html">Overview - Klipper documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://all3dp.com/2/klipper-ender-3-v2/">Klipper on Ender 3 V2: How to Install It | All3DP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://all3dp.com/2/octoprint-bltouch-guide/">How to Use OctoPrint with BLTouch – Simply Explained | All3DP&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://terutakke.com/2021/05/ender-3-pro-octopi-klipper/">【3Dプリンタ】Ender-3 ProにKlipperファームウェアを導入した – OctoPi＋Klipper編 | あること・ないこと日記&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://turingcomplete.game/">Turing Complete&lt;/a>
+&lt;ul>
+&lt;li>
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KP-9Yq5PD_s?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>Cloudflare Tunnelを使ってローカルのサーバーを安全に公開する</title><link>/posts/2021/10/30/353859/</link><pubDate>Sat, 30 Oct 2021 15:09:27 +0900</pubDate><guid>/posts/2021/10/30/353859/</guid><description>&lt;h3 id="vpsをやめる">VPSをやめる&lt;/h3>
+&lt;p>indigoのVPSサーバー上に&lt;a href="https://tailscale.com/">Tailscale&lt;/a>をインストールして、自宅のサーバーにVPNで接続して、nginxのproxyとBASIC認証を使っていたのだけれど&lt;a href="/posts/2021/09/28/429812/">*&lt;/a>、自宅からVPSサーバーを迂回して大きなファイルを転送するとループを検知してか、30分ぐらいIPアドレスがブロックされてしまう。運用も面倒だなと思っていたら、&lt;a href="https://www.cloudflare.com/products/tunnel/">Cloudflare Tunnel&lt;/a>を使うと、無料で認証まで簡単にやってくれるらしい。実際やってみると簡単。VPS借りて手動でプロキシ立てるのがばからしくなる。&lt;/p>
+&lt;h3 id="メモ">メモ&lt;/h3>
+&lt;h4 id="前提">前提&lt;/h4>
+&lt;p>必要なのは&lt;/p>
+&lt;ol>
+&lt;li>自分でネームサーバーを設定できる独自ドメイン&lt;/li>
+&lt;/ol>
+&lt;h4 id="cloudflareにドメインを登録してネームサーバーをcloudflareに設定する">Cloudflareにドメインを登録してネームサーバーをCloudflareに設定する&lt;/h4>
+&lt;p>Cloudflareが現状のDNS設定を読み込んでくれ、ネームサーバーの変更をガイドしてくれる&lt;/p>
+&lt;h4 id="cloudflare-for-teamsに登録">Cloudflare for Teamsに登録&lt;/h4>
+&lt;h4 id="アプリケーションの追加">アプリケーションの追加&lt;/h4>
+&lt;p>Cloudflare for Teamsのダッシュボードからアプリケーションを追加する。Application URLはアクセスしたいURLを指定する。認証方法はメールアドレスや、IPアドレス、国等いろいろと選べる。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211030-05-14-11-NPFd9meNr7exX4TYqzw3.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20211030-05-14-11-NPFd9meNr7exX4TYqzw3.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211030-05-14-11-KOagNzNb8tL1hIFTPoz9.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20211030-05-14-11-KOagNzNb8tL1hIFTPoz9.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/p></description></item><item><title>2021-10-30</title><link>/posts/2021/10/30/300029/</link><pubDate>Sat, 30 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/30/300029/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>8:30起床&lt;/li>
+&lt;li>10:00ごろ近くのモールに買い物に&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>だらだらとcloudflareの設定をいじる&lt;/li>
+&lt;li>ユニクロに冬物を買いに&lt;/li>
+&lt;li>公園で遊ぶ&lt;/li>
+&lt;li>夕食は一年ぶりぐらいに鳥貴族&lt;/li>
+&lt;li>23:30就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Y3io6E4Eaj4?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;h4 id="lm_sensorsでファンの回転数が取れない">lm_sensorsでファンの回転数が取れない&lt;/h4>
+&lt;p>先日導入したサーバーにlm_sensorsをインストールしてもファン回転数や電圧が取れない。&lt;br>
+これで解決した: &lt;a href="https://askubuntu.com/questions/1253722/how-to-display-fan-speeds">how to display fan speeds - Ask Ubuntu&lt;/a>&lt;/p></description></item><item><title>2021-10-29</title><link>/posts/2021/10/29/255712/</link><pubDate>Fri, 29 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/29/255712/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>昨日の失敗が心配であまり眠れず&lt;/li>
+&lt;li>7:00起床&lt;/li>
+&lt;li>子供通園&lt;/li>
+&lt;li>見積もりを確認&lt;/li>
+&lt;li>昨日の実験失敗原因の分析検討
+&lt;ul>
+&lt;li>どうしていいかわからない&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>報告書の作成&lt;/li>
+&lt;li>午前の続き
+&lt;ul>
+&lt;li>原料が壊れているわけではなさそう&lt;/li>
+&lt;li>回収は出来ることは幸運だ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ある条件を使うと、収束させられることがわかった
+&lt;ul>
+&lt;li>実証実験して水に溶けなくなることを確認&lt;/li>
+&lt;li>分析的にも問題ない&lt;/li>
+&lt;li>よ、よかった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>残業2時間
+&lt;ul>
+&lt;li>懸念事項も片づいて良い週末になりそうだ&lt;/li>
+&lt;li>時間をかけた案件で最後にこういうことがあると、本当に気がめいる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-28</title><link>/posts/2021/10/28/387685/</link><pubDate>Thu, 28 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/28/387685/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>8:30出社&lt;/li>
+&lt;li>昨日の実験結果をもとに大きな量で試験
+&lt;ul>
+&lt;li>分析的は問題ないので後処理&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>後処理を継続
+&lt;ul>
+&lt;li>なんか変だぞ&lt;/li>
+&lt;li>装置で加熱しても全然飛ばない&lt;/li>
+&lt;li>なぜか成分の多くが水に溶ける&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>失敗の原因
+&lt;ul>
+&lt;li>昨日の検討実験で、何か変だと思ったが自分に都合が良い分析結果を採用した&lt;/li>
+&lt;li>大丈夫「だろう」と思った&lt;/li>
+&lt;li>別の分析方法を試さなかった&lt;/li>
+&lt;li>どうしても今週中に終わらせたかったので焦っていた&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>相当へこみますな&lt;/li>
+&lt;li>現状をまとめたスライドを作成&lt;/li>
+&lt;li>夜も心配になってなかなか眠れず&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>ふつう&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-27</title><link>/posts/2021/10/27/962504/</link><pubDate>Wed, 27 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/27/962504/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>9:00ごろ出社&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>長めの打ち合わせ&lt;/li>
+&lt;li>実験継続
+&lt;ul>
+&lt;li>なんか変だが、モニタリングではおかしいところはないので、何とかなるでしょう&lt;/li>
+&lt;li>これが翌日大きな問題を生むことに&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-26</title><link>/posts/2021/10/26/972422/</link><pubDate>Tue, 26 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/26/972422/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>風邪のためか眠りが浅い&lt;/li>
+&lt;li>10:00過ぎに出社&lt;/li>
+&lt;li>悪寒とのどが痛くパソコン持ち帰って勤務&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;li>食欲がないのでカロリーメイトとスポーツドリンク&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>進捗の打ち合わせ&lt;/li>
+&lt;li>見積もりの作成&lt;/li>
+&lt;li>広告の確認&lt;/li>
+&lt;li>いつの間にか悪寒が治まっていた&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-25</title><link>/posts/2021/10/25/816424/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/25/816424/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>風邪気味のため休み&lt;/li>
+&lt;li>熱はなし、のどの痛みあり&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211105-16-07-03-FCOxszm5fuHo9ree9E4Y.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211105-16-07-03-FCOxszm5fuHo9ree9E4Y.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;ul>
+&lt;li>計算用サーバーを組む
+&lt;ul>
+&lt;li>GPUは不要なので内蔵GPUを利用&lt;/li>
+&lt;li>Core i5 10400なで温度も高くならない&lt;/li>
+&lt;li>さくっとubuntuを入れてターミナルから利用
+&lt;ul>
+&lt;li>dockerをインストール
+&lt;ul>
+&lt;li>gpasswd -a USER docker で一般ユーザーからもdockerコマンドが使えるようにする&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.ytyng.com/blog/lvm-partition-extend-full-remain-volume/">LVM を拡張&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>さすがに64GBメモリを積んでいると早いな
+&lt;ul>
+&lt;li>データをすべてメモリに格納して計算させている&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>あとは温度&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夜はなかなか眠れず&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>風邪気味&lt;/li>
+&lt;li>熱はないがのどが痛い&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-24</title><link>/posts/2021/10/24/619500/</link><pubDate>Sun, 24 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/24/619500/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子は責が苦しく夜中に何度か起きていた&lt;/li>
+&lt;li>朝は咳が改善&lt;/li>
+&lt;li>家でゆっくり過ごす&lt;/li>
+&lt;li>回転すしをテイクアウト&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>微熱&lt;/li>
+&lt;li>終日家で過ごす&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>風邪気味&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="計算用サーバーの構成">計算用サーバーの構成&lt;/h4>
+&lt;p>とにかくメモリが必要なのでGPUは未搭載&lt;br>
+&lt;a href="http://niku.webcrow.jp/u/fA1eo">http://niku.webcrow.jp/u/fA1eo&lt;/a>&lt;br>
+【CPU】インテル Core i5 10400 BOX ¥18,580&lt;br>
+【CPUクーラー】AINEX CC-06S ¥1,300&lt;br>
+【メモリ】CFD CFD Selection W4U2666CM-16GR [DDR4 PC4-21300 16GB 2枚組] ¥28,820 x2&lt;br>
+【マザーボード】ASUS PRIME B460M-A ¥9,680&lt;br>
+【SSD】WESTERN DIGITAL WD Blue SN550 NVMe WDS500G2B0C ¥6,470&lt;br>
+【ケース】Thermaltake Versa H17 CA-1J1-00S1NN-00 ¥2,855&lt;br>
+【電源】玄人志向 KRPW-BK650W/85+ ¥5,849&lt;br>
+【合計】¥ 73,554&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-23</title><link>/posts/2021/10/23/630249/</link><pubDate>Sat, 23 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/23/630249/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>はれ&lt;/li>
+&lt;li>6:30ごろ起床&lt;/li>
+&lt;li>本日は息子の運動会
+&lt;ul>
+&lt;li>今年は時間を区切ってクラスごとにやるようだ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>8:30ごろ公園に行き、9:00ごろから開始
+&lt;ul>
+&lt;li>家ではほとんど踊らない息子だが、かけっこや、協調運動、行進が出来ていて驚いた&lt;/li>
+&lt;li>息子は運動会が嫌だ怖いと言っており、私も小さい頃は運動会が嫌だったが、親の立場で見ると良いものだ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>奥さんがお弁当を作ってくれたので、電車で大きな公園に行き外で食べる&lt;/li>
+&lt;li>息子の咳が出始める&lt;/li>
+&lt;li>元気だが夕方にかけて咳が続く&lt;/li>
+&lt;li>夜は空咳がひどくて23:00ごろまで眠れず、夜中も何回か起きていた&lt;/li>
+&lt;li>添い寝をしていたのでおそらく24:00ごろ就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>ふつう&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="nucを新調しようか">NUCを新調しようか&lt;/h4>
+&lt;p>家で使っているNUCはCeleron J3455が搭載されていて、消費電力が低くファンレスなのが良いのだけれど、CPUが対応していない命令があるようで解析ソフトが動かなかった。どうしようかねえ。買うなら、NUC11PAHi5にメモリ16GBぐらいか&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>おやすみ&lt;/p></description></item><item><title>2021-10-22</title><link>/posts/2021/10/22/47753/</link><pubDate>Fri, 22 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/22/47753/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>雨が降って寒い&lt;/li>
+&lt;li>7:00起床&lt;/li>
+&lt;li>8:30に出社&lt;/li>
+&lt;li>昨日の作業が終わってないので、引き続き
+&lt;ul>
+&lt;li>詰まってた&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>お客さんとの面談の議事録作成&lt;/li>
+&lt;li>調査業務&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>資料作成&lt;/li>
+&lt;li>長めの会議&lt;/li>
+&lt;li>作業を少しやってほぼ定時で帰宅&lt;/li>
+&lt;li>雨が降っていたのでバスで駅まで帰宅&lt;/li>
+&lt;li>早めに就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-21</title><link>/posts/2021/10/21/322677/</link><pubDate>Thu, 21 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/21/322677/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子と通園&lt;/li>
+&lt;li>8:30出社&lt;/li>
+&lt;li>昨日の実験の後処理&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>調査業務&lt;/li>
+&lt;li>お客さんと打ち合わせ&lt;/li>
+&lt;li>議事録作成&lt;/li>
+&lt;li>残業2時間&lt;/li>
+&lt;li>昔のボスの依頼で、某企業の人に連絡とったら出向してた
+&lt;ul>
+&lt;li>とりあえず一緒に焼き肉に行く約束をした&lt;/li>
+&lt;li>&lt;a href="https://tabelog.com/tokyo/A1309/A130903/13257352/">焼肉ヒロミヤ 四谷4号店&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>お疲れ気味&lt;/li>
+&lt;li>やることが多すぎて、もうぐったり&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://new-toykiha-world.hatenablog.com/">キハの国から～蒼き線路でどこまでも～&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mobile.twitter.com/y_natsusan_pura/status/1450399555254513669">わい(なつ)さんはTwitterを使っています 「屋根めんどうだyo https://t.co/KaJjSL82ka」 / Twitter&lt;/a>
+&lt;ul>
+&lt;li>屋根の作例&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://burariweb.info/gadget/3d-printer/ender3-v2-bltouch-customize.html">【3Dプリンタ】Ender3 V2にBLTouch(オートレベリング)機能を適応する手順！ | ぶらり＠web走り書き&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://okayamalabo.hatenablog.com/entry/2019/02/13/172400">Fusion360でラックギアやインターナルギアが作れるようになりました【FM Gears】 - 創成ミライ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/tkd_pbl/status/1444867899131191301">東京化学同人さんはTwitterを使っています 「先月に続き、雑誌のインパクトファクターを稼ぐためのプロのエディターの存在など、学術誌の現状を生々しく伝えます。新世代ジャーナルの在り方なども。「論文審査は本当にきちんとされているのか？」（有賀克彦先生）現代化学 2021年11月号 [雑誌] https://t.co/0rHT02NMaI @amazonJPより https://t.co/iZvvZLUpGI」 / Twitter&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-10-20</title><link>/posts/2021/10/20/994643/</link><pubDate>Wed, 20 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/20/994643/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>6:55起床&lt;/li>
+&lt;li>朝一で会議のため出社&lt;/li>
+&lt;li>8:00前から海外現法ち打ち合わせ&lt;/li>
+&lt;li>また会議&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>またまた技術系の会議&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ほぼ定時で帰宅&lt;/li>
+&lt;li>夕食の時に、息子が食べたかったキュウリを全部食べてしまって息子は激怒していた&lt;/li>
+&lt;li>23:00ごろ布団に入ったが、0時半ぐらいまで眠れず&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>なし&lt;/p></description></item><item><title>2021-10-19</title><link>/posts/2021/10/19/279947/</link><pubDate>Tue, 19 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/19/279947/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>資料を作成&lt;/li>
+&lt;li>昨日の実験の後処理
+&lt;ul>
+&lt;li>分析するとうまく抽出できていた&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>新しい実験の開始&lt;/li>
+&lt;li>海外支社にプレゼン
+&lt;ul>
+&lt;li>ほぼ聞いてるだけ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>研究所体制について打ち合わせ&lt;/li>
+&lt;li>昨日のミーティングで久しぶりにお会いした先生から電話、しばしば雑談&lt;/li>
+&lt;li>1.5時間残業&lt;/li>
+&lt;li>23:30就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>ふつう&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="m1-pro-maxプロセッサ搭載14-16インチmbp発表">M1 Pro, Maxプロセッサ搭載14, 16インチMBP発表&lt;/h4>
+&lt;p>まずTouchBarさようなら、本当に必要がない機能だった。&lt;br>
+M1と比べて数の暴力でトランジスタ数を上げてSoCのサイズを大型化してきた。5nmプロセスで現実的な歩留まりで大きなダイを作れるのはすごい技術だ。ダイサイズ増加による消費電力増に対応するため、バッテリも増やしたのでM1のMBAに対して300gの大幅な重量増ですが、こればかりは仕方がない。MBPとMBAで明確にターゲットユーザーが区分けされていて分かりやすい。クリエーターじゃない人は軽くて安いファンレスMBAで十分でしょう。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://pc.watch.impress.co.jp/docs/news/1359413.html">Apple、GPUを1チップに統合して驚異的な性能を発揮する「M1 Pro」、「M1 Max」 - PC Watch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pc.watch.impress.co.jp/docs/column/ubiq/1359506.html">【笠原一輝のユビキタス情報局】CPUもGPUも最高性能となったM1 ProとM1 Max、課題はアプリケーション対応 - PC Watch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.apple.com/jp/macbook-air/specs/">MacBook Air - 仕様 - Apple（日本）&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.apple.com/jp/macbook-pro-14-and-16/specs/">14インチと16インチMacBook Pro - 仕様 - Apple（日本）&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>なし&lt;/p></description></item><item><title>2021-10-18</title><link>/posts/2021/10/18/517603/</link><pubDate>Mon, 18 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/18/517603/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>朝調子が悪く息子を送った後横になる&lt;/li>
+&lt;li>10:00に出社&lt;/li>
+&lt;li>打ち合わせのためにレジュメまとめる&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>打ち合わせ
+&lt;ul>
+&lt;li>お客さんからややきつめの言葉が営業の方に&lt;/li>
+&lt;li>ボールを相手に投げる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>少し実験&lt;/li>
+&lt;li>資料作成と調査&lt;/li>
+&lt;li>定時に帰宅&lt;/li>
+&lt;li>マンションの公開空地で子供に対する暴行事件が発生
+&lt;ul>
+&lt;li>中年女性が逮捕される、よくうろうろしているあの人かなあ&lt;/li>
+&lt;li>誰にせよ子供に暴行するなんて許せませんね&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://okayamalabo.hatenablog.com/entry/2019/02/13/172400">Fusion360でラックギアやインターナルギアが作れるようになりました【FM Gears】 - 創成ミライ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://3d-modely.com/blog/3d-software/fusion-360-gear/">超簡単！ Fusion 360で歯車を作成する方法 | モデログ&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-10-17</title><link>/posts/2021/10/17/141518/</link><pubDate>Sun, 17 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/17/141518/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>朝から寒い、秋を通り越して冬がきた&lt;/li>
+&lt;li>7:30起床&lt;/li>
+&lt;li>息子に朝食のサンドイッチを作る&lt;/li>
+&lt;li>雨の中スイミングスクールへ&lt;/li>
+&lt;li>僕は留守番して消防点検の対応&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>昼食後にすぐに昼寝&lt;/li>
+&lt;li>夕方雨が上がったので図書館に
+&lt;ul>
+&lt;li>保育園のお友達に合う&lt;/li>
+&lt;li>翌日の朝食をコンビニで買いつつ帰宅&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>23:30ごろ帰宅&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>ふつう&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/KeiOMbJadqo?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>おやすみ&lt;/p></description></item><item><title>2021-10-16</title><link>/posts/2021/10/16/72672/</link><pubDate>Sat, 16 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/16/72672/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00ごろ起床&lt;/li>
+&lt;li>個人用のブックマークサイトを自宅のサーバーに移す作業&lt;/li>
+&lt;li>10:00ごろ家族で池袋へ向けて出発&lt;/li>
+&lt;li>パルコ前からIKEBUSに乗ってサンシャインへ&lt;/li>
+&lt;li>丸亀製麺で昼食
+&lt;ul>
+&lt;li>タル鶏天頼んだら思ったより大きくて、サイドのてんぷらをテイクアウト&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>噴水前で小田急のイベントをやっていてプラレールを走らせていた&lt;/li>
+&lt;li>イケサンパークで遊ぶ
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211016-12-53-22-mZdmQCxwwe7jOBGsPOfn.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211016-12-53-22-mZdmQCxwwe7jOBGsPOfn.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;li>15:00ごろに荒川線で大塚へ
+&lt;ul>
+&lt;li>ぼんごでテイクアウトしようかと思ったら大変込んでいたので断念&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>帰宅してお昼寝&lt;/li>
+&lt;li>夕方スーパーへ
+&lt;ul>
+&lt;li>安かったのでカツオのたたきを&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>24:00ごろ就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://plare.stlmaker.com">Plare Search は自作・改造プラレールの情報サイトです。&lt;/a>
+&lt;ul>
+&lt;li>めちゃくちゃ便利&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.nikkei-science.com/202111_034.html">知られざる30年の開発史 - 日経サイエンス&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://note.com/wathew/n/n24f9fcfe124f">LiDARスキャナで部屋を3D化してBlenderでツーバイ材DIYの設計したらうまくできました｜鷲羽宗一郎｜note&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://r7kamura.com/articles/2021-10-11-docker-compose-profiles">docker composeのserviceをグループ化&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://valinux.hatenablog.com/entry/20210527">RISC-V OSを作ろう (1) ～ブート処理 - VA Linux エンジニアブログ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://macsoft.jp/clippaste-universal-clipboard/">ClipPaste: Universal Clipboard 2.3 - Mac、Android、iPhone・iPad間でコピー＆ペーストを実現 - 新しもの好きのダウンロード&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://applech2.com/archives/20211015-deepl-for-ios-15-support-text-from-camera.html">機械翻訳アプリ「DeepL翻訳 for iOS」がiOS 15の新機能「Text from Camera」に対応し、カメラでテキストをスキャンし瞬時に翻訳を行うことが可能に。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://matcha-to-wagashi.com/archives/298">ホテルメイドの贅沢パン～ザ・ペニンシュラ東京の「メープルクロッカン」&lt;/a>
+&lt;ul>
+&lt;li>なかなか買えないんだよなあ、自作してみるか？&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>2021-10-15</title><link>/posts/2021/10/15/924927/</link><pubDate>Fri, 15 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/15/924927/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>本日有給&lt;/li>
+&lt;li>奥さんと秋葉原のビックカメラへ
+&lt;ul>
+&lt;li>奥さんはかばんを物色&lt;/li>
+&lt;li>僕はappleコーナー辺りで時間を潰す
+&lt;ul>
+&lt;li>M1X出るのかなあ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>駅前のほん田で40分ほど並んでラーメンを食べる
+&lt;ul>
+&lt;li>大盛り頼んだら思った以上に麺が多くておなかいっぱい
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211017-02-17-18-0fIHF_4if-pA4Xr75cRV.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211017-02-17-18-0fIHF_4if-pA4Xr75cRV.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>品川でケーキを買って帰宅&lt;/li>
+&lt;li>僕は別の店でケーキを買う&lt;/li>
+&lt;li>夜は寝かしつけをしていたら寝落ちしてしまった&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>おやすみ&lt;/p></description></item><item><title>2021-10-14</title><link>/posts/2021/10/14/112817/</link><pubDate>Thu, 14 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/14/112817/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>子供通園して出社&lt;/li>
+&lt;li>ひたすら昨日の続き、取り込まれた物質を回収&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>実験続き&lt;/li>
+&lt;li>急ぎの報告書作成&lt;/li>
+&lt;li>残業2時間&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>お休み&lt;/p></description></item><item><title>2021-10-13</title><link>/posts/2021/10/13/383042/</link><pubDate>Wed, 13 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/13/383042/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00 起床&lt;/li>
+&lt;li>9:00 前に出社&lt;/li>
+&lt;li>昨日の実験の続き
+&lt;ul>
+&lt;li>うーむ、まだ残っている&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>技術系の会議&lt;/li>
+&lt;li>三時間近くかかってしまった&lt;/li>
+&lt;li>実験の続き
+&lt;ul>
+&lt;li>まだ残っている&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>定時で退社&lt;/li>
+&lt;li>帰りに髪を切る&lt;/li>
+&lt;li>23:30 就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="/posts/2021/07/12/676340/">iPadOS 15 の JIS キーボードが US 配列と認識される問題&lt;/a>は iPadOS 15.0.2 にすると解決&lt;/li>
+&lt;li>往復プラレールが発売される、これは楽しみだ。改造して路面電車にしよう
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">S-40 レールで往復！H5系はやぶさ&lt;br>&lt;br>ついに通常プラレールにも往復車両が…！&lt;br>って、はやぶさ多すぎだろ。 &lt;a href="https://t.co/Q0ynTLC5FC">pic.twitter.com/Q0ynTLC5FC&lt;/a>&lt;/p>&amp;mdash; ゆう P_kiesFan (@P_kiesFan21) &lt;a href="https://twitter.com/P_kiesFan21/status/1447916551164751878?ref_src=twsrc%5Etfw">October 12, 2021&lt;/a>&lt;/blockquote>
+ &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+ 
+&lt;/li>
+&lt;li>proxy サーバーを立てる
+&lt;ul>
+&lt;li>tailscale 経由で自宅のサーバーにつなげた&lt;/li>
+&lt;li>ZeroSSL ではワイルドカード証明は有料&lt;/li>
+&lt;li>Let&amp;rsquo;s Encrypt ではワイルドカード証明には DNS-01 認証が必要だが、更新も DNS 認証なので手動更新が必要
+&lt;ul>
+&lt;li>&lt;a href="https://go-acme.github.io/lego/">Let’s Encrypt client and ACME library written in Go.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zenn.dev/mattn/articles/b2c4c92c9116b1">無料の SSL 証明書が得られる ZeroSSL を使ってみた&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.mazn.net/blog/2020/09/22/1869.html">lego コマンドで Let&amp;rsquo;s Encrypt - Mazn.net&lt;/a>
+&lt;ul>
+&lt;li>LEGO に対応している DNS プロバイダなら自動更新が可能&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://blog.nightonly.com/2021/03/24/lets-encrypt%E3%81%AE%E8%A8%BC%E6%98%8E%E6%9B%B8%E6%9B%B4%E6%96%B0%EF%BC%88dns%E8%AA%8D%E8%A8%BC%EF%BC%89%E3%82%92%E8%87%AA%E5%8B%95%E5%8C%96/">Let&amp;rsquo;s Encrypt の証明書更新（DNS 認証）を自動化 - Blog メモ φ(..)&lt;/a>
+&lt;ul>
+&lt;li>certbot ならスクリプトを指定する&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://qiita.com/F_clef/items/136d81223c030904523c">Let&amp;rsquo;s Encrypt によるワイルドカード証明書　～簡単なコマンドオプション解説を添えて～ - Qiita&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>結局いつもの https-portal でサブドメインごとに証明書を取って、サブドメインごとに proxy サーバーを立てることに&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://d44.jp/?p=11737">Win11 の TPM 設定は BIOS アップデートがお手軽 – d44.jp&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-10-12</title><link>/posts/2021/10/12/43501/</link><pubDate>Tue, 12 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/12/43501/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>昨日の実験片づけ&lt;/li>
+&lt;li>大きな量で実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>午前の実験の後処理
+&lt;ul>
+&lt;li>うーむ金属に取り込まれてしまった&lt;/li>
+&lt;li>無理やりいろいろ試して抽出する&lt;/li>
+&lt;li>時間がかかっている、よくない&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>残業1.5時間&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-11</title><link>/posts/2021/10/11/108330/</link><pubDate>Mon, 11 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/11/108330/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>パンケーキを食べる&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>精製作業&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>作業続き&lt;/li>
+&lt;li>会議&lt;/li>
+&lt;li>作業続き
+&lt;ul>
+&lt;li>とてもうまくいった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>残業1時間して帰宅&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>お休み&lt;/p></description></item><item><title>2021-10-10</title><link>/posts/2021/10/10/918381/</link><pubDate>Sun, 10 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/10/918381/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>6:30起床&lt;/li>
+&lt;li>息子に朝食を作る&lt;/li>
+&lt;li>QNAPの環境構築&lt;/li>
+&lt;li>息子はスイミング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>息子腹痛で調子が悪いとのことなので、15:00ぐらいまで寝かせる&lt;/li>
+&lt;li>治ったようだ&lt;/li>
+&lt;li>夕方公園に散歩に&lt;/li>
+&lt;li>スーパーによって帰宅&lt;/li>
+&lt;li>24:00就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="qnap環境構築">QNAP環境構築&lt;/h4>
+&lt;ul>
+&lt;li>QTS 5にアップデート&lt;/li>
+&lt;li>管理用アカウントを作ってデフォルトのadminアカウントを無効にする&lt;/li>
+&lt;li>管理用アカウントに公開鍵を登録&lt;/li>
+&lt;li>&lt;a href="https://www.qnap.com/ja-jp/software/qsirch">Qsirch5.0&lt;/a>を入れてみたが、自分の用途には合わない。
+&lt;ul>
+&lt;li>GUIの使い勝手はよいが一回一回ログインしなければいけないのが面倒&lt;/li>
+&lt;li>PDFを検索したいだけなので、&lt;a href="/posts/2021/09/28/429812/">PDF検索システム&lt;/a>の方が便利かな&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Container Stationは良くできている
+&lt;ul>
+&lt;li>sshで接続してdockerコマンドが使える&lt;/li>
+&lt;li>16GBメモリがあるのはいいね&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.plex.tv/ja/">Plex&lt;/a>を導入
+&lt;ul>
+&lt;li>ローカルのメディアファイルをすべてplexに移す&lt;/li>
+&lt;li>リモートアクセスを有効に&lt;/li>
+&lt;li>iOSにplexのアプリを導入してストリーミングできるようにする&lt;/li>
+&lt;li>長年のiPhoneに音楽を同期するの面倒くさい問題が解決した
+&lt;ul>
+&lt;li>うまく同期できないファイルもあった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>TS-231Pの初期化とストレージの&lt;a href="https://docs.qnap.com/nas-outdated/QTS4.3.5/jp/GUID-13D75E00-2CED-47B6-B626-EA991E0EE23C.html">安全消去&lt;/a>
+&lt;ul>
+&lt;li>ボリュームを削除して、RAIDを解除して安全消去で上書き&lt;/li>
+&lt;li>安全消去が出来ない場合は、新しく非RAIDでボリュームを作って再度削除してからもう一度試す&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>なし&lt;/p></description></item><item><title>2021-10-09</title><link>/posts/2021/10/09/540119/</link><pubDate>Sat, 09 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/09/540119/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:30起床&lt;/li>
+&lt;li>奥さんはお土産用のベーグルを買いに行く&lt;/li>
+&lt;li>息子と早めに奥さんの実家へ出発&lt;/li>
+&lt;li>最寄り駅で集合&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>回転すしを食べて実家へ&lt;/li>
+&lt;li>二人とも元気そうで何より&lt;/li>
+&lt;li>おばあちゃんの家も訪問して息子の顔を見せる&lt;/li>
+&lt;li>16:30ごろ家を出る&lt;/li>
+&lt;li>子供の寝かしつけをしながら寝てしまう&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>なし&lt;/p></description></item><item><title>2021-10-08</title><link>/posts/2021/10/08/133438/</link><pubDate>Fri, 08 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/08/133438/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>昨日の実験の継続
+&lt;ul>
+&lt;li>結果分析&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>会議資料作成&lt;/li>
+&lt;li>会議&lt;/li>
+&lt;li>別の研究所に二日間で作った試作品を送付&lt;/li>
+&lt;li>QNAP一式が届く&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="qnapのts-251dhahahugoshortcode292s0hbhbが届く">&lt;a href="/posts/2021/10/06/373298/">QNAPのTS-251D&lt;/a>が届く&lt;/h4>
+&lt;ul>
+&lt;li>TS-251D&lt;/li>
+&lt;li>W4N2400CM-8G*2&lt;/li>
+&lt;li>WD40EZAZ*2&lt;/li>
+&lt;/ul>
+&lt;p>8GBメモリ2枚を刺して起動、問題なく稼働。TS-231Pに刺さっていたHDD-1本をTS-251Dのベイ1に刺して、WD40EZAZをベイ2に刺すと自動でミラーリングしてくれた。その後、ベイ1の古いHDDを取り出して残りのWD40EZAZを差し込む。これでベイ1のHDDもミラーリングされる。最後に、容量を拡張して終了。&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>なし&lt;/p></description></item><item><title>2021-10-07</title><link>/posts/2021/10/07/732119/</link><pubDate>Thu, 07 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/07/732119/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>そのまま出社&lt;/li>
+&lt;li>ひたすら実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>ひたすら実験&lt;/li>
+&lt;li>残業1時間&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-06</title><link>/posts/2021/10/06/373298/</link><pubDate>Wed, 06 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/06/373298/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>8:30ごろに出社&lt;/li>
+&lt;li>昨日の実験の分析
+&lt;ul>
+&lt;li>なかなかうまくいっている&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>月曜の実験の後処理継続&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;li>昼食はサイゼリア&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>技術系の会議で発表&lt;/li>
+&lt;li>分析の続き
+&lt;ul>
+&lt;li>進んでいるようなので、今日も継続&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ほぼ定時で帰宅
+&lt;ul>
+&lt;li>今日はゆっくりしてたな&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>24:00就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="qnapのts-251dを買う">QNAPのTS-251Dを買う&lt;/h4>
+&lt;p>QTS 5が公開鍵認証に対応したので、これはいい。メモリは16GB運用で実績のあるW4N2400CM-8G*2枚を発注。ビックカメラ.comだとWDのWD40EZAZが購入制限で一台しか買えなかったので、もう一台は実店舗で買おう。&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://coralcap.co/2021/10/gitlab-ipo/">ウクライナ発個人プロジェクトGitLabが1兆円規模のIPOへ、その4つの教訓 | Coral Capital&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.foreignaffairs.com/articles/taiwan/2021-10-05/taiwan-and-fight-democracy">Tsai Ing-wen: Taiwan and the Fight for Democracy&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.nflabs.jp/entry/2021/09/09/095956">今日からできるサイバー脅威インテリジェンスの話-実践編- - NFLabs. エンジニアブログ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.nflabs.jp/entry/2021/10/06/095121">macOSの暗号化zipファイルはパスワード無しで解凍できる - NFLabs. エンジニアブログ&lt;/a>
+&lt;ul>
+&lt;li>なるほど、.DS_Storeはパターンが決まっていて既知平文攻撃ができるのか&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>2021-10-05</title><link>/posts/2021/10/05/604886/</link><pubDate>Tue, 05 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/05/604886/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>昨日の実験の精製&lt;/li>
+&lt;li>設備の業者対応&lt;/li>
+&lt;li>実験の後処理&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>研究所の会議&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;li>昨日依頼があった案件を急いで仕込む&lt;/li>
+&lt;li>会議資料作成&lt;/li>
+&lt;li>残業1.5時間&lt;/li>
+&lt;li>&lt;/li>
+&lt;li>24:00就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>忙しいが良好&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://from-age35.com/2028.html">ContainerStationでDocker×UbuntuにSSH接続する方法【QNAP】 – 35からのプログラミング&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-10-04</title><link>/posts/2021/10/04/210214/</link><pubDate>Mon, 04 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/04/210214/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>子供通園&lt;/li>
+&lt;li>月曜にしてはやる気がある&lt;/li>
+&lt;li>朝から大きな量で実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>人事関連書類の確認&lt;/li>
+&lt;li>午前の後処理&lt;/li>
+&lt;li>急ぎで作って欲しいサンプル依頼が来て、大急ぎで準備&lt;/li>
+&lt;li>残業1時間ちょっと&lt;/li>
+&lt;li>夕食は奥さんが作ったいくらの醤油漬けとサーモン丼&lt;/li>
+&lt;li>23:30に就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>月曜にしては良い&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://travelifeblog.com/archives/lagratitude-202006.html">奥神楽坂のフレンチビストロ「ラ グラティチュード」のランチ│夫婦で世界と日本を旅する生活&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tatzuro.com/2017/05/12/bistro-la-gratitude/">Bistro la gratitude - tatzulog&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-10-03</title><link>/posts/2021/10/03/91235/</link><pubDate>Sun, 03 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/03/91235/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:30起床&lt;/li>
+&lt;li>奥さんが息子の朝食を作ってくれていた&lt;/li>
+&lt;li>水泳教室に連れて行く
+&lt;ul>
+&lt;li>待っている間は、近くのハンバーガー屋でPovoを使ってネットサーフィン&lt;/li>
+&lt;li>M1のMBAが快適だ、バッテリもほとんど減らない&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>昼食は回転すし&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>昼寝&lt;/li>
+&lt;li>息子と遊んで、その間に奥さんが昼寝&lt;/li>
+&lt;li>スーパーに行く
+&lt;ul>
+&lt;li>イカと筋子が安かった&lt;/li>
+&lt;li>イカは唐揚げにして、筋子は醤油漬けに&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>明日から仕事なので、22:30就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>問題なし&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>おやすみ&lt;/p></description></item><item><title>2021-10-02[通院12回目]</title><link>/posts/2021/10/02/337604/</link><pubDate>Sat, 02 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/02/337604/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:30起床&lt;/li>
+&lt;li>息子と家で遊んでから公園に行く&lt;/li>
+&lt;li>自宅で昼食&lt;/li>
+&lt;li>昨日半額で買った、麻婆豆腐焼きそば&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>昼寝&lt;/li>
+&lt;li>息子は奥さんと公園に自宅で作業&lt;/li>
+&lt;li>駅ナカのラーメン屋で夕食をとる&lt;/li>
+&lt;li>Povoで番号をとって使い放題オプション使ってみた
+&lt;ul>
+&lt;li>快適&lt;/li>
+&lt;li>今までは外で作業するときはネットカフェでやっていたが、今後は使い放題オプションを活用して図書館等でも良いかも&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>心療内科&lt;/li>
+&lt;li>23:30ごろ帰宅してすぐに就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="心療内科-12回目">心療内科 12回目&lt;/h4>
+&lt;ul>
+&lt;li>朝の調子が優れない&lt;/li>
+&lt;li>夜眠れない日が多い
+&lt;ul>
+&lt;li>眠れないときはBZDを多めに&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>部下の仕事がうまくいっておらず上席からの指導が気掛かり
+&lt;ul>
+&lt;li>指導を叱責ととらえずに、物事をよくするためのアドバイスととらえる&lt;/li>
+&lt;li>叱責という言葉を使わない
+&lt;ul>
+&lt;li>たしからに指導を叱責と同一視していた&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/pilotmoon/PopClip-Extensions">pilotmoon/PopClip-Extensions: Documentation and source code for PopClip extensions.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://ayame.space/2017/09/make-popclip-extensions/">PopClipエクステンションの作り方&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.k-sakabe.com/2021/05/02/macos%E7%89%88%E3%80%8C%E8%BE%9E%E6%9B%B8-by-%E7%89%A9%E6%9B%B8%E5%A0%82%E3%80%8D%E7%94%A8popclip%E6%8B%A1%E5%BC%B5%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F/">macOS版「辞書 by 物書堂」用PopClip拡張を作った – おもむくがままに&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://rougeref.hatenablog.com/entry/20180418/1524186506">nginxでHTMLを改変 - rougeref’s diary&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.fukata.org/archives/6961/">nginxのHttpSubModuleを使ってHTML内のリンクを書き換えてみた | blog.fukata.org&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://qiita.com/kitsuyui/items/aefb3f301fd4f7004d81">備忘録: nginx でアクセス元 IP レンジに応じて Web アプリケーションを切り替える - Qiita&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zenn.dev/mattn/articles/b2c4c92c9116b1">無料の SSL 証明書が得られる ZeroSSL を使ってみた&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://sp.nicovideo.jp/watch/sm38873211">【ゆっくり解説】抗体 - ニコニコ動画&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://note.com/sakaimisato/n/n1cf91c42a60e">WIPO PATENTSCOPE 　マーカッシュ構造検索の利用方法 (特許検索)｜Smartworks Inc.　/ 酒井美里｜note&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.chem-station.com/blog/2021/09/paperpile.html">光速の文献管理ソフト「Paperpile」 | Chem-Station (ケムステ)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://scrapbox.io/Ritsumei-ISE-SN/%5C%E3%81%A8%C2%A5%E3%81%AE%E5%95%8F%E9%A1%8C">\と¥の問題 - 立命館大学情報理工学部セキュリティ・ネットワークコース　プログラミング言語サポートページ&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-10-01</title><link>/posts/2021/10/01/192777/</link><pubDate>Fri, 01 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/01/192777/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>台風&lt;/li>
+&lt;li>7:00起床&lt;/li>
+&lt;li>朝吐き気あり&lt;/li>
+&lt;li>二度寝して8:10に家を出る
+&lt;ul>
+&lt;li>雨が強いのでバスで出社&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>昨日の続き&lt;/li>
+&lt;li>ミーティング
+&lt;ul>
+&lt;li>上席から、昨日同様部下の実験の進め方について指導を受ける&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>午前の作業継続&lt;/li>
+&lt;li>長めの会議
+&lt;ul>
+&lt;li>途中で居眠りしてしまった、良くないですね&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>作業継続&lt;/li>
+&lt;li>事務作業&lt;/li>
+&lt;li>残業1時間&lt;/li>
+&lt;li>帰りもバスで来たく&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>持ち直してきた&lt;/li>
+&lt;li>ここ数日調子が悪かったのコーヒーを夜に飲んでいたからと思われる&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=lTRiuFIWV54">1 A.M Study Session 📚 - [lofi hip hop/chill beats] - YouTube&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://xtech.nikkei.com/atcl/nxt/news/18/11280/?n_cid=nbpnxt_twbn">東芝など、6分で充電できる次世代電池を2023年度に商業化へ | 日経クロステック（xTECH）&lt;/a>
+
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/lTRiuFIWV54?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>

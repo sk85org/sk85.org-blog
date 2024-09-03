@@ -1,51 +1,133 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2020-12 on d.sk85.org</title><link>/archives/2020-12/</link><description>Recent content in 2020-12 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2020-12/index.xml" rel="self" type="application/rss+xml"/><item><title>プラレール自動制御</title><link>/posts/2020/12/28/595555/</link><pubDate>Mon, 28 Dec 2020 23:19:42 +0900</pubDate><guid>/posts/2020/12/28/595555/</guid><description>子供(2歳児)はプラレール好きで、最近はループやトンネルよりも複数車両が秩序を維持しながら走るのが面白いようだ。市販で手に入るのは経路を変更する2部品。
-R-16 自動ポイントレール R-19 自動ターンアウトレール これだけだと停車-発車の制御ができないのでArduinoを使って制御してみよう。</description></item><item><title>2020-12-26のブックマーク</title><link>/posts/2020/12/26/530501/</link><pubDate>Sat, 26 Dec 2020 18:44:22 +0900</pubDate><guid>/posts/2020/12/26/530501/</guid><description>バーチャルトレーダーの罪深さ
-https://kabutouma.hatenablog.com/entry/2020/12/26/155455</description></item><item><title>物事を判断するときの基準</title><link>/posts/2020/12/25/412728/</link><pubDate>Fri, 25 Dec 2020 15:33:15 +0900</pubDate><guid>/posts/2020/12/25/412728/</guid><description>人によって基準は様々だと思うけど、僕の場合は結局以下の３つに行き着く。
-子供が不自由なく進学できる 奥さんが幸せに暮らせる 自分の心身が健康 だから、上記の３つが満たされていれば変化の必要はないのだけれど、
-そこが人間の難しいところで、自分のキャリアや研究についての希望がむくむくと
-出てきてしまうのだ。</description></item><item><title>自分の思考特性</title><link>/posts/2020/12/23/343869/</link><pubDate>Wed, 23 Dec 2020 22:56:20 +0900</pubDate><guid>/posts/2020/12/23/343869/</guid><description>嫌な(不安な)事象発生 0分~ 5時間 でまず回避や退避を考える
-ほとんど頭が回ってない。悪い方に掘り下げ、食欲がなくなったり吐きそうになる
-気持ち的には-100
-回復期 ~1日
-気持ちは回避や退避が継続。 実は大したこと無い、大丈夫なんじゃない？と少し気持ちが落ち着いてくる。
--50ぐらい？
-過回復からマイナスへ ~1.5日
-自分に都合が良いように物事を捉え、うまくいくような妄想をする。
-ここで回復したと誤認すると大変危険。
-20ぐらい。 それからすぐに、我に返ってマイナスに戻る。
-メタ認知しつつ定常状態へ ~3日 問題を分解しはじめる。戦略を練る。
-事実と希望を分別 最低限のラインはなにか？ 目標で譲れないのはなにか？ 不確定事項はなにか？ それは制御可能か？ 最小限の努力でやるためには？ そして、自分の気持ちをメタ認知し始める。
-嫌なことはなにか？ 原因は事実か想像(印象)か? 回避可能か？ 我慢できないほど本当にいやか？ これを繰り返しながら、だんだん振れ幅が小さくなり、0に落ち着く。 この0まで戻す期間を短くするのが重要だ。</description></item><item><title>紅葉</title><link>/posts/2020/12/20/146397/</link><pubDate>Sun, 20 Dec 2020 15:10:33 +0900</pubDate><guid>/posts/2020/12/20/146397/</guid><description>12月も半ばなのに、まだ紅葉だった</description></item><item><title>胡椒餅</title><link>/posts/2020/12/17/261305/</link><pubDate>Thu, 17 Dec 2020 22:35:23 +0900</pubDate><guid>/posts/2020/12/17/261305/</guid><description>Table of Contents 胡椒餅が食べられるお店 四ツ谷一餅堂 台湾豆乳大王 胡椒餅の通販 チャイデリカ 長崎成功胡椒餅 胡椒餅の店舗購入 KALDI 胡椒餅 胡椒餅の本 はじめての台湾料理 胡椒餅作り方 1回目 2回目 (8個) 3回目 (10個 + 小2個) 4回目 (10個 + 小2個) 5回目 (12個) 包み方の参考 焼き 課題 リンク 胡椒餅が好きなのでまとめ。
-胡椒餅が食べられるお店 四ツ谷一餅堂 https://www.instagram.com/yotsuya_ippindo/
-窯で焼いた胡椒餅が食べられる
-1個450円ぐらい、台湾豆乳大王よりも大きい。肉はばら肉タイプ 台湾豆乳大王 https://twitter.com/taiwantonyudaio
-https://www.instagram.com/taiwan_tonyu_daio/
-台湾の朝ごはん系。太陽餅もあり
-胡椒餅の通販 チャイデリカ 長崎成功胡椒餅 http://chaeon.shop-pro.jp/?mode
-電子レンジで温めてから、オーブントースターで表面を焼くタイプ。
-胡椒がしっかり効いていて美味しい。 胡椒餅の店舗購入 KALDI 胡椒餅 1個330円、やや小降り
-電子レンジで温めてから、オーブントースターで表面を焼くタイプ。
-胡椒がしっかり効いている本場タイプではなく、甘味もあり
-おいしい 胡椒餅の本 はじめての台湾料理 はじめての台湾料理 (星野奈々子著)に胡椒餅のレシピあり
-材料も最低限で、簡単な作り方
-https://calil.jp/book/486506284X
-胡椒餅作り方 1回目 タネ (初回) 全部混ぜて練る
-豚ひき肉 460g 醤油 大さじ3+1/2 五香粉 小さじ2+1/2 胡椒 小さじ2 塩 小さじ4 ネギ 150 (もっと多くても良いかも) 皮 (検討中) 全部混ぜて練て、寝かせて錬て、伸ばす これだと生地が固くなり、焼いているときに割れて肉汁が出てしまう。</description></item><item><title>hugoのURL構成を変更した</title><link>/posts/2020/12/13/388521/</link><pubDate>Sun, 13 Dec 2020 23:05:43 +0900</pubDate><guid>/posts/2020/12/13/388521/</guid><description>フォルダでの管理をやめ、contents/post以下に YYYYMMDD_XXXXXX.md 命名ルール (X:数字)のファイルを置くようにした。
-ファイルのフロントマターにslug: XXXXXXを指定するようにした。
-URLの構成を変えて、/posts/YYYY/MM/DD/XXXXXX/でアクセスできるようにしたので、
-一日に複数の記事をかけるようになった。分類はtagのみ。</description></item><item><title>hugoのデプロイ方法を変更した</title><link>/posts/2020/12/13/758287/</link><pubDate>Sun, 13 Dec 2020 14:38:13 +0900</pubDate><guid>/posts/2020/12/13/758287/</guid><description>conoha VPSへの移行に伴って、hugoのデプロイ方法を変更した。
-今までは、GitHubにpushするとGitHubからVPSにWebhookが飛び、
-それを起点にVPSからリポジトリをpullして、VPS上でデプロイしていた。
-それを変更し、Gtihub actionを利用してpushを起点にしてVPSに
-変更ファイルをrsyncして、VPS側で静的ファイルを出力するように変更した。
-VPSへの同期の方法しか変わっていないが、VPS側でwebhookサーバーを立てる必要がなくなった。</description></item><item><title>買ってよかったもの2020</title><link>/posts/2020/12/12/683040/</link><pubDate>Sat, 12 Dec 2020 13:23:34 +0900</pubDate><guid>/posts/2020/12/12/683040/</guid><description>DELL U3219Q 5年ぐらい前に買ったLGの27インチ4kをDell U3219Q (31.5インチ 4K)に交換。
-U3219QはKVMが付いているすぐれもので、MacBookProはUSB Type-C、Windowsのデスクトップ機はDPとUSBで接続した。液晶側で映像入力ソースを変更すると、KVMも自動的に入力ソースに合わせてくれるので、今までみたいにUSBスイッチャーでカチカチやらなくてもよいのが最高。
-本体側面についているUSBポートも当然切り替わるので、ここに認証用のYubikeyドングルを挿して使っている。
-さらにUSB Type-Cの端子はUSB PD対応で90W給電ができる。未来だ、、、
-Apple Watch SE 使っていたAppleWatch 3をwatchOS 7にアップデートしようとしたら、
-容量が足りないと言われたので初期化してアップデート&amp;amp;復元したのに、
-その後すぐに3GBぐらいの追加アップデートがまた降ってきた。
-ストレージが8GBのAppleWatch 3でアップデートのたびに初期化するのはちょっと、、
-けど機能的には3で問題ないと悩んでいたら、ちょうどぶつけて画面を割ってしまった。
-通知を受け取るのがメインなので、6ではなくSEで十分。
-画面も大きくなり、動作も早くなったので快適</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2020-12 on d.sk85.org</title><link>/archives/2020-12/</link><description>Recent content in 2020-12 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2020-12/index.xml" rel="self" type="application/rss+xml"/><item><title>プラレール自動制御</title><link>/posts/2020/12/28/595555/</link><pubDate>Mon, 28 Dec 2020 23:19:42 +0900</pubDate><guid>/posts/2020/12/28/595555/</guid><description>&lt;p>子供(2歳児)はプラレール好きで、最近はループやトンネルよりも複数車両が秩序を維持しながら走るのが面白いようだ。市販で手に入るのは経路を変更する2部品。&lt;/p>
+&lt;ul>
+&lt;li>R-16 自動ポイントレール&lt;/li>
+&lt;li>R-19 自動ターンアウトレール&lt;/li>
+&lt;/ul>
+&lt;p>これだけだと停車-発車の制御ができないのでArduinoを使って制御してみよう。&lt;/p></description></item><item><title>2020-12-26のブックマーク</title><link>/posts/2020/12/26/530501/</link><pubDate>Sat, 26 Dec 2020 18:44:22 +0900</pubDate><guid>/posts/2020/12/26/530501/</guid><description>&lt;p>バーチャルトレーダーの罪深さ&lt;br>
+&lt;a href="https://kabutouma.hatenablog.com/entry/2020/12/26/155455">https://kabutouma.hatenablog.com/entry/2020/12/26/155455&lt;/a>&lt;/p></description></item><item><title>物事を判断するときの基準</title><link>/posts/2020/12/25/412728/</link><pubDate>Fri, 25 Dec 2020 15:33:15 +0900</pubDate><guid>/posts/2020/12/25/412728/</guid><description>&lt;p>人によって基準は様々だと思うけど、僕の場合は結局以下の３つに行き着く。&lt;/p>
+&lt;ul>
+&lt;li>子供が不自由なく進学できる&lt;/li>
+&lt;li>奥さんが幸せに暮らせる&lt;/li>
+&lt;li>自分の心身が健康&lt;/li>
+&lt;/ul>
+&lt;p>だから、上記の３つが満たされていれば変化の必要はないのだけれど、&lt;br>
+そこが人間の難しいところで、自分のキャリアや研究についての希望がむくむくと&lt;br>
+出てきてしまうのだ。&lt;/p></description></item><item><title>自分の思考特性</title><link>/posts/2020/12/23/343869/</link><pubDate>Wed, 23 Dec 2020 22:56:20 +0900</pubDate><guid>/posts/2020/12/23/343869/</guid><description>&lt;h4 id="嫌な不安な事象発生">嫌な(不安な)事象発生&lt;/h4>
+&lt;p>0分~ 5時間 でまず回避や退避を考える&lt;br>
+ほとんど頭が回ってない。悪い方に掘り下げ、食欲がなくなったり吐きそうになる&lt;br>
+気持ち的には-100&lt;/p>
+&lt;h4 id="回復期">回復期&lt;/h4>
+&lt;p>~1日&lt;br>
+気持ちは回避や退避が継続。
+実は大したこと無い、大丈夫なんじゃない？と少し気持ちが落ち着いてくる。&lt;br>
+-50ぐらい？&lt;/p>
+&lt;h4 id="過回復からマイナスへ">過回復からマイナスへ&lt;/h4>
+&lt;p>~1.5日&lt;br>
+自分に都合が良いように物事を捉え、うまくいくような妄想をする。&lt;br>
+ここで回復したと誤認すると大変危険。&lt;br>
+20ぐらい。
+それからすぐに、我に返ってマイナスに戻る。&lt;/p>
+&lt;h4 id="メタ認知しつつ定常状態へ">メタ認知しつつ定常状態へ&lt;/h4>
+&lt;p>~3日
+問題を分解しはじめる。戦略を練る。&lt;/p>
+&lt;ul>
+&lt;li>事実と希望を分別&lt;/li>
+&lt;li>最低限のラインはなにか？&lt;/li>
+&lt;li>目標で譲れないのはなにか？&lt;/li>
+&lt;li>不確定事項はなにか？
+&lt;ul>
+&lt;li>それは制御可能か？&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>最小限の努力でやるためには？&lt;/li>
+&lt;/ul>
+&lt;p>そして、自分の気持ちをメタ認知し始める。&lt;/p>
+&lt;ul>
+&lt;li>嫌なことはなにか？
+&lt;ul>
+&lt;li>原因は事実か想像(印象)か?&lt;/li>
+&lt;li>回避可能か？&lt;/li>
+&lt;li>我慢できないほど本当にいやか？&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>これを繰り返しながら、だんだん振れ幅が小さくなり、0に落ち着く。
+この0まで戻す期間を短くするのが重要だ。&lt;/p></description></item><item><title>紅葉</title><link>/posts/2020/12/20/146397/</link><pubDate>Sun, 20 Dec 2020 15:10:33 +0900</pubDate><guid>/posts/2020/12/20/146397/</guid><description>&lt;p>12月も半ばなのに、まだ紅葉だった
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201221-14-19-38-KS78ZG5SDErR5kPFYW6G.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20201221-14-19-38-KS78ZG5SDErR5kPFYW6G.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201211-14-15-41-BmZl0bOALPdi9k-83aPA.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20201211-14-15-41-BmZl0bOALPdi9k-83aPA.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/p></description></item><item><title>胡椒餅</title><link>/posts/2020/12/17/261305/</link><pubDate>Thu, 17 Dec 2020 22:35:23 +0900</pubDate><guid>/posts/2020/12/17/261305/</guid><description>&lt;aside id="toc">
+ &lt;h4>Table of Contents&lt;/h4>
+ &lt;nav id="TableOfContents">
+ &lt;ul>
+ &lt;li>&lt;a href="#胡椒餅が食べられるお店">胡椒餅が食べられるお店&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#四ツ谷一餅堂">四ツ谷一餅堂&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#台湾豆乳大王">台湾豆乳大王&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#胡椒餅の通販">胡椒餅の通販&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#チャイデリカ-長崎成功胡椒餅">チャイデリカ 長崎成功胡椒餅&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#胡椒餅の店舗購入">胡椒餅の店舗購入&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#kaldi-胡椒餅">KALDI 胡椒餅&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#胡椒餅の本">胡椒餅の本&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#はじめての台湾料理">はじめての台湾料理&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;li>&lt;a href="#胡椒餅作り方">胡椒餅作り方&lt;/a>
+ &lt;ul>
+ &lt;li>&lt;a href="#1回目">1回目&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#2回目-8個">2回目 (8個)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#3回目-10個--小2個">3回目 (10個 + 小2個)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#4回目-10個--小2個">4回目 (10個 + 小2個)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#5回目-12個">5回目 (12個)&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#包み方の参考">包み方の参考&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#焼き-3">焼き&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#課題">課題&lt;/a>&lt;/li>
+ &lt;li>&lt;a href="#リンク">リンク&lt;/a>&lt;/li>
+ &lt;/ul>
+ &lt;/li>
+ &lt;/ul>
+&lt;/nav>
+ &lt;/aside>
+
+&lt;p>胡椒餅が好きなのでまとめ。&lt;/p></description></item><item><title>hugoのURL構成を変更した</title><link>/posts/2020/12/13/388521/</link><pubDate>Sun, 13 Dec 2020 23:05:43 +0900</pubDate><guid>/posts/2020/12/13/388521/</guid><description>&lt;p>フォルダでの管理をやめ、contents/post以下に YYYYMMDD_XXXXXX.md 命名ルール (X:数字)のファイルを置くようにした。&lt;br>
+ファイルのフロントマターにslug: XXXXXXを指定するようにした。&lt;br>
+URLの構成を変えて、/posts/YYYY/MM/DD/XXXXXX/でアクセスできるようにしたので、&lt;br>
+一日に複数の記事をかけるようになった。分類はtagのみ。&lt;/p></description></item><item><title>hugoのデプロイ方法を変更した</title><link>/posts/2020/12/13/758287/</link><pubDate>Sun, 13 Dec 2020 14:38:13 +0900</pubDate><guid>/posts/2020/12/13/758287/</guid><description>&lt;p>conoha VPSへの移行に伴って、hugoのデプロイ方法を変更した。&lt;br>
+今までは、GitHubにpushするとGitHubからVPSにWebhookが飛び、&lt;br>
+それを起点にVPSからリポジトリをpullして、VPS上でデプロイしていた。&lt;/p>
+&lt;p>それを変更し、Gtihub actionを利用してpushを起点にしてVPSに&lt;br>
+変更ファイルをrsyncして、VPS側で静的ファイルを出力するように変更した。&lt;br>
+VPSへの同期の方法しか変わっていないが、VPS側でwebhookサーバーを立てる必要がなくなった。&lt;/p></description></item><item><title>買ってよかったもの2020</title><link>/posts/2020/12/12/683040/</link><pubDate>Sat, 12 Dec 2020 13:23:34 +0900</pubDate><guid>/posts/2020/12/12/683040/</guid><description>&lt;h2 id="dell-u3219q">DELL U3219Q&lt;/h2>
+&lt;p>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201211-14-15-41-Td9qWrwTIYajpA8--sUh.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20201211-14-15-41-Td9qWrwTIYajpA8--sUh.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+5年ぐらい前に買ったLGの27インチ4kをDell U3219Q (31.5インチ 4K)に交換。&lt;br>
+U3219QはKVMが付いているすぐれもので、MacBookProはUSB Type-C、Windowsのデスクトップ機はDPとUSBで接続した。液晶側で映像入力ソースを変更すると、KVMも自動的に入力ソースに合わせてくれるので、今までみたいにUSBスイッチャーでカチカチやらなくてもよいのが最高。&lt;br>
+本体側面についているUSBポートも当然切り替わるので、ここに認証用のYubikeyドングルを挿して使っている。&lt;br>
+さらにUSB Type-Cの端子はUSB PD対応で90W給電ができる。未来だ、、、&lt;/p></description></item></channel></rss>

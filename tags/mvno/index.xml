@@ -1,5 +1,91 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mvno on d.sk85.org</title><link>/tags/mvno/</link><description>Recent content in Mvno on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 26 May 2024 10:51:57 +0900</lastBuildDate><atom:link href="/tags/mvno/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-05-25[息子の運動会]</title><link>/posts/2024/05/25/44882/</link><pubDate>Sat, 25 May 2024 00:00:00 +0900</pubDate><guid>/posts/2024/05/25/44882/</guid><description>午前 午前中は子供の運動会 暑いが暑すぎると言うことはない天気 日差しは強かったので、影に入れない子供はかわいそうだなと 演技以外は教室で授業すればいいんじゃないと思った 12:30 ごろ終了 午後 自宅で LINEMO の eSIM を有効化する 遅めの昼食 奥さんは買い物へ 夕方、赤羽のボール教室へ 今日も楽しかったようだ 夕食はガストで 来週、ガストの朝食に行くか 男子会の幹事で予約を 体調 70 その他 今週は J リートが毎日値下がり。自分の資産が劣化していくのをみるのは気持ちが良いものではない。これ売られすぎだろう 今日の Tabs</description></item><item><title>UQ mobileに移行した</title><link>/posts/2019/06/28/125688/</link><pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate><guid>/posts/2019/06/28/125688/</guid><description>SB → IIJmio → LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmioやLINE Mobileが悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安simだからと諦めていた(ただし「1Mbps以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞るLINE Mobileはどうかと思う)。計算してみるとUQでも月額は大きく変わらない。そして、お試しでUQから借りたsimで大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)
-移行に必要な費用 項目 費用 備考 LINE 解約手数料 10584 LINE MNP転出手数料 3240 UQ SIMパッケージ料金 0 キャンペーンのため 端末代 31,644 HUAWEI nova lite3 端末売却 -13600 手持ちのsimフリー端末を使うため キャッシュバック -9000 入金は数カ後だが初期費用として扱う 合計 22768 プラン選択 UQ mobileは翌月のプランを自由に変更でき、なおかつ容量の繰越が可能。
-私の場合は通信量が4GB/monthのため、データを無駄なく消費しきれば、 プランM (1ヶ月) → プランS (5ヶ月) → プランM → &amp;hellip; のサイクルとなる。
-繰越上限はプランMで6GB, プランSで2GBなので、それぞれのプランで「基本容量+繰越容量(基本データ分)」が12GBと4GBを超えることはない。 また前月に繰越した容量は当月末まで有効。増量オプション付与容量は「追加購入容量」という扱いなので、 基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから90日。(ややこしい)
-月 プラン 基本容量 増量オプション付与 繰越容量(基本容量) 繰越容量(倍増オプション) 使用量 基本容量残量 増量オプション残量 1 M 6 3 0 0 -4 2 3 2 S 2 1 2 3 -4 0 4 3 S 2 1 0 4 -4 0 3 4 S 2 1 0 3 -4 0 2 5 S 2 1 0 2 -4 0 1 6 S 2 1 0 1 -4 0 0 ちなみに通信量を5GB/monthとすると、</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mvno on d.sk85.org</title><link>/tags/mvno/</link><description>Recent content in Mvno on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 26 May 2024 10:51:57 +0900</lastBuildDate><atom:link href="/tags/mvno/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-05-25[息子の運動会]</title><link>/posts/2024/05/25/44882/</link><pubDate>Sat, 25 May 2024 00:00:00 +0900</pubDate><guid>/posts/2024/05/25/44882/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>午前中は子供の運動会
+&lt;ul>
+&lt;li>暑いが暑すぎると言うことはない天気&lt;/li>
+&lt;li>日差しは強かったので、影に入れない子供はかわいそうだなと&lt;/li>
+&lt;li>演技以外は教室で授業すればいいんじゃないと思った&lt;/li>
+&lt;li>12:30 ごろ終了&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>自宅で LINEMO の eSIM を有効化する&lt;/li>
+&lt;li>遅めの昼食&lt;/li>
+&lt;li>奥さんは買い物へ&lt;/li>
+&lt;li>夕方、赤羽のボール教室へ
+&lt;ul>
+&lt;li>今日も楽しかったようだ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夕食はガストで
+&lt;ul>
+&lt;li>来週、ガストの朝食に行くか&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>男子会の幹事で予約を&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>70&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>今週は J リートが毎日値下がり。自分の資産が劣化していくのをみるのは気持ちが良いものではない。これ売られすぎだろう&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>UQ mobileに移行した</title><link>/posts/2019/06/28/125688/</link><pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate><guid>/posts/2019/06/28/125688/</guid><description>&lt;p>SB → IIJmio → LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmioやLINE Mobileが悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安simだからと諦めていた(ただし&lt;!-- raw HTML omitted -->「1Mbps以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞るLINE Mobileはどうかと思う&lt;!-- raw HTML omitted -->)。計算してみるとUQでも月額は大きく変わらない。そして、お試しでUQから借りたsimで大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)&lt;/p>
+&lt;h2 id="移行に必要な費用">移行に必要な費用&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">項目&lt;/th>
+ &lt;th style="text-align: left">費用&lt;/th>
+ &lt;th style="text-align: left">備考&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">LINE 解約手数料&lt;/td>
+ &lt;td style="text-align: left">10584&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">LINE MNP転出手数料&lt;/td>
+ &lt;td style="text-align: left">3240&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">UQ SIMパッケージ料金&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">キャンペーンのため&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">端末代&lt;/td>
+ &lt;td style="text-align: left">31,644&lt;/td>
+ &lt;td style="text-align: left">HUAWEI nova lite3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">端末売却&lt;/td>
+ &lt;td style="text-align: left">-13600&lt;/td>
+ &lt;td style="text-align: left">手持ちのsimフリー端末を使うため&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">キャッシュバック&lt;/td>
+ &lt;td style="text-align: left">-9000&lt;/td>
+ &lt;td style="text-align: left">入金は数カ後だが初期費用として扱う&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">合計&lt;/td>
+ &lt;td style="text-align: left">22768&lt;/td>
+ &lt;td style="text-align: left">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="プラン選択">プラン選択&lt;/h2>
+&lt;p>UQ mobileは翌月のプランを自由に変更でき、なおかつ容量の繰越が可能。&lt;br>
+私の場合は通信量が4GB/monthのため、データを無駄なく消費しきれば、
+プランM (1ヶ月) → プランS (5ヶ月) → プランM → &amp;hellip; のサイクルとなる。&lt;br>
+繰越上限はプランMで6GB, プランSで2GBなので、それぞれのプランで「基本容量+繰越容量(基本データ分)」が12GBと4GBを超えることはない。
+また前月に繰越した容量は当月末まで有効。増量オプション付与容量は「追加購入容量」という扱いなので、
+基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから90日。(ややこしい)&lt;/p></description></item></channel></rss>

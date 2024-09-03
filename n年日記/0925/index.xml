@@ -1,5 +1,98 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0925 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0925/</link><description>Recent content in 0925 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 30 Sep 2023 10:40:16 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0925/index.xml" rel="self" type="application/rss+xml"/><item><title>2023-09-25</title><link>/posts/2023/09/25/995407/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0900</pubDate><guid>/posts/2023/09/25/995407/</guid><description>午前 息子通園 大きめの実験を二つ ミーティング 午後 実験の後処理 なんとか終わらせる 定時ちょうどぐらいに退社して子供お迎え 何か疲れた 体調 80 火曜日の夜は夕食会、水曜は休みなので気が楽 その他 今日の Tabs</description></item><item><title>2022-09-25</title><link>/posts/2022/09/25/27299/</link><pubDate>Sun, 25 Sep 2022 00:00:00 +0900</pubDate><guid>/posts/2022/09/25/27299/</guid><description>午前 息子の朝食作り 図書館に行ったが休みだった 息子はプールへ 自宅で昼食 午後 お昼寝 夕方公園 息子は自転車の補助輪を外して練習 自分で漕ぎ始めて、乗れるようになった 元々自転車が上手だが、1時間ぐらいで乗れるようになった あとは曲がったり止まる練習だな 夕食にホタテフライを作る 体調 82 その他 今日のTabs</description></item><item><title>2021-09-25</title><link>/posts/2021/09/25/501514/</link><pubDate>Sat, 25 Sep 2021 00:00:00 +0900</pubDate><guid>/posts/2021/09/25/501514/</guid><description>午前 8:00過ぎに起床 AppleのサポートへMBPのキーボード修理とバッテリ点検を依頼 10:00過ぎに息子と図書館へ 本を借りて散歩しながら帰宅 午後 昼寝 夕方息子と散歩へ 夜は鬼滅の刃の劇場版を見る 体調 普通 その他 WebArenaのindigo VPSは安かろう悪かろう 自宅からindigoのVPSに接続して、VPSから自宅のサーバーへVPNで接続してsftpでVPSにファイルを転送しようとした瞬間にファイヤーウォールに切断される。20分ぐらい遮断された後にまたつながるようになる。ループを検知している？よくわからない挙動だ。ネットワークが遅く、夜は転送速度が1Mb/s程度だったのでいま考えている用途には使えない気がする。
-MacBook Airへの環境移行 特に困ることはなく移行完了。
-Keyboard Maestroのマクロ Transmit の接続先 tampermonkeyのスクリプト 秘密鍵関係 新しい環境は気持ちいいねえ。Google日本語入力がIntelのx86バイナリだったので、かわせみ3に移行した。きびきび動いて快適。設定もicloudに保存できる。
-M1プロセッサ搭載のMacBook Airの感想 本の虫: macOSのM1とx86-64におけるベンチマーク比較の考察
-ファンクションキー最高、人権を取り戻した 熱くならない 普通の処理をする限りはひざに乗せていられる。M1には高効率4コアと高性能4コアが入っているが通常の処理はほとんど高効率コアが回している。 スリープからの復帰が異様に早い。 挙動的にはスマホに近い(M1プロセッサの中身はA14プロセッサなので当たり前だが)。 バッテリの持ちも体感できるぐらい伸びている。 1TBのストレージと16GBのRAMを積んで20万以下なのですごいSoCだ 今日のTabs Two COVID-19 antiviral pills advance to late-stage trials Pastebot 東芝など、6分で充電できる次世代電池を2023年度に商業化へ | 日経クロステック（xTECH） 【iOS 15】Svadilfariを使うとSafariをジェスチャ操作できる（ショートカットも呼び出せる） | reliphone (for iPhone) 小児がん「神経芽腫」再発抑える新薬 初承認 きょうから実用化 | 医療 | NHKニュース</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0925 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0925/</link><description>Recent content in 0925 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 30 Sep 2023 10:40:16 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0925/index.xml" rel="self" type="application/rss+xml"/><item><title>2023-09-25</title><link>/posts/2023/09/25/995407/</link><pubDate>Mon, 25 Sep 2023 00:00:00 +0900</pubDate><guid>/posts/2023/09/25/995407/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園&lt;/li>
+&lt;li>大きめの実験を二つ&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>実験の後処理&lt;/li>
+&lt;li>なんとか終わらせる&lt;/li>
+&lt;li>定時ちょうどぐらいに退社して子供お迎え&lt;/li>
+&lt;li>何か疲れた&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>80&lt;/li>
+&lt;li>火曜日の夜は夕食会、水曜は休みなので気が楽&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-09-25</title><link>/posts/2022/09/25/27299/</link><pubDate>Sun, 25 Sep 2022 00:00:00 +0900</pubDate><guid>/posts/2022/09/25/27299/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子の朝食作り&lt;/li>
+&lt;li>図書館に行ったが休みだった&lt;/li>
+&lt;li>息子はプールへ&lt;/li>
+&lt;li>自宅で昼食&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>お昼寝&lt;/li>
+&lt;li>夕方公園
+&lt;ul>
+&lt;li>息子は自転車の補助輪を外して練習&lt;/li>
+&lt;li>自分で漕ぎ始めて、乗れるようになった&lt;/li>
+&lt;li>元々自転車が上手だが、1時間ぐらいで乗れるようになった&lt;/li>
+&lt;li>あとは曲がったり止まる練習だな&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夕食にホタテフライを作る&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>82&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-09-25</title><link>/posts/2021/09/25/501514/</link><pubDate>Sat, 25 Sep 2021 00:00:00 +0900</pubDate><guid>/posts/2021/09/25/501514/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>8:00過ぎに起床&lt;/li>
+&lt;li>AppleのサポートへMBPのキーボード修理とバッテリ点検を依頼&lt;/li>
+&lt;li>10:00過ぎに息子と図書館へ&lt;/li>
+&lt;li>本を借りて散歩しながら帰宅&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>昼寝&lt;/li>
+&lt;li>夕方息子と散歩へ&lt;/li>
+&lt;li>夜は鬼滅の刃の劇場版を見る&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="webarenaのindigo-vpsは安かろう悪かろう">WebArenaのindigo VPSは安かろう悪かろう&lt;/h4>
+&lt;p>自宅からindigoのVPSに接続して、VPSから自宅のサーバーへVPNで接続してsftpでVPSにファイルを転送しようとした瞬間にファイヤーウォールに切断される。20分ぐらい遮断された後にまたつながるようになる。ループを検知している？よくわからない挙動だ。ネットワークが遅く、夜は転送速度が1Mb/s程度だったのでいま考えている用途には使えない気がする。&lt;/p>
+&lt;h4 id="macbook-airへの環境移行">MacBook Airへの環境移行&lt;/h4>
+&lt;p>特に困ることはなく移行完了。&lt;/p>
+&lt;ul>
+&lt;li>Keyboard Maestroのマクロ&lt;/li>
+&lt;li>Transmit の接続先&lt;/li>
+&lt;li>tampermonkeyのスクリプト&lt;/li>
+&lt;li>秘密鍵関係&lt;/li>
+&lt;/ul>
+&lt;p>新しい環境は気持ちいいねえ。Google日本語入力がIntelのx86バイナリだったので、&lt;a href="https://www.monokakido.jp/ja/mac/kawasemi3/">かわせみ3&lt;/a>に移行した。きびきび動いて快適。設定もicloudに保存できる。&lt;/p>
+&lt;h4 id="m1プロセッサ搭載のmacbook-airの感想">M1プロセッサ搭載のMacBook Airの感想&lt;/h4>
+&lt;p>&lt;a href="https://cpplover.blogspot.com/2020/11/macosm1x86-64.html">本の虫: macOSのM1とx86-64におけるベンチマーク比較の考察&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>ファンクションキー最高、人権を取り戻した&lt;/li>
+&lt;li>熱くならない
+&lt;ul>
+&lt;li>普通の処理をする限りはひざに乗せていられる。M1には高効率4コアと高性能4コアが入っているが通常の処理はほとんど高効率コアが回している。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>スリープからの復帰が異様に早い。
+&lt;ul>
+&lt;li>挙動的にはスマホに近い(M1プロセッサの中身はA14プロセッサなので当たり前だが)。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>バッテリの持ちも体感できるぐらい伸びている。&lt;/li>
+&lt;li>1TBのストレージと16GBのRAMを積んで20万以下なのですごいSoCだ&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://cen.acs.org/policy/global-health/Two-COVID-19-antiviral-pills/99/web/2021/09?utm_source=Twitter&amp;amp;utm_medium=Social&amp;amp;utm_campaign=CEN">Two COVID-19 antiviral pills advance to late-stage trials&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tapbots.com/pastebot/">Pastebot&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://xtech.nikkei.com/atcl/nxt/news/18/11280/?n_cid=nbpnxt_twbn">東芝など、6分で充電できる次世代電池を2023年度に商業化へ | 日経クロステック（xTECH）&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://reliphone.jp/post-16422/">【iOS 15】Svadilfariを使うとSafariをジェスチャ操作できる（ショートカットも呼び出せる） | reliphone (for iPhone)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www3.nhk.or.jp/news/html/20210922/amp/k10013270901000.html?__twitter_impression=true">小児がん「神経芽腫」再発抑える新薬 初承認 きょうから実用化 | 医療 | NHKニュース&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

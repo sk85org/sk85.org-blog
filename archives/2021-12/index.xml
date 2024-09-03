@@ -1,8 +1,1041 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2021-12 on d.sk85.org</title><link>/archives/2021-12/</link><description>Recent content in 2021-12 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 01 Apr 2024 23:02:33 +0900</lastBuildDate><atom:link href="/archives/2021-12/index.xml" rel="self" type="application/rss+xml"/><item><title>2021-12-31</title><link>/posts/2021/12/31/676303/</link><pubDate>Fri, 31 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/31/676303/</guid><description>午前 今日は子育てお休み(したい) 業務スーパーで買い物 韓国系スーパーをぶらぶら 朝から 3d プリンタで印刷 問題が解決しない 定着が甘くて 4 回ぐらい印刷中に下層がずれた 細かい箇所をうめるためにノズルを左右に振る箇所で頻発する 反りが強い 四隅に丸い円盤を入れて定着を強くしようとしたが、まだ反る 3D プリンタで反りはなぜ起こる？(FDM) 熱収縮と、それに対して形状を維持しようとする反力の作用で曲げモーメントか発生する 究極的には、ビルドプレートから~4 層ぐらいを Tg 以上に維持するしかないのか ノズルが引っかかって造形物が吹っ飛ぶ ノズルが近すぎる 午後 昼食は昨日の残りご飯 お昼寝 奥さんが昼寝中に息子と近くの公園に 30 分ぐらい スーパーに買い物に 夜はうどんと、奥さんが作ってくれたてんぷらで年越しうどん お互い、一年の激務(主に子育て)をねぎらって就寝 体調 普通 その他 Visual Studio Code がおかしい Visual Studio Code の日本語変換が変？ - 考えるエンジニア Japanese IME doesn&amp;rsquo;t work well on macOS and Linux #138704 まさしくこの症状で 1.62.3 に戻すことで解決 前に入力した部分が二重に表示される Visual Studio Code のフォントを変更 yuru7/HackGen
-Hack と源柔ゴシックを合成したプログラミングフォント 白源 (はくげん／HackGen) ttf で配布されているのでインストールが便利</description></item><item><title>2021-12-30</title><link>/posts/2021/12/30/327592/</link><pubDate>Thu, 30 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/30/327592/</guid><description>午前 息子と日暮里舎人公園に 年末で閉まっていたのでホームセンターへ お魚を見て買い物 昼食はふるさと納税でもらった一蘭のラーメン 午後 奥さんは正月帰省用のお土産を買いに日本橋へ 3d プリンタをいじる 息子と近くの公園に行く さ、寒い 一時間ちょっとで帰宅 夜はぶりのショウガ醤油漬け 寝る前に 3d プリンタで印刷始めるが、夜中に確認したらもじゃもじゃになってた プレートへの定着が甘くて、左右に激しく動く細かい fill でずれているよう 体調 ふう、子供の体力がすごい 親戚の子ども達(3 才~6 才)と丸一日遊んだ結果、導き出された考察 https://twitter.com/mamiyama410/status/1456899838977527811 {{&amp;lt; tweet user=&amp;ldquo;mamiyama400&amp;rdquo; id=&amp;ldquo;1456899838977527811&amp;rdquo; &amp;gt;}} その他 今日の Tabs</description></item><item><title>2021-12-29</title><link>/posts/2021/12/29/300991/</link><pubDate>Wed, 29 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/29/300991/</guid><description>午前 早めに起きて奥さんが作ってくれたフレンチトーストを食べる 午前中は家の掃除 換気扇 ガラス キッチン等々 ドラム式 ヒートポンプに繋がるダクトにたまった繊維塊を洗い流す 洗濯槽の隙間に入った繊維の塊は落としにくいので、まず洗濯槽洗浄モードでふやかす ドライバーとピンセットでほとんどの塊を掻き出す 高圧洗浄機で残った塊を落とす 昼食は家族で回転寿司 午後 Ender3 V2の改造 PSUと制御基盤のファンを静音タイプに変更 ホットエンドカバーに交換 ホットエンド冷却用と造形物冷却用ファンを交換 プラレール S-40 レールで往復!H5系新幹線はやぶさ】が届く 奥さんはお友達とオンラインの飲み会 体調 その他 今日のTabs</description></item><item><title>2021-12-28</title><link>/posts/2021/12/28/562968/</link><pubDate>Tue, 28 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/28/562968/</guid><description>午前 息子通園 ラボの掃除 午後 有給 秋葉原で買い物 ロック機構付きのQIコネクタ CH2543BL-02P 【QIコネクタ】ロック付き信号伝達コネクタ プラグハウジング 2P CH2547-02P 【QIコネクタ】ロック付き信号伝達コネクタ リセクタプルハウジング 2P CT2543 【QIコネクタ】ロック付き信号伝達コネクタ プラグハウジング用コンタクト CT2547 【QIコネクタ】ロック付き信号伝達コネクタ リセクタプルハウジング用コンタクト 夜中からフローリングのワックス剥離と再ワックス 大失敗 いつも使うリンレイではない剥離剤を使ったら完全に剥離してしまい、まだらになってしまった 洗浄も不十分でワックスを塗布したら足跡が付いてしまった 1/4日に再度行う マスキングテープで区分けして剥離を行う 剥離の確認 二回ワックス掛け 時間無駄にしたなあ ホームセンターで3Mのハンディパッド赤買えるんだろうか 念のためハンディのデッキブラシも買わなければ 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-27</title><link>/posts/2021/12/27/667393/</link><pubDate>Mon, 27 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/27/667393/</guid><description>午前 息子通園 8:30出社 本日午後半休 午後 秋葉原で買い物 5Pの中継 使っているケーブルが少し太いのと、持っている電工ペンチが安物過ぎて失敗 Molex (モレックス) 51005-0500 2.0mmピッチ 電線対電線 51005/51006シリーズ リセプタクルハウジング 5P Molex (モレックス) 50013-8000 【2.0mm】51005/51006シリーズ リセプタクルハウジング(51005)用コンタクトピン Molex (モレックス) 51006-0500 2.0mmピッチ 電線対電線 51005/51006シリーズ プラグハウジング 5P Molex (モレックス) 50012-8000 【2.0mnm】51005/51006シリーズ プラグハウジング(51006)用コンタクトピン 2P中継 オーム電機 DZ-DC24A8 中継コネクタ NDC2420 8個入 これは良い、僕みたいなへたくそでも中継できる 息子お迎え 体調 普通 その他 今日のTabs RSS関係 feedbin/feedbin: A nice place to read on the web. miniflux/v2: Minimalist and opinionated feed reader RSS-Bridge/rss-bridge: The RSS feed for websites missing it 圧着端子 電子工作でコネクタを作る！ おすすめの圧着工具 - fumiLab</description></item><item><title>2021-12-26</title><link>/posts/2021/12/26/518230/</link><pubDate>Sun, 26 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/26/518230/</guid><description>午前 息子の朝食作り 息子プール 僕は自宅でだらだらと過ごす 午後 お昼寝 夕方、シャトレーゼに出かける ワッフルがなかったので別店舗まで出かけて購入 よくわからない情熱でワッフルゲット 24:00過ぎに就寝 体調 その他 mRNAワクチンの衝撃: コロナ制圧と医療の未来 | カーリル mRNAワクチンを接種した人全員に読んでもらいたい、ワクチン開発の奮闘を描き出す一気読み必至のノンフィクション──『mRNAワクチンの衝撃　コロナ制圧と医療の未来』 - 基本読書 今日のTabs</description></item><item><title>2021-12-25</title><link>/posts/2021/12/25/135406/</link><pubDate>Sat, 25 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/25/135406/</guid><description>午前 息子にはサンタさんが来た 今年のメインは変形ドデカシンカンセンのぞみ ドラえもんのパソコンとプログラミングカーも うれしかったようでずっと遊んでいた 息子と日暮里舎人ライナーに乗りにいく 日暮里から山手線と京浜東北線を使って帰宅 お昼はカレーうどん 午後 お昼寝 夕方息子と公園に行き、後でシャトレーゼにケーキを受け取りに行く ワッフル買おうと覆ったら売ってなかった 夜はささやかなクリスマスパーティーを 巻き寿司とコストコで買って凍らせていたチキン半分とケーキ 体調 普通 その他 息子、ここ3,4日収まっていて安心していた吃音がまた出始めてる 波があるようだ 「あ、あ、あ」という感じの吃音と「あー」という伸ばすタイプの吃音両方出ている 体に力を入れて音を出そうとしている 今日のTabs</description></item><item><title>2021-12-24</title><link>/posts/2021/12/24/993898/</link><pubDate>Fri, 24 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/24/993898/</guid><description>午前 9:00前に出社 見積もりを確認 実験データの整理 分析結果が理解できない ミーティング 午後 実験続き うまくいかないなあ 長めのミーティング 実験 1.5h残業 上席に年末の挨拶 息子が咳をしているとのことだったが元気だった 夜プレゼントを3つ置く 一週間本当に疲れたよ 体調 納期が短い仕事をしているのでややストレス その他 今日のTabs</description></item><item><title>2021-12-23</title><link>/posts/2021/12/23/92831/</link><pubDate>Thu, 23 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/23/92831/</guid><description>午前 息子通園 精製法をがんばって探す うーむおかしい、変なものになっている ミーティング 午後 いくつか確認のための実験 何が悪いかわからない 納期が近いので困った 残業 1.5 時間 体調 普通 その他 Zombi icloud tab の対処方法 症状 safari の tab は icloud で同期している macOS の Safari において別デバイス(今回は iPhone)ではすでに閉じている tab が表示され続ける tab を消しても時間が経つと復活する iCloud の safari の同期を off &amp;ndash;&amp;gt; on にしても改善しない iCoud をログアウトして再ログインしても改善しない システムの再インストールでも改善しない apple のサポートに連絡をしたが解決していない 対処 safari を終了 /Users/USERNAME/Library/Containers/com.apple.Safari/Data/Library/Preferences を削除 safari を起動 こういうのもあるらしい 1. ゾンビ iCloud Tabs ができるとどこからも消せなくなる
-2. iCloud Tabs は 14日より過去のものは消すというロジックがある
-3. ゾンビ iCloud Tabs を送ってきてるデバイスの時計を14日以上未来に進める</description></item><item><title>2021-12-22</title><link>/posts/2021/12/22/547510/</link><pubDate>Wed, 22 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/22/547510/</guid><description>午前 9:00前に出社 実験 ミーティング 午後 技術系のミーティング 実験 精製法をがんばって探す 残業1.5時間 体調 普通 その他 今日のTabs エーザイ認知症新薬の承認可否、再度審議へ 厚労省部会: 日本経済新聞 CS50 for Japanese: コンピュータサイエンスの入門 – 当ウェブサイトは、Creative Commons ライセンスに基づいて管理されています。</description></item><item><title>2021-12-21</title><link>/posts/2021/12/21/278614/</link><pubDate>Tue, 21 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/21/278614/</guid><description>午前 息子通園 昨日の精製作業 ミーティング 午後 精製作業続き 思ったよりたくさん取れたぞ、やったー 確認の実験を一つ 後処理までやって帰宅 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-20</title><link>/posts/2021/12/20/863362/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/20/863362/</guid><description>午前 息子通園 今日は実験が忙しい 同じ実験を4回 危ないので少しづつ ミーティング 午後 ミーティング続き 実験続き 処理まで終了 残業1.5h 体調 普通 その他 icloudのtabを消しても復活する問題、海外ではzombi icloud tabと呼ばれている
-今日のTabs</description></item><item><title>2021-12-19</title><link>/posts/2021/12/19/587258/</link><pubDate>Sun, 19 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/19/587258/</guid><description>午前 息子に朝ご飯 息子はプールへ マクドナルドで作業 午後 お昼は焼き肉 hugoのデプロイ先をGithub Pagesに変更 体調 ふつう その他 今日のTabs レジデント初期研修用資料 モジログ C&amp;amp;EN’s Year in Chemistry 2021 エーザイなど開発アルツハイマー薬 EU当局“承認しない”勧告 | ＥＵ | NHKニュース アミロイドβとアルツハイマーの関係性が不明 アミロイド関連画像異常 - Wikipedia 価格も高いので審査も厳しい はじめに — 機械学習帳 3D プリンターの設定あれこれ | Kei&amp;rsquo;s Portfolio Original Prusa i3 MK3/S のアップグレードまとめ - SatT99の日記 Miniflux - Minimalist and Opinionated Feed Reader KINGROON KP3S INFO</description></item><item><title>2021-12-18</title><link>/posts/2021/12/18/178199/</link><pubDate>Sat, 18 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/18/178199/</guid><description>午前 8:30起床 やや胃もたれ 舎人公園に子供向けの遊具公園があったのでお出かけ 柵があって道路から隔離されているので安心して遊ばせられる 遊具の数も多く息子は楽しかったようだ お昼は炒飯 午後 お昼寝 夕方は無印におでかけ 体調 普通 最近食事の後に胸焼けが その他 今日のTabs</description></item><item><title>2021-12-17</title><link>/posts/2021/12/17/923890/</link><pubDate>Fri, 17 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/17/923890/</guid><description>午前 本日在宅勤務 報告書の作成など 午後 資料作成など 奥さんは夕方から友達と夕食へ 息子を迎えに行って、丸亀製麺で夕食 21:00過ぎに眠る 体調 一週間お疲れ その他 今日のTabs</description></item><item><title>2021-12-16</title><link>/posts/2021/12/16/404697/</link><pubDate>Thu, 16 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/16/404697/</guid><description>午前 7:00起床 息子通園 朝から精製作業 ミーティング 午後 実験続き 残業1.5時間 プラレールのジョイントを交換 体調 普通 その他 bitwardenをお試しで使っている 息子が朝、隠していたクリスマスプレゼントを発見しそうになった ウォークインクローゼットの段ボールの奥に隠しておいたのだが、外装が少し見えていたようだ 踏み台を引っ張ってきて、確認しようとして笑っちゃったよ 奥さんに隠し直してもらいました 今日のTabs</description></item><item><title>2021-12-15</title><link>/posts/2021/12/15/517721/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/15/517721/</guid><description>午前 090:0前に出社 技術系の発表会 見積もり確認 ミーティング 午後 技術系の会議 実験 危ない物質を多く扱うので注意して 最近は朝ご飯に青菜と柚子胡椒のおむすびを作っている 体調 普通 その他 今日のTabs Bitwarden Open Source Password Manager | Bitwarden 1Passwordの1/3のお値段 オープンソースベース 監査を受けている ikejiのblog Ender 3改造記録 石野遺跡 - Wikipedia Cloudflare Pages/ Github Pages 関係 Cloudflare から GitHub Pages の HTTPS 機能に移行する | tellme.tokyo Cloudflare Pages（pages.dev） | ふうせん🎈 FU-SEN GitHub Pagesを独自ドメインで運用する - taikii blog</description></item><item><title>2021-12-14</title><link>/posts/2021/12/14/480879/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/14/480879/</guid><description>午前 7:00起床 子供通園 金曜の実験の後処理 いい感じ ミーティング 午後 原料の精製 精製した原料で実験 残業1.5時間 体調 普通 その他 サイトの全文検索をVPSから自宅のサーバーに移行して、indigo VPSのインスタンスを削除。次は自宅サーバーのバックアップとらんとなあ
-今日のTabs</description></item><item><title>2021-12-13</title><link>/posts/2021/12/13/701477/</link><pubDate>Mon, 13 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/13/701477/</guid><description>午前 本日有給 朝寝坊 昼食は隣のファミレスに 午後 だらだらと過ごす 夕方子供おむかえ 体調 普通 その他 VPSサーバーから転出 費用削減のためにVPSサーバー上の静的ファイルをCloudflare PagesとGithubPagesに移行
-Cloudflare Pagesにsk85.orgにっきを移行 ドメインのトップはGithub Pagesに移行 AレコードにGithub PagesのIPアドレスを登録する CloudflareのproxyをオフにしないとGithub PagesのEnforce HTTPSが有効にならないようだ cloudflareのSSL/TLS設定をFull (strict)からFlexibleに変更することでcloudflareとgithub pages間を非https通信にすることで対応できるが望ましくはないな Github PagesのCustom domainでAppexドメインを指定してCNAMEにwwwも指定することでwwwサブドメインからもアクセス可能になる About custom domains and GitHub Pages Managing a custom domain for your GitHub Pages site GitHub Pages で HTTPS を有効にする | tellme.tokyo 今日のTabs なし</description></item><item><title>2021-12-12</title><link>/posts/2021/12/12/585348/</link><pubDate>Sun, 12 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/12/585348/</guid><description>午前 息子に朝食を作る 息子のスイミング 初めて見学した 昼食は自宅で 午後 少し昼寝 夕方図書館に行き、帰りに公園へ 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-11</title><link>/posts/2021/12/11/726308/</link><pubDate>Sat, 11 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/11/726308/</guid><description>午前 胃もたれ 息子と近くの公園へ 奥さんの社内報用の写真を撮る 昼食は回転寿司 午後 眠すぎて昼寝 ぶり一本届いたのでさばいて柵にする 大変だった 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-10</title><link>/posts/2021/12/10/31286/</link><pubDate>Fri, 10 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/10/31286/</guid><description>午前 患部はすこし紫色感がでてきた、内出血？ 6:45起床 朝食は肉まん 出社 条件を変えて実験 うむ、いい感じです ミーティング 午後 午後は有給 ユニクロで服を受け取り グランドカステラを買いに行く 自宅用含めて3つ、重い・・ 船橋到着 時間を潰して焼鳥屋で年末の男子会 灯花でラーメンを食べて帰宅 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-09</title><link>/posts/2021/12/09/994602/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/09/994602/</guid><description>午前 6:50起床 息子通園 今日は奥さんが忙しいので先に出ました 右手首のけがは痛みがなくなり、患部が拡大している様子はない 実験 ミーティング 午後 実験 量を増やしたらいい感じ 残業1時間 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-08</title><link>/posts/2021/12/08/458905/</link><pubDate>Wed, 08 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/08/458905/</guid><description>午前 朝は胡椒餅 7:30ごろに出社 昨日の分析 うーむ、効率が悪いね もう一発実験やるが、全然ダメ ミーティング 午後 長めの会議 急いで実験 腕にけがをした(しもやけ) 様子を見て悪化したら病院へ 散髪 夜、腕が痛いと言ったら息子が薬を塗って直してあげると言ってくれてうれしい 体調 普通 その他 息子の吃音が3週間画ぐらい前から出始めて、いま結構気になる状態。「こ」が言いにくいようだ。また収まってくれれば良いのだけれど。 今日のTabs Original Prusa i3 MK3/S のアップグレードまとめ - SatT99の日記 Ultimaker Cura | rimo-WorkShop Ultimaker Curaの詳しい説明 3D プリンターの設定あれこれ | Kei&amp;rsquo;s Portfolio inajobの自己紹介ページ 【3Dプリンター】オリジナルのBLTouchとそのコピー品（3D Touch）の精度を比較してみた | あること・ないこと日記 【3Dプリンタ】Ender3 V2でこれまでやってきたカスタマイズ(改造)まとめ！ | ぶらり＠web走り書き Soldering Fingers by mistertech - Thingiverse 便利そう Original Prusa 3D printers directly from Josef Prusa Prusa Knowledge Base | Original Prusa i3 MK3S+ Typora — a markdown editor, markdown reader.</description></item><item><title>2021-12-07</title><link>/posts/2021/12/07/116738/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/07/116738/</guid><description>午前 6:50起床 息子通園 昨日の分析 ミーティング 午後 文献が再現できないので、危険な試薬を使う 一応出来てるっぽいけど操作は改善の余地あり 分析と精製 残業1時間 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-06</title><link>/posts/2021/12/06/654607/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/06/654607/</guid><description>午前 6:50息子通園 実験 文献の再現性が取れない問題解決 文献が嘘でした ミーティング 午後 実験その2 うーむ純度が微妙 20:00過ぎに就寝 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-05</title><link>/posts/2021/12/05/43464/</link><pubDate>Sun, 05 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/05/43464/</guid><description>午前 6:30起床 息子にサンドイッチ作る 息子スイミング 3dプリンタのホットエンド冷却用のファンを交換 とりあえず標準のホットエンドカバーに穴を開けて取り付ける とても静かになった 樹脂冷却用ファンのコネクタが抜けていたことに気がついた 入れてみると結構な音量だが、これも交換予定 メインボード冷却用ファントと樹脂冷却用ファンはControllable fan portにそれぞれ刺さっているけど、回転数を操作すると連動してるっぽい。 prusa i3 mk3s気になるなあ 午後 昼食は昨日買った麻辣まぜそば やや胃もたれ気味 奥さんは買い物に 息子と公園に行き17:00ごろ帰宅 22:00ごろ帰宅 体調 よいですね その他 今日のTabs</description></item><item><title>2021-12-04</title><link>/posts/2021/12/04/673034/</link><pubDate>Sat, 04 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/04/673034/</guid><description>午前 越谷レイクタウンへ 昼食はサイゼリア そういえば息子はサイゼリア初めてだ おいしかったようだ セリアでお風呂用のおもちゃを買う 午後 おもちゃなどを見て、新三郷へ移動 コストコへ 早めにクリスマス用のチキンを調達 明日用に麻辣まぜそばも 疲れたので21:00ごろ就寝 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-03[通院13回目]</title><link>/posts/2021/12/03/143836/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/03/143836/</guid><description>午前 8:30出社 昨日の微妙な実験結果の解釈 ミーティング 午後 物質が分解していることがわかった 原因はつかめそう 長めのミーティング 定時に退社して心療内科へ 体調 普通 その他 心療内科受診 前回の診療
-今日のTabs</description></item><item><title>2021-12-02</title><link>/posts/2021/12/02/303798/</link><pubDate>Thu, 02 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/02/303798/</guid><description>午前 8:30出社 朝調子が悪く保育園送迎をお願いした 実験 昨日のヤツを分析したがいろいろと不純物が見える ミーティング 午後 実験の後処理と分析 定時退社 23:00前に就寝 体調 普通 その他 今日のTabs</description></item><item><title>2021-12-01</title><link>/posts/2021/12/01/509103/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/01/509103/</guid><description>午前 今日は奥さんが在宅勤務しながら息子の世話 咳は落ち着いてきたようだ 8:40出社 事務作業 オンラインの研究会に参加しながら実験 実験がうまくいかない 不純物はわかったので対策をする ミーティング 午後 技術系のミーティング 実験のあとしょり 定時に帰宅 体調 普通 その他 今日のTabs</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2021-12 on d.sk85.org</title><link>/archives/2021-12/</link><description>Recent content in 2021-12 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 01 Apr 2024 23:02:33 +0900</lastBuildDate><atom:link href="/archives/2021-12/index.xml" rel="self" type="application/rss+xml"/><item><title>2021-12-31</title><link>/posts/2021/12/31/676303/</link><pubDate>Fri, 31 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/31/676303/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>今日は子育てお休み(したい)&lt;/li>
+&lt;li>業務スーパーで買い物&lt;/li>
+&lt;li>韓国系スーパーをぶらぶら&lt;/li>
+&lt;li>朝から 3d プリンタで印刷
+&lt;ul>
+&lt;li>問題が解決しない
+&lt;ul>
+&lt;li>定着が甘くて 4 回ぐらい印刷中に下層がずれた
+&lt;ul>
+&lt;li>細かい箇所をうめるためにノズルを左右に振る箇所で頻発する&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>反りが強い
+&lt;ul>
+&lt;li>四隅に丸い円盤を入れて定着を強くしようとしたが、まだ反る&lt;/li>
+&lt;li>&lt;a href="https://nature3d.net/explanation/fdm_warping.html">3D プリンタで反りはなぜ起こる？(FDM)&lt;/a>&lt;/li>
+&lt;li>熱収縮と、それに対して形状を維持しようとする反力の作用で曲げモーメントか発生する&lt;/li>
+&lt;li>究極的には、ビルドプレートから~4 層ぐらいを Tg 以上に維持するしかないのか&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ノズルが引っかかって造形物が吹っ飛ぶ
+&lt;ul>
+&lt;li>ノズルが近すぎる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>昼食は昨日の残りご飯&lt;/li>
+&lt;li>お昼寝&lt;/li>
+&lt;li>奥さんが昼寝中に息子と近くの公園に 30 分ぐらい&lt;/li>
+&lt;li>スーパーに買い物に&lt;/li>
+&lt;li>夜はうどんと、奥さんが作ってくれたてんぷらで年越しうどん&lt;/li>
+&lt;li>お互い、一年の激務(主に子育て)をねぎらって就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="visual-studio-code-がおかしい">Visual Studio Code がおかしい&lt;/h4>
+&lt;ul>
+&lt;li>&lt;a href="https://takacity.blog.fc2.com/blog-entry-391.html">Visual Studio Code の日本語変換が変？ - 考えるエンジニア&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/microsoft/vscode/issues/138704">Japanese IME doesn&amp;rsquo;t work well on macOS and Linux #138704&lt;/a>&lt;/li>
+&lt;li>&lt;div style='text-align:center;'>
+ &lt;a data-flickr-embed="true" href="https://www.flickr.com/photos/193320954@N03/51789976603/in/dateposted/" title="入力がへん">
+ &lt;img src="https://live.staticflickr.com/31337/51789976603_8456919cb0_z.jpg" width="640" height="230" alt="入力がへん">&lt;/a>
+ &lt;script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8">&lt;/script>
+&lt;/div>
+
+&lt;ul>
+&lt;li>まさしくこの症状で 1.62.3 に戻すことで解決&lt;/li>
+&lt;li>前に入力した部分が二重に表示される&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="visual-studio-code-のフォントを変更">Visual Studio Code のフォントを変更&lt;/h4>
+&lt;p>&lt;a href="https://github.com/yuru7/HackGen">yuru7/HackGen&lt;/a>&lt;/p></description></item><item><title>2021-12-30</title><link>/posts/2021/12/30/327592/</link><pubDate>Thu, 30 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/30/327592/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子と日暮里舎人公園に
+&lt;ul>
+&lt;li>年末で閉まっていたのでホームセンターへ&lt;/li>
+&lt;li>お魚を見て買い物&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>昼食はふるさと納税でもらった一蘭のラーメン&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>奥さんは正月帰省用のお土産を買いに日本橋へ&lt;/li>
+&lt;li>3d プリンタをいじる&lt;/li>
+&lt;li>息子と近くの公園に行く
+&lt;ul>
+&lt;li>さ、寒い&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>一時間ちょっとで帰宅&lt;/li>
+&lt;li>夜は&lt;a href="/posts/2021/12/11/726308/">ぶりのショウガ醤油漬け&lt;/a>&lt;/li>
+&lt;li>寝る前に 3d プリンタで印刷始めるが、夜中に確認したらもじゃもじゃになってた
+&lt;ul>
+&lt;li>プレートへの定着が甘くて、左右に激しく動く細かい fill でずれているよう&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>ふう、子供の体力がすごい
+&lt;ul>
+&lt;li>親戚の子ども達(3 才~6 才)と丸一日遊んだ結果、導き出された考察&lt;/li>
+&lt;li>&lt;a href="https://twitter.com/mamiyama410/status/1456899838977527811">https://twitter.com/mamiyama410/status/1456899838977527811&lt;/a>&lt;/li>
+&lt;li>{{&amp;lt; tweet user=&amp;ldquo;mamiyama400&amp;rdquo; id=&amp;ldquo;1456899838977527811&amp;rdquo; &amp;gt;}}&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2021-12-29</title><link>/posts/2021/12/29/300991/</link><pubDate>Wed, 29 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/29/300991/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>早めに起きて奥さんが作ってくれたフレンチトーストを食べる&lt;/li>
+&lt;li>午前中は家の掃除
+&lt;ul>
+&lt;li>換気扇&lt;/li>
+&lt;li>ガラス&lt;/li>
+&lt;li>キッチン等々&lt;/li>
+&lt;li>ドラム式
+&lt;ul>
+&lt;li>ヒートポンプに繋がるダクトにたまった繊維塊を洗い流す&lt;/li>
+&lt;li>洗濯槽の隙間に入った繊維の塊は落としにくいので、まず洗濯槽洗浄モードでふやかす&lt;/li>
+&lt;li>ドライバーとピンセットでほとんどの塊を掻き出す&lt;/li>
+&lt;li>高圧洗浄機で残った塊を落とす&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>昼食は家族で回転寿司&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>Ender3 V2の改造
+&lt;ul>
+&lt;li>PSUと制御基盤のファンを静音タイプに変更&lt;/li>
+&lt;li>&lt;a href="https://www.thingiverse.com/thing:4630748">ホットエンドカバー&lt;/a>に交換&lt;/li>
+&lt;li>ホットエンド冷却用と造形物冷却用ファンを交換&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://takaratomymall.jp/shop/g/g4904810175025/">プラレール S-40 レールで往復!H5系新幹線はやぶさ】&lt;/a>が届く&lt;/li>
+&lt;li>奥さんはお友達とオンラインの飲み会&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-28</title><link>/posts/2021/12/28/562968/</link><pubDate>Tue, 28 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/28/562968/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園&lt;/li>
+&lt;li>ラボの掃除&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>有給&lt;/li>
+&lt;li>秋葉原で買い物
+&lt;ul>
+&lt;li>ロック機構付きのQIコネクタ
+&lt;ul>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4JEU">CH2543BL-02P 【QIコネクタ】ロック付き信号伝達コネクタ プラグハウジング 2P&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4JF3">CH2547-02P 【QIコネクタ】ロック付き信号伝達コネクタ リセクタプルハウジング 2P&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4JEZ">CT2543 【QIコネクタ】ロック付き信号伝達コネクタ プラグハウジング用コンタクト&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4JF8#">CT2547 【QIコネクタ】ロック付き信号伝達コネクタ リセクタプルハウジング用コンタクト&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夜中からフローリングのワックス剥離と再ワックス
+&lt;ul>
+&lt;li>大失敗&lt;/li>
+&lt;li>いつも使うリンレイではない剥離剤を使ったら完全に剥離してしまい、まだらになってしまった&lt;/li>
+&lt;li>洗浄も不十分でワックスを塗布したら足跡が付いてしまった&lt;/li>
+&lt;li>1/4日に再度行う
+&lt;ul>
+&lt;li>マスキングテープで区分けして剥離を行う&lt;/li>
+&lt;li>剥離の確認&lt;/li>
+&lt;li>二回ワックス掛け&lt;/li>
+&lt;li>時間無駄にしたなあ&lt;/li>
+&lt;li>ホームセンターで3Mのハンディパッド赤買えるんだろうか&lt;/li>
+&lt;li>念のためハンディのデッキブラシも買わなければ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-27</title><link>/posts/2021/12/27/667393/</link><pubDate>Mon, 27 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/27/667393/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園&lt;/li>
+&lt;li>8:30出社&lt;/li>
+&lt;li>本日午後半休&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>秋葉原で買い物
+&lt;ul>
+&lt;li>5Pの中継
+&lt;ul>
+&lt;li>使っているケーブルが少し太いのと、持っている電工ペンチが安物過ぎて失敗&lt;/li>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4KLB">Molex (モレックス) 51005-0500 2.0mmピッチ 電線対電線 51005/51006シリーズ リセプタクルハウジング 5P&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4NCE#">Molex (モレックス) 50013-8000 【2.0mm】51005/51006シリーズ リセプタクルハウジング(51005)用コンタクトピン&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4KLF">Molex (モレックス) 51006-0500 2.0mmピッチ 電線対電線 51005/51006シリーズ プラグハウジング 5P&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4NCF">Molex (モレックス) 50012-8000 【2.0mnm】51005/51006シリーズ プラグハウジング(51006)用コンタクトピン&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>2P中継
+&lt;ul>
+&lt;li>&lt;a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-5PH6">オーム電機 DZ-DC24A8 中継コネクタ NDC2420 8個入&lt;/a>&lt;/li>
+&lt;li>これは良い、僕みたいなへたくそでも中継できる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>息子お迎え&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>RSS関係
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/feedbin/feedbin">feedbin/feedbin: A nice place to read on the web.&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/miniflux/v2">miniflux/v2: Minimalist and opinionated feed reader&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/RSS-Bridge/rss-bridge">RSS-Bridge/rss-bridge: The RSS feed for websites missing it&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>圧着端子
+&lt;ul>
+&lt;li>&lt;a href="https://fumimaker.net/entry/2019/06/16/220408">電子工作でコネクタを作る！ おすすめの圧着工具 - fumiLab&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>2021-12-26</title><link>/posts/2021/12/26/518230/</link><pubDate>Sun, 26 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/26/518230/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子の朝食作り&lt;/li>
+&lt;li>息子プール&lt;/li>
+&lt;li>僕は自宅でだらだらと過ごす&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>お昼寝&lt;/li>
+&lt;li>夕方、シャトレーゼに出かける
+&lt;ul>
+&lt;li>ワッフルがなかったので別店舗まで出かけて購入&lt;/li>
+&lt;li>よくわからない情熱でワッフルゲット&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>24:00過ぎに就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://calil.jp/book/4152100753">mRNAワクチンの衝撃: コロナ制圧と医療の未来 | カーリル&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://huyukiitoichi.hatenadiary.jp/entry/2021/12/27/080000">mRNAワクチンを接種した人全員に読んでもらいたい、ワクチン開発の奮闘を描き出す一気読み必至のノンフィクション──『mRNAワクチンの衝撃　コロナ制圧と医療の未来』 - 基本読書&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-25</title><link>/posts/2021/12/25/135406/</link><pubDate>Sat, 25 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/25/135406/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子にはサンタさんが来た
+&lt;ul>
+&lt;li>今年のメインは&lt;a href="https://www.takaratomy.co.jp/products/plarail/tettei/set/2021dodeka/index.htm">変形ドデカシンカンセンのぞみ&lt;/a>&lt;/li>
+&lt;li>ドラえもんのパソコンとプログラミングカーも&lt;/li>
+&lt;li>うれしかったようでずっと遊んでいた&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>息子と日暮里舎人ライナーに乗りにいく&lt;/li>
+&lt;li>日暮里から山手線と京浜東北線を使って帰宅&lt;/li>
+&lt;li>お昼はカレーうどん&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>お昼寝&lt;/li>
+&lt;li>夕方息子と公園に行き、後でシャトレーゼにケーキを受け取りに行く
+&lt;ul>
+&lt;li>ワッフル買おうと覆ったら売ってなかった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夜はささやかなクリスマスパーティーを
+&lt;ul>
+&lt;li>巻き寿司とコストコで買って凍らせていたチキン半分とケーキ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>息子、ここ3,4日収まっていて安心していた吃音がまた出始めてる&lt;/li>
+&lt;li>波があるようだ&lt;/li>
+&lt;li>「あ、あ、あ」という感じの吃音と「あー」という伸ばすタイプの吃音両方出ている&lt;/li>
+&lt;li>体に力を入れて音を出そうとしている&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-24</title><link>/posts/2021/12/24/993898/</link><pubDate>Fri, 24 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/24/993898/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>9:00前に出社&lt;/li>
+&lt;li>見積もりを確認&lt;/li>
+&lt;li>実験データの整理
+&lt;ul>
+&lt;li>分析結果が理解できない&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>実験続き
+&lt;ul>
+&lt;li>うまくいかないなあ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>長めのミーティング&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>1.5h残業&lt;/li>
+&lt;li>上席に年末の挨拶&lt;/li>
+&lt;li>息子が咳をしているとのことだったが元気だった&lt;/li>
+&lt;li>夜プレゼントを3つ置く&lt;/li>
+&lt;li>一週間本当に疲れたよ&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>納期が短い仕事をしているのでややストレス&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-23</title><link>/posts/2021/12/23/92831/</link><pubDate>Thu, 23 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/23/92831/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園&lt;/li>
+&lt;li>精製法をがんばって探す&lt;/li>
+&lt;li>うーむおかしい、変なものになっている&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>いくつか確認のための実験
+&lt;ul>
+&lt;li>何が悪いかわからない&lt;/li>
+&lt;li>納期が近いので困った&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>残業 1.5 時間&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="zombi-icloud-tab-の対処方法">Zombi icloud tab の対処方法&lt;/h4>
+&lt;h4 id="症状">症状&lt;/h4>
+&lt;ul>
+&lt;li>safari の tab は icloud で同期している&lt;/li>
+&lt;li>macOS の Safari において別デバイス(今回は iPhone)ではすでに閉じている tab が表示され続ける&lt;/li>
+&lt;li>tab を消しても時間が経つと復活する&lt;/li>
+&lt;li>iCloud の safari の同期を off &amp;ndash;&amp;gt; on にしても改善しない&lt;/li>
+&lt;li>iCoud をログアウトして再ログインしても改善しない&lt;/li>
+&lt;li>システムの再インストールでも改善しない&lt;/li>
+&lt;li>apple のサポートに連絡をしたが解決していない&lt;/li>
+&lt;/ul>
+&lt;h4 id="対処">対処&lt;/h4>
+&lt;ul>
+&lt;li>safari を終了&lt;/li>
+&lt;li>/Users/USERNAME/Library/Containers/com.apple.Safari/Data/Library/Preferences を削除&lt;/li>
+&lt;li>safari を起動&lt;/li>
+&lt;/ul>
+&lt;h4 id="こういうのもあるらしい">こういうのもあるらしい&lt;/h4>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">1. ゾンビ iCloud Tabs ができるとどこからも消せなくなる&lt;br>2. iCloud Tabs は 14日より過去のものは消すというロジックがある&lt;br>3. ゾンビ iCloud Tabs を送ってきてるデバイスの時計を14日以上未来に進める&lt;br>4. 一度 Safari を開いて同期する&lt;br>5. 時計を戻す&lt;br>6. ゾンビ iCloud Tabs が消える&lt;/p></description></item><item><title>2021-12-22</title><link>/posts/2021/12/22/547510/</link><pubDate>Wed, 22 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/22/547510/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>9:00前に出社&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>技術系のミーティング&lt;/li>
+&lt;li>実験
+&lt;ul>
+&lt;li>精製法をがんばって探す&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>残業1.5時間&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nikkei.com/article/DGXZQOUA224TK0S1A221C2000000/">エーザイ認知症新薬の承認可否、再度審議へ 厚労省部会: 日本経済新聞&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cs50.jp/">CS50 for Japanese: コンピュータサイエンスの入門 – 当ウェブサイトは、Creative Commons ライセンスに基づいて管理されています。&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-12-21</title><link>/posts/2021/12/21/278614/</link><pubDate>Tue, 21 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/21/278614/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園&lt;/li>
+&lt;li>昨日の精製作業&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>精製作業続き
+&lt;ul>
+&lt;li>思ったよりたくさん取れたぞ、やったー&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>確認の実験を一つ
+&lt;ul>
+&lt;li>後処理までやって帰宅&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-20</title><link>/posts/2021/12/20/863362/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/20/863362/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園&lt;/li>
+&lt;li>今日は実験が忙しい
+&lt;ul>
+&lt;li>同じ実験を4回&lt;/li>
+&lt;li>危ないので少しづつ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>ミーティング続き&lt;/li>
+&lt;li>実験続き&lt;/li>
+&lt;li>処理まで終了&lt;/li>
+&lt;li>残業1.5h&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;p>icloudのtabを消しても復活する問題、海外ではzombi icloud tabと呼ばれている&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-19</title><link>/posts/2021/12/19/587258/</link><pubDate>Sun, 19 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/19/587258/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子に朝ご飯&lt;/li>
+&lt;li>息子はプールへ&lt;/li>
+&lt;li>マクドナルドで作業&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>お昼は焼き肉&lt;/li>
+&lt;li>hugoのデプロイ先をGithub Pagesに変更&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>ふつう&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="http://medt00lz.s59.xrea.com/">レジデント初期研修用資料&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://mojix.org/">モジログ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cen.acs.org/content/cen/articles/99/i45/CENs-Year-Chemistry-2021.html?utm_source=Twitter&amp;amp;utm_medium=Social&amp;amp;utm_campaign=CEN#Molecular-editing-made-its-mark-in-2021">C&amp;amp;EN’s Year in Chemistry 2021&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www3.nhk.or.jp/news/html/20211218/k10013393471000.html">エーザイなど開発アルツハイマー薬 EU当局“承認しない”勧告 | ＥＵ | NHKニュース&lt;/a>
+&lt;ul>
+&lt;li>アミロイドβとアルツハイマーの関係性が不明&lt;/li>
+&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%9F%E3%83%AD%E3%82%A4%E3%83%89%E9%96%A2%E9%80%A3%E7%94%BB%E5%83%8F%E7%95%B0%E5%B8%B8">アミロイド関連画像異常 - Wikipedia&lt;/a>&lt;/li>
+&lt;li>価格も高いので審査も厳しい&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://chokkan.github.io/mlnote/index.html">はじめに — 機械学習帳&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://aficionerds.com/blog/20190430_3dprinter_setting/">3D プリンターの設定あれこれ | Kei&amp;rsquo;s Portfolio&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://satt99.hatenablog.com/entry/2020/01/13/124955">Original Prusa i3 MK3/S のアップグレードまとめ - SatT99の日記&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://miniflux.app/index.html">Miniflux - Minimalist and Opinionated Feed Reader&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://hitoriblog.com/kingroon_kp3s/">KINGROON KP3S INFO&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-12-18</title><link>/posts/2021/12/18/178199/</link><pubDate>Sat, 18 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/18/178199/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>8:30起床&lt;/li>
+&lt;li>やや胃もたれ&lt;/li>
+&lt;li>舎人公園に子供向けの遊具公園があったのでお出かけ&lt;/li>
+&lt;li>柵があって道路から隔離されているので安心して遊ばせられる&lt;/li>
+&lt;li>遊具の数も多く息子は楽しかったようだ
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211218-12-34-13-BX-hBTDk4fhx7tsqNlEO.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211218-12-34-13-BX-hBTDk4fhx7tsqNlEO.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;li>お昼は炒飯&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>お昼寝&lt;/li>
+&lt;li>夕方は無印におでかけ&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;li>最近食事の後に胸焼けが&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-17</title><link>/posts/2021/12/17/923890/</link><pubDate>Fri, 17 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/17/923890/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>本日在宅勤務&lt;/li>
+&lt;li>報告書の作成など&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>資料作成など&lt;/li>
+&lt;li>奥さんは夕方から友達と夕食へ&lt;/li>
+&lt;li>息子を迎えに行って、丸亀製麺で夕食&lt;/li>
+&lt;li>21:00過ぎに眠る&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>一週間お疲れ&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-16</title><link>/posts/2021/12/16/404697/</link><pubDate>Thu, 16 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/16/404697/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>朝から精製作業&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>実験続き&lt;/li>
+&lt;li>残業1.5時間&lt;/li>
+&lt;li>プラレールのジョイントを交換&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>bitwardenをお試しで使っている&lt;/li>
+&lt;li>息子が朝、隠していたクリスマスプレゼントを発見しそうになった
+&lt;ul>
+&lt;li>ウォークインクローゼットの段ボールの奥に隠しておいたのだが、外装が少し見えていたようだ&lt;/li>
+&lt;li>踏み台を引っ張ってきて、確認しようとして笑っちゃったよ&lt;/li>
+&lt;li>奥さんに隠し直してもらいました&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-15</title><link>/posts/2021/12/15/517721/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/15/517721/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>090:0前に出社&lt;/li>
+&lt;li>技術系の発表会&lt;/li>
+&lt;li>見積もり確認&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>技術系の会議&lt;/li>
+&lt;li>実験
+&lt;ul>
+&lt;li>危ない物質を多く扱うので注意して&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>最近は朝ご飯に青菜と柚子胡椒のおむすびを作っている&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://bitwarden.com/">Bitwarden Open Source Password Manager | Bitwarden&lt;/a>
+&lt;ul>
+&lt;li>1Passwordの1/3のお値段&lt;/li>
+&lt;li>オープンソースベース&lt;/li>
+&lt;li>監査を受けている&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://blog.ikejima.org/">ikejiのblog&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://blog.ikejima.org/2021/12/11/ender3.html">Ender 3改造記録&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/%E7%9F%B3%E9%87%8E%E9%81%BA%E8%B7%A1">石野遺跡 - Wikipedia&lt;/a>&lt;/li>
+&lt;li>Cloudflare Pages/ Github Pages 関係
+&lt;ul>
+&lt;li>&lt;a href="https://tellme.tokyo/post/2020/01/29/migrate-https-gh-pages-from-cloudflare/">Cloudflare から GitHub Pages の HTTPS 機能に移行する | tellme.tokyo&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://balloon.asia/cloudflare-pages/">Cloudflare Pages（pages.dev） | ふうせん🎈 FU-SEN&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://taikii.net/posts/2018/07/github-pages-with-custom-domain/">GitHub Pagesを独自ドメインで運用する - taikii blog&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>2021-12-14</title><link>/posts/2021/12/14/480879/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/14/480879/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>子供通園&lt;/li>
+&lt;li>金曜の実験の後処理
+&lt;ul>
+&lt;li>いい感じ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>原料の精製&lt;/li>
+&lt;li>精製した原料で実験&lt;/li>
+&lt;li>残業1.5時間&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;p>&lt;a href="/posts/2021/10/30/353859/">サイトの全文検索をVPSから自宅のサーバーに移行&lt;/a>して、indigo VPSのインスタンスを削除。次は自宅サーバーのバックアップとらんとなあ&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-13</title><link>/posts/2021/12/13/701477/</link><pubDate>Mon, 13 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/13/701477/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>本日有給&lt;/li>
+&lt;li>朝寝坊&lt;/li>
+&lt;li>昼食は隣のファミレスに&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>だらだらと過ごす&lt;/li>
+&lt;li>夕方子供おむかえ&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="vpsサーバーから転出">VPSサーバーから転出&lt;/h4>
+&lt;p>費用削減のためにVPSサーバー上の静的ファイルをCloudflare PagesとGithubPagesに移行&lt;/p>
+&lt;ul>
+&lt;li>Cloudflare Pagesにsk85.orgにっきを移行&lt;/li>
+&lt;li>ドメインのトップはGithub Pagesに移行&lt;/li>
+&lt;li>AレコードにGithub PagesのIPアドレスを登録する
+&lt;ul>
+&lt;li>CloudflareのproxyをオフにしないとGithub PagesのEnforce HTTPSが有効にならないようだ
+&lt;ul>
+&lt;li>cloudflareのSSL/TLS設定をFull (strict)からFlexibleに変更することでcloudflareとgithub pages間を非https通信にすることで対応できるが望ましくはないな&lt;/li>
+&lt;li>Github PagesのCustom domainでAppexドメインを指定してCNAMEにwwwも指定することでwwwサブドメインからもアクセス可能になる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages">About custom domains and GitHub Pages&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain">Managing a custom domain for your GitHub Pages site&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tellme.tokyo/post/2020/01/20/github-pages-with-https/">GitHub Pages で HTTPS を有効にする | tellme.tokyo&lt;/a>
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211214-13-08-51-gOdGhtb_T90aMnYcElR_.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20211214-13-08-51-gOdGhtb_T90aMnYcElR_.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;p>なし&lt;/p></description></item><item><title>2021-12-12</title><link>/posts/2021/12/12/585348/</link><pubDate>Sun, 12 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/12/585348/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子に朝食を作る&lt;/li>
+&lt;li>息子のスイミング
+&lt;ul>
+&lt;li>初めて見学した&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>昼食は自宅で&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>少し昼寝&lt;/li>
+&lt;li>夕方図書館に行き、帰りに公園へ&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-11</title><link>/posts/2021/12/11/726308/</link><pubDate>Sat, 11 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/11/726308/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>胃もたれ&lt;/li>
+&lt;li>息子と近くの公園へ
+&lt;ul>
+&lt;li>奥さんの社内報用の写真を撮る&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>昼食は回転寿司&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>眠すぎて昼寝&lt;/li>
+&lt;li>ぶり一本届いたのでさばいて柵にする
+&lt;ul>
+&lt;li>大変だった
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211214-12-51-24-E5ig5NVqXXKjIAMgPekk.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211214-12-51-24-E5ig5NVqXXKjIAMgPekk.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211214-12-51-24-GjuViVlSdSMQfVT9TSfX.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211214-12-51-24-GjuViVlSdSMQfVT9TSfX.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-10</title><link>/posts/2021/12/10/31286/</link><pubDate>Fri, 10 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/10/31286/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>患部はすこし紫色感がでてきた、内出血？&lt;/li>
+&lt;li>6:45起床
+&lt;ul>
+&lt;li>朝食は肉まん&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>出社&lt;/li>
+&lt;li>条件を変えて実験
+&lt;ul>
+&lt;li>うむ、いい感じです&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>午後は有給&lt;/li>
+&lt;li>ユニクロで服を受け取り&lt;/li>
+&lt;li>グランドカステラを買いに行く
+&lt;ul>
+&lt;li>自宅用含めて3つ、重い・・&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>船橋到着
+&lt;ul>
+&lt;li>時間を潰して焼鳥屋で年末の男子会&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>灯花でラーメンを食べて帰宅
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211214-12-52-38-wy-98Cn7bAcVJDzk1RZL.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211214-12-52-38-wy-98Cn7bAcVJDzk1RZL.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-09</title><link>/posts/2021/12/09/994602/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/09/994602/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>6:50起床&lt;/li>
+&lt;li>息子通園
+&lt;ul>
+&lt;li>今日は奥さんが忙しいので先に出ました&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>右手首のけがは痛みがなくなり、患部が拡大している様子はない&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>実験
+&lt;ul>
+&lt;li>量を増やしたらいい感じ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>残業1時間&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-08</title><link>/posts/2021/12/08/458905/</link><pubDate>Wed, 08 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/08/458905/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>朝は胡椒餅&lt;/li>
+&lt;li>7:30ごろに出社&lt;/li>
+&lt;li>昨日の分析
+&lt;ul>
+&lt;li>うーむ、効率が悪いね&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>もう一発実験やるが、全然ダメ&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>長めの会議&lt;/li>
+&lt;li>急いで実験&lt;/li>
+&lt;li>腕にけがをした(しもやけ)
+&lt;ul>
+&lt;li>様子を見て悪化したら病院へ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>散髪&lt;/li>
+&lt;li>夜、腕が痛いと言ったら息子が薬を塗って直してあげると言ってくれてうれしい&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>息子の吃音が3週間画ぐらい前から出始めて、いま結構気になる状態。「こ」が言いにくいようだ。また収まってくれれば良いのだけれど。&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://satt99.hatenablog.com/entry/2020/01/13/124955">Original Prusa i3 MK3/S のアップグレードまとめ - SatT99の日記&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://rimo-ws.com/tag/ultimaker-cura/">Ultimaker Cura | rimo-WorkShop&lt;/a>
+&lt;ul>
+&lt;li>Ultimaker Curaの詳しい説明&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://aficionerds.com/blog/20190430_3dprinter_setting/">3D プリンターの設定あれこれ | Kei&amp;rsquo;s Portfolio&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://inajob.github.io/intro/">inajobの自己紹介ページ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://terutakke.com/2019/09/accuracy-comparison-between-bltouch-and-3dtouch/">【3Dプリンター】オリジナルのBLTouchとそのコピー品（3D Touch）の精度を比較してみた | あること・ないこと日記&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://burariweb.info/gadget/3d-printer/ender3v2-customize-summary.html">【3Dプリンタ】Ender3 V2でこれまでやってきたカスタマイズ(改造)まとめ！ | ぶらり＠web走り書き&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.thingiverse.com/thing:1725308">Soldering Fingers by mistertech - Thingiverse&lt;/a>
+&lt;ul>
+&lt;li>便利そう&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.prusa3d.com/">Original Prusa 3D printers directly from Josef Prusa&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://help.prusa3d.com/en/tag/mk3s-2/">Prusa Knowledge Base | Original Prusa i3 MK3S+&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://typora.io/">Typora — a markdown editor, markdown reader.&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-12-07</title><link>/posts/2021/12/07/116738/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/07/116738/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>6:50起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>昨日の分析&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>文献が再現できないので、危険な試薬を使う
+&lt;ul>
+&lt;li>一応出来てるっぽいけど操作は改善の余地あり&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>分析と精製&lt;/li>
+&lt;li>残業1時間&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-06</title><link>/posts/2021/12/06/654607/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/06/654607/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>6:50息子通園&lt;/li>
+&lt;li>実験
+&lt;ul>
+&lt;li>文献の再現性が取れない問題解決&lt;/li>
+&lt;li>文献が嘘でした&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>実験その2
+&lt;ul>
+&lt;li>うーむ純度が微妙&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>20:00過ぎに就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-05</title><link>/posts/2021/12/05/43464/</link><pubDate>Sun, 05 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/05/43464/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>6:30起床&lt;/li>
+&lt;li>息子にサンドイッチ作る&lt;/li>
+&lt;li>息子スイミング&lt;/li>
+&lt;li>3dプリンタのホットエンド冷却用のファンを交換
+&lt;ul>
+&lt;li>とりあえず標準のホットエンドカバーに穴を開けて取り付ける&lt;/li>
+&lt;li>とても静かになった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>樹脂冷却用ファンのコネクタが抜けていたことに気がついた
+&lt;ul>
+&lt;li>入れてみると結構な音量だが、これも交換予定&lt;/li>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211205-12-33-17-VTHjrdYZ1bXUE_wTuG-q.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211205-12-33-17-VTHjrdYZ1bXUE_wTuG-q.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;li>メインボード冷却用ファントと樹脂冷却用ファンはControllable fan portにそれぞれ刺さっているけど、回転数を操作すると連動してるっぽい。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>prusa i3 mk3s気になるなあ&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>昼食は昨日買った麻辣まぜそば
+&lt;ul>
+&lt;li>やや胃もたれ気味&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>奥さんは買い物に&lt;/li>
+&lt;li>息子と公園に行き17:00ごろ帰宅&lt;/li>
+&lt;li>22:00ごろ帰宅&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>よいですね&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-04</title><link>/posts/2021/12/04/673034/</link><pubDate>Sat, 04 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/04/673034/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>越谷レイクタウンへ&lt;/li>
+&lt;li>昼食はサイゼリア
+&lt;ul>
+&lt;li>そういえば息子はサイゼリア初めてだ&lt;/li>
+&lt;li>おいしかったようだ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>セリアでお風呂用のおもちゃを買う&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>おもちゃなどを見て、新三郷へ移動&lt;/li>
+&lt;li>コストコへ&lt;/li>
+&lt;li>早めにクリスマス用のチキンを調達&lt;/li>
+&lt;li>明日用に麻辣まぜそばも
+&lt;ul>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211205-12-12-08-EjnQU4fxlEWnIfmzBHMI.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211205-12-12-08-EjnQU4fxlEWnIfmzBHMI.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211205-12-12-08-5G9b9OozFe3z2KR-66Qj.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211205-12-12-08-5G9b9OozFe3z2KR-66Qj.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>疲れたので21:00ごろ就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-03[通院13回目]</title><link>/posts/2021/12/03/143836/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/03/143836/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>8:30出社&lt;/li>
+&lt;li>昨日の微妙な実験結果の解釈&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>物質が分解していることがわかった
+&lt;ul>
+&lt;li>原因はつかめそう&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>長めのミーティング&lt;/li>
+&lt;li>定時に退社して心療内科へ&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h4 id="心療内科受診">心療内科受診&lt;/h4>
+&lt;p>&lt;a href="/posts/2021/08/27/387330/">前回の診療&lt;/a>&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-02</title><link>/posts/2021/12/02/303798/</link><pubDate>Thu, 02 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/02/303798/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>8:30出社&lt;/li>
+&lt;li>朝調子が悪く保育園送迎をお願いした&lt;/li>
+&lt;li>実験
+&lt;ul>
+&lt;li>昨日のヤツを分析したがいろいろと不純物が見える&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>実験の後処理と分析&lt;/li>
+&lt;li>定時退社&lt;/li>
+&lt;li>23:00前に就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-12-01</title><link>/posts/2021/12/01/509103/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/01/509103/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>今日は奥さんが在宅勤務しながら息子の世話&lt;/li>
+&lt;li>咳は落ち着いてきたようだ&lt;/li>
+&lt;li>8:40出社&lt;/li>
+&lt;li>事務作業&lt;/li>
+&lt;li>オンラインの研究会に参加しながら実験
+&lt;ul>
+&lt;li>実験がうまくいかない&lt;/li>
+&lt;li>不純物はわかったので対策をする&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>技術系のミーティング&lt;/li>
+&lt;li>実験のあとしょり&lt;/li>
+&lt;li>定時に帰宅&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item></channel></rss>

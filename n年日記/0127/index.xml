@@ -1,9 +1,102 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0127 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0127/</link><description>Recent content in 0127 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 30 Jan 2024 23:26:49 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0127/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-01-27</title><link>/posts/2024/01/27/711333/</link><pubDate>Sat, 27 Jan 2024 00:00:00 +0900</pubDate><guid>/posts/2024/01/27/711333/</guid><description>午前 子供の体操教室 昼食は自宅で 午後 自宅でHono - Ultrafast web framework for the Edgesを使って、cloudflare workers にデプロイしようと四苦八苦 cloudflare pages は tsconfig.toml が使えないところにハマる オプションを渡すためには、wrangler で因数を渡す必要があるらしい 夕食も自宅で 夜は息子と銭湯に 体調 70 その他 今日は久しぶりにプログラミングっぽいことをやった 楽しかった 今日の Tabs</description></item><item><title>2023-01-27</title><link>/posts/2023/01/27/708245/</link><pubDate>Fri, 27 Jan 2023 00:00:00 +0900</pubDate><guid>/posts/2023/01/27/708245/</guid><description>午前 奥さんは有給 いいなあ 早めに出社 分析やらデータ整理 実験少し ミーティングで上席からツメが甘いところをアドバイス 早速実験で反映させる 午後 会議 今日は自分が主管なので、進捗やら新製品の起案を まあまあのでき 午後の実験分析すると非常に良い結果に 少し残業して帰宅 クーポン 2000 円効くらしいので夕食はラーメンの出前 子供を寝かしつけてから残業 疲れるな 体調 80 その他 今日の Tabs</description></item><item><title>2022-01-27</title><link>/posts/2022/01/27/625538/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0900</pubDate><guid>/posts/2022/01/27/625538/</guid><description>午前 朝体調悪い 吐き気と強い不安感 在宅 子供の調子が悪いので在宅と嘘をついた 嘘をついたことの気持ちが悪く、上司に謝罪して本当のことを話す 報告書の修正 ミーティングで報告書のレビュー 午後 報告書の修正 子供の送迎 報告書の修正 体調 悪いが、10時ごろから持ち直してきた その後は薬が効いたのか集中できたような気がする 頭が全部仕事のことで、仕事のことを考えてもいつのまにかぼーっとしてしまう 嘘をついたが勇気を持って修正できたことは良かった その他 今日のTabs</description></item><item><title>経過 day4</title><link>/posts/2021/01/27/728798/</link><pubDate>Wed, 27 Jan 2021 21:45:19 +0900</pubDate><guid>/posts/2021/01/27/728798/</guid><description>6:00に目が覚める。吐き気は少ない。
-再び寝て7:00に起床。食欲なし。
-子供を保育園に連れて行く 帰りにコンビニに寄りおむすびを買う、朝食後に服薬
-本日は在宅勤務
-昨日から残ったタスクを片付ける。チームのマネジメントについて準備し、会議案内。
-昼食前に短めの会議 食事はスーパーでサラダを購入 and 冷凍のピザ
-なぜか11:00ぐらいから服薬前まで落ち着かなかった。 昼食後服薬。落ち着かない
-昼からは二時間会議、その後面談, 打ち合わせ, その後雑務を片付けて終了
-子供を迎えに行って、時間の関係で本日は外食</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0127 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0127/</link><description>Recent content in 0127 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 30 Jan 2024 23:26:49 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0127/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-01-27</title><link>/posts/2024/01/27/711333/</link><pubDate>Sat, 27 Jan 2024 00:00:00 +0900</pubDate><guid>/posts/2024/01/27/711333/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>子供の体操教室&lt;/li>
+&lt;li>昼食は自宅で&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>自宅で&lt;a href="https://hono.dev/">Hono - Ultrafast web framework for the Edges&lt;/a>を使って、cloudflare workers にデプロイしようと四苦八苦
+&lt;ul>
+&lt;li>cloudflare pages は tsconfig.toml が使えないところにハマる&lt;/li>
+&lt;li>オプションを渡すためには、wrangler で因数を渡す必要があるらしい&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夕食も自宅で&lt;/li>
+&lt;li>夜は息子と銭湯に&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>70&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>今日は久しぶりにプログラミングっぽいことをやった&lt;/li>
+&lt;li>楽しかった&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2023-01-27</title><link>/posts/2023/01/27/708245/</link><pubDate>Fri, 27 Jan 2023 00:00:00 +0900</pubDate><guid>/posts/2023/01/27/708245/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>奥さんは有給
+&lt;ul>
+&lt;li>いいなあ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>早めに出社&lt;/li>
+&lt;li>分析やらデータ整理&lt;/li>
+&lt;li>実験少し&lt;/li>
+&lt;li>ミーティングで上席からツメが甘いところをアドバイス
+&lt;ul>
+&lt;li>早速実験で反映させる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>会議
+&lt;ul>
+&lt;li>今日は自分が主管なので、進捗やら新製品の起案を&lt;/li>
+&lt;li>まあまあのでき&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>午後の実験分析すると非常に良い結果に&lt;/li>
+&lt;li>少し残業して帰宅&lt;/li>
+&lt;li>クーポン 2000 円効くらしいので夕食はラーメンの出前&lt;/li>
+&lt;li>子供を寝かしつけてから残業
+&lt;ul>
+&lt;li>疲れるな&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>80&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-01-27</title><link>/posts/2022/01/27/625538/</link><pubDate>Thu, 27 Jan 2022 00:00:00 +0900</pubDate><guid>/posts/2022/01/27/625538/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>朝体調悪い&lt;/li>
+&lt;li>吐き気と強い不安感&lt;/li>
+&lt;li>在宅
+&lt;ul>
+&lt;li>子供の調子が悪いので在宅と嘘をついた&lt;/li>
+&lt;li>嘘をついたことの気持ちが悪く、上司に謝罪して本当のことを話す&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>報告書の修正&lt;/li>
+&lt;li>ミーティングで報告書のレビュー&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>報告書の修正&lt;/li>
+&lt;li>子供の送迎&lt;/li>
+&lt;li>報告書の修正&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>悪いが、10時ごろから持ち直してきた&lt;/li>
+&lt;li>その後は薬が効いたのか集中できたような気がする&lt;/li>
+&lt;li>頭が全部仕事のことで、仕事のことを考えてもいつのまにかぼーっとしてしまう&lt;/li>
+&lt;li>嘘をついたが勇気を持って修正できたことは良かった&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>経過 day4</title><link>/posts/2021/01/27/728798/</link><pubDate>Wed, 27 Jan 2021 21:45:19 +0900</pubDate><guid>/posts/2021/01/27/728798/</guid><description>&lt;p>6:00に目が覚める。吐き気は少ない。&lt;br>
+再び寝て7:00に起床。食欲なし。&lt;/p>
+&lt;p>子供を保育園に連れて行く
+帰りにコンビニに寄りおむすびを買う、朝食後に服薬&lt;/p>
+&lt;p>本日は在宅勤務&lt;br>
+昨日から残ったタスクを片付ける。チームのマネジメントについて準備し、会議案内。&lt;/p>
+&lt;p>昼食前に短めの会議
+食事はスーパーでサラダを購入 and 冷凍のピザ&lt;br>
+なぜか11:00ぐらいから服薬前まで落ち着かなかった。
+昼食後服薬。落ち着かない&lt;/p>
+&lt;p>昼からは二時間会議、その後面談, 打ち合わせ, その後雑務を片付けて終了&lt;/p>
+&lt;p>子供を迎えに行って、時間の関係で本日は外食&lt;/p></description></item></channel></rss>

@@ -1,17 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2019-08 on d.sk85.org</title><link>/archives/2019-08/</link><description>Recent content in 2019-08 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2019-08/index.xml" rel="self" type="application/rss+xml"/><item><title>20200424のブックマーク</title><link>/posts/2019/08/16/304588/</link><pubDate>Fri, 16 Aug 2019 23:54:06 +0900</pubDate><guid>/posts/2019/08/16/304588/</guid><description>javascript https://github.com/naptha/tesseract.js#tesseractjs
-https://qiita.com/kskinaba/items/3e8887d45b11f9132012
-golang https://ashitani.jp/golangtips/tips_time.html
-https://www.tweeeety.blog/entry/2017/08/17/021040
-http://www.spinute.org/go-by-example/
-https://www.programming-books.io/essential/go/
-https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/
-https://qiita.com/rtok/items/46eadbf7b0b7a1b0eb08
-https://qiita.com/sh-tatsuno/items/0c32c01eaeaf2d726fdf
-cgo https://qiita.com/taiyo/items/d89cb99a52d9cea9b3de
-https://github.com/chai2010/cgo
-https://qiita.com/74th/items/0362bea2012ef253c539
-golangでgroongaを使う https://gist.github.com/msh5/2dc2914fbc901b309511f7c9b95e3a46
-https://gist.github.com/naoa/6777040
-https://qiita.com/naoa/items/38df1cb153f2bd1c1628
-systemd https://qiita.com/a_yasui/items/f2d8b57aa616e523ede4
-imageproxy https://github.com/willnorris/imageproxy</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2019-08 on d.sk85.org</title><link>/archives/2019-08/</link><description>Recent content in 2019-08 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2019-08/index.xml" rel="self" type="application/rss+xml"/><item><title>20200424のブックマーク</title><link>/posts/2019/08/16/304588/</link><pubDate>Fri, 16 Aug 2019 23:54:06 +0900</pubDate><guid>/posts/2019/08/16/304588/</guid><description>&lt;h2 id="javascript">javascript&lt;/h2>
+&lt;p>&lt;a href="https://github.com/naptha/tesseract.js#tesseractjs">https://github.com/naptha/tesseract.js#tesseractjs&lt;/a>&lt;br>
+&lt;a href="https://qiita.com/kskinaba/items/3e8887d45b11f9132012">https://qiita.com/kskinaba/items/3e8887d45b11f9132012&lt;/a>&lt;/p>
+&lt;h2 id="golang">golang&lt;/h2>
+&lt;p>&lt;a href="https://ashitani.jp/golangtips/tips_time.html">https://ashitani.jp/golangtips/tips_time.html&lt;/a>&lt;br>
+&lt;a href="https://www.tweeeety.blog/entry/2017/08/17/021040">https://www.tweeeety.blog/entry/2017/08/17/021040&lt;/a>&lt;br>
+&lt;a href="http://www.spinute.org/go-by-example/">http://www.spinute.org/go-by-example/&lt;/a>&lt;br>
+&lt;a href="https://www.programming-books.io/essential/go/">https://www.programming-books.io/essential/go/&lt;/a>&lt;br>
+&lt;a href="https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/">https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/&lt;/a>&lt;br>
+&lt;a href="https://qiita.com/rtok/items/46eadbf7b0b7a1b0eb08">https://qiita.com/rtok/items/46eadbf7b0b7a1b0eb08&lt;/a>&lt;br>
+&lt;a href="https://qiita.com/sh-tatsuno/items/0c32c01eaeaf2d726fdf">https://qiita.com/sh-tatsuno/items/0c32c01eaeaf2d726fdf&lt;/a>&lt;/p>
+&lt;h4 id="cgo">cgo&lt;/h4>
+&lt;p>&lt;a href="https://qiita.com/taiyo/items/d89cb99a52d9cea9b3de">https://qiita.com/taiyo/items/d89cb99a52d9cea9b3de&lt;/a>&lt;br>
+&lt;a href="https://github.com/chai2010/cgo">https://github.com/chai2010/cgo&lt;/a>&lt;br>
+&lt;a href="https://qiita.com/74th/items/0362bea2012ef253c539">https://qiita.com/74th/items/0362bea2012ef253c539&lt;/a>&lt;/p>
+&lt;h3 id="golangでgroongaを使う">golangでgroongaを使う&lt;/h3>
+&lt;p>&lt;a href="https://gist.github.com/msh5/2dc2914fbc901b309511f7c9b95e3a46">https://gist.github.com/msh5/2dc2914fbc901b309511f7c9b95e3a46&lt;/a>&lt;br>
+&lt;a href="https://gist.github.com/naoa/6777040">https://gist.github.com/naoa/6777040&lt;/a>&lt;br>
+&lt;a href="https://qiita.com/naoa/items/38df1cb153f2bd1c1628">https://qiita.com/naoa/items/38df1cb153f2bd1c1628&lt;/a>&lt;/p>
+&lt;h2 id="systemd">systemd&lt;/h2>
+&lt;p>&lt;a href="https://qiita.com/a_yasui/items/f2d8b57aa616e523ede4">https://qiita.com/a_yasui/items/f2d8b57aa616e523ede4&lt;/a>&lt;/p>
+&lt;h2 id="imageproxy">imageproxy&lt;/h2>
+&lt;p>&lt;a href="https://github.com/willnorris/imageproxy">https://github.com/willnorris/imageproxy&lt;/a>&lt;/p></description></item></channel></rss>

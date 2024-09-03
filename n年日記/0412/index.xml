@@ -1,1 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0412 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0412/</link><description>Recent content in 0412 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 15 Apr 2024 23:20:05 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0412/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-04-12[緊張の糸が切れる, iPhone 15 Pro Maxを買う]</title><link>/posts/2024/04/12/94901/</link><pubDate>Fri, 12 Apr 2024 00:00:00 +0900</pubDate><guid>/posts/2024/04/12/94901/</guid><description>午前 奥さんが出社のため息子の見送り 通園にも慣れてきたよう 昨日実験がうまくいき、緊張の糸が切れた感じ 今日は休んでやろうと 朝はラーメン 昼食はおむすび 午後 JCB W カードを作る ビックカメラカードは今後 suica のチャージ用に JRE ポイントを全て amazon ギフトカードに変えて iPhone 15 Pro Max を買う 息子のお迎え 夜は遅めに就寝 体調 70 よくなってきたな 休んでも罪悪感がなかった その他 今日の Tabs</description></item><item><title>2023-04-12</title><link>/posts/2023/04/12/327011/</link><pubDate>Wed, 12 Apr 2023 00:00:00 +0900</pubDate><guid>/posts/2023/04/12/327011/</guid><description>午前 今日はお休み 息子が集めた地図、宝の地図らしい 風が強い 黄砂がひどく、昨日から目がかゆいので抗アレルギー薬を服用 家周りを朝散歩 自宅で n8n を使ったブックマークアプリを作る Meilisearch と良い感じに連携できてきた 奥さんは在宅勤務なので迷惑にならないように過ごす 11 時前に手打うどん ひら田に到着 ごわごわ系でおいしい 午後 自宅近くのタワーマンション、今日から店舗が開店らしい 帰宅してアプリ作成を進める 認証系も組み込みほぼ完成 cloudflare は偉大 奥さんが息子お迎え 保育園で友達の制作物を盗ることがあったようだ 先生が指摘したら間違えたと言い訳 夕食前に事情を聞き、人のものを盗ることは悪いことだと指導 「間違えた」というけど、それは間違えてないでしょ、そういう言い訳は泥棒だよと 夜アメリカ CPI 発表 23:30 に薬を飲んで就寝 体調 78 その他 3d プリンタのリプレイスを計画中 Original Prusa MK4 と Creality K1 どちらにすべきか 性能的と価格は K1 だが、オートレベリングの機構やら消費電力やら騒音が心配で様子見 Prusa MK4 もまだキットは出荷されていないので、アーリーアダプタが購入してレビューを書いてくれてからかなあ K1 はオープンソースなのだろうか 【徹底比較】Creality K1 シリーズ！革新的な超高速 FDM3D プリンターを解説！【K1 Max/K1】 今日の Tabs</description></item><item><title>2022-04-12</title><link>/posts/2022/04/12/562765/</link><pubDate>Tue, 12 Apr 2022 00:00:00 +0900</pubDate><guid>/posts/2022/04/12/562765/</guid><description>午前 息子通園 8:30会社到着 昨日の実験の後処理 問題なくできている ミーティング 仕事全体の進捗について上席から、スピード感を持つように支持 午後 後処理継続 19:00帰宅 子供寝かしつけて、24:00頃まで事務仕事 体調 73 お疲れ気味 その他 今日のTabs</description></item><item><title>2021-04-12</title><link>/posts/2021/04/12/458936/</link><pubDate>Mon, 12 Apr 2021 22:05:49 +0900</pubDate><guid>/posts/2021/04/12/458936/</guid><description>午前 5:30ぐらいに目が覚める, 6:55起床 子供を保育園に 本日有給 映画『レストレポ前哨基地』Part.1＆Part.2公式サイト見てたら寝てしまった。 お昼は外食 午後 ネットカフェでひたすら漫画を読む 体調 普通 その他</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0412 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0412/</link><description>Recent content in 0412 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 15 Apr 2024 23:20:05 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0412/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-04-12[緊張の糸が切れる, iPhone 15 Pro Maxを買う]</title><link>/posts/2024/04/12/94901/</link><pubDate>Fri, 12 Apr 2024 00:00:00 +0900</pubDate><guid>/posts/2024/04/12/94901/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>奥さんが出社のため息子の見送り&lt;/li>
+&lt;li>通園にも慣れてきたよう&lt;/li>
+&lt;li>昨日実験がうまくいき、緊張の糸が切れた感じ
+&lt;ul>
+&lt;li>今日は休んでやろうと&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>朝はラーメン&lt;/li>
+&lt;li>昼食はおむすび&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>JCB W カードを作る
+&lt;ul>
+&lt;li>ビックカメラカードは今後 suica のチャージ用に&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>JRE ポイントを全て amazon ギフトカードに変えて iPhone 15 Pro Max を買う&lt;/li>
+&lt;li>息子のお迎え&lt;/li>
+&lt;li>夜は遅めに就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>70&lt;/li>
+&lt;li>よくなってきたな
+&lt;ul>
+&lt;li>休んでも罪悪感がなかった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2023-04-12</title><link>/posts/2023/04/12/327011/</link><pubDate>Wed, 12 Apr 2023 00:00:00 +0900</pubDate><guid>/posts/2023/04/12/327011/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>今日はお休み&lt;/li>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20230412-13-51-20-lVhZYMeE3cXRC7DFwF8G.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20230412-13-51-20-lVhZYMeE3cXRC7DFwF8G.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;ul>
+&lt;li>息子が集めた地図、宝の地図らしい&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>風が強い&lt;/li>
+&lt;li>黄砂がひどく、昨日から目がかゆいので抗アレルギー薬を服用&lt;/li>
+&lt;li>家周りを朝散歩&lt;/li>
+&lt;li>自宅で n8n を使ったブックマークアプリを作る
+&lt;ul>
+&lt;li>Meilisearch と良い感じに連携できてきた&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>奥さんは在宅勤務なので迷惑にならないように過ごす&lt;/li>
+&lt;li>11 時前に手打うどん ひら田に到着
+&lt;ul>
+&lt;li>ごわごわ系でおいしい&lt;/li>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20230412-13-48-14-5spmjckYPWG1U5R1G9Kz.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20230412-13-48-14-5spmjckYPWG1U5R1G9Kz.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>自宅近くのタワーマンション、今日から店舗が開店らしい&lt;/li>
+&lt;li>帰宅してアプリ作成を進める&lt;/li>
+&lt;li>認証系も組み込みほぼ完成
+&lt;ul>
+&lt;li>cloudflare は偉大&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>奥さんが息子お迎え
+&lt;ul>
+&lt;li>保育園で友達の制作物を盗ることがあったようだ
+&lt;ul>
+&lt;li>先生が指摘したら間違えたと言い訳&lt;/li>
+&lt;li>夕食前に事情を聞き、人のものを盗ることは悪いことだと指導&lt;/li>
+&lt;li>「間違えた」というけど、それは間違えてないでしょ、そういう言い訳は泥棒だよと&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夜アメリカ CPI 発表&lt;/li>
+&lt;li>23:30 に薬を飲んで就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>78&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>3d プリンタのリプレイスを計画中
+&lt;ul>
+&lt;li>Original Prusa MK4 と Creality K1 どちらにすべきか&lt;/li>
+&lt;li>性能的と価格は K1 だが、オートレベリングの機構やら消費電力やら騒音が心配で様子見&lt;/li>
+&lt;li>Prusa MK4 もまだキットは出荷されていないので、アーリーアダプタが購入してレビューを書いてくれてからかなあ&lt;/li>
+&lt;li>K1 はオープンソースなのだろうか
+&lt;ul>
+&lt;li>&lt;a href="https://unolaboratory.com/creality-k1/">【徹底比較】Creality K1 シリーズ！革新的な超高速 FDM3D プリンターを解説！【K1 Max/K1】&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-04-12</title><link>/posts/2022/04/12/562765/</link><pubDate>Tue, 12 Apr 2022 00:00:00 +0900</pubDate><guid>/posts/2022/04/12/562765/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園&lt;/li>
+&lt;li>8:30会社到着&lt;/li>
+&lt;li>昨日の実験の後処理
+&lt;ul>
+&lt;li>問題なくできている&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ミーティング
+&lt;ul>
+&lt;li>仕事全体の進捗について上席から、スピード感を持つように支持&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>後処理継続&lt;/li>
+&lt;li>19:00帰宅&lt;/li>
+&lt;li>子供寝かしつけて、24:00頃まで事務仕事&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>73&lt;/li>
+&lt;li>お疲れ気味&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-04-12</title><link>/posts/2021/04/12/458936/</link><pubDate>Mon, 12 Apr 2021 22:05:49 +0900</pubDate><guid>/posts/2021/04/12/458936/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>5:30ぐらいに目が覚める, 6:55起床&lt;/li>
+&lt;li>子供を保育園に&lt;/li>
+&lt;li>本日有給&lt;/li>
+&lt;li>&lt;a href="https://www.uplink.co.jp/restrepo/">映画『レストレポ前哨基地』Part.1＆Part.2公式サイト&lt;/a>見てたら寝てしまった。&lt;/li>
+&lt;li>お昼は外食&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>ネットカフェでひたすら漫画を読む&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2></description></item></channel></rss>

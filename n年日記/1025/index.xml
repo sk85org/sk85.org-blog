@@ -1,1 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1025 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/1025/</link><description>Recent content in 1025 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 29 Oct 2023 00:29:22 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/1025/index.xml" rel="self" type="application/rss+xml"/><item><title>2023-10-25</title><link>/posts/2023/10/25/627305/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0900</pubDate><guid>/posts/2023/10/25/627305/</guid><description>午前 息子通園 憂鬱 朝から実験 薬品を頼み忘れたが、なんとかなった 後処理まで ミーティング 進め方について、着実に進めるようにと指示 午後 昼食時間に実験ノートを書く 会議 朝の実験の精製の続き 形になってきた 19:00 ごろ退社 26:00 ごろ就寝 体調 74 その他 息子の勉強を見ている時の話 思ったこと/話したこと 今日の Tabs</description></item><item><title>2022-10-25</title><link>/posts/2022/10/25/320550/</link><pubDate>Tue, 25 Oct 2022 00:00:00 +0900</pubDate><guid>/posts/2022/10/25/320550/</guid><description>午前 だるい 頭がいたい 発熱なし 本日も休み 横になって過ごす 奥さんはPCR陽性 午後 抗原検査 ばっちり出るだろうと思ったら陰性 早めに眠る 体調 だるい その他 今日のTabs</description></item><item><title>2021-10-25</title><link>/posts/2021/10/25/816424/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/25/816424/</guid><description>午前 風邪気味のため休み 熱はなし、のどの痛みあり 午後 計算用サーバーを組む GPUは不要なので内蔵GPUを利用 Core i5 10400なで温度も高くならない さくっとubuntuを入れてターミナルから利用 dockerをインストール gpasswd -a USER docker で一般ユーザーからもdockerコマンドが使えるようにする LVM を拡張 さすがに64GBメモリを積んでいると早いな データをすべてメモリに格納して計算させている あとは温度 夜はなかなか眠れず 体調 風邪気味 熱はないがのどが痛い その他 今日のTabs</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1025 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/1025/</link><description>Recent content in 1025 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 29 Oct 2023 00:29:22 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/1025/index.xml" rel="self" type="application/rss+xml"/><item><title>2023-10-25</title><link>/posts/2023/10/25/627305/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0900</pubDate><guid>/posts/2023/10/25/627305/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子通園
+&lt;ul>
+&lt;li>憂鬱&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>朝から実験
+&lt;ul>
+&lt;li>薬品を頼み忘れたが、なんとかなった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>後処理まで&lt;/li>
+&lt;li>ミーティング
+&lt;ul>
+&lt;li>進め方について、着実に進めるようにと指示&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>昼食時間に実験ノートを書く&lt;/li>
+&lt;li>会議&lt;/li>
+&lt;li>朝の実験の精製の続き
+&lt;ul>
+&lt;li>形になってきた&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>19:00 ごろ退社&lt;/li>
+&lt;li>26:00 ごろ就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>74&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>息子の勉強を見ている時の話
+&lt;ul>
+&lt;li>&lt;a href="https://scrapbox.io/sk85/%E6%80%9D%E3%81%A3%E3%81%9F%E3%81%93%E3%81%A8%2F%E8%A9%B1%E3%81%97%E3%81%9F%E3%81%93%E3%81%A8#653916692cbdec0000a3e1e7">思ったこと/話したこと&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-10-25</title><link>/posts/2022/10/25/320550/</link><pubDate>Tue, 25 Oct 2022 00:00:00 +0900</pubDate><guid>/posts/2022/10/25/320550/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>だるい
+&lt;ul>
+&lt;li>頭がいたい&lt;/li>
+&lt;li>発熱なし&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>本日も休み&lt;/li>
+&lt;li>横になって過ごす&lt;/li>
+&lt;li>奥さんはPCR陽性&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>抗原検査
+&lt;ul>
+&lt;li>ばっちり出るだろうと思ったら陰性&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>早めに眠る&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>だるい&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-10-25</title><link>/posts/2021/10/25/816424/</link><pubDate>Mon, 25 Oct 2021 00:00:00 +0900</pubDate><guid>/posts/2021/10/25/816424/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>風邪気味のため休み&lt;/li>
+&lt;li>熱はなし、のどの痛みあり&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211105-16-07-03-FCOxszm5fuHo9ree9E4Y.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211105-16-07-03-FCOxszm5fuHo9ree9E4Y.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;ul>
+&lt;li>計算用サーバーを組む
+&lt;ul>
+&lt;li>GPUは不要なので内蔵GPUを利用&lt;/li>
+&lt;li>Core i5 10400なで温度も高くならない&lt;/li>
+&lt;li>さくっとubuntuを入れてターミナルから利用
+&lt;ul>
+&lt;li>dockerをインストール
+&lt;ul>
+&lt;li>gpasswd -a USER docker で一般ユーザーからもdockerコマンドが使えるようにする&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://www.ytyng.com/blog/lvm-partition-extend-full-remain-volume/">LVM を拡張&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>さすがに64GBメモリを積んでいると早いな
+&lt;ul>
+&lt;li>データをすべてメモリに格納して計算させている&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>あとは温度&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夜はなかなか眠れず&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>風邪気味&lt;/li>
+&lt;li>熱はないがのどが痛い&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item></channel></rss>

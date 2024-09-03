@@ -1,1 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0928 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0928/</link><description>Recent content in 0928 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 30 Sep 2023 10:40:16 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0928/index.xml" rel="self" type="application/rss+xml"/><item><title>2023-09-28</title><link>/posts/2023/09/28/698381/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0900</pubDate><guid>/posts/2023/09/28/698381/</guid><description>午前 今日から通常運転でやや憂鬱 朝から実験 火曜の実験の後処理 ミーティング 午後 大きめのを一つかける 定時退社で子供お迎え 体調 78 その他 今日の Tabs</description></item><item><title>2022-09-28</title><link>/posts/2022/09/28/299816/</link><pubDate>Wed, 28 Sep 2022 00:00:00 +0900</pubDate><guid>/posts/2022/09/28/299816/</guid><description>午前 8:30に出社 昨日の実験の後処理 新しい実験2つ ミーティング 午後 会議 実験の後処理 実験をひとつ仕込んで帰宅 うまく行くといいなあ スーパーでお惣菜が安かったので購入 体調 78 その他 今日のTabs 抗アミロイドβ（Aβ）プロトフィブリル抗体「レカネマブ」について、1,795人の早期アルツハイマー病当事者様を対象としたグローバル大規模臨床第Ⅲ相CLARITY AD検証試験において、統計学的に高度に有意な臨床症状の悪化抑制を示し、主要評価項目を達成 | ニュースリリース：2022年 | エーザイ株式会社 スウェーデンの家族性ADの患者から得られたアミロイドベータに対する抗体 (BAN2401)</description></item><item><title>2021-09-28</title><link>/posts/2021/09/28/429812/</link><pubDate>Tue, 28 Sep 2021 00:00:00 +0900</pubDate><guid>/posts/2021/09/28/429812/</guid><description>午前 7:00起床 息子通園 PDF検索システムの構築を続ける 結局docker-HyperEstraier-PDFを作った これを自宅のサーバー上で稼働させると、快適に検索が出来る QNAP上のpdfフォルダと自宅サーバーのフォルダを同期させたいが、qnapのrsyncは公開鍵暗号が使えないようだ パスワードで認証するのは絶対に嫌なので、しばらくは手動かな 午後 自宅で作業継続 マクドナルドへ移動 いま、台湾で隠居してます | カーリルを読む webarenaのindigo vpsから自宅のサーバーにvpnで接続 nginxのproxyを使う Free SSL Certificates and SSL Tools - ZeroSSLを導入 indigo vpsは遅いが、conoha VPSの最安プランの半額なので文句は言えまい よくIPアドレスでブロックされる 修理に出したMBPが返ってきた バッテリとキーボードが新品になった、わーい Apple Care+はやはり手厚いな 息子がひらがなを読めるようになってきた 最近は船の本を一緒に読んで、船名クイズをしている 奥さんは鬼滅の刃の漫画をひたすら読んでいる 24:00就寝 体調 普通 その他 今日のTabs pauldreik/rdfind: find duplicate files utility https://rdfind.pauldreik.se 無料の SSL 証明書が得られる ZeroSSL を使ってみた ZeroSSL ならIPアドレスのサーバ証明書が取得できる - ASnoKaze blog</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0928 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0928/</link><description>Recent content in 0928 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 30 Sep 2023 10:40:16 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0928/index.xml" rel="self" type="application/rss+xml"/><item><title>2023-09-28</title><link>/posts/2023/09/28/698381/</link><pubDate>Thu, 28 Sep 2023 00:00:00 +0900</pubDate><guid>/posts/2023/09/28/698381/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>今日から通常運転でやや憂鬱&lt;/li>
+&lt;li>朝から実験&lt;/li>
+&lt;li>火曜の実験の後処理&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>大きめのを一つかける&lt;/li>
+&lt;li>定時退社で子供お迎え&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>78&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-09-28</title><link>/posts/2022/09/28/299816/</link><pubDate>Wed, 28 Sep 2022 00:00:00 +0900</pubDate><guid>/posts/2022/09/28/299816/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>8:30に出社&lt;/li>
+&lt;li>昨日の実験の後処理&lt;/li>
+&lt;li>新しい実験2つ&lt;/li>
+&lt;li>ミーティング&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>会議&lt;/li>
+&lt;li>実験の後処理&lt;/li>
+&lt;li>実験をひとつ仕込んで帰宅
+&lt;ul>
+&lt;li>うまく行くといいなあ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>スーパーでお惣菜が安かったので購入&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>78&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.eisai.co.jp/news/2022/news202271.html">抗アミロイドβ（Aβ）プロトフィブリル抗体「レカネマブ」について、1,795人の早期アルツハイマー病当事者様を対象としたグローバル大規模臨床第Ⅲ相CLARITY AD検証試験において、統計学的に高度に有意な臨床症状の悪化抑制を示し、主要評価項目を達成 | ニュースリリース：2022年 | エーザイ株式会社&lt;/a>
+&lt;ul>
+&lt;li>スウェーデンの家族性ADの患者から得られたアミロイドベータに対する抗体 (BAN2401)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>2021-09-28</title><link>/posts/2021/09/28/429812/</link><pubDate>Tue, 28 Sep 2021 00:00:00 +0900</pubDate><guid>/posts/2021/09/28/429812/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>7:00起床&lt;/li>
+&lt;li>息子通園&lt;/li>
+&lt;li>PDF検索システムの構築を続ける
+&lt;ul>
+&lt;li>結局&lt;a href="https://github.com/sk85org/docker-HyperEstraier-PDF">docker-HyperEstraier-PDF&lt;/a>を作った&lt;/li>
+&lt;li>これを自宅のサーバー上で稼働させると、快適に検索が出来る&lt;/li>
+&lt;li>QNAP上のpdfフォルダと自宅サーバーのフォルダを同期させたいが、qnapのrsyncは公開鍵暗号が使えないようだ&lt;/li>
+&lt;li>パスワードで認証するのは絶対に嫌なので、しばらくは手動かな&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>自宅で作業継続&lt;/li>
+&lt;li>マクドナルドへ移動
+&lt;ul>
+&lt;li>&lt;a href="https://calil.jp/book/4902800675">いま、台湾で隠居してます | カーリル&lt;/a>を読む&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>webarenaのindigo vpsから自宅のサーバーにvpnで接続
+&lt;ul>
+&lt;li>nginxのproxyを使う&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://zerossl.com/">Free SSL Certificates and SSL Tools - ZeroSSL&lt;/a>を導入
+&lt;ul>
+&lt;li>indigo vpsは遅いが、conoha VPSの最安プランの半額なので文句は言えまい&lt;/li>
+&lt;li>よくIPアドレスでブロックされる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>修理に出したMBPが返ってきた
+&lt;ul>
+&lt;li>バッテリとキーボードが新品になった、わーい&lt;/li>
+&lt;li>Apple Care+はやはり手厚いな&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>息子がひらがなを読めるようになってきた
+&lt;ul>
+&lt;li>最近は船の本を一緒に読んで、船名クイズをしている&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>奥さんは鬼滅の刃の漫画をひたすら読んでいる&lt;/li>
+&lt;li>24:00就寝&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>普通&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/pauldreik/rdfind">pauldreik/rdfind: find duplicate files utility&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://rdfind.pauldreik.se/">https://rdfind.pauldreik.se&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://zenn.dev/mattn/articles/b2c4c92c9116b1">無料の SSL 証明書が得られる ZeroSSL を使ってみた&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://asnokaze.hatenablog.com/entry/2021/01/18/232358">ZeroSSL ならIPアドレスのサーバ証明書が取得できる - ASnoKaze blog&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
