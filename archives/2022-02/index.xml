@@ -276,7 +276,7 @@ Schema | Name | Type | Owner
  savedAt | timestamp with time zone | | |
  authorship | text | | |
  deletedAt | timestamp with time zone | | |
-&lt;/code>&lt;/pr</description></item><item><title>2022-02-20</title><link>/posts/2022/02/20/804421/</link><pubDate>Sun, 20 Feb 2022 00:00:00 +0900</pubDate><guid>/posts/2022/02/20/804421/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;/code>&lt;/pre>&lt;p>とりあえず興味があるのはNoteテーブルの、titleとcontentなので、インデックスを作る&lt;/p></description></item><item><title>2022-02-20</title><link>/posts/2022/02/20/804421/</link><pubDate>Sun, 20 Feb 2022 00:00:00 +0900</pubDate><guid>/posts/2022/02/20/804421/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>息子に朝食を作る
 &lt;ul>

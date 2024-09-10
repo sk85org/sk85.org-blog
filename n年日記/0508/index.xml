@@ -115,4 +115,20 @@
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>NAS更新計画&lt;/p></description></item></channel></rss>
+&lt;p>NAS更新計画&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.truenas.com/">TrueNAS Open Storage | ZFS for the Home to the Data Center - TrueNAS Open Storage | ZFS for the Home to the Data Center&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://d44.jp/?p=10813">今更Ryzen 9 5950Xのベンチ – d44.jp&lt;/a>&lt;br>
+NR200だと3.5インチHDD二台搭載できるのでRAID1なら十分そう。メモリは16GB。自作PC一台組むことになるのでQNAPよりは高くなる。スペック的にはコストパフォーマンスが高いものになるが、底までの性能が必要かは考慮が必要。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=4rJtF1EtKIc">くるり - コトコトことでん (feat. 畳野彩加) - YouTube&lt;/a>
+
+
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4rJtF1EtKIc?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+&lt;/p></description></item></channel></rss>

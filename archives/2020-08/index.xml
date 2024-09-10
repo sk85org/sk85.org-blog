@@ -12,7 +12,74 @@
 &lt;/p>
 &lt;h3 id="2台もしくは3台をルーターから有線で分岐させられますか">&lt;strong>2台(もしくは3台)をルーターから有線で分岐させられますか？&lt;/strong>&lt;/h3>
 &lt;p>できます。スイッチングハブを経由させてももちろん問題ありません。&lt;br>
-&lt;a href="https://www.tp-link.com/jp/support/faq/2399/">https://www.tp-link.com/jp/support/faq/2399/&lt;/a>&lt;/p></description></item><item><title>吃音</title><link>/posts/2020/08/02/865995/</link><pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/02/865995/</guid><description>&lt;p>息子(2歳7ヶ月)が約2週間前(7月中旬)から連発型吃音のような発音をしている。&lt;br>
+&lt;a href="https://www.tp-link.com/jp/support/faq/2399/">https://www.tp-link.com/jp/support/faq/2399/&lt;/a>&lt;/p>
+&lt;h3 id="ということは2台もしくは3台をすべてブリッジモードアクセスポイントモードとして動作させることが可能ということですか">&lt;strong>ということは2台(もしくは3台)をすべてブリッジモード(アクセスポイントモード)として動作させることが可能ということですか？&lt;/strong>&lt;/h3>
+&lt;p>そうです。メインのdeco X20を決める必要がありますが、メインのdeco X20が必ずしもルーターモードである必要はありません。
+正確には&lt;strong>各端末をルーター or ブリッジモードに設定するわけではなく&lt;/strong>、メインのdeco X20およびメイン以外のdexo X20があるだけです。&lt;/p>
+&lt;h3 id="ブリッジモードでルーターから有線で分岐させた場合はethernet-backhaulは有効になりますか">&lt;strong>ブリッジモードでルーターから有線で分岐させた場合はEthernet Backhaulは有効になりますか？&lt;/strong>&lt;/h3>
+&lt;p>なります。&lt;/p>
+&lt;h3 id="解説">&lt;strong>解説&lt;/strong>&lt;/h3>
+&lt;p>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ Both possible
+ &lt;/figcaption>
+ &lt;/span>
+
+自宅では上記のようなネットワーク構成になっています。メッシュwifiネットワーク全体としてブリッジモードでルーターからハブを介していないdexo X20をメインに設定しています。
+公式の設定アプリでブリッジモードにした後に、地球のロゴ(わかりにくい)をクリックすると接続されているdeco x20一覧が出てきます。この画面でメインの端末がどれか、またメインの端末を変更することができます。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+各端末をクリックすると詳細が出てきます。この画面では選択された端末が、メインのdeco X20とどのような接続形式を取っているか確認できます。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ Connected via ethernet
+ &lt;/figcaption>
+ &lt;/span>
+
+試しにLANケーブルを抜いてみると自動的にメインのdexo X20とワイヤレスで接続されます。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ Connected via wireless
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/p>
+&lt;h3 id="不満点-5ghz帯と24ghz帯でssidを分けることができない">&lt;strong>不満点 5GHz帯と2.4GHz帯でSSIDを分けることができない。&lt;/strong>&lt;/h3>
+&lt;p>モバイルアプリ経由で設定するタイプのIoT端末の場合、5GHz帯に対応していなければ一度deco X20の5GHzをoffにして2.4GHzに接続して設定しなければいけない場合がある。&lt;/p>
+&lt;h3 id="おまけ">&lt;strong>おまけ&lt;/strong>&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>ハブとしても使える&lt;/strong>&lt;br>
+deco x20には1Gbpsの有線LANポートが2口あります。どちらにケーブルを刺しても端末が上位のネットワークを自動で認識してくれます。残ったポートに有線でパソコン等を接続することができます。&lt;/li>
+&lt;li>&lt;strong>webベースの管理画面がある(一応)&lt;/strong>&lt;br>
+作り込みが甘いですが、ブラウザから端末のipアドレスにアクセスするとコントロールパネルを見ることができます。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ web control panel
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ol></description></item><item><title>吃音</title><link>/posts/2020/08/02/865995/</link><pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/02/865995/</guid><description>&lt;p>息子(2歳7ヶ月)が約2週間前(7月中旬)から連発型吃音のような発音をしている。&lt;br>
 特徴としては&lt;/p>
 &lt;ul>
 &lt;li>「か」行が苦手？&lt;/li>

@@ -93,4 +93,29 @@ hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行�
  &amp;#34;secret&amp;#34;: &amp;#34;secret_key&amp;#34;
  }
 ]
-&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>起動時にjsonファイルとポートの指定が可能&lt;/p>
+&lt;pre tabindex="0">&lt;code>./webhook -f hook.json -p :8080
+&lt;/code>&lt;/pre>&lt;p>github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定&lt;/p>
+&lt;p>まずローカルにGitHubのリポジトリをcloneする&lt;/p>
+&lt;pre tabindex="0">&lt;code>cd /home/username
+git clone git@github.com:username/repository.git
+&lt;/code>&lt;/pre>&lt;p>hugoのbinaryを入手&lt;/p>
+&lt;pre tabindex="0">&lt;code>cd /home/username/repository
+git pull
+cd /home/username/repository 
+/path/to/hugobinary/hugo -d /phome/username/public```
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>systemdの登録について (userを指定しないとgitpull　できない・)&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>[Unit]
+Description = webhook
+
+[Service]
+ExecStart = /path/to/webhook/webhook -f /path/to/webhook/hook.json -p :8080
+Restart = always
+Type = simple
+User=user
+
+[Install]
+WantedBy = multi-user.target
+&lt;/code>&lt;/pre></description></item></channel></rss>

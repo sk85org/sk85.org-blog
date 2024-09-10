@@ -96,4 +96,18 @@ font-family: sans-serif;
  指定後
  &lt;/figcaption>
  &lt;/span>
-&lt;/p></description></item></channel></rss>
+&lt;/p>
+&lt;h4 id="fresh-rssでfeedのタイトルがすべて表示されるようにする">Fresh RSSでFeedのタイトルがすべて表示されるようにする。&lt;/h4>
+&lt;p>ExtensionからTitle-Wrapを有効にすると記事のタイトルが改行され、いい感じになる。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20220105-13-21-33-DwjwPhQGP5BnT0Icu571.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20220105-13-21-33-DwjwPhQGP5BnT0Icu571.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ Title-Wrap Extension導入後
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.thingiverse.com/thing:4062242">Hydra Fan Duct &amp;amp; Tool Change System for Ender 3 Ender 5 CR10 by BoothyBoothy - Thingiverse&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -465,7 +465,19 @@ GithubActionsを利用して日記ファイル(md形式)をテンプレートエ
 &lt;h2 id="その他">その他&lt;/h2>
 &lt;ul>
 &lt;li>感染症対策はサイエンスの社会的な応用だからこそテクニカルな部分は専門家が、実施は政治家が行い分けたほうが良い
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">アベプラ良かったです。&lt;br>尾身先生さすがでした。&lt;br>辛抱強く、真摯に、正確に、しかしはっきりとメッセージを出すというのがすごい。 &lt;a href="https://t.co/KAWiFw3ihH">https://t.co/KAWiFw3ihH&lt;/a>&lt;/p></description></item><item><title>2021-08-17</title><link>/posts/2021/08/17/634133/</link><pubDate>Tue, 17 Aug 2021 22:46:55 +0900</pubDate><guid>/posts/2021/08/17/634133/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">アベプラ良かったです。&lt;br>尾身先生さすがでした。&lt;br>辛抱強く、真摯に、正確に、しかしはっきりとメッセージを出すというのがすごい。 &lt;a href="https://t.co/KAWiFw3ihH">https://t.co/KAWiFw3ihH&lt;/a>&lt;/p>&amp;mdash; 前田陽平👂ひまみみ👃耳鼻科 (@ent_univ_) &lt;a href="https://twitter.com/ent_univ_/status/1427772675892543491?ref_src=twsrc%5Etfw">August 17, 2021&lt;/a>&lt;/blockquote>
+ &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+ 
+
+
+ 
+ 
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/WCDrIHwiV9g?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+ >&lt;/iframe>
+ &lt;/div>
+&lt;/li>
+&lt;/ul></description></item><item><title>2021-08-17</title><link>/posts/2021/08/17/634133/</link><pubDate>Tue, 17 Aug 2021 22:46:55 +0900</pubDate><guid>/posts/2021/08/17/634133/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>涼しい&lt;/li>
 &lt;li>7:00起床&lt;/li>
@@ -580,7 +592,40 @@ WOL関係の項目が有効になっているか
 BIOSでWOLを有効にする&lt;/li>
 &lt;/ol>
 &lt;p>今回は高速スタートアップ有効になっており、BIOSのWOL関係の設定値がdisableになっていた。&lt;br>
-(何故今までWOLが動いていたのかわからない)&lt;/p></description></item><item><title>2021-08-15</title><link>/posts/2021/08/15/276614/</link><pubDate>Sun, 15 Aug 2021 00:47:04 +0900</pubDate><guid>/posts/2021/08/15/276614/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+(何故今までWOLが動いていたのかわからない)&lt;/p>
+&lt;h2 id="docekrでwolサーバーを動かす">docekrでWOLサーバーを動かす&lt;/h2>
+&lt;p>&lt;a href="https://github.com/dabondi/go-rest-wol">daBONDi/go-rest-wol&lt;/a>を利用&lt;br>
+注意点はコンテナを&lt;a href="https://docs.docker.jp/network/host.html">ホスト・ネットワーク&lt;/a>で動かすこと。これをしないとUDPパケットが通らない。ホストモードではポートが競合するのでメジャーな80は使わずに、9090で動かしている。&lt;a href="https://ja.wikipedia.org/wiki/Wake-on-LAN">UDPパケットはポート7 or 9に送信するらしい。&lt;/a>&lt;/p>
+&lt;pre tabindex="0">&lt;code>version: &amp;#39;3&amp;#39;
+services:
+ wol:
+ image: &amp;#34;dabondi/go-rest-wol&amp;#34;
+ environment: 
+ WOLHTTPPORT: 9090
+ #ports:
+ # - &amp;#34;80:8080&amp;#34;
+ volumes:
+ - ./computer.csv:/app/computer.csv
+ network_mode: host
+&lt;/code>&lt;/pre>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20210815-04-11-48-h5ygVQudUQuoOWew8XJ_.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20210815-04-11-48-h5ygVQudUQuoOWew8XJ_.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;h2 id="追記20220609">追記(2022/06/09)&lt;/h2>
+&lt;p>WOLが効かなくなりwindows 11に上げたからかと思い設定をチェックしたが異常なし。結局、UEFIの設定が消えていた模様。ACPI ConfigurarionのPCIE Devices Power On をEnableにしたら解決。トラブルの際は、どの電源状態(S0~S5)でWOLが有効にならないかチェックしてから対応した方が良い。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20220609-14-13-45-TVYw-2yT-aNimmeb2FRk.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20220609-14-13-45-TVYw-2yT-aNimmeb2FRk.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+参考: &lt;a href="https://mimimopu.com/asrock-mb-wol/">ASRockのマザーボードでWOLできない人はここをチェック | デジカシ&lt;/a>&lt;/p></description></item><item><title>2021-08-15</title><link>/posts/2021/08/15/276614/</link><pubDate>Sun, 15 Aug 2021 00:47:04 +0900</pubDate><guid>/posts/2021/08/15/276614/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>一日中雨で最高気温も22度程度、涼しくてエアコンがいらない&lt;/li>
 &lt;li>7:00起床&lt;/li>

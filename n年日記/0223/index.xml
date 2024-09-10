@@ -131,4 +131,20 @@
  Restart=always
  [Install]
  WantedBy=default.target
-&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>この設定でVPSサーバー上でport 2222に流れる通信がintel-nucのport 22に転送される。&lt;/p>
+&lt;ol start="2">
+&lt;li>起動を確認&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code> systemctl --user daemon-reload
+ systemctl --user start public-rev
+ systemctl --user enable public-rev
+ systemctl --user status して動いていることを確認
+&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;li>一般ユーザーでもserviceを起動起動する&lt;br>
+ユーザーレベルで起動したサービスは起動直後やログオフ時には実行されないようなので、&lt;br>
+以下を参考に設定を変える&lt;br>
+&lt;a href="https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service">https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service&lt;/a>&lt;br>
+/etc/systemd/logind.conf の&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code> KillUserProcesses=no
+&lt;/code>&lt;/pre>&lt;p>また&lt;/p></description></item></channel></rss>

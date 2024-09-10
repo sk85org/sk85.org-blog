@@ -13,9 +13,22 @@
         &#34;secret&#34;: &#34;secret_key&#34;
     }
 ]
-</code></pr</dd>
-    </dl>
-<footer>
-  
-</footer></body>
-</html>
+</code></pre><p>起動時にjsonファイルとポートの指定が可能</p><pre tabindex=0><code>./webhook -f hook.json -p :8080
+</code></pre><p>github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定</p><p>まずローカルにGitHubのリポジトリをcloneする</p><pre tabindex=0><code>cd /home/username
+git clone git@github.com:username/repository.git
+</code></pre><p>hugoのbinaryを入手</p><pre tabindex=0><code>cd /home/username/repository
+git pull
+cd /home/username/repository 
+/path/to/hugobinary/hugo -d /phome/username/public```
+</code></pre><ul><li>systemdの登録について (userを指定しないとgitpull　できない・)</li></ul><pre tabindex=0><code>[Unit]
+Description = webhook
+
+[Service]
+ExecStart = /path/to/webhook/webhook -f /path/to/webhook/hook.json -p :8080
+Restart = always
+Type = simple
+User=user
+
+[Install]
+WantedBy = multi-user.target
+</code></pre></dd></dl><footer></footer></body></html>

@@ -16,7 +16,32 @@ hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行�
  &amp;#34;secret&amp;#34;: &amp;#34;secret_key&amp;#34;
  }
 ]
-&lt;/code>&lt;/pr</description></item><item><title>UQ mobileに移行した</title><link>/posts/2019/06/28/125688/</link><pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate><guid>/posts/2019/06/28/125688/</guid><description>&lt;p>SB → IIJmio → LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmioやLINE Mobileが悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安simだからと諦めていた(ただし&lt;!-- raw HTML omitted -->「1Mbps以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞るLINE Mobileはどうかと思う&lt;!-- raw HTML omitted -->)。計算してみるとUQでも月額は大きく変わらない。そして、お試しでUQから借りたsimで大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)&lt;/p>
+&lt;/code>&lt;/pre>&lt;p>起動時にjsonファイルとポートの指定が可能&lt;/p>
+&lt;pre tabindex="0">&lt;code>./webhook -f hook.json -p :8080
+&lt;/code>&lt;/pre>&lt;p>github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定&lt;/p>
+&lt;p>まずローカルにGitHubのリポジトリをcloneする&lt;/p>
+&lt;pre tabindex="0">&lt;code>cd /home/username
+git clone git@github.com:username/repository.git
+&lt;/code>&lt;/pre>&lt;p>hugoのbinaryを入手&lt;/p>
+&lt;pre tabindex="0">&lt;code>cd /home/username/repository
+git pull
+cd /home/username/repository 
+/path/to/hugobinary/hugo -d /phome/username/public```
+&lt;/code>&lt;/pre>&lt;ul>
+&lt;li>systemdの登録について (userを指定しないとgitpull　できない・)&lt;/li>
+&lt;/ul>
+&lt;pre tabindex="0">&lt;code>[Unit]
+Description = webhook
+
+[Service]
+ExecStart = /path/to/webhook/webhook -f /path/to/webhook/hook.json -p :8080
+Restart = always
+Type = simple
+User=user
+
+[Install]
+WantedBy = multi-user.target
+&lt;/code>&lt;/pre></description></item><item><title>UQ mobileに移行した</title><link>/posts/2019/06/28/125688/</link><pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate><guid>/posts/2019/06/28/125688/</guid><description>&lt;p>SB → IIJmio → LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmioやLINE Mobileが悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安simだからと諦めていた(ただし&lt;!-- raw HTML omitted -->「1Mbps以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞るLINE Mobileはどうかと思う&lt;!-- raw HTML omitted -->)。計算してみるとUQでも月額は大きく変わらない。そして、お試しでUQから借りたsimで大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)&lt;/p>
 &lt;h2 id="移行に必要な費用">移行に必要な費用&lt;/h2>
 &lt;table>
  &lt;thead>
@@ -70,4 +95,89 @@ hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行�
 プランM (1ヶ月) → プランS (5ヶ月) → プランM → &amp;hellip; のサイクルとなる。&lt;br>
 繰越上限はプランMで6GB, プランSで2GBなので、それぞれのプランで「基本容量+繰越容量(基本データ分)」が12GBと4GBを超えることはない。
 また前月に繰越した容量は当月末まで有効。増量オプション付与容量は「追加購入容量」という扱いなので、
-基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから90日。(ややこしい)&lt;/p></description></item></channel></rss>
+基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから90日。(ややこしい)&lt;/p>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">月&lt;/th>
+ &lt;th style="text-align: left">プラン&lt;/th>
+ &lt;th style="text-align: left">基本容量&lt;/th>
+ &lt;th style="text-align: left">増量オプション付与&lt;/th>
+ &lt;th style="text-align: left">繰越容量(基本容量)&lt;/th>
+ &lt;th style="text-align: left">繰越容量(倍増オプション)&lt;/th>
+ &lt;th style="text-align: left">使用量&lt;/th>
+ &lt;th style="text-align: left">基本容量残量&lt;/th>
+ &lt;th style="text-align: left">増量オプション残量&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">M&lt;/td>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">-4&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">S&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">-4&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">S&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">-4&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">4&lt;/td>
+ &lt;td style="text-align: left">S&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">3&lt;/td>
+ &lt;td style="text-align: left">-4&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">5&lt;/td>
+ &lt;td style="text-align: left">S&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">-4&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">6&lt;/td>
+ &lt;td style="text-align: left">S&lt;/td>
+ &lt;td style="text-align: left">2&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">1&lt;/td>
+ &lt;td style="text-align: left">-4&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;td style="text-align: left">0&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>ちなみに通信量を5GB/monthとすると、&lt;br>
+プランM (1ヶ月) → プランS (2ヶ月) → プランM → &amp;hellip; のサイクルとなる&lt;/p></description></item></channel></rss>

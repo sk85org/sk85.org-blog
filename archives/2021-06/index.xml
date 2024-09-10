@@ -163,7 +163,14 @@
 &lt;/ul>
 &lt;h4 id="レジンキャスト---wikipediahttpsjawikipediaorgwikie383ace382b8e383b3e382ade383a3e382b9e38388">&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%AC%E3%82%B8%E3%83%B3%E3%82%AD%E3%83%A3%E3%82%B9%E3%83%88">レジンキャスト - Wikipedia&lt;/a>&lt;/h4>
 &lt;p>これは素晴らしい方法だ。プラレールの台車や車輪をどうしようか悩んでいたので、
-この方法で大量製造できるかも。&lt;/p></description></item><item><title>2021-06-26</title><link>/posts/2021/06/26/679826/</link><pubDate>Sat, 26 Jun 2021 23:28:32 +0900</pubDate><guid>/posts/2021/06/26/679826/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+この方法で大量製造できるかも。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://make-muda.net/2017/11/5661/">3Dプリンタの造形物（フルボトル専用発光台座ケース）を型取り・複製する 〜準備編〜 | MUDAなことをしよう。&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.hobby-wave.com/products/om143/">ウェーブ・シリコーンゴム1kg | 株式会社ウェーブ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://cyuuboumuhai.blog.fc2.com/blog-entry-26.html">レジン＆シリコン複製講座vol.2 　両面取り型 - 沈黙の工房&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://tkrel.com/2220">3Dプリントの原型をシリコン型とレジンで量産する – ツクレル – 自分自身のためにプログラミングしよう&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pandaneko1.web.fc2.com/technique/silicon.html">3改造プラレールパーツ用のシリコン型の製作&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2021-06-26</title><link>/posts/2021/06/26/679826/</link><pubDate>Sat, 26 Jun 2021 23:28:32 +0900</pubDate><guid>/posts/2021/06/26/679826/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>6:30起床&lt;/li>
 &lt;li>ダラダラと過ごす&lt;/li>
@@ -192,7 +199,22 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">img&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;https://live.staticflickr.com/{{.Get &amp;#34;&lt;/span>&lt;span style="color:#a6e22e">thumbnail&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">&amp;#34;}}&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">width&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{.Get &amp;#34;&lt;/span>&lt;span style="color:#a6e22e">width&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">&amp;#34;}}&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">height&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{.Get &amp;#34;&lt;/span>&lt;span style="color:#a6e22e">height&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">&amp;#34;}}&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">alt&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;{{.Get &amp;#34;&lt;/span>&lt;span style="color:#a6e22e">title&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">&amp;#34;}}&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">a&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;lt;&lt;span style="color:#f92672">script&lt;/span> &lt;span style="color:#a6e22e">async&lt;/span> &lt;span style="color:#a6e22e">src&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;//embedr.flickr.com/assets/client-code.js&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">charset&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;utf-8&amp;#34;&lt;/span>&amp;gt;&amp;lt;/&lt;span style="color:#f92672">script&lt;/span>&amp;gt;
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;lt;/&lt;span style="color:#f92672">div&lt;/span>&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item><item><title>2021-06-25</title><link>/posts/2021/06/25/325900/</link><pubDate>Fri, 25 Jun 2021 08:26:01 +0900</pubDate><guid>/posts/2021/06/25/325900/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>呼び出しはこんな感じ。パラメーターはflickrのshareボタンを押すと出てくる埋め込みhtmlコードをクリップボードにコピーして&lt;a href="https://www.keyboardmaestro.com/main/">Keyboard Maestro&lt;/a>で抜き出すようにした。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>{{ &amp;lt;&lt;span style="color:#f92672">flickr&lt;/span> &lt;span style="color:#a6e22e">href&lt;/span>&lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;193320954@N03/51271803976&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">thumbnail&lt;/span>&lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#e6db74">&amp;#34;31337/51271803976_07c52fa4d9_w.jpg&amp;#34;&lt;/span> 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">title&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;PLAにインサートナットを熱圧入&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">width&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;225&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">height&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;400&amp;#34;&lt;/span>&amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;div style='text-align:center;'>
+ &lt;a data-flickr-embed="true" href="https://www.flickr.com/photos/193320954@N03/51271803976" title="PLAにインサートナットを熱圧入">
+ &lt;img src="https://live.staticflickr.com/31337/51271803976_07c52fa4d9_w.jpg" width="225" height="400" alt="PLAにインサートナットを熱圧入">&lt;/a>
+ &lt;script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8">&lt;/script>
+&lt;/div>
+&lt;br>
+画像も呼び出せる。
+&lt;div style='text-align:center;'>
+ &lt;a data-flickr-embed="true" href="https://www.flickr.com/photos/side8-photograph/2487083500" title="宮古島「池間大橋」">
+ &lt;img src="https://live.staticflickr.com/2191/2487083500_a0f5bdbf23.jpg" width="500" height="335" alt="宮古島「池間大橋」">&lt;/a>
+ &lt;script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8">&lt;/script>
+&lt;/div>
+&lt;/p></description></item><item><title>2021-06-25</title><link>/posts/2021/06/25/325900/</link><pubDate>Fri, 25 Jun 2021 08:26:01 +0900</pubDate><guid>/posts/2021/06/25/325900/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>7:30起床&lt;/li>
 &lt;li>朝から書類仕事&lt;/li>
@@ -310,7 +332,19 @@
 &lt;/li>
 &lt;li>モノタロウでデジタルノギスやらインサートナットを購入
 &lt;ul>
-&lt;li>&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">3Dプリンタの出力品にネジ穴を作るのは、インサートナットの熱圧入が便利。タップを立てるより、簡単で速く、強いネジ穴ができるよ。 &lt;a href="https://t.co/Gn5rlsX8tp">pic.twitter.com/Gn5rlsX8tp&lt;/a>&lt;/p></description></item><item><title>2021-06-22</title><link>/posts/2021/06/22/419644/</link><pubDate>Tue, 22 Jun 2021 21:11:21 +0900</pubDate><guid>/posts/2021/06/22/419644/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;li>&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">3Dプリンタの出力品にネジ穴を作るのは、インサートナットの熱圧入が便利。タップを立てるより、簡単で速く、強いネジ穴ができるよ。 &lt;a href="https://t.co/Gn5rlsX8tp">pic.twitter.com/Gn5rlsX8tp&lt;/a>&lt;/p>&amp;mdash; けしかん🌪️🌪️ (@keshinomi_88pro) &lt;a href="https://twitter.com/keshinomi_88pro/status/1061197631173476357?ref_src=twsrc%5Etfw">November 10, 2018&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+
+&lt;/li>
+&lt;li>&lt;a href="https://www.monotaro.com/g/01139074/">デジタルノギス モノタロウ デジタルノギス(電子ノギス) 【通販モノタロウ】 100 ～&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/%E7%AB%8B%E8%8A%B1%E9%9A%86">立花隆 死去&lt;/a>
+&lt;ul>
+&lt;li>次読む本&lt;a href="https://calil.jp/book/4105289012">アポロ 13 号―奇跡の生還 | カーリル&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>2021-06-22</title><link>/posts/2021/06/22/419644/</link><pubDate>Tue, 22 Jun 2021 21:11:21 +0900</pubDate><guid>/posts/2021/06/22/419644/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>7:00起床&lt;/li>
 &lt;li>本日有給&lt;/li>

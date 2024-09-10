@@ -130,7 +130,7 @@ Schema | Name | Type | Owner
  savedAt | timestamp with time zone | | |
  authorship | text | | |
  deletedAt | timestamp with time zone | | |
-&lt;/code>&lt;/pr</description></item><item><title>2021-02-21</title><link>/posts/2021/02/21/735441/</link><pubDate>Sun, 21 Feb 2021 23:25:05 +0900</pubDate><guid>/posts/2021/02/21/735441/</guid><description>&lt;p>起床6:30&lt;br>
+&lt;/code>&lt;/pre>&lt;p>とりあえず興味があるのはNoteテーブルの、titleとcontentなので、インデックスを作る&lt;/p></description></item><item><title>2021-02-21</title><link>/posts/2021/02/21/735441/</link><pubDate>Sun, 21 Feb 2021 23:25:05 +0900</pubDate><guid>/posts/2021/02/21/735441/</guid><description>&lt;p>起床6:30&lt;br>
 不安感なし、食欲ややあり、胡椒餅一個
 抗不安薬の他に、花粉症の薬を朝服用&lt;/p>
 &lt;h2 id="午前">午前&lt;/h2>

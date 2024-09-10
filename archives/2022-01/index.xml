@@ -933,7 +933,21 @@ font-family: sans-serif;
  指定後
  &lt;/figcaption>
  &lt;/span>
-&lt;/p></description></item><item><title>2022-01-04</title><link>/posts/2022/01/04/594502/</link><pubDate>Tue, 04 Jan 2022 00:00:00 +0900</pubDate><guid>/posts/2022/01/04/594502/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;/p>
+&lt;h4 id="fresh-rssでfeedのタイトルがすべて表示されるようにする">Fresh RSSでFeedのタイトルがすべて表示されるようにする。&lt;/h4>
+&lt;p>ExtensionからTitle-Wrapを有効にすると記事のタイトルが改行され、いい感じになる。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20220105-13-21-33-DwjwPhQGP5BnT0Icu571.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20220105-13-21-33-DwjwPhQGP5BnT0Icu571.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ Title-Wrap Extension導入後
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/p>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://www.thingiverse.com/thing:4062242">Hydra Fan Duct &amp;amp; Tool Change System for Ender 3 Ender 5 CR10 by BoothyBoothy - Thingiverse&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2022-01-04</title><link>/posts/2022/01/04/594502/</link><pubDate>Tue, 04 Jan 2022 00:00:00 +0900</pubDate><guid>/posts/2022/01/04/594502/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>本日まで正月休み&lt;/li>
 &lt;li>息子通園&lt;/li>

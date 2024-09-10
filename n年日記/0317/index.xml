@@ -140,4 +140,8 @@
 &lt;li>MIUIはDual Appsという単一のアプリを別のアプリとして複製する機能がある。この機能でEdgeを複製してMIUIの二画面昨日と組み合わせると快適にyoutubeをブラウザで見ながら別のブラウザでweb閲覧ができる。&lt;/li>
 &lt;/ul>
 &lt;h4 id="tailscalehttpstailscalecom">&lt;a href="https://tailscale.com">tailscale&lt;/a>&lt;/h4>
-&lt;p>&lt;a href="https://ja.wikipedia.org/wiki/WireGuard">WireGuard&lt;/a>ベースのVPS接続管理ツールで使いやすそう。台数が増えてくると、入れてもよかと思うけど、現状で自宅のサーバーは一台だけなので、しばらくはsshのトンネルで運用&lt;/p></description></item></channel></rss>
+&lt;p>&lt;a href="https://ja.wikipedia.org/wiki/WireGuard">WireGuard&lt;/a>ベースのVPS接続管理ツールで使いやすそう。台数が増えてくると、入れてもよかと思うけど、現状で自宅のサーバーは一台だけなので、しばらくはsshのトンネルで運用&lt;/p>
+&lt;h5 id="メモ">メモ&lt;/h5>
+&lt;p>&lt;a href="https://blog.koh.dev/2020-01-01-vpn/">WireGuardでVPNごしに自宅サーバ開発できる環境を作った&lt;/a>&lt;/p>
+&lt;h3 id="八丈小島のマレー糸状虫症">八丈小島のマレー糸状虫症&lt;/h3>
+&lt;p>&lt;a href="https://ja.wikipedia.org/wiki/%E5%85%AB%E4%B8%88%E5%B0%8F%E5%B3%B6%E3%81%AE%E3%83%9E%E3%83%AC%E3%83%BC%E7%B3%B8%E7%8A%B6%E8%99%AB%E7%97%87">https://ja.wikipedia.org/wiki/八丈小島のマレー糸状虫症&lt;/a>&lt;/p></description></item></channel></rss>

@@ -28,4 +28,7 @@ func main() {
 		fmt.Println(err)
 	}
 }
-&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が&lt;/p>
+&lt;blockquote>
+&lt;p>The fmt package formats an error value by calling its Error() string method.&lt;br>
+&lt;a href="https://blog.golang.org/error-handling-and-go">https://blog.golang.org/error-handling-and-go&lt;/a>&lt;/p></description></item></channel></rss>

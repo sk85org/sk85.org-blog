@@ -228,7 +228,23 @@
  Restart=always
  [Install]
  WantedBy=default.target
-&lt;/code>&lt;/pr</description></item><item><title>2021-02-22</title><link>/posts/2021/02/22/517455/</link><pubDate>Mon, 22 Feb 2021 21:19:51 +0900</pubDate><guid>/posts/2021/02/22/517455/</guid><description>&lt;p>7:00起床 吐き気ほぼなし&lt;br>
+&lt;/code>&lt;/pre>&lt;p>この設定でVPSサーバー上でport 2222に流れる通信がintel-nucのport 22に転送される。&lt;/p>
+&lt;ol start="2">
+&lt;li>起動を確認&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code> systemctl --user daemon-reload
+ systemctl --user start public-rev
+ systemctl --user enable public-rev
+ systemctl --user status して動いていることを確認
+&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;li>一般ユーザーでもserviceを起動起動する&lt;br>
+ユーザーレベルで起動したサービスは起動直後やログオフ時には実行されないようなので、&lt;br>
+以下を参考に設定を変える&lt;br>
+&lt;a href="https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service">https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service&lt;/a>&lt;br>
+/etc/systemd/logind.conf の&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code> KillUserProcesses=no
+&lt;/code>&lt;/pre>&lt;p>また&lt;/p></description></item><item><title>2021-02-22</title><link>/posts/2021/02/22/517455/</link><pubDate>Mon, 22 Feb 2021 21:19:51 +0900</pubDate><guid>/posts/2021/02/22/517455/</guid><description>&lt;p>7:00起床 吐き気ほぼなし&lt;br>
 気分普通 不安感なし&lt;br>
 本日は20度超えで、朝も暖かくて気持ちが良かった。&lt;br>
 駅近くの梅の花のつぼみも大きくなり、一部咲いている&lt;/p>
@@ -498,7 +514,32 @@
 &lt;li>ベンゾジアゼピン　毎食後1錠&lt;/li>
 &lt;/ul>
 &lt;h4 id="地震">地震&lt;/h4>
-&lt;p>23時すぎに大きな地震があったが、息子は全く起きず。&lt;/p></description></item><item><title>経過 day18, 19</title><link>/posts/2021/02/11/445904/</link><pubDate>Thu, 11 Feb 2021 21:10:01 +0900</pubDate><guid>/posts/2021/02/11/445904/</guid><description>&lt;h3 id="2021-02-10水">2021-02-10(水)&lt;/h3>
+&lt;p>23時すぎに大きな地震があったが、息子は全く起きず。&lt;/p>
+&lt;h3 id="2021-02-14日">2021-02-14(日)&lt;/h3>
+&lt;p>6:45起床、吐き気なし、覚醒良好, 不安感なし, 食欲普通&lt;br>
+カレーパン, キッシュ&lt;/p>
+&lt;h2 id="午前-2">午前&lt;/h2>
+&lt;ul>
+&lt;li>自宅でDockerをいじくる&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後-2">午後&lt;/h2>
+&lt;ul>
+&lt;li>Dockerをいじくる&lt;/li>
+&lt;li>家族で近くの公園に行った後、スーパーへ&lt;/li>
+&lt;li>今日はストライダーがイマイチ&lt;/li>
+&lt;li>息子は帰りに寝そうだった&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調-2">体調&lt;/h2>
+&lt;ul>
+&lt;li>不安感なし&lt;/li>
+&lt;li>就寝23:15ぐらい&lt;/li>
+&lt;li>ベンゾジアゼピン　毎食後1錠&lt;/li>
+&lt;li>過食気味&lt;/li>
+&lt;li>プログラミングができるぐらい集中力が戻ってきた&lt;/li>
+&lt;/ul>
+&lt;h4 id="花粉">花粉&lt;/h4>
+&lt;p>夕方外に出たらくしゃみが。夜には喉の違和感があり咳が出る。&lt;br>
+そろそろ花粉かな&lt;/p></description></item><item><title>経過 day18, 19</title><link>/posts/2021/02/11/445904/</link><pubDate>Thu, 11 Feb 2021 21:10:01 +0900</pubDate><guid>/posts/2021/02/11/445904/</guid><description>&lt;h3 id="2021-02-10水">2021-02-10(水)&lt;/h3>
 &lt;p>7:00 起床&lt;br>
 吐き気ほぼなし、おむすび一個&lt;br>
 不安感少ない(ほとんどない)&lt;/p>
@@ -585,7 +626,44 @@
 &lt;h3 id="u不安の広がり-2021-02-18u">&lt;!-- raw HTML omitted -->不安の広がり 2021-02-18&lt;!-- raw HTML omitted -->&lt;/h3>
 &lt;p>不安が出始めるときは、最初に特定の具体的な不安があり、具体的な不安から具体性のない不安に薄く広がっていく。
 仕事に関する不安(スケジュールより遅れている等) &amp;ndash;&amp;gt; ちゃんとできるか？ &amp;ndash;&amp;gt; ちゃんとできないと評価が下がる, 叱責されるかも&lt;br>
-&amp;ndash;&amp;gt; 降格？ &amp;ndash;&amp;gt; 解雇 &amp;ndash;&amp;gt; 家族離散 ?&lt;/p></description></item><item><title>経過 day15</title><link>/posts/2021/02/07/500539/</link><pubDate>Sun, 07 Feb 2021 21:49:55 +0900</pubDate><guid>/posts/2021/02/07/500539/</guid><description>&lt;p>昨日は24:00就寝だったので、朝は7:30に起床。&lt;br>
+&amp;ndash;&amp;gt; 降格？ &amp;ndash;&amp;gt; 解雇 &amp;ndash;&amp;gt; 家族離散 ?&lt;/p>
+&lt;h3 id="u精神科医からのアドバイス-2021-02-19u">&lt;!-- raw HTML omitted -->精神科医からのアドバイス 2021-02-19&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;ul>
+&lt;li>天気で体調や倦怠感が変わる
+&lt;ul>
+&lt;li>血圧の影響&lt;/li>
+&lt;li>普通の人でも天気で気分が変わるので、エネルギーが少ないときは大きく影響する&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>自分と他人の境界線が曖昧 (人が叱責されるのも苦手な件)
+&lt;ul>
+&lt;li>いい意味では思いやりがあるが、曖昧すぎると弊害が大きい&lt;/li>
+&lt;li>境界線を意識する&lt;/li>
+&lt;li>自分を他人として見る
+&lt;ul>
+&lt;li>他人が叱責されているとして、その人は本当に凹んでいるのだろうか？&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>体調記録表は継続したほうが良い
+&lt;ul>
+&lt;li>項目に、良かったことももっと書いたほうが良い&lt;/li>
+&lt;li>調子がいいときはコメントが少なく、悪いほうをより悪く捉える傾向がある&lt;/li>
+&lt;li>周期的に波があることを認識して、認知療法の役に立つ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>大きな目標の処理が苦手
+&lt;ul>
+&lt;li>small step で&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>どこからが修正が必要で、どこまでが性格か？
+&lt;ul>
+&lt;li>生まれ持ったり環境が作ってきた性格はあるが、思考のくせ(習慣)は変えられる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>経過 day15</title><link>/posts/2021/02/07/500539/</link><pubDate>Sun, 07 Feb 2021 21:49:55 +0900</pubDate><guid>/posts/2021/02/07/500539/</guid><description>&lt;p>昨日は24:00就寝だったので、朝は7:30に起床。&lt;br>
 吐き気少ない (ほぼ無い), 不安感やだるさ無し&lt;br>
 食欲は少しあり？&lt;/p>
 &lt;p>子供の朝食を作る&lt;br>
@@ -602,7 +680,13 @@
 そこから山手線経由で帰宅&lt;br>
 公園は暖かくてとても気落ちが良かった&lt;br>
 息子は尿意を感じると正確に伝えられるようになり、&lt;br>
-パンツでのお出かけも難しくなくなってきた。&lt;/p></description></item><item><title>経過 day13, 14 [通院二回目]</title><link>/posts/2021/02/06/357527/</link><pubDate>Sat, 06 Feb 2021 09:13:34 +0900</pubDate><guid>/posts/2021/02/06/357527/</guid><description>&lt;p>13日目 金曜
+パンツでのお出かけも難しくなくなってきた。&lt;/p>
+&lt;p>昼食後、少し眠る&lt;br>
+夕方、少し不安感あり,奥さんから一人で過ごすかと聞かれたが、気を紛らわせるために外出したほうが良いと思い、
+家族で散歩に行き、帰りにスーパーに寄る &amp;ndash;&amp;gt; 不安感はいつの間にかなくなっていた&lt;/p>
+&lt;p>夕食後子供をお風呂に入れる&lt;br>
+23:25に就寝&lt;/p>
+&lt;p>ベンゾジアゼピンは毎食後1錠&lt;/p></description></item><item><title>経過 day13, 14 [通院二回目]</title><link>/posts/2021/02/06/357527/</link><pubDate>Sat, 06 Feb 2021 09:13:34 +0900</pubDate><guid>/posts/2021/02/06/357527/</guid><description>&lt;p>13日目 金曜
 7:00ごろに起床。
 朝不安感少しあり。おむすび一個食べられる。
 午前中は別部署の朝会議で時間を割かれる中、作業。&lt;br>

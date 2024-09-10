@@ -126,7 +126,26 @@
  
  &lt;/figcaption>
  &lt;/span>
-&lt;/p></description></item><item><title>WOLの設定</title><link>/posts/2021/08/15/188468/</link><pubDate>Sun, 15 Aug 2021 11:48:05 +0900</pubDate><guid>/posts/2021/08/15/188468/</guid><description>&lt;h2 id="wolが作動しないときの確認事項">WOLが作動しないときの確認事項&lt;/h2>
+&lt;/p>
+&lt;h4 id="cloudflaredのインストール">cloudflaredのインストール&lt;/h4>
+&lt;p>&lt;a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup">Get started · Cloudflare for Teams documentation&lt;/a>&lt;/p>
+&lt;h4 id="ログインとtunnelsの作成tunnelの作成はnon-rootで可能">ログインとTunnelsの作成(tunnelの作成はnon rootで可能)&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-txt" data-lang="txt">&lt;span style="display:flex;">&lt;span>$ cloudflared tunnel login #(表示されるURLにアクセスする)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ loudflared tunnel create NAME #(NAMEは任意のチャンネル名)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Tunnel credentials written to /path/to/.cloudflared/&amp;lt;Tunnel-UUID&amp;gt;.json. 
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cloudflared chose this file based on where your origin certificate was found.
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>Keep this file secret. To revoke these credentials, delete the tunnel.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>ダッシュボードから作成したTunnelsのTunnel-UUIDが確認できる。削除はCLIもしくはダッシュボードから可能。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211030-04-56-26-5A-HtfL5EQlZreSa3l4Y.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=900&amp;quality=80&amp;file=20211030-04-56-26-5A-HtfL5EQlZreSa3l4Y.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+ホームフォルダ上の.cloudflaredディレクトリの中に設定ファイルconfig.ymlを作成する。
+サーバー上のサービスとバーチャルホストを対応させる。サービスごとにTunnelを作成することもできるが、簡単にするために&lt;a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/configuration/configuration-file/ingress">Ingress rules&lt;/a>にする。&lt;/p></description></item><item><title>WOLの設定</title><link>/posts/2021/08/15/188468/</link><pubDate>Sun, 15 Aug 2021 11:48:05 +0900</pubDate><guid>/posts/2021/08/15/188468/</guid><description>&lt;h2 id="wolが作動しないときの確認事項">WOLが作動しないときの確認事項&lt;/h2>
 &lt;p>Windows 10でWake on Lan (WOL)できていたのに、突如できなくなったので設定を確認。&lt;br>
 &lt;a href="https://n-archives.net/software/nwol/wol-pc-setting/">Wake on LANによるWindows10遠隔起動の設定方法&lt;/a>が参考になる。&lt;/p>
 &lt;p>以下の3項目を確認&lt;/p>
@@ -163,7 +182,40 @@ WOL関係の項目が有効になっているか
 BIOSでWOLを有効にする&lt;/li>
 &lt;/ol>
 &lt;p>今回は高速スタートアップ有効になっており、BIOSのWOL関係の設定値がdisableになっていた。&lt;br>
-(何故今までWOLが動いていたのかわからない)&lt;/p></description></item><item><title>こつこつweb日記</title><link>/posts/2021/03/20/904627/</link><pubDate>Sat, 20 Mar 2021 21:41:51 +0900</pubDate><guid>/posts/2021/03/20/904627/</guid><description>&lt;p>アフィリエイトサイト全盛期, 記事と関係ない画像を入れまくった「いかがでしたでしょうか」サイトが無限増殖し、google の結果は汚染されてしまった。&lt;br>
+(何故今までWOLが動いていたのかわからない)&lt;/p>
+&lt;h2 id="docekrでwolサーバーを動かす">docekrでWOLサーバーを動かす&lt;/h2>
+&lt;p>&lt;a href="https://github.com/dabondi/go-rest-wol">daBONDi/go-rest-wol&lt;/a>を利用&lt;br>
+注意点はコンテナを&lt;a href="https://docs.docker.jp/network/host.html">ホスト・ネットワーク&lt;/a>で動かすこと。これをしないとUDPパケットが通らない。ホストモードではポートが競合するのでメジャーな80は使わずに、9090で動かしている。&lt;a href="https://ja.wikipedia.org/wiki/Wake-on-LAN">UDPパケットはポート7 or 9に送信するらしい。&lt;/a>&lt;/p>
+&lt;pre tabindex="0">&lt;code>version: &amp;#39;3&amp;#39;
+services:
+ wol:
+ image: &amp;#34;dabondi/go-rest-wol&amp;#34;
+ environment: 
+ WOLHTTPPORT: 9090
+ #ports:
+ # - &amp;#34;80:8080&amp;#34;
+ volumes:
+ - ./computer.csv:/app/computer.csv
+ network_mode: host
+&lt;/code>&lt;/pre>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20210815-04-11-48-h5ygVQudUQuoOWew8XJ_.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20210815-04-11-48-h5ygVQudUQuoOWew8XJ_.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;h2 id="追記20220609">追記(2022/06/09)&lt;/h2>
+&lt;p>WOLが効かなくなりwindows 11に上げたからかと思い設定をチェックしたが異常なし。結局、UEFIの設定が消えていた模様。ACPI ConfigurarionのPCIE Devices Power On をEnableにしたら解決。トラブルの際は、どの電源状態(S0~S5)でWOLが有効にならないかチェックしてから対応した方が良い。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20220609-14-13-45-TVYw-2yT-aNimmeb2FRk.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20220609-14-13-45-TVYw-2yT-aNimmeb2FRk.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+参考: &lt;a href="https://mimimopu.com/asrock-mb-wol/">ASRockのマザーボードでWOLできない人はここをチェック | デジカシ&lt;/a>&lt;/p></description></item><item><title>こつこつweb日記</title><link>/posts/2021/03/20/904627/</link><pubDate>Sat, 20 Mar 2021 21:41:51 +0900</pubDate><guid>/posts/2021/03/20/904627/</guid><description>&lt;p>アフィリエイトサイト全盛期, 記事と関係ない画像を入れまくった「いかがでしたでしょうか」サイトが無限増殖し、google の結果は汚染されてしまった。&lt;br>
 そのような状況の中でも、広告が少なく(もしくは入れず)こつこつと記事を書き続けているサイトをたまに見つける。Google の検索上位には決して出てこないが、素晴らしいサイトがまだインターネットには残っている。&lt;/p>
 &lt;h3 id="技術系">技術系&lt;/h3>
 &lt;ul>
@@ -241,7 +293,23 @@ BIOSでWOLを有効にする&lt;/li>
  Restart=always
  [Install]
  WantedBy=default.target
-&lt;/code>&lt;/pr</description></item><item><title>思考の癖改善メモ</title><link>/posts/2021/02/07/872227/</link><pubDate>Sun, 07 Feb 2021 22:08:44 +0900</pubDate><guid>/posts/2021/02/07/872227/</guid><description>&lt;p>精神科医から指摘されたのは、過度のマイナス思考によるうつ状態
+&lt;/code>&lt;/pre>&lt;p>この設定でVPSサーバー上でport 2222に流れる通信がintel-nucのport 22に転送される。&lt;/p>
+&lt;ol start="2">
+&lt;li>起動を確認&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code> systemctl --user daemon-reload
+ systemctl --user start public-rev
+ systemctl --user enable public-rev
+ systemctl --user status して動いていることを確認
+&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;li>一般ユーザーでもserviceを起動起動する&lt;br>
+ユーザーレベルで起動したサービスは起動直後やログオフ時には実行されないようなので、&lt;br>
+以下を参考に設定を変える&lt;br>
+&lt;a href="https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service">https://harpyja.daemon.asia/wiki/Unix/systemd-continue-user-service&lt;/a>&lt;br>
+/etc/systemd/logind.conf の&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code> KillUserProcesses=no
+&lt;/code>&lt;/pre>&lt;p>また&lt;/p></description></item><item><title>思考の癖改善メモ</title><link>/posts/2021/02/07/872227/</link><pubDate>Sun, 07 Feb 2021 22:08:44 +0900</pubDate><guid>/posts/2021/02/07/872227/</guid><description>&lt;p>精神科医から指摘されたのは、過度のマイナス思考によるうつ状態
 改善のためのメモ&lt;/p>
 &lt;h3 id="u精神科医からのアドバイス-2021-02-07u">&lt;!-- raw HTML omitted -->精神科医からのアドバイス 2021-02-07&lt;!-- raw HTML omitted -->&lt;/h3>
 &lt;p>劣等感と過剰な不安について&lt;/p>
@@ -264,7 +332,44 @@ BIOSでWOLを有効にする&lt;/li>
 &lt;h3 id="u不安の広がり-2021-02-18u">&lt;!-- raw HTML omitted -->不安の広がり 2021-02-18&lt;!-- raw HTML omitted -->&lt;/h3>
 &lt;p>不安が出始めるときは、最初に特定の具体的な不安があり、具体的な不安から具体性のない不安に薄く広がっていく。
 仕事に関する不安(スケジュールより遅れている等) &amp;ndash;&amp;gt; ちゃんとできるか？ &amp;ndash;&amp;gt; ちゃんとできないと評価が下がる, 叱責されるかも&lt;br>
-&amp;ndash;&amp;gt; 降格？ &amp;ndash;&amp;gt; 解雇 &amp;ndash;&amp;gt; 家族離散 ?&lt;/p></description></item><item><title>iOS appランキング</title><link>/posts/2021/01/31/686310/</link><pubDate>Sun, 31 Jan 2021 22:23:40 +0900</pubDate><guid>/posts/2021/01/31/686310/</guid><description>&lt;p>カテゴリ別に見られて便利&lt;br>
+&amp;ndash;&amp;gt; 降格？ &amp;ndash;&amp;gt; 解雇 &amp;ndash;&amp;gt; 家族離散 ?&lt;/p>
+&lt;h3 id="u精神科医からのアドバイス-2021-02-19u">&lt;!-- raw HTML omitted -->精神科医からのアドバイス 2021-02-19&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;ul>
+&lt;li>天気で体調や倦怠感が変わる
+&lt;ul>
+&lt;li>血圧の影響&lt;/li>
+&lt;li>普通の人でも天気で気分が変わるので、エネルギーが少ないときは大きく影響する&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>自分と他人の境界線が曖昧 (人が叱責されるのも苦手な件)
+&lt;ul>
+&lt;li>いい意味では思いやりがあるが、曖昧すぎると弊害が大きい&lt;/li>
+&lt;li>境界線を意識する&lt;/li>
+&lt;li>自分を他人として見る
+&lt;ul>
+&lt;li>他人が叱責されているとして、その人は本当に凹んでいるのだろうか？&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>体調記録表は継続したほうが良い
+&lt;ul>
+&lt;li>項目に、良かったことももっと書いたほうが良い&lt;/li>
+&lt;li>調子がいいときはコメントが少なく、悪いほうをより悪く捉える傾向がある&lt;/li>
+&lt;li>周期的に波があることを認識して、認知療法の役に立つ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>大きな目標の処理が苦手
+&lt;ul>
+&lt;li>small step で&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>どこからが修正が必要で、どこまでが性格か？
+&lt;ul>
+&lt;li>生まれ持ったり環境が作ってきた性格はあるが、思考のくせ(習慣)は変えられる&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>iOS appランキング</title><link>/posts/2021/01/31/686310/</link><pubDate>Sun, 31 Jan 2021 22:23:40 +0900</pubDate><guid>/posts/2021/01/31/686310/</guid><description>&lt;p>カテゴリ別に見られて便利&lt;br>
 &lt;a href="https://appfigures.com/top-apps/">https://appfigures.com/top-apps/&lt;/a>&lt;/p></description></item><item><title>Tp-Link Deco X20に関するメモ</title><link>/posts/2020/08/31/269927/</link><pubDate>Mon, 31 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/31/269927/</guid><description>&lt;p>Tp-Link Deco X20 (3 pack)を導入した。&lt;br>
 &lt;a href="https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/">https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/&lt;/a> &lt;br>
 アフィリエイトサイトでは「Wifi6だから早い」とか「メッシュWifiすごい」、といった本当にどうでもいいトラフィックの無駄使い程度の情報しかなく、
@@ -279,7 +384,74 @@ BIOSでWOLを有効にする&lt;/li>
 &lt;/p>
 &lt;h3 id="2台もしくは3台をルーターから有線で分岐させられますか">&lt;strong>2台(もしくは3台)をルーターから有線で分岐させられますか？&lt;/strong>&lt;/h3>
 &lt;p>できます。スイッチングハブを経由させてももちろん問題ありません。&lt;br>
-&lt;a href="https://www.tp-link.com/jp/support/faq/2399/">https://www.tp-link.com/jp/support/faq/2399/&lt;/a>&lt;/p></description></item><item><title>外食</title><link>/posts/2020/06/01/912695/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0900</pubDate><guid>/posts/2020/06/01/912695/</guid><description>&lt;h2 id="ラーメン">ラーメン&lt;/h2>
+&lt;a href="https://www.tp-link.com/jp/support/faq/2399/">https://www.tp-link.com/jp/support/faq/2399/&lt;/a>&lt;/p>
+&lt;h3 id="ということは2台もしくは3台をすべてブリッジモードアクセスポイントモードとして動作させることが可能ということですか">&lt;strong>ということは2台(もしくは3台)をすべてブリッジモード(アクセスポイントモード)として動作させることが可能ということですか？&lt;/strong>&lt;/h3>
+&lt;p>そうです。メインのdeco X20を決める必要がありますが、メインのdeco X20が必ずしもルーターモードである必要はありません。
+正確には&lt;strong>各端末をルーター or ブリッジモードに設定するわけではなく&lt;/strong>、メインのdeco X20およびメイン以外のdexo X20があるだけです。&lt;/p>
+&lt;h3 id="ブリッジモードでルーターから有線で分岐させた場合はethernet-backhaulは有効になりますか">&lt;strong>ブリッジモードでルーターから有線で分岐させた場合はEthernet Backhaulは有効になりますか？&lt;/strong>&lt;/h3>
+&lt;p>なります。&lt;/p>
+&lt;h3 id="解説">&lt;strong>解説&lt;/strong>&lt;/h3>
+&lt;p>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ Both possible
+ &lt;/figcaption>
+ &lt;/span>
+
+自宅では上記のようなネットワーク構成になっています。メッシュwifiネットワーク全体としてブリッジモードでルーターからハブを介していないdexo X20をメインに設定しています。
+公式の設定アプリでブリッジモードにした後に、地球のロゴ(わかりにくい)をクリックすると接続されているdeco x20一覧が出てきます。この画面でメインの端末がどれか、またメインの端末を変更することができます。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+
+各端末をクリックすると詳細が出てきます。この画面では選択された端末が、メインのdeco X20とどのような接続形式を取っているか確認できます。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ Connected via ethernet
+ &lt;/figcaption>
+ &lt;/span>
+
+試しにLANケーブルを抜いてみると自動的にメインのdexo X20とワイヤレスで接続されます。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ Connected via wireless
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/p>
+&lt;h3 id="不満点-5ghz帯と24ghz帯でssidを分けることができない">&lt;strong>不満点 5GHz帯と2.4GHz帯でSSIDを分けることができない。&lt;/strong>&lt;/h3>
+&lt;p>モバイルアプリ経由で設定するタイプのIoT端末の場合、5GHz帯に対応していなければ一度deco X20の5GHzをoffにして2.4GHzに接続して設定しなければいけない場合がある。&lt;/p>
+&lt;h3 id="おまけ">&lt;strong>おまけ&lt;/strong>&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>ハブとしても使える&lt;/strong>&lt;br>
+deco x20には1Gbpsの有線LANポートが2口あります。どちらにケーブルを刺しても端末が上位のネットワークを自動で認識してくれます。残ったポートに有線でパソコン等を接続することができます。&lt;/li>
+&lt;li>&lt;strong>webベースの管理画面がある(一応)&lt;/strong>&lt;br>
+作り込みが甘いですが、ブラウザから端末のipアドレスにアクセスするとコントロールパネルを見ることができます。
+&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ web control panel
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ol></description></item><item><title>外食</title><link>/posts/2020/06/01/912695/</link><pubDate>Mon, 01 Jun 2020 00:00:00 +0900</pubDate><guid>/posts/2020/06/01/912695/</guid><description>&lt;h2 id="ラーメン">ラーメン&lt;/h2>
 &lt;ul>
 &lt;li>本郷 中華蕎麦にし乃
 &lt;ul>
