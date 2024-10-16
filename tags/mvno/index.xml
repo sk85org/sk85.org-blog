@@ -39,46 +39,46 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">項目&lt;/th>
- &lt;th style="text-align: left">費用&lt;/th>
- &lt;th style="text-align: left">備考&lt;/th>
+ &lt;th>項目&lt;/th>
+ &lt;th>費用&lt;/th>
+ &lt;th>備考&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">LINE 解約手数料&lt;/td>
- &lt;td style="text-align: left">10584&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>LINE 解約手数料&lt;/td>
+ &lt;td>10584&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">LINE MNP転出手数料&lt;/td>
- &lt;td style="text-align: left">3240&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>LINE MNP転出手数料&lt;/td>
+ &lt;td>3240&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">UQ SIMパッケージ料金&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">キャンペーンのため&lt;/td>
+ &lt;td>UQ SIMパッケージ料金&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>キャンペーンのため&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">端末代&lt;/td>
- &lt;td style="text-align: left">31,644&lt;/td>
- &lt;td style="text-align: left">HUAWEI nova lite3&lt;/td>
+ &lt;td>端末代&lt;/td>
+ &lt;td>31,644&lt;/td>
+ &lt;td>HUAWEI nova lite3&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">端末売却&lt;/td>
- &lt;td style="text-align: left">-13600&lt;/td>
- &lt;td style="text-align: left">手持ちのsimフリー端末を使うため&lt;/td>
+ &lt;td>端末売却&lt;/td>
+ &lt;td>-13600&lt;/td>
+ &lt;td>手持ちのsimフリー端末を使うため&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">キャッシュバック&lt;/td>
- &lt;td style="text-align: left">-9000&lt;/td>
- &lt;td style="text-align: left">入金は数カ後だが初期費用として扱う&lt;/td>
+ &lt;td>キャッシュバック&lt;/td>
+ &lt;td>-9000&lt;/td>
+ &lt;td>入金は数カ後だが初期費用として扱う&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">合計&lt;/td>
- &lt;td style="text-align: left">22768&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>合計&lt;/td>
+ &lt;td>22768&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -92,83 +92,83 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">月&lt;/th>
- &lt;th style="text-align: left">プラン&lt;/th>
- &lt;th style="text-align: left">基本容量&lt;/th>
- &lt;th style="text-align: left">増量オプション付与&lt;/th>
- &lt;th style="text-align: left">繰越容量(基本容量)&lt;/th>
- &lt;th style="text-align: left">繰越容量(倍増オプション)&lt;/th>
- &lt;th style="text-align: left">使用量&lt;/th>
- &lt;th style="text-align: left">基本容量残量&lt;/th>
- &lt;th style="text-align: left">増量オプション残量&lt;/th>
+ &lt;th>月&lt;/th>
+ &lt;th>プラン&lt;/th>
+ &lt;th>基本容量&lt;/th>
+ &lt;th>増量オプション付与&lt;/th>
+ &lt;th>繰越容量(基本容量)&lt;/th>
+ &lt;th>繰越容量(倍増オプション)&lt;/th>
+ &lt;th>使用量&lt;/th>
+ &lt;th>基本容量残量&lt;/th>
+ &lt;th>増量オプション残量&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">M&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>M&lt;/td>
+ &lt;td>6&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>3&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>4&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>3&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
+ &lt;td>5&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
+ &lt;td>6&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

@@ -22,22 +22,22 @@ LTE &amp;ndash;&amp;gt; Serving Cell Infoから掴んでいるバンドを確認
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">項目&lt;/th>
- &lt;th style="text-align: left">説明&lt;/th>
+ &lt;th>項目&lt;/th>
+ &lt;th>説明&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">sel_plmn_mcc&lt;/td>
- &lt;td style="text-align: left">カントリーコード 日本だと440&lt;/td>
+ &lt;td>sel_plmn_mcc&lt;/td>
+ &lt;td>カントリーコード 日本だと440&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sel_plmn_mnc&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://ja.wikipedia.org/wiki/Mobile_Network_Code">事業者コード&lt;/a> KDDI: 50, 51, 53 (楽天ローミング用) Rakuten: 11&lt;/td>
+ &lt;td>sel_plmn_mnc&lt;/td>
+ &lt;td>&lt;a href="https://ja.wikipedia.org/wiki/Mobile_Network_Code">事業者コード&lt;/a> KDDI: 50, 51, 53 (楽天ローミング用) Rakuten: 11&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">freq_band_ind&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://ja.wikipedia.org/wiki/%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B1%E3%81%AE%E5%91%A8%E6%B3%A2%E6%95%B0%E5%B8%AF">割当周波数帯&lt;/a> au: 11, 18, 28, 41, 42, Rakuten: 3のみ&lt;/td>
+ &lt;td>freq_band_ind&lt;/td>
+ &lt;td>&lt;a href="https://ja.wikipedia.org/wiki/%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B1%E3%81%AE%E5%91%A8%E6%B3%A2%E6%95%B0%E5%B8%AF">割当周波数帯&lt;/a> au: 11, 18, 28, 41, 42, Rakuten: 3のみ&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

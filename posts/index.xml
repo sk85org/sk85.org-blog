@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 16 Oct 2024 01:09:08 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-10-16[draft]</title><link>/posts/2024/10/16/855416/</link><pubDate>Wed, 16 Oct 2024 00:00:00 +0900</pubDate><guid>/posts/2024/10/16/855416/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Thu, 17 Oct 2024 01:07:59 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-10-17[draft]</title><link>/posts/2024/10/17/84727/</link><pubDate>Thu, 17 Oct 2024 00:00:00 +0900</pubDate><guid>/posts/2024/10/17/84727/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2024-10-16[draft]</title><link>/posts/2024/10/16/855416/</link><pubDate>Wed, 16 Oct 2024 00:00:00 +0900</pubDate><guid>/posts/2024/10/16/855416/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>&lt;/li>
 &lt;/ul>
@@ -19597,7 +19610,7 @@ FOMC の会見も&lt;a href="https://muragoe-makoto.blog.jp/archives/87489022.ht
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="https://ja.m.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%83%80%E3%83%BB%E3%83%A9%E3%83%96%E3%83%AC%E3%82%B9">エイダ・ラブレス - Wikipedia&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>2022年行って良かったところ</title><link>/posts/2022/12/13/86545/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/86545/</guid><description>&lt;h3 id="権兵衛川hahahugoshortcode735s0hbhb">&lt;a href="/posts/2022/08/27/848387/">権兵衛川&lt;/a>&lt;/h3>
+&lt;/ul></description></item><item><title>2022年行って良かったところ</title><link>/posts/2022/12/13/86545/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/86545/</guid><description>&lt;h3 id="権兵衛川hahahugoshortcode734s0hbhb">&lt;a href="/posts/2022/08/27/848387/">権兵衛川&lt;/a>&lt;/h3>
 &lt;p>本当に良かった。僕が小さい頃に憧れていた、綺麗な川だ。来年は家族で行きたい&lt;/p></description></item><item><title>2022年買ってよかったもの</title><link>/posts/2022/12/13/373501/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/373501/</guid><description>&lt;p>結論: 今年はApple製品更新の年だった&lt;/p>
 &lt;h2 id="買ってとてもよかったもの">買ってとてもよかったもの&lt;/h2>
 &lt;ul>
@@ -42711,22 +42724,22 @@ LTE &amp;ndash;&amp;gt; Serving Cell Infoから掴んでいるバンドを確認
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">項目&lt;/th>
- &lt;th style="text-align: left">説明&lt;/th>
+ &lt;th>項目&lt;/th>
+ &lt;th>説明&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">sel_plmn_mcc&lt;/td>
- &lt;td style="text-align: left">カントリーコード 日本だと440&lt;/td>
+ &lt;td>sel_plmn_mcc&lt;/td>
+ &lt;td>カントリーコード 日本だと440&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sel_plmn_mnc&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://ja.wikipedia.org/wiki/Mobile_Network_Code">事業者コード&lt;/a> KDDI: 50, 51, 53 (楽天ローミング用) Rakuten: 11&lt;/td>
+ &lt;td>sel_plmn_mnc&lt;/td>
+ &lt;td>&lt;a href="https://ja.wikipedia.org/wiki/Mobile_Network_Code">事業者コード&lt;/a> KDDI: 50, 51, 53 (楽天ローミング用) Rakuten: 11&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">freq_band_ind&lt;/td>
- &lt;td style="text-align: left">&lt;a href="https://ja.wikipedia.org/wiki/%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B1%E3%81%AE%E5%91%A8%E6%B3%A2%E6%95%B0%E5%B8%AF">割当周波数帯&lt;/a> au: 11, 18, 28, 41, 42, Rakuten: 3のみ&lt;/td>
+ &lt;td>freq_band_ind&lt;/td>
+ &lt;td>&lt;a href="https://ja.wikipedia.org/wiki/%E6%90%BA%E5%B8%AF%E9%9B%BB%E8%A9%B1%E3%81%AE%E5%91%A8%E6%B3%A2%E6%95%B0%E5%B8%AF">割当周波数帯&lt;/a> au: 11, 18, 28, 41, 42, Rakuten: 3のみ&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -43038,46 +43051,46 @@ WantedBy = multi-user.target
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">項目&lt;/th>
- &lt;th style="text-align: left">費用&lt;/th>
- &lt;th style="text-align: left">備考&lt;/th>
+ &lt;th>項目&lt;/th>
+ &lt;th>費用&lt;/th>
+ &lt;th>備考&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">LINE 解約手数料&lt;/td>
- &lt;td style="text-align: left">10584&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>LINE 解約手数料&lt;/td>
+ &lt;td>10584&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">LINE MNP転出手数料&lt;/td>
- &lt;td style="text-align: left">3240&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>LINE MNP転出手数料&lt;/td>
+ &lt;td>3240&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">UQ SIMパッケージ料金&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">キャンペーンのため&lt;/td>
+ &lt;td>UQ SIMパッケージ料金&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>キャンペーンのため&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">端末代&lt;/td>
- &lt;td style="text-align: left">31,644&lt;/td>
- &lt;td style="text-align: left">HUAWEI nova lite3&lt;/td>
+ &lt;td>端末代&lt;/td>
+ &lt;td>31,644&lt;/td>
+ &lt;td>HUAWEI nova lite3&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">端末売却&lt;/td>
- &lt;td style="text-align: left">-13600&lt;/td>
- &lt;td style="text-align: left">手持ちのsimフリー端末を使うため&lt;/td>
+ &lt;td>端末売却&lt;/td>
+ &lt;td>-13600&lt;/td>
+ &lt;td>手持ちのsimフリー端末を使うため&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">キャッシュバック&lt;/td>
- &lt;td style="text-align: left">-9000&lt;/td>
- &lt;td style="text-align: left">入金は数カ後だが初期費用として扱う&lt;/td>
+ &lt;td>キャッシュバック&lt;/td>
+ &lt;td>-9000&lt;/td>
+ &lt;td>入金は数カ後だが初期費用として扱う&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">合計&lt;/td>
- &lt;td style="text-align: left">22768&lt;/td>
- &lt;td style="text-align: left">&lt;/td>
+ &lt;td>合計&lt;/td>
+ &lt;td>22768&lt;/td>
+ &lt;td>&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -43091,83 +43104,83 @@ WantedBy = multi-user.target
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">月&lt;/th>
- &lt;th style="text-align: left">プラン&lt;/th>
- &lt;th style="text-align: left">基本容量&lt;/th>
- &lt;th style="text-align: left">増量オプション付与&lt;/th>
- &lt;th style="text-align: left">繰越容量(基本容量)&lt;/th>
- &lt;th style="text-align: left">繰越容量(倍増オプション)&lt;/th>
- &lt;th style="text-align: left">使用量&lt;/th>
- &lt;th style="text-align: left">基本容量残量&lt;/th>
- &lt;th style="text-align: left">増量オプション残量&lt;/th>
+ &lt;th>月&lt;/th>
+ &lt;th>プラン&lt;/th>
+ &lt;th>基本容量&lt;/th>
+ &lt;th>増量オプション付与&lt;/th>
+ &lt;th>繰越容量(基本容量)&lt;/th>
+ &lt;th>繰越容量(倍増オプション)&lt;/th>
+ &lt;th>使用量&lt;/th>
+ &lt;th>基本容量残量&lt;/th>
+ &lt;th>増量オプション残量&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">M&lt;/td>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>M&lt;/td>
+ &lt;td>6&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>3&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>4&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>3&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">4&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">3&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
+ &lt;td>4&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>3&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">5&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
+ &lt;td>5&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">6&lt;/td>
- &lt;td style="text-align: left">S&lt;/td>
- &lt;td style="text-align: left">2&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">1&lt;/td>
- &lt;td style="text-align: left">-4&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
- &lt;td style="text-align: left">0&lt;/td>
+ &lt;td>6&lt;/td>
+ &lt;td>S&lt;/td>
+ &lt;td>2&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>1&lt;/td>
+ &lt;td>-4&lt;/td>
+ &lt;td>0&lt;/td>
+ &lt;td>0&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
