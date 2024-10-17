@@ -6,7 +6,7 @@
     <dl>
       {{- range .Data.Pages }}
       <dt><a href="{{ .RelPermalink}}"><time datetime="{{.Date.Format "2006-01-02"}}">{{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})</time></a></dt>
-      <dd>{{ .Summary | safeHTML }}</dd>
+      <dd>{{ .Summary | plainify }}</dd>
     {{- end }}
     </dl>
 {{ end }}
