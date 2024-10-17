@@ -1,31 +1,9 @@
 <!doctype html><html lang=ja xmlns=http://www.w3.org/1999/xhtml><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=data:,%89PNG%0D%0A%1A%0A><link rel=alternate type=application/rss+xml href=/n%E5%B9%B4%E6%97%A5%E8%A8%98/0212/index.xml title=d.sk85.org><title>0212</title>
 <link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel=stylesheet><link rel=stylesheet href=/css/style.css><link rel=stylesheet href=/css/font.css></head><body><header><a href=/ title=top><span class=menu>top</span></a>&nbsp;<a href=/archives/ title=archives><span class=menu>archives</span></a>&nbsp;<a href=/tags/ title=tags><span class=menu>tags</span></a>&nbsp;<a href=/about/ title=about><span class=menu>about</span></a>&nbsp;</header><h1>02月12日 (n年日記)</h1><form method=get action=https://dsearch.sk85.org/cgi/><input type=text name=phrase size=20>
 <input type=submit value=Search>
-<input type=hidden name=enc value=UTF-8></form><dl><dt><a href=/posts/2024/02/12/753695/><time datetime=2024-02-12>2024-02-12&ensp;(月)</time></a></dt><dd><h2 id=午前>午前</h2><ul><li>午前中は息子と近くの公園に</li><li>昼食は自宅で</li></ul><h2 id=午後>午後</h2><ul><li>夕方まで自宅で過ごし息子とモールに行きポケモン図鑑を買う</li><li>図書館で本を買える</li><li>スーパーで買い物</li><li>22:30 ごろ就寝</li></ul><h2 id=体調>体調</h2><ul><li>70</li></ul><h2 id=その他>その他</h2><h2 id=今日の-tabs>今日の Tabs</h2></dd><dt><a href=/posts/2023/02/12/362623/><time datetime=2023-02-12>2023-02-12&ensp;(日)</time></a></dt><dd><h2 id=午前>午前</h2><ul><li>息子の朝食作り</li><li>家の掃除</li><li>息子スイミング</li><li>10:00 ごろマクドナルドで坦々バーガーを食べる</li><li>昼食は自宅で</li></ul><h2 id=午後>午後</h2><ul><li>何をしたか記憶にない</li><li>多分午後は自宅で過ごす</li></ul><h2 id=体調>体調</h2><ul><li>明日からの仕事を考え一日中憂鬱</li><li>特に問題があるわけではないが不安</li></ul><h2 id=その他>その他</h2><ul><li>どんなものかと mastodon のインスタンスを立ててみる</li><li>docker でたててみたが、あまりドキュメントがなく四苦八苦</li><li>とりあえず試験運用</li></ul><h2 id=今日の-tabs>今日の Tabs</h2><ul><li></li></ul></dd><dt><a href=/posts/2022/02/12/40519/><time datetime=2022-02-12>2022-02-12&ensp;(土)</time></a></dt><dd><h2 id=午前>午前</h2><ul><li>トイレとお風呂掃除</li><li>近くで大盛り弁当を買って、3人で公園に</li></ul><h2 id=午後>午後</h2><ul><li>3時前に帰宅</li><li>お昼寝</li><li>夕食は軽めに</li></ul><h2 id=体調>体調</h2><ul><li>普通</li><li>息子も問題なし</li></ul><h2 id=その他>その他</h2><ul><li><a href=https://topics.nintendo.co.jp/article/7a5ddbdb-dac7-468b-9c6c-3014dc7cb0b6>『MOTHER』『MOTHER2 ギーグの逆襲』が「ファミリーコンピュータ＆スーパーファミコン Nintendo Switch Online」で本日追加。プラチナポイント交換グッズも登場。 | トピックス | Nintendo</a><ul><li>マザー2が追加されたので久々に登録</li><li>今年はsplatoon2とゼルダBoWの後編も出るようなので楽しみだ</li></ul></li></ul><h2 id=今日のtabs>今日のTabs</h2></dd><dt><a href=/posts/2020/02/12/880385/><time datetime=2020-02-12>2020-02-12&ensp;(水)</time></a></dt><dd><p>goはerrorインターフェイスを持っている、</p><pre tabindex=0><code>type error interface {
-    Error() string
-}
-</code></pre><p>よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。<br><a href=https://play.golang.org/p/cO0-r95Hd_r>https://play.golang.org/p/cO0-r95Hd_r</a></p><pre tabindex=0><code>package main
-
-import (
-	&#34;fmt&#34;
-)
-
-type Error struct {
-	Msg  string
-	Code int
-}
-
-func (err *Error) Error() string {
-	return fmt.Sprintf(&#34;ErrorMessage [%s], ErrorCode [%d]&#34;, err.Msg, err.Code)
-}
-
-func test() error {
-	return &amp;Error{Msg: &#34;file not found&#34;, Code: 2}
-}
-
-func main() {
-	if err := test(); err != nil {
-		fmt.Println(err)
-	}
-}
-</code></pre><p>ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が</p><blockquote><p>The fmt package formats an error value by calling its Error() string method.<br><a href=https://blog.golang.org/error-handling-and-go>https://blog.golang.org/error-handling-and-go</a></p></dd></dl><footer></footer></body></html>
+<input type=hidden name=enc value=UTF-8></form><dl><dt><a href=/posts/2024/02/12/753695/><time datetime=2024-02-12>2024-02-12&ensp;(月)</time></a></dt><dd>午前 午前中は息子と近くの公園に 昼食は自宅で 午後 夕方まで自宅で過ごし息子とモールに行きポケモン図鑑を買う 図書館で本を買える スーパーで買い物 22:30 ごろ就寝 体調 70 その他 今日の Tabs</dd><dt><a href=/posts/2023/02/12/362623/><time datetime=2023-02-12>2023-02-12&ensp;(日)</time></a></dt><dd>午前 息子の朝食作り 家の掃除 息子スイミング 10:00 ごろマクドナルドで坦々バーガーを食べる 昼食は自宅で 午後 何をしたか記憶にない 多分午後は自宅で過ごす 体調 明日からの仕事を考え一日中憂鬱 特に問題があるわけではないが不安 その他 どんなものかと mastodon のインスタンスを立ててみる docker でたててみたが、あまりドキュメントがなく四苦八苦 とりあえず試験運用 今日の Tabs</dd><dt><a href=/posts/2022/02/12/40519/><time datetime=2022-02-12>2022-02-12&ensp;(土)</time></a></dt><dd>午前 トイレとお風呂掃除 近くで大盛り弁当を買って、3人で公園に 午後 3時前に帰宅 お昼寝 夕食は軽めに 体調 普通 息子も問題なし その他 『MOTHER』『MOTHER2 ギーグの逆襲』が「ファミリーコンピュータ＆スーパーファミコン Nintendo Switch Online」で本日追加。プラチナポイント交換グッズも登場。 | トピックス | Nintendo マザー2が追加されたので久々に登録 今年はsplatoon2とゼルダBoWの後編も出るようなので楽しみだ 今日のTabs</dd><dt><a href=/posts/2020/02/12/880385/><time datetime=2020-02-12>2020-02-12&ensp;(水)</time></a></dt><dd>goはerrorインターフェイスを持っている、
+type error interface { Error() string } よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。
+https://play.golang.org/p/cO0-r95Hd_r
+package main import ( "fmt" ) type Error struct { Msg string Code int } func (err *Error) Error() string { return fmt.Sprintf("ErrorMessage [%s], ErrorCode [%d]", err.Msg, err.Code) } func test() error { return &amp;Error{Msg: "file not found", Code: 2} } func main() { if err := test(); err != nil { fmt.Println(err) } } ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が
+The fmt package formats an error value by calling its Error() string method.
+https://blog.golang.org/error-handling-and-go</dd></dl><footer></footer></body></html>
