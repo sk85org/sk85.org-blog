@@ -1,17 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1108 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/1108/</link><description>Recent content in 1108 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Fri, 08 Nov 2024 01:09:18 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/1108/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-11-08[draft]</title><link>/posts/2024/11/08/498842/</link><pubDate>Fri, 08 Nov 2024 00:00:00 +0900</pubDate><guid>/posts/2024/11/08/498842/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>1108 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/1108/</link><description>Recent content in 1108 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 09 Nov 2024 00:18:01 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/1108/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-11-08[deletedプロセスの暴走/給食試食]</title><link>/posts/2024/11/08/498842/</link><pubDate>Fri, 08 Nov 2024 00:00:00 +0900</pubDate><guid>/posts/2024/11/08/498842/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>ガストで朝食&lt;/li>
+&lt;li>自宅で過ごす&lt;/li>
+&lt;li>昼食は学校給食の試食会
+&lt;ul>
+&lt;li>子供は親と一緒に給食が食べられると思って、絶対にきて欲しいと言っていたので参加。&lt;/li>
+&lt;li>うすうす気がついていたが、親だけでの試食らしい。&lt;/li>
+&lt;li>参加してみると、ほとんどの参加者が母親で居心地が悪かった。緊張した&lt;/li>
+&lt;li>子供が給食を食べているのを少し見学して規格&lt;/li>
+&lt;li>居心地は悪かったけど、行って良かったからな。ほかのお母さんとお話しできたし&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>午後からは在宅仕事&lt;/li>
+&lt;li>会議等を行なって 17:00 に退社&lt;/li>
+&lt;li>子供を小児科に連れて行き、インフルエンザワクチン接種&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>66&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2023-11-08</title><link>/posts/2023/11/08/407857/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0900</pubDate><guid>/posts/2023/11/08/407857/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>Mac の Deleted プロセスが暴走する&lt;br>
+MacOS Sequoia にアップデートしてからの症状。アクティビティモニタを確認すると deleted プロセスが常に動いている状態だった。
+&lt;a href="https://www.reddit.com/r/MacOS/comments/1g3pmuq/sequoia_deleted_process_has_a_constant_error/">Sequoia &amp;ldquo;deleted&amp;rdquo; process has a constant error: Unable to recycle fd for &lt;!-- raw HTML omitted -->: Operation not permitted&lt;/a>
+と全く同じ状態.&lt;br>
+log show &amp;ndash;debug &amp;ndash;predicate &amp;lsquo;processImagePath CONTAINS &amp;ldquo;deleted&amp;rdquo;&amp;rsquo; &amp;ndash;last 1s &amp;ndash;info&lt;br>
+とターミナルで打つと、Unable to recycle fd for &lt;!-- raw HTML omitted -->: Operation not permitted というエラーがいっぱい出る。&lt;br>
+Ony X でキャッシュを消したり、セーフモードで起動したり、&lt;a href="https://support.apple.com/ja-jp/102655">macOS を復旧インストール&lt;/a>してみたが改善しない。
+結局、&lt;a href="https://gori.me/mac/mac-tips/132332">ここにあるように&lt;/a>復旧アシスタントを使って OS を消去して、再度本体をアクティベート、Sequoia をクリーンインストール。
+最後に TimeMachine でデータを復旧させたら直ってくれた。&lt;/li>
+&lt;li>なぜか分からないけど、再インストールすると AirPods Pro を接続しているときにノイズが出る問題も解決した。&lt;/li>
+&lt;li>3D プリンタ (Ender 3 V2)を廃品回収に出したが、産業用とのことで引き取り拒否された。再度電話したら、間違いとのことで引き取ってもらえた。&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2023-11-08</title><link>/posts/2023/11/08/407857/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0900</pubDate><guid>/posts/2023/11/08/407857/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>眠り浅め&lt;/li>
 &lt;li>ミーティング&lt;/li>
