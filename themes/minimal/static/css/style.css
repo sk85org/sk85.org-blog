@@ -64,3 +64,35 @@ input[type=text] {
   border: 1.0px solid black;
   border-radius: 4px;
 }
+
+
+.hit-name {
+  margin-bottom: 0.1em;
+}
+
+.hit-comment {
+  background-color: aliceblue;
+  margin-bottom: 0.1em;
+}
+
+.hit-content {
+  margin-bottom: 0.1em;
+}
+
+.ais-InfiniteHits-list {
+  list-style-type: none;
+  padding-left: 0em;
+}
+
+.ais-InfiniteHits-item {
+  padding-bottom: 0.5em;
+}
+
+li.ais-InfiniteHits-item:before {
+  content: "";
+}
+
+li.ais-InfiniteHits-item {
+  text-indent:0em
+}
+
