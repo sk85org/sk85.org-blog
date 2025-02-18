@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025-02 on d.sk85.org</title><link>/archives/2025-02/</link><description>Recent content in 2025-02 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 18 Feb 2025 21:07:13 +0900</lastBuildDate><atom:link href="/archives/2025-02/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-02-18[有給 / hugoの検索をMeilisearchにする]</title><link>/posts/2025/02/18/437699/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/18/437699/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025-02 on d.sk85.org</title><link>/archives/2025-02/</link><description>Recent content in 2025-02 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 18 Feb 2025 22:50:34 +0900</lastBuildDate><atom:link href="/archives/2025-02/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-02-18[有給 / hugoの検索をMeilisearchにする]</title><link>/posts/2025/02/18/437699/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/18/437699/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>どうしようかなーと思ったけど、有給&lt;/li>
 &lt;li>meilisearch を使ったブログの検索の仕組みを作る&lt;/li>
@@ -7,12 +7,25 @@
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>歯医者で定期検診
+&lt;li>歯医者で定期検診とクリーニング
 &lt;ul>
 &lt;li>特に問題なし&lt;/li>
+&lt;li>次は 4 ヶ月後&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>スーパーに寄って 17:00 過ぎに子供を迎えにいく&lt;/li>
+&lt;li>歯医者に行っている時、歯の模型面白いなあと思ってアリエクで注文
+&lt;ul>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250218-13-45-29-t7ukNBtjvwT2o0Mv4l57.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20250218-13-45-29-t7ukNBtjvwT2o0Mv4l57.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
@@ -33,85 +46,158 @@
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-02-17[draft]</title><link>/posts/2025/02/17/199356/</link><pubDate>Mon, 17 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/17/199356/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-02-17[月曜]</title><link>/posts/2025/02/17/199356/</link><pubDate>Mon, 17 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/17/199356/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>早朝に服薬したためか、だるい&lt;/li>
+&lt;li>朝は調子悪かったが頑張って出社&lt;/li>
+&lt;li>自分の仕事&lt;/li>
+&lt;li>ミーティング&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>自分の仕事続き&lt;/li>
+&lt;li>気分は戻る&lt;/li>
+&lt;li>退社前にガラス器具が破裂するトラブル&lt;/li>
+&lt;li>社用 PC にも AHK と Clibor がインストールできることが判明して歓喜&lt;/li>
+&lt;li>19:00 前に退社&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>68&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-02-16[draft]</title><link>/posts/2025/02/16/206786/</link><pubDate>Sun, 16 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/16/206786/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>&lt;a href="https://tbsmcd.net/post/google-from-any-app-using-ahk/">AHK(AutoHotkey) V2.0 系で「どのアプリからでもコピペしてググる」 | tbsmcd.net&lt;/a>&lt;/li>
+&lt;li>3D プリンタで印刷したもの
+&lt;ul>
+&lt;li>&lt;a href="https://makerworld.com/en/models/620799?from=search#profileId-544821">FAST PRINT Box by user_1954899544 - MakerWorld&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://makerworld.com/en/models/1047815?from=search#profileId-1034040">Slide Floss Case / Small Parts Box by TuTu - MakerWorld&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://makerworld.com/en/models/1112667?from=recommend#profileId-1109537">Customizable Mini Pocket Container by Arc3dprinting - MakerWorld&lt;/a>
+&lt;ul>
+&lt;li>薄っぺらいので強度的に不安&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>これから印刷したいもの
+&lt;ul>
+&lt;li>&lt;a href="https://makerworld.com/en/models/730614#profileId-662252">Small Orange Vase by cshiam3D - MakerWorld&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul></description></item><item><title>2025-02-16[だらしがない日曜]</title><link>/posts/2025/02/16/206786/</link><pubDate>Sun, 16 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/16/206786/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>息子の朝食作り (パンとオムレツ)&lt;/li>
+&lt;li>チョコザップで運動&lt;/li>
+&lt;li>子供は水泳教室&lt;/li>
+&lt;li>奥さんと公園で遊んでいたので、逆上がり補助器具を持っていく
+&lt;ul>
+&lt;li>簡単に逆上がりができた&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>昼食はマクドナルド&lt;/li>
+&lt;li>僕以外は子供コンサート&lt;/li>
+&lt;li>自宅で過ごし、夕方ホームセンターでナットと O リングを買う
+&lt;ul>
+&lt;li>浴槽のゴム栓のチェーンが外れていたので修理&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夜、奥さんと少し口論&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>66&lt;/li>
+&lt;li>何もできない休日だった&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-02-15[draft]</title><link>/posts/2025/02/15/204622/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/15/204622/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-02-15[午前中はソワソワ]</title><link>/posts/2025/02/15/204622/</link><pubDate>Sat, 15 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/15/204622/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>仕事が進んでいない不安感で抑うつ的&lt;/li>
+&lt;li>子供の体操教室&lt;/li>
+&lt;li>昼食は自宅で&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>自宅で過ごす&lt;/li>
+&lt;li>奥さんは子供とボール教室へ&lt;/li>
+&lt;li>面倒で子供と銭湯行けなかった&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>朝の抑うつ感は昼過ぎには消えたかな&lt;/li>
+&lt;li>66&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-02-14[draft]</title><link>/posts/2025/02/14/992215/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/14/992215/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-02-14[深夜まで仕事]</title><link>/posts/2025/02/14/992215/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/14/992215/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>出社&lt;/li>
+&lt;li>調査業務&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>昼休みも仕事&lt;/li>
+&lt;li>昼から夕方までミーティング
+&lt;ul>
+&lt;li>なんだかなあ&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>仕事が進まず家に帰っても深夜まで調査業務&lt;/li>
+&lt;li>子供と銭湯に行く気になれなかった&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>64&lt;/li>
+&lt;li>調査が進まず嫌な感じ、わるくなりそう&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-02-13[draft]</title><link>/posts/2025/02/13/516120/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/13/516120/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-02-13[普通の木曜]</title><link>/posts/2025/02/13/516120/</link><pubDate>Thu, 13 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/13/516120/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>出社&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>兼務先ミーティング&lt;/li>
+&lt;li>ミーティング&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>定時に退社して急いで帰宅&lt;/li>
+&lt;li>認知行動療法を受ける
+&lt;ul>
+&lt;li>安定しているので、雑談ぽくなる&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>66&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-02-12[draft]</title><link>/posts/2025/02/12/992210/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/12/992210/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>子供の新しい自転車見に行かないと&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-02-12[ニトリでお布団を買う]</title><link>/posts/2025/02/12/992210/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/12/992210/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>出社&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>兼務先会議&lt;/li>
+&lt;li>その後、別の定期会議に出る&lt;/li>
+&lt;li>ほぼ定時に退社&lt;/li>
+&lt;li>赤羽のニトリで、通年で使える N ウォームの掛け布団(セミダブル)を買う&lt;/li>
+&lt;li>今夜から使っているが、足が出ないのが最高。体を伸ばして眠れる、買ってよかった。というかもっと早く買えばよかった。&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>66&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-02-11[まあまあ休日]</title><link>/posts/2025/02/11/742272/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/11/742272/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-02-11[まあまあ休日]</title><link>/posts/2025/02/11/742272/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/11/742272/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>朝食食べる&lt;/li>
 &lt;li>家族でスキップシティへ
