@@ -1,6 +1,6 @@
 const { searchClient } = instantMeiliSearch(
   'https://dsearch.sk85.org',
-  '',
+  '36b28bf9ad39d804a062105c8323177cb734366a8a4ca83e75330a6b6fb26960',
   {
     placeholderSearch: false,
     meiliSearchParams: {
