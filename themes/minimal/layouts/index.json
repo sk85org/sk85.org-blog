@@ -2,7 +2,7 @@
     {{- range where .Site.RegularPages "Section" "ne" "" -}}
        {{- if not .Params.noSearch -}}
           {{- if gt $i 0 }},{{ end -}}
-          {"id":{{ .Date | time.Format "20060102"}}{{string .Slug }}, "slug":{{string .Slug  }}, "date": {{ .Date | time.Format "2006-01-02" | jsonify}}, "url":"{{ $.Site.Params.rss_base_url }}{{ .Permalink }}", "title":{{ .Title | jsonify  }},  "content":{{ .Content | plainify | jsonify }} }
+          {"id":{{ .Date | time.Format "20060102"}}{{.Slug | jsonify }}, "slug":{{.Slug | jsonify}}, "date": {{ .Date | time.Format "2006-01-02" | jsonify}}, "url":"{{ $.Site.Params.rss_base_url }}{{ .Permalink }}", "title":{{ .Title | jsonify  }},  "content":{{ .Content | plainify | jsonify }} }
         {{- $i = add $i 1 -}}
     {{- end -}}
 {{- end -}} ]
