@@ -1,5 +1,5 @@
 const { searchClient } = instantMeiliSearch(
-  'http://192.168.0.104:7700',
+  'https://dsearch.sk85.org',
   '',
   {
     placeholderSearch: false,
@@ -39,7 +39,6 @@ search.addWidgets([
           <div class="hit-comment hit-comment-dark">
              {{#helpers.snippet}}{ "attribute": "content" }{{/helpers.snippet}}
           </div>
-          {{#helpers.snippet}}{ "attribute": "url" }{{/helpers.snippet}}
       `,
       empty: "" // Set empty template to an empty string, so nothing is shown when there are no hits.
     },
