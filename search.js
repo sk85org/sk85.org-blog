@@ -25,7 +25,7 @@ instantsearch.widgets.configure({
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
-    autofocus: true
+    autofocus: false
   }),
   instantsearch.widgets.infiniteHits({
     container: '#hits',
