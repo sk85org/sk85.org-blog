@@ -46,3 +46,24 @@ search.addWidgets([
 ])
 
 search.start()
+
+// DOMContentLoaded 時に URL パラメーター「q」を取得し、検索ボックスに代入
+document.addEventListener("DOMContentLoaded", function () {
+  // URL のクエリパラメーターを解析
+  const urlParams = new URLSearchParams(window.location.search);
+  // 「q」パラメーターを取得
+
+  const searchQuery = urlParams.get("q");
+  if (searchQuery) {
+    // 入力ボックスを取得（Algolia InstantSearch.js の searchBox ウィジェット内の要素）
+    const inputBox = document.querySelector(".ais-SearchBox-input");
+    if (inputBox) {
+      // 入力ボックスにパラメーターの値を設定
+      inputBox.value = searchQuery;
+      
+      // 入力値変更に応じた検索更新を実行するため、'input' イベントを発火
+      inputBox.dispatchEvent(new Event("input", { bubbles: true }));
+    }}
+    
+
+});

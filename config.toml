@@ -11,7 +11,7 @@ publishDir = "/Users/shuhei/hugo"
 [params]
   imgresourceserver = "https://img.sk85.org/imaginary/resize?"
   enable_search = true
-  searchserver_url = "https://dsearch.sk85.org/cgi/"
+  searchserver_url = "/search/"
   rss_base_url = 'https://d.sk85.org'
 
 [permalinks]
