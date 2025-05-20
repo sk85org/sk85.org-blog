@@ -1,82 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 20 May 2025 01:10:55 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-05-20[draft]</title><link>/posts/2025/05/20/632052/</link><pubDate>Tue, 20 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/20/632052/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 20 May 2025 22:44:37 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-05-20[やる気出ず2]</title><link>/posts/2025/05/20/632052/</link><pubDate>Tue, 20 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/20/632052/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>熱い一日&lt;/li>
+&lt;li>今日は子供の漢字の勉強が早く終わった&lt;/li>
+&lt;li>実験続き&lt;/li>
+&lt;li>ミーティング 2 つ&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>お昼は分析&lt;/li>
+&lt;li>だらだら実験して、ほぼ定時で退社&lt;/li>
+&lt;li>スーパーに寄って帰宅&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>70&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-05-19[draft]</title><link>/posts/2025/05/19/36072/</link><pubDate>Mon, 19 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/19/36072/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-05-19[やる気出ず]</title><link>/posts/2025/05/19/36072/</link><pubDate>Mon, 19 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/19/36072/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>涼しい一日&lt;/li>
+&lt;li>いつも通り出社&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ミーティング&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>昼休みを取る&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ほぼ定時で退社&lt;/li>
+&lt;li>夜は息子との夏旅行をどこに行くか検討
+&lt;ul>
+&lt;li>とりあえず千葉の大江戸温泉の予約を&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>24:30 ごろ就寝&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>70&lt;/li>
+&lt;li>お仕事頑張れなかった&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-05-18[draft]</title><link>/posts/2025/05/18/479326/</link><pubDate>Sun, 18 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/18/479326/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>ターミナル関係&lt;/li>
+&lt;li>&lt;a href="https://qiita.com/ryamate/items/075c34fcf29d0889c15a">Mac 初心者に優しいターミナルにする（iTerm2／Oh My Zsh）&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://ohmyz.sh">Oh My Zsh を入れてみた&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/peco/peco?tab=readme-ov-file">peco/peco: Simplistic interactive filtering tool&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="https://qiita.com/keisukee/items/9b815e56a173a281f42f">peco を使ったらターミナルの操作が劇的に効率化できた話&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://github.com/zsh-users/zsh-syntax-highlighting">zsh-users/zsh-syntax-highlighting: Fish shell like syntax highlighting for Zsh.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="https://zenn.dev/kujirahand/articles/a6f8e58ef58489">Rust 製の高性能コマンド 3 選&lt;/a>&lt;/li>
+&lt;li>広告ブロック&lt;/li>
+&lt;li>&lt;a href="https://ublacklist.github.io/ja/docs">uBlacklist&lt;/a>
+&lt;ul>
+&lt;li>uBlacklist は Google の検索結果をフィルタリングするブラウザ拡張機能です。Chrome、Firefox、Safari で使用できます。&lt;/li>
+&lt;li>サーチエンジン kagi でも使えるが、uBlacklist for Safari ではまだ対応していない&lt;/li>
+&lt;li>&lt;a href="https://github.com/Kdroidwin/uBlacklist-filter-by-kdroidwin">uBlacklist-filter-by-kdroidwin&lt;/a>
+&lt;ul>
+&lt;li>&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">日本最大のuBlacklistフィルターに&lt;br>&lt;br>〇いかがでしたかサイト を８割以上ブロック&lt;br>〇Pythonでアルファベット順にし、重複を削除しました。&lt;a href="https://t.co/sZC1xSqqyc">https://t.co/sZC1xSqqyc&lt;/a>&lt;/p>&amp;mdash; Kdroidwin (@Kdroidwin1) &lt;a href="https://twitter.com/Kdroidwin1/status/1856189724073001448?ref_src=twsrc%5Etfw">November 12, 2024&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-05-18[すぐに終わる日曜]</title><link>/posts/2025/05/18/479326/</link><pubDate>Sun, 18 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/18/479326/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>子供の朝食作り&lt;/li>
+&lt;li>ジムで運動&lt;/li>
+&lt;li>お昼は魁力屋&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>コモディイイダに寄って帰宅&lt;/li>
+&lt;li>夕方ニトリでスリッパを買う&lt;/li>
+&lt;li>夕食は軽めに&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>70&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-05-17[draft]</title><link>/posts/2025/05/17/555056/</link><pubDate>Sat, 17 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/17/555056/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-05-17[忙しかった]</title><link>/posts/2025/05/17/555056/</link><pubDate>Sat, 17 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/17/555056/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>一日中雨&lt;/li>
+&lt;li>昨日片付けられなかった勉強を見る&lt;/li>
+&lt;li>子供のプログラミング教室&lt;/li>
+&lt;li>自宅で昼食&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>夕方はボール教室
+&lt;ul>
+&lt;li>ひどくふざけたので、帰って強く叱責&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>夜、ジムで運動&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>70&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-05-16[draft]</title><link>/posts/2025/05/16/128748/</link><pubDate>Fri, 16 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/16/128748/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-05-16[子供の宿題見るの大変]</title><link>/posts/2025/05/16/128748/</link><pubDate>Fri, 16 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/16/128748/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>いつも通り出社&lt;/li>
+&lt;li>新卒面接&lt;/li>
+&lt;li>ミーティング&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>会議 2 つ&lt;/li>
+&lt;li>18 時前に退社&lt;/li>
+&lt;li>Z 会の宿題で昨日理解できなかったところを再度教える&lt;/li>
+&lt;li>算数は終わったが、国衙は終わらず、奥さんが口出ししてきて子供は泣くわで大変だった&lt;/li>
+&lt;li>水回りの清掃、ジム行けなかった&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>68&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-05-15[draft]</title><link>/posts/2025/05/15/448190/</link><pubDate>Thu, 15 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/15/448190/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-05-15[早く休みたい]</title><link>/posts/2025/05/15/448190/</link><pubDate>Thu, 15 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/15/448190/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>出社&lt;/li>
+&lt;li>実験&lt;/li>
+&lt;li>ミーティング 2 つ&lt;/li>
+&lt;li>昼も仕事&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>夕方に認知行動療法
+&lt;ul>
+&lt;li>不安感&amp;ndash;&amp;gt;できていない自分から目をそらしている &amp;ndash;&amp;gt; 不安だからできない、という言い訳になっている&lt;/li>
+&lt;li>ここを、どうやって認めてあげるか&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>19:00 ごろ退社&lt;/li>
+&lt;li>子供が Z 会の宿題を理解できず、奥さんはイライラして、子供は怒って、大変&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>68&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-05-14[子供が怪我をする]</title><link>/posts/2025/05/14/880377/</link><pubDate>Wed, 14 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/14/880377/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-05-14[子供が怪我をする]</title><link>/posts/2025/05/14/880377/</link><pubDate>Wed, 14 May 2025 00:00:00 +0900</pubDate><guid>/posts/2025/05/14/880377/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>朝は結構不安感が出てしまった&lt;/li>
 &lt;li>だるいが早めに出社&lt;/li>
