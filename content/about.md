@@ -10,7 +10,7 @@ title = "About"
 
 ### 連絡先
 
-{{< figure src="https://img.sk85.org/imaginary/resize?width=100&quality=100&file=20230226-00-02-38-IkYqVvDfnAKkrbG-DIKt.png">}}
+- 日本
 
 ### Private
 
@@ -68,3 +68,7 @@ VPS サーバーを indigo に変更
 
 - デザインをシンプルにする
 - n 年日記機能をつける
+
+#### 2025-02
+
+- 検索を Hyper Estraier から Meilisearch に変更してインクリメンタル検索を使えるようにした
