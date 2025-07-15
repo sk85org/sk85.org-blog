@@ -13,6 +13,8 @@ publishDir = "/Users/shuhei/hugo"
   enable_search = true
   searchserver_url = "/search/"
   rss_base_url = 'https://d.sk85.org'
+  memos_url = 'https://memos.sk85.org'
+  memos_with_displayTime = '/?filter=displayTime%3A'
 
 [permalinks]
   posts = "/:sections/:year/:month/:day/:slug/"
