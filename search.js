@@ -43,6 +43,10 @@ search.addWidgets([
       empty: "" // Set empty template to an empty string, so nothing is shown when there are no hits.
     },
   }),
+  instantsearch.widgets.refinementList({
+  container: '#refinement-list',
+  attribute: 'date',
+})
 ])
 
 search.start()
