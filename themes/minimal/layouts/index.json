@@ -6,6 +6,7 @@
         "id": {{ (print (.Date | time.Format "20060102") .Slug) | jsonify }},
         "slug": {{ .Slug | jsonify }},
         "date": {{ .Date | time.Format "2006-01-02" | jsonify }},
+        "year": {{ .Date | time.Format "2006" | jsonify }},
         "url": "{{ $.Site.Params.rss_base_url }}{{ .Permalink }}",
         "title": {{ .Title | jsonify }},
         "content": {{ .Content | plainify | jsonify }}
