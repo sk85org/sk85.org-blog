@@ -1,29 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diary on d.sk85.org</title><link>/tags/diary/</link><description>Recent content in Diary on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 31 Aug 2025 08:49:52 +0900</lastBuildDate><atom:link href="/tags/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-08-31[draft]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diary on d.sk85.org</title><link>/tags/diary/</link><description>Recent content in Diary on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 01 Sep 2025 00:12:21 +0900</lastBuildDate><atom:link href="/tags/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-08-31[スカイツリーへ行く。検索システムにカテゴリ検索を追加]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>子どもの朝食作り。ホットケーキを作る&lt;/li>
+&lt;li>子どもはスイミング&lt;/li>
+&lt;li>短時間ジムで運動&lt;/li>
+&lt;li>昼食は自宅で&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>永田町経由でスカイツリーに行く。人が多くてインバウンド絶好調ですなあ&lt;/li>
+&lt;li>奥さんと息子は昆虫博を見る&lt;/li>
+&lt;li>アイスなどを食べて 6 時前に帰宅&lt;/li>
+&lt;li>夜は回転寿司で夕食&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>70&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-08-30[またスマホの保護ガラスを割る]</title><link>/posts/2025/08/30/375933/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/30/375933/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
-&lt;li>火曜に割って、木曜に取り替えて、金曜の昼にまた割った&lt;/li>
+&lt;li>日記を投稿年でフィルターできるようにした。&lt;a href="/posts/2025/02/18/437699/">index.json&lt;/a>に year の項目を足して、Meilisearch に読み込ませる。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attributes">filterable-attributes&lt;/a>に追加しないとフィルターできないため、 year のみ filterable-attributes に追加。あとは Instant Meilisearch の RefinementList を利用。またデザインの変え方を忘れてしまっていてたのだが、style.css を上書きした。便利だがちょっと遅い気がする&lt;/li>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-30[またスマホの保護ガラスを割る]</title><link>/posts/2025/08/30/375933/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/30/375933/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>今日もクソ暑い&lt;/li>
+&lt;li>朝食後に水回りの清掃&lt;/li>
+&lt;li>久々に子どものプログラミング教室
+&lt;ul>
+&lt;li>モノレールを作ってとても楽しそうだった&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>M4 の MacBook Air が欲しくなるが、15 インチかあ&lt;/li>
+&lt;li>自宅で昼食&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>夕方子供をボール教室に連れて行く&lt;/li>
+&lt;li>夜も暑い、空気が重い&lt;/li>
+&lt;li>子どもの靴を洗って、ジムで短時間運動&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>70&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>火曜に割って、木曜に取り替えて、金曜の昼にまた割った。原因はわかっていて &lt;a href="/posts/2025/05/07/898534/">PITAKA のケース&lt;/a>が良くない。薄いのはいいが、ガラスフィルムを貼るとフィルムの方が飛び出している。またフィルムの最も弱いエッジが全く守られない。次買うなら、高いけど純正のシリコンケースかなあ。&lt;/li>
+&lt;li>ワイヤレス充電はバッテリ・本体共に相当熱くなることがわかり敬遠していて、それなら MagSafe 非対応の普通のシリコンケースでも良いかも。ケーブルがいらないのは便利なのだが、いかんせん発熱がすごい。&lt;/li>
+&lt;/ul>
 &lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-29[出張]</title><link>/posts/2025/08/29/388703/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/29/388703/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>海老名の研究所に出張&lt;/li>
@@ -26697,7 +26728,7 @@ Ony X でキャッシュを消したり、セーフモードで起動したり�
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="https://ja.m.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%83%80%E3%83%BB%E3%83%A9%E3%83%96%E3%83%AC%E3%82%B9">エイダ・ラブレス - Wikipedia&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>2022年行って良かったところ</title><link>/posts/2022/12/13/86545/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/86545/</guid><description>&lt;h3 id="権兵衛川hahahugoshortcode734s0hbhb">&lt;a href="/posts/2022/08/27/848387/">権兵衛川&lt;/a>&lt;/h3>
+&lt;/ul></description></item><item><title>2022年行って良かったところ</title><link>/posts/2022/12/13/86545/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/86545/</guid><description>&lt;h3 id="権兵衛川hahahugoshortcode737s0hbhb">&lt;a href="/posts/2022/08/27/848387/">権兵衛川&lt;/a>&lt;/h3>
 &lt;p>本当に良かった。僕が小さい頃に憧れていた、綺麗な川だ。来年は家族で行きたい&lt;/p></description></item><item><title>2022年買ってよかったもの</title><link>/posts/2022/12/13/373501/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/373501/</guid><description>&lt;p>結論: 今年はApple製品更新の年だった&lt;/p>
 &lt;h2 id="買ってとてもよかったもの">買ってとてもよかったもの&lt;/h2>
 &lt;ul>
@@ -39073,7 +39104,7 @@ M1と比べて数の暴力でトランジスタ数を上げてSoCのサイズを
 &lt;li>普通&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h4 id="qnapのts-251dhahahugoshortcode292s0hbhbが届く">&lt;a href="/posts/2021/10/06/373298/">QNAPのTS-251D&lt;/a>が届く&lt;/h4>
+&lt;h4 id="qnapのts-251dhahahugoshortcode295s0hbhbが届く">&lt;a href="/posts/2021/10/06/373298/">QNAPのTS-251D&lt;/a>が届く&lt;/h4>
 &lt;ul>
 &lt;li>TS-251D&lt;/li>
 &lt;li>W4N2400CM-8G*2&lt;/li>

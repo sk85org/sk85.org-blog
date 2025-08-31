@@ -49,7 +49,7 @@ search.addWidgets([
   transformItems(items) {
     // items配列をlabel（この場合は年）の降順でソートする
     // 文字列として比較するために localeCompare を使用します
-    return items.sort((a, b) => b.label.localeCompare(a.label));
+    return items.sort((a, b) => +b.label - +a.label);
   }
 })
 ])
