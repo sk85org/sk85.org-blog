@@ -96,3 +96,29 @@ li.ais-InfiniteHits-item {
   text-indent:0em
 }
 
+.ais-RefinementList-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0em;
+}
+
+.ais-RefinementList-item {
+   padding-left: 0.5em;
+}
+
+li.ais-RefinementList-item:before {
+  content: "";
+}
+
+span.ais-RefinementList-count::before {
+content: "(";
+}
+
+span.ais-RefinementList-count::after {
+content: ")";
+}
+
+li.ais-RefinementList-item {
+  text-indent:0em
+}
