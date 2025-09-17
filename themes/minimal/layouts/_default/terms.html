@@ -1,14 +1,63 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{- partial "search.html" . -}}
-{{ if eq .Data.Plural "archives" }} 
-<ul>
-  {{- $plural := .Data.Plural }}
-  {{- range $index, $term := .Data.Terms.Alphabetical.Reverse }}
-    <li><a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ $term.Name | urlize }}">{{ $term.Name }}</a> ({{ $term.Count }})
-  {{- end }}
-</ul>
 
+{{/* --- Archives Page Logic --- */}}
+{{ if eq .Data.Plural "archives" }} 
+
+  {{- /* タームを変数に格納し、ループの準備をします */ -}}
+  {{- $terms := .Data.Terms.Alphabetical.Reverse -}}
+  {{- $termCount := len $terms -}}
+  {{- $plural := .Data.Plural -}}
+  {{- $currentYear := "" -}}
+
+  {{- /* すべてのターム（例: "2025-09"）をループ処理します */ -}}
+  {{- range $index, $term := $terms }}
+    {{- /* ターム名から年（最初の4文字）を抽出します */ -}}
+    {{- $year := substr .Name 0 4 -}}
+
+    {{- /* 前のタームから年が変わったかチェックします */ -}}
+    {{- if ne $year $currentYear -}}
+      {{- /* これが最初の年のグループでなければ、前の年のコンテナを閉じます */ -}}
+      {{- if ne $currentYear "" -}}
+        </div>
+      {{- end }}
+      
+      {{- /* 新しい年を見出しとして表示します */ -}}
+      <h2>{{ $year }}</h2>
+      
+      {{- /* 新しい年のためのコンテナ（div）を開始します */ -}}
+      <div>
+      
+      {{- /* 現在の年の変数を更新します */ -}}
+      {{- $currentYear = $year -}}
+    {{- end -}}
+
+    {{- /* 月のリンクと記事数を表示します（リストタグなし） */ -}}
+    <a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ .Name | urlize }}">{{ .Name }}</a>&nbsp;({{ .Count }})
+
+    {{- /* 次のアイテムをチェックして、区切り文字を挿入するかどうかを判断します */ -}}
+    {{- $isLastOverall := eq (add $index 1) $termCount -}}
+    {{- $nextYear := "" -}}
+    {{- if not $isLastOverall -}}
+      {{- with index $terms (add $index 1) -}}
+        {{- $nextYear = substr .Name 0 4 -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- /* 次のアイテムが同じ年である場合にのみ区切り文字を追加します */ -}}
+    {{- if and (not $isLastOverall) (eq $year $nextYear) -}}
+      &nbsp;<span>/</span>&nbsp;
+    {{- end -}}
+
+  {{- end }}
+  
+  {{- /* 最後の年のコンテナを閉じます */ -}}
+  {{- if gt $termCount 0 -}}
+    </div>
+  {{- end -}}
+
+{{/* --- Tags Page Logic (or other taxonomies) --- */}}
 {{ else if eq .Data.Plural "tags" }} 
 
 <ul>
@@ -21,3 +70,4 @@
 {{ end }}
 
 {{ end }}
+
