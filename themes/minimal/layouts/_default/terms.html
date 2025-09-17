@@ -10,6 +10,7 @@
   {{- $termCount := len $terms -}}
   {{- $plural := .Data.Plural -}}
   {{- $currentYear := "" -}}
+  {{- $monthCounterInYear := 0 -}} {{/* 年内のカウンターを追加 */}}
 
   {{- /* すべてのターム（例: "2025-09"）をループ処理します */ -}}
   {{- range $index, $term := $terms }}
@@ -24,19 +25,24 @@
       {{- end }}
       
       {{- /* 新しい年を見出しとして表示します */ -}}
-      <h2>{{ $year }}</h2>
+      <h2 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem;">{{ $year }}</h2>
       
       {{- /* 新しい年のためのコンテナ（div）を開始します */ -}}
       <div>
       
-      {{- /* 現在の年の変数を更新します */ -}}
+      {{- /* 現在の年の変数を更新し、カウンターをリセットします */ -}}
       {{- $currentYear = $year -}}
+      {{- $monthCounterInYear = 0 -}}
     {{- end -}}
+
+    {{- /* 年内カウンターをインクリメント */}}
+    {{- $monthCounterInYear = add $monthCounterInYear 1 -}}
 
     {{- /* 月のリンクと記事数を表示します（リストタグなし） */ -}}
     <a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ .Name | urlize }}">{{ .Name }}</a>&nbsp;({{ .Count }})
 
-    {{- /* 次のアイテムをチェックして、区切り文字を挿入するかどうかを判断します */ -}}
+    {{- /* --- 区切り文字または改行を挿入するロジック --- */ -}}
+    {{- /* まず、現在のアイテムがその年の中で最後かどうかを判断します */ -}}
     {{- $isLastOverall := eq (add $index 1) $termCount -}}
     {{- $nextYear := "" -}}
     {{- if not $isLastOverall -}}
@@ -44,10 +50,15 @@
         {{- $nextYear = substr .Name 0 4 -}}
       {{- end -}}
     {{- end -}}
+    {{- $isLastInYear := or $isLastOverall (ne $year $nextYear) -}}
 
-    {{- /* 次のアイテムが同じ年である場合にのみ区切り文字を追加します */ -}}
-    {{- if and (not $isLastOverall) (eq $year $nextYear) -}}
-      &nbsp;<span>/</span>&nbsp;
+    {{- /* 年の最後のアイテムでなければ、区切り文字または改行を追加します */ -}}
+    {{- if not $isLastInYear -}}
+      {{- if eq (mod $monthCounterInYear 4) 0 -}}
+        <br>
+      {{- else -}}
+        <span>&nbsp;/&nbsp;</span>
+      {{- end -}}
     {{- end -}}
 
   {{- end }}
