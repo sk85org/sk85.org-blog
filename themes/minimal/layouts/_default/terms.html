@@ -39,7 +39,7 @@
     {{- $monthCounterInYear = add $monthCounterInYear 1 -}}
 
     {{- /* 月のリンクと記事数を表示します（リストタグなし） */ -}}
-    <a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ .Name | urlize }}">{{ .Name }}</a>&nbsp;({{ .Count }})
+    <a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ .Name | urlize }}">{{ .Name }}</a>&nbsp;
 
     {{- /* --- 区切り文字または改行を挿入するロジック --- */ -}}
     {{- /* まず、現在のアイテムがその年の中で最後かどうかを判断します */ -}}
