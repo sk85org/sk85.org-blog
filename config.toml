@@ -34,6 +34,13 @@ publishDir = "/Users/shuhei/hugo"
     weight = 5
 
   [[menu.main]]
+    identifier = "memos"
+    name = "memos"
+    title = "memos"
+    url = "https://memos.sk85.org"
+    weight = 4.5
+
+  [[menu.main]]
     identifier = "about"
     name = "about"
     title = "about"
