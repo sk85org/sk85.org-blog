@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Thu, 06 Nov 2025 01:11:32 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-06[draft]</title><link>/posts/2025/11/06/147567/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/06/147567/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Thu, 06 Nov 2025 23:05:15 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-06[draft]</title><link>/posts/2025/11/06/147567/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/06/147567/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>&lt;/li>
 &lt;/ul>
@@ -24,7 +24,7 @@
 &lt;li>&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-11-04[draft]</title><link>/posts/2025/11/04/242902/</link><pubDate>Tue, 04 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/04/242902/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-11-04[だるい火曜]</title><link>/posts/2025/11/04/242902/</link><pubDate>Tue, 04 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/04/242902/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>&lt;/li>
 &lt;/ul>
@@ -37,7 +37,7 @@
 &lt;li>&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-11-03[流山に行く/木枯らし一号]</title><link>/posts/2025/11/03/488859/</link><pubDate>Mon, 03 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/03/488859/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-11-03[流山に行く/木枯らし一号]</title><link>/posts/2025/11/03/488859/</link><pubDate>Mon, 03 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/03/488859/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>家族で午前から流山セントラルパークへ&lt;/li>
 &lt;li>公園で遊ぶ
@@ -63,6 +63,11 @@
 &lt;ul>
 &lt;li>風呂とトイレはミニマムで&lt;/li>
 &lt;/ul>
+&lt;/li>
+&lt;li>
+ &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/7synqOiMORc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+ &lt;/div>
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-11-02[ほぼ自宅で過ごす]</title><link>/posts/2025/11/02/642423/</link><pubDate>Sun, 02 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/02/642423/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
@@ -4176,10 +4181,7 @@ FRB が 9 月の利下げを指示。安定していたのであまり市場を�
 &lt;li>サーチエンジン kagi でも使えるが、uBlacklist for Safari ではまだ対応していない&lt;/li>
 &lt;li>&lt;a href="https://github.com/Kdroidwin/uBlacklist-filter-by-kdroidwin">uBlacklist-filter-by-kdroidwin&lt;/a>
 &lt;ul>
-&lt;li>&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">日本最大のuBlacklistフィルターに&lt;br>&lt;br>〇いかがでしたかサイト を８割以上ブロック&lt;br>〇Pythonでアルファベット順にし、重複を削除しました。&lt;a href="https://t.co/sZC1xSqqyc">https://t.co/sZC1xSqqyc&lt;/a>&lt;/p>&amp;mdash; Kdroidwin (@Kdroidwin1) &lt;a href="https://twitter.com/Kdroidwin1/status/1856189724073001448?ref_src=twsrc%5Etfw">November 12, 2024&lt;/a>&lt;/blockquote>
-&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
-
-&lt;/li>
+&lt;li>{&amp;lt; twitter user=&amp;ldquo;Kdroidwin1&amp;rdquo; id=&amp;ldquo;1856189724073001448&amp;rdquo; &amp;gt;}&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -29307,7 +29309,7 @@ FOMC の会見も&lt;a href="https://muragoe-makoto.blog.jp/archives/87489022.ht
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="https://ja.m.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%83%80%E3%83%BB%E3%83%A9%E3%83%96%E3%83%AC%E3%82%B9">エイダ・ラブレス - Wikipedia&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>2022年行って良かったところ</title><link>/posts/2022/12/13/86545/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/86545/</guid><description>&lt;h3 id="権兵衛川hahahugoshortcode734s0hbhb">&lt;a href="/posts/2022/08/27/848387/">権兵衛川&lt;/a>&lt;/h3>
+&lt;/ul></description></item><item><title>2022年行って良かったところ</title><link>/posts/2022/12/13/86545/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/86545/</guid><description>&lt;h3 id="権兵衛川hahahugoshortcode736s0hbhb">&lt;a href="/posts/2022/08/27/848387/">権兵衛川&lt;/a>&lt;/h3>
 &lt;p>本当に良かった。僕が小さい頃に憧れていた、綺麗な川だ。来年は家族で行きたい&lt;/p></description></item><item><title>2022年買ってよかったもの</title><link>/posts/2022/12/13/373501/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/373501/</guid><description>&lt;p>結論: 今年はApple製品更新の年だった&lt;/p>
 &lt;h2 id="買ってとてもよかったもの">買ってとてもよかったもの&lt;/h2>
 &lt;ul>
