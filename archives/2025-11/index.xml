@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025-11 on d.sk85.org</title><link>/archives/2025-11/</link><description>Recent content in 2025-11 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 09 Nov 2025 01:08:46 +0900</lastBuildDate><atom:link href="/archives/2025-11/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-09[draft]</title><link>/posts/2025/11/09/75417/</link><pubDate>Sun, 09 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/09/75417/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025-11 on d.sk85.org</title><link>/archives/2025-11/</link><description>Recent content in 2025-11 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 09 Nov 2025 18:06:59 +0900</lastBuildDate><atom:link href="/archives/2025-11/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-09[歯医者へ行く、リノベーション相談2社目]</title><link>/posts/2025/11/09/75417/</link><pubDate>Sun, 09 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/09/75417/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
+&lt;li>子どもの朝食作り&lt;/li>
+&lt;li>風呂掃除&lt;/li>
 &lt;li>&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
@@ -11,7 +13,29 @@
 &lt;li>&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-11-08[draft]</title><link>/posts/2025/11/08/524387/</link><pubDate>Sat, 08 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/08/524387/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>最後に散髪に行ったのがいつか知りたいので、検索結果を日付順でシートできるようにした
+&lt;ul>
+&lt;li>Meilisearch は UNIX timestamp で検索結果をソートすることができる。&lt;a href="https://www.meilisearch.com/docs/learn/filtering_and_sorting/working_with_dates">Filtering and sorting by date - Meilisearch Documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://d.sk85.org/index.json">https://d.sk85.org/index.json&lt;/a>にファイル作成日の timestamp を出力できるようにした&lt;/li>
+&lt;li>Meilisearch の 設定の中の sortable-attributes に timestamp の項目を追加するだけで時間順にソートすることができる&lt;/li>
+&lt;li>あとは、ranking-rules を[&amp;ldquo;words&amp;rdquo;,&amp;ldquo;exactness&amp;rdquo;,&amp;ldquo;sort&amp;rdquo;,&amp;ldquo;typo&amp;rdquo;,&amp;ldquo;proximity&amp;rdquo;,&amp;ldquo;attribute&amp;rdquo;]に変更してソートの優先度を上げてやる。
+&lt;ul>
+&lt;li>ここらへんはお好み&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ソートできるようにフロントエンドを修正して完成&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20251109-07-51-43-Xb2sOlBQlSmS_hdfVDDN.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20251109-07-51-43-Xb2sOlBQlSmS_hdfVDDN.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-11-08[draft]</title><link>/posts/2025/11/08/524387/</link><pubDate>Sat, 08 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/08/524387/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>&lt;/li>
 &lt;/ul>

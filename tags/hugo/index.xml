@@ -1,4 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on d.sk85.org</title><link>/tags/hugo/</link><description>Recent content in Hugo on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 29 Nov 2022 22:37:02 +0900</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>2022-11-27</title><link>/posts/2022/11/27/830636/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0900</pubDate><guid>/posts/2022/11/27/830636/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on d.sk85.org</title><link>/tags/hugo/</link><description>Recent content in Hugo on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 09 Nov 2025 18:06:59 +0900</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-09[歯医者へ行く、リノベーション相談2社目]</title><link>/posts/2025/11/09/75417/</link><pubDate>Sun, 09 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/09/75417/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>子どもの朝食作り&lt;/li>
+&lt;li>風呂掃除&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>最後に散髪に行ったのがいつか知りたいので、検索結果を日付順でシートできるようにした
+&lt;ul>
+&lt;li>Meilisearch は UNIX timestamp で検索結果をソートすることができる。&lt;a href="https://www.meilisearch.com/docs/learn/filtering_and_sorting/working_with_dates">Filtering and sorting by date - Meilisearch Documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://d.sk85.org/index.json">https://d.sk85.org/index.json&lt;/a>にファイル作成日の timestamp を出力できるようにした&lt;/li>
+&lt;li>Meilisearch の 設定の中の sortable-attributes に timestamp の項目を追加するだけで時間順にソートすることができる&lt;/li>
+&lt;li>あとは、ranking-rules を[&amp;ldquo;words&amp;rdquo;,&amp;ldquo;exactness&amp;rdquo;,&amp;ldquo;sort&amp;rdquo;,&amp;ldquo;typo&amp;rdquo;,&amp;ldquo;proximity&amp;rdquo;,&amp;ldquo;attribute&amp;rdquo;]に変更してソートの優先度を上げてやる。
+&lt;ul>
+&lt;li>ここらへんはお好み&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>ソートできるようにフロントエンドを修正して完成&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20251109-07-51-43-Xb2sOlBQlSmS_hdfVDDN.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20251109-07-51-43-Xb2sOlBQlSmS_hdfVDDN.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-31[スカイツリーへ行く。検索システムにカテゴリ検索を追加]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>子どもの朝食作り。ホットケーキを作る&lt;/li>
+&lt;li>子どもはスイミング&lt;/li>
+&lt;li>短時間ジムで運動&lt;/li>
+&lt;li>昼食は自宅で&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>永田町経由でスカイツリーに行く。人が多くてインバウンド絶好調ですなあ&lt;/li>
+&lt;li>奥さんと息子は昆虫博を見る&lt;/li>
+&lt;li>アイスなどを食べて 6 時前に帰宅&lt;/li>
+&lt;li>夜は回転寿司で夕食&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>70&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>日記を投稿年でフィルターできるようにした。&lt;a href="/posts/2025/02/18/437699/">index.json&lt;/a>に year の項目を足して、Meilisearch に読み込ませる。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attributes">filterable-attributes&lt;/a>に追加しないとフィルターできないため、 year のみ filterable-attributes に追加。あとは Instant Meilisearch の RefinementList を利用。またデザインの変え方を忘れてしまっていてたのだが、style.css を上書きした。便利だがちょっと遅い気がする&lt;/li>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://note.com/xcloche/n/n5cc0162fa607?sub_rt=share_pb">太陽光パネルはどれくらい悪いか計算する｜ xcloche&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-07/load-to-passkey-0.html">Passkey への道 #0: Intro | blog.jxck.io&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-25/digital-regacy.html">1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-16/load-to-passkey-9.html">Passkey への道 #9: ユーザに求められる令和のアカウントリテラシ | blog.jxck.io&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>2025-02-18[有給 / hugoの検索をMeilisearchにする]</title><link>/posts/2025/02/18/437699/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/18/437699/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+&lt;ul>
+&lt;li>どうしようかなーと思ったけど、有給&lt;/li>
+&lt;li>meilisearch を使ったブログの検索の仕組みを作る&lt;/li>
+&lt;li>株主優待の 1 年間チョコザップ半額に惹かれて、ライザップの株を 200 ばかり購入&lt;/li>
+&lt;li>電車で蕨にカツ丼を食べにいく、ちょっと小さくなったような&lt;/li>
+&lt;/ul>
+&lt;h2 id="午後">午後&lt;/h2>
+&lt;ul>
+&lt;li>歯医者で定期検診とクリーニング
+&lt;ul>
+&lt;li>特に問題なし&lt;/li>
+&lt;li>次は 4 ヶ月後&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>スーパーに寄って 17:00 過ぎに子供を迎えにいく&lt;/li>
+&lt;li>歯医者に行っている時、歯の模型面白いなあと思ってアリエクで注文
+&lt;ul>
+&lt;li>&lt;span class = "img" style='text-align:center;'>
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250218-13-45-29-t7ukNBtjvwT2o0Mv4l57.jpg">
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20250218-13-45-29-t7ukNBtjvwT2o0Mv4l57.jpg" loading=“lazy”>&lt;/a>
+ &lt;figcaption>
+ 
+ &lt;/figcaption>
+ &lt;/span>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="体調">体調&lt;/h2>
+&lt;ul>
+&lt;li>72&lt;/li>
+&lt;/ul>
+&lt;h2 id="その他">その他&lt;/h2>
+&lt;ul>
+&lt;li>最近は細かくお金を使わない生活を心がけている
+&lt;ul>
+&lt;li>使う時は使うが、自販機のペットボトル飲料とかは自粛&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>hugo の検索を Meilisearch にする (やっと)
+&lt;ul>
+&lt;li>やってることは簡単で、日記の更新時に自動的に/index.json を作成するようなテンプレートを作成する。n8n 経由で index.json を取得して、内容を Melisearch に REAT API を使って登録。n8n のワークフローは 1 日 1 回定期更新。公式の javascript ライブラリを使って、https://d.sk85.org/search/ から検索できるようにした。&lt;/li>
+&lt;li>Meilisearch は v1.12 を使用。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#localized-attributes">Localized attributes&lt;/a>という設定が使える様になり、日本語の漢字が中国語に誤認識されないようにデフォルト言語を日本語に変更できる。&lt;/li>
+&lt;li>長らく Hyper Estraier を使って検索してたが方法がシンプルになった。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-11-27</title><link>/posts/2022/11/27/830636/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0900</pubDate><guid>/posts/2022/11/27/830636/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>息子の朝食作り&lt;/li>
 &lt;li>息子は水泳&lt;/li>
