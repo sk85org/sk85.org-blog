@@ -55,7 +55,7 @@ search.addWidgets([
 instantsearch.widgets.sortBy({
     container: '#sort-by',
     items: [
-      { value: 'diary', label: '自動' }, // default index
+      { value: 'diary', label: '関連性順' }, // default index
       {
         value: 'diary:timestamp:desc', // Sort on descending price
         label: '最近->過去',

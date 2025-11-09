@@ -128,7 +128,7 @@ li.ais-RefinementList-item {
 /* 検索フォーム全体 */
 .ais-SearchBox-form {
   display: flex; /* ボタンと入力欄を横並びにする */
-  border: 2px solid #007bff; /* フォーム全体に青い枠線を追加 */
+  border: 2px solid #ccc; /* フォーム全体に青い枠線を追加 */
   border-radius: 8px; /* 角を丸くする */
   overflow: hidden; /* 角丸を適用するため */
   background-color: #f8f9fa; /* 背景色を薄いグレーに */
@@ -154,19 +154,13 @@ li.ais-RefinementList-item {
 .ais-SearchBox-input:focus {
   outline: none; /* フォーカス時の青い枠線（アウトライン）を削除 */
   box-shadow: none; /* ボックスシャドウも削除 */
+  border: 2px solid lightblue; /* フォーム全体に青い枠線を追加 */
 }
 
 /* 送信ボタン（虫眼鏡アイコン） */
 .ais-SearchBox-submit {
   display: none;
 }
-
-/* 送信ボタンのSVGアイコン */
-.ais-SearchBox-submit svg {
-  width: 20px; /* アイコンのサイズ */
-  height: 20px;
-}
-
 
 /* リセットボタン（×アイコン） */
 .ais-SearchBox-reset {
@@ -178,7 +172,27 @@ li.ais-RefinementList-item {
   display: none; /* 確実に非表示にする */
 }
 
-/* リセットボタン（ホバー時） */
-.ais-SearchBox-reset:hover svg {
-  color: #000; /* ホバー時に濃い色に */
+
+/* SortByコンポーネントのラッパー */
+.ais-SortBy {
+  display: inline-block; /* 他要素と並べやすくする */
+  background-color: #f8f9fa;
 }
+
+/* select要素（ドロップダウン本体） */
+.ais-SortBy-select {
+
+  /* ▼ 基本的なスタイル ▼ */
+  font-size: 16px;
+  color: #333; /* 文字色 */
+  background-color: transparent; /* 背景を透明にしてフォームの背景色を見せる */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none; /* フォーカス時の枠線を消す */
+
+  
+  /* 最小幅（必要に応じて調整） */
+  min-width: 150px; 
+}
+
