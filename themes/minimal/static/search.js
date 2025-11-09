@@ -51,7 +51,21 @@ search.addWidgets([
     // 文字列として比較するために localeCompare を使用します
     return items.sort((a, b) => +b.label - +a.label);
   }
-})
+}),
+instantsearch.widgets.sortBy({
+    container: '#sort-by',
+    items: [
+      { value: 'diary', label: '自動' }, // default index
+      {
+        value: 'diary:timestamp:desc', // Sort on descending price
+        label: '最近->過去',
+      },
+      {
+        value: 'diary:timestamp:asc', // Sort on ascending price
+        label: '過去->最近',
+      }
+    ],
+  }),
 ])
 
 search.start()
