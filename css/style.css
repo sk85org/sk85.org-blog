@@ -59,14 +59,24 @@ span.img{
   text-align: center;
 }
 
-input[type=text]:focus {
-  background-color: lightblue;
-}
+
+
+
 input[type=text] {
-  border: 1.0px solid black;
-  border-radius: 4px;
+  border: 1px solid black; /* フォーム全体に青い枠線を追加 */
+  border-radius: 4px; /* 角を丸くする */
+  overflow: hidden; /* 角丸を適用するため */
+  background-color: #f8f9fa; /* 背景色を薄いグレーに */
+  font-size: 16px; /* 文字サイズ */
+  color: #333; /* 文字色 */
+
 }
 
+input[type=text]:focus {
+  outline: none; /* フォーカス時の青い枠線（アウトライン）を削除 */
+  box-shadow: none; /* ボックスシャドウも削除 */
+  border: 2px solid steelblue; /* フォーム全体に青い枠線を追加 */
+}
 
 .hit-name {
   margin-bottom: 0.1em;
