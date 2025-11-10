@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2024-11 on d.sk85.org</title><link>/archives/2024-11/</link><description>Recent content in 2024-11 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 18 Jan 2025 22:12:56 +0900</lastBuildDate><atom:link href="/archives/2024-11/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-11-30[京都に行く]</title><link>/posts/2024/11/30/240868/</link><pubDate>Sat, 30 Nov 2024 00:00:00 +0900</pubDate><guid>/posts/2024/11/30/240868/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2024-11 on d.sk85.org</title><link>/archives/2024-11/</link><description>Recent content in 2024-11 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 10 Nov 2025 20:21:05 +0900</lastBuildDate><atom:link href="/archives/2024-11/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-11-30[京都に行く]</title><link>/posts/2024/11/30/240868/</link><pubDate>Sat, 30 Nov 2024 00:00:00 +0900</pubDate><guid>/posts/2024/11/30/240868/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>ホテルのサービス朝食、観光客か外国人でいっぱい&lt;/li>
 &lt;li>10:00 前に出発、新大阪経由で京都へ&lt;/li>
@@ -598,10 +598,10 @@
 &lt;ul>
 &lt;li>Mac の Deleted プロセスが暴走する&lt;br>
 MacOS Sequoia にアップデートしてからの症状。アクティビティモニタを確認すると deleted プロセスが常に動いている状態だった。
-&lt;a href="https://www.reddit.com/r/MacOS/comments/1g3pmuq/sequoia_deleted_process_has_a_constant_error/">Sequoia &amp;ldquo;deleted&amp;rdquo; process has a constant error: Unable to recycle fd for &lt;!-- raw HTML omitted -->: Operation not permitted&lt;/a>
+&lt;a href="https://www.reddit.com/r/MacOS/comments/1g3pmuq/sequoia_deleted_process_has_a_constant_error/">Sequoia &amp;ldquo;deleted&amp;rdquo; process has a constant error: Unable to recycle fd for private: Operation not permitted&lt;/a>
 と全く同じ状態.&lt;br>
 log show &amp;ndash;debug &amp;ndash;predicate &amp;lsquo;processImagePath CONTAINS &amp;ldquo;deleted&amp;rdquo;&amp;rsquo; &amp;ndash;last 1s &amp;ndash;info&lt;br>
-とターミナルで打つと、Unable to recycle fd for &lt;!-- raw HTML omitted -->: Operation not permitted というエラーがいっぱい出る。&lt;br>
+とターミナルで打つと、Unable to recycle fd for private: Operation not permitted というエラーがいっぱい出る。&lt;br>
 Ony X でキャッシュを消したり、セーフモードで起動したり、&lt;a href="https://support.apple.com/ja-jp/102655">macOS を復旧インストール&lt;/a>してみたが改善しない。
 結局、&lt;a href="https://gori.me/mac/mac-tips/132332">ここにあるように&lt;/a>復旧アシスタントを使って OS を消去して、再度本体をアクティベート、Sequoia をクリーンインストール。
 最後に TimeMachine でデータを復旧させたら直ってくれた。&lt;/li>

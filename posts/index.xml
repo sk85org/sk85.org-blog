@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 10 Nov 2025 01:08:59 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-10[draft]</title><link>/posts/2025/11/10/805483/</link><pubDate>Mon, 10 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/10/805483/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 10 Nov 2025 20:21:05 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-10[draft]</title><link>/posts/2025/11/10/805483/</link><pubDate>Mon, 10 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/10/805483/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
 &lt;li>&lt;/li>
 &lt;/ul>
@@ -13,17 +13,23 @@
 &lt;h2 id="その他">その他&lt;/h2>
 &lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2025-11-09[歯医者へ行く、リノベーション相談2社目]</title><link>/posts/2025/11/09/75417/</link><pubDate>Sun, 09 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/09/75417/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
+&lt;li>朝から雨で寒い&lt;/li>
 &lt;li>子どもの朝食作り&lt;/li>
 &lt;li>風呂掃除&lt;/li>
-&lt;li>&lt;/li>
+&lt;li>チョコスコーンを焼く&lt;/li>
+&lt;li>&lt;a href="/posts/2025/11/01/293604/">先日お願いしたところ&lt;/a>とは別のリフォーム屋さんに来ていただいて現地調査&lt;/li>
+&lt;li>スーパーでウーロン茶を買う&lt;/li>
 &lt;/ul>
 &lt;h2 id="午後">午後&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>自宅で昼食、珍しくパスタ&lt;/li>
+&lt;li>自分の定期歯科検診。院長先生にやってもらって 20 分で終了。いつもは歯科衛生士の方に 45 分ぐらいかけてやってもらうのだが、すごいスピードで丁寧さを感じなかったので大丈夫かなあと。&lt;/li>
+&lt;li>眼鏡を Zoff で直してもらい帰宅&lt;/li>
+&lt;li>奥さんと息子は駅前の図書館に行ってきたよう&lt;/li>
 &lt;/ul>
 &lt;h2 id="体調">体調&lt;/h2>
 &lt;ul>
-&lt;li>&lt;/li>
+&lt;li>80&lt;/li>
 &lt;/ul>
 &lt;h2 id="その他">その他&lt;/h2>
 &lt;ul>
@@ -9230,10 +9236,10 @@ S&amp;amp;P500 はトランプの関税政策からインフレがさらに長�
 &lt;ul>
 &lt;li>Mac の Deleted プロセスが暴走する&lt;br>
 MacOS Sequoia にアップデートしてからの症状。アクティビティモニタを確認すると deleted プロセスが常に動いている状態だった。
-&lt;a href="https://www.reddit.com/r/MacOS/comments/1g3pmuq/sequoia_deleted_process_has_a_constant_error/">Sequoia &amp;ldquo;deleted&amp;rdquo; process has a constant error: Unable to recycle fd for &lt;!-- raw HTML omitted -->: Operation not permitted&lt;/a>
+&lt;a href="https://www.reddit.com/r/MacOS/comments/1g3pmuq/sequoia_deleted_process_has_a_constant_error/">Sequoia &amp;ldquo;deleted&amp;rdquo; process has a constant error: Unable to recycle fd for private: Operation not permitted&lt;/a>
 と全く同じ状態.&lt;br>
 log show &amp;ndash;debug &amp;ndash;predicate &amp;lsquo;processImagePath CONTAINS &amp;ldquo;deleted&amp;rdquo;&amp;rsquo; &amp;ndash;last 1s &amp;ndash;info&lt;br>
-とターミナルで打つと、Unable to recycle fd for &lt;!-- raw HTML omitted -->: Operation not permitted というエラーがいっぱい出る。&lt;br>
+とターミナルで打つと、Unable to recycle fd for private: Operation not permitted というエラーがいっぱい出る。&lt;br>
 Ony X でキャッシュを消したり、セーフモードで起動したり、&lt;a href="https://support.apple.com/ja-jp/102655">macOS を復旧インストール&lt;/a>してみたが改善しない。
 結局、&lt;a href="https://gori.me/mac/mac-tips/132332">ここにあるように&lt;/a>復旧アシスタントを使って OS を消去して、再度本体をアクティベート、Sequoia をクリーンインストール。
 最後に TimeMachine でデータを復旧させたら直ってくれた。&lt;/li>
@@ -9685,7 +9691,7 @@ Ony X でキャッシュを消したり、セーフモードで起動したり�
 &lt;h2 id="その他">その他&lt;/h2>
 &lt;ul>
 &lt;li>M2 MBA というか OS の調子が悪い。&lt;/li>
-&lt;li>&lt;a href="https://www.reddit.com/r/MacOS/comments/1g3pmuq/sequoia_deleted_process_has_a_constant_error/">Sequoia &amp;ldquo;deleted&amp;rdquo; process has a constant error: Unable to recycle fd for &lt;!-- raw HTML omitted -->: Operation not permitted&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.reddit.com/r/MacOS/comments/1g3pmuq/sequoia_deleted_process_has_a_constant_error/">Sequoia &amp;ldquo;deleted&amp;rdquo; process has a constant error: Unable to recycle fd for private: Operation not permitted&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2024-10-21[在宅勤務]</title><link>/posts/2024/10/21/648398/</link><pubDate>Mon, 21 Oct 2024 00:00:00 +0900</pubDate><guid>/posts/2024/10/21/648398/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
 &lt;ul>
@@ -29448,7 +29454,7 @@ FOMC の会見も&lt;a href="https://muragoe-makoto.blog.jp/archives/87489022.ht
 &lt;/ul>
 &lt;/li>
 &lt;li>&lt;a href="https://ja.m.wikipedia.org/wiki/%E3%82%A8%E3%82%A4%E3%83%80%E3%83%BB%E3%83%A9%E3%83%96%E3%83%AC%E3%82%B9">エイダ・ラブレス - Wikipedia&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>2022年行って良かったところ</title><link>/posts/2022/12/13/86545/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/86545/</guid><description>&lt;h3 id="権兵衛川hahahugoshortcode736s0hbhb">&lt;a href="/posts/2022/08/27/848387/">権兵衛川&lt;/a>&lt;/h3>
+&lt;/ul></description></item><item><title>2022年行って良かったところ</title><link>/posts/2022/12/13/86545/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/86545/</guid><description>&lt;h3 id="権兵衛川hahahugoshortcode734s0hbhb">&lt;a href="/posts/2022/08/27/848387/">権兵衛川&lt;/a>&lt;/h3>
 &lt;p>本当に良かった。僕が小さい頃に憧れていた、綺麗な川だ。来年は家族で行きたい&lt;/p></description></item><item><title>2022年買ってよかったもの</title><link>/posts/2022/12/13/373501/</link><pubDate>Tue, 13 Dec 2022 00:00:00 +0900</pubDate><guid>/posts/2022/12/13/373501/</guid><description>&lt;p>結論: 今年はApple製品更新の年だった&lt;/p>
 &lt;h2 id="買ってとてもよかったもの">買ってとてもよかったもの&lt;/h2>
 &lt;ul>
@@ -51478,7 +51484,7 @@ sshでトンネルを掘ってsftpできるようになった&lt;/li>
 歯磨き等して23:50に再び布団に入る&lt;/p>
 &lt;p>ベンゾジアゼピンは毎食後1錠&lt;/p></description></item><item><title>思考の癖改善メモ</title><link>/posts/2021/02/07/872227/</link><pubDate>Sun, 07 Feb 2021 22:08:44 +0900</pubDate><guid>/posts/2021/02/07/872227/</guid><description>&lt;p>精神科医から指摘されたのは、過度のマイナス思考によるうつ状態
 改善のためのメモ&lt;/p>
-&lt;h3 id="u精神科医からのアドバイス-2021-02-07u">&lt;!-- raw HTML omitted -->精神科医からのアドバイス 2021-02-07&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="精神科医からのアドバイス-2021-02-07">精神科医からのアドバイス 2021-02-07&lt;/h3>
 &lt;p>劣等感と過剰な不安について&lt;/p>
 &lt;h4 id="自分と他人を置き換えて考える-客観視">自分と他人を置き換えて考える (客観視)&lt;/h4>
 &lt;p>相手がわからないからと言って、相手を劣った人間だと思いますか？ (私はそう思いません)&lt;br>
@@ -51486,7 +51492,7 @@ sshでトンネルを掘ってsftpできるようになった&lt;/li>
 生まれ持った性格はあるが、癖の部分は意識することで変えていける&lt;/p>
 &lt;h4 id="結果と過程を分ける">結果と過程を分ける&lt;/h4>
 &lt;p>結果を意識するから不安になる。まず結果を思考から排除して過程に集中&lt;/p>
-&lt;h3 id="u奥さんと話した内容-2021-02-07u">&lt;!-- raw HTML omitted -->奥さんと話した内容 2021-02-07&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="奥さんと話した内容-2021-02-07">奥さんと話した内容 2021-02-07&lt;/h3>
 &lt;h4 id="日曜日の憂鬱感">日曜日の憂鬱感&lt;/h4>
 &lt;p>奥さんにとって、日曜夕方が憂鬱なのは、また明日から仕事が始まるという憂鬱感。&lt;br>
 僕は「また明日から叱られないか, トラブルが起きないか, 指摘を受けないか, 嫌な気落ちにならないか」という不安があり憂鬱&lt;/p>
@@ -51496,11 +51502,11 @@ sshでトンネルを掘ってsftpできるようになった&lt;/li>
 &lt;h4 id="得意なことと苦手なこと">得意なことと苦手なこと&lt;/h4>
 &lt;p>大きな目標を与えられた時、具体的な戦略がない状態で目標を達成できるかばかりに焦点が行き不安になり、&lt;br>
 戦略を立てられなくなる。逆に細かいタスクの処理能力は高い&lt;/p>
-&lt;h3 id="u不安の広がり-2021-02-18u">&lt;!-- raw HTML omitted -->不安の広がり 2021-02-18&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="不安の広がり-2021-02-18">不安の広がり 2021-02-18&lt;/h3>
 &lt;p>不安が出始めるときは、最初に特定の具体的な不安があり、具体的な不安から具体性のない不安に薄く広がっていく。
 仕事に関する不安(スケジュールより遅れている等) &amp;ndash;&amp;gt; ちゃんとできるか？ &amp;ndash;&amp;gt; ちゃんとできないと評価が下がる, 叱責されるかも&lt;br>
 &amp;ndash;&amp;gt; 降格？ &amp;ndash;&amp;gt; 解雇 &amp;ndash;&amp;gt; 家族離散 ?&lt;/p>
-&lt;h3 id="u精神科医からのアドバイス-2021-02-19u">&lt;!-- raw HTML omitted -->精神科医からのアドバイス 2021-02-19&lt;!-- raw HTML omitted -->&lt;/h3>
+&lt;h3 id="精神科医からのアドバイス-2021-02-19">精神科医からのアドバイス 2021-02-19&lt;/h3>
 &lt;ul>
 &lt;li>天気で体調や倦怠感が変わる
 &lt;ul>
@@ -52820,7 +52826,7 @@ User=user
 
 [Install]
 WantedBy = multi-user.target
-&lt;/code>&lt;/pre></description></item><item><title>UQ mobileに移行した</title><link>/posts/2019/06/28/125688/</link><pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate><guid>/posts/2019/06/28/125688/</guid><description>&lt;p>SB → IIJmio → LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmioやLINE Mobileが悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安simだからと諦めていた(ただし&lt;!-- raw HTML omitted -->「1Mbps以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞るLINE Mobileはどうかと思う&lt;!-- raw HTML omitted -->)。計算してみるとUQでも月額は大きく変わらない。そして、お試しでUQから借りたsimで大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)&lt;/p>
+&lt;/code>&lt;/pre></description></item><item><title>UQ mobileに移行した</title><link>/posts/2019/06/28/125688/</link><pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate><guid>/posts/2019/06/28/125688/</guid><description>&lt;p>SB , IIJmio , LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmio や LINE Mobile が悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安 sim だからと諦めていた(ただし「1Mbps 以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞る LINE Mobile はどうかと思う)。計算してみると UQ でも月額は大きく変わらない。そして、お試しで UQ から借りた sim で大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)&lt;/p>
 &lt;h2 id="移行に必要な費用">移行に必要な費用&lt;/h2>
 &lt;table>
  &lt;thead>
@@ -52837,12 +52843,12 @@ WantedBy = multi-user.target
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>LINE MNP転出手数料&lt;/td>
+ &lt;td>LINE MNP 転出手数料&lt;/td>
  &lt;td>3240&lt;/td>
  &lt;td>&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td>UQ SIMパッケージ料金&lt;/td>
+ &lt;td>UQ SIM パッケージ料金&lt;/td>
  &lt;td>0&lt;/td>
  &lt;td>キャンペーンのため&lt;/td>
  &lt;/tr>
@@ -52854,7 +52860,7 @@ WantedBy = multi-user.target
  &lt;tr>
  &lt;td>端末売却&lt;/td>
  &lt;td>-13600&lt;/td>
- &lt;td>手持ちのsimフリー端末を使うため&lt;/td>
+ &lt;td>手持ちの sim フリー端末を使うため&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td>キャッシュバック&lt;/td>
@@ -52869,94 +52875,9 @@ WantedBy = multi-user.target
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="プラン選択">プラン選択&lt;/h2>
-&lt;p>UQ mobileは翌月のプランを自由に変更でき、なおかつ容量の繰越が可能。&lt;br>
-私の場合は通信量が4GB/monthのため、データを無駄なく消費しきれば、
-プランM (1ヶ月) → プランS (5ヶ月) → プランM → &amp;hellip; のサイクルとなる。&lt;br>
-繰越上限はプランMで6GB, プランSで2GBなので、それぞれのプランで「基本容量+繰越容量(基本データ分)」が12GBと4GBを超えることはない。
+&lt;p>UQ mobile は翌月のプランを自由に変更でき、なおかつ容量の繰越が可能。&lt;br>
+私の場合は通信量が 4GB/month のため、データを無駄なく消費しきれば、
+プラン M (1 ヶ月) &amp;ndash;&amp;gt; プラン S (5 ヶ月) &amp;ndash;&amp;gt; プラン M &amp;hellip; のサイクルとなる。&lt;br>
+繰越上限はプラン M で 6GB, プラン S で 2GB なので、それぞれのプランで「基本容量+繰越容量(基本データ分)」が 12GB と 4GB を超えることはない。
 また前月に繰越した容量は当月末まで有効。増量オプション付与容量は「追加購入容量」という扱いなので、
-基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから90日。(ややこしい)&lt;/p>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>月&lt;/th>
- &lt;th>プラン&lt;/th>
- &lt;th>基本容量&lt;/th>
- &lt;th>増量オプション付与&lt;/th>
- &lt;th>繰越容量(基本容量)&lt;/th>
- &lt;th>繰越容量(倍増オプション)&lt;/th>
- &lt;th>使用量&lt;/th>
- &lt;th>基本容量残量&lt;/th>
- &lt;th>増量オプション残量&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>1&lt;/td>
- &lt;td>M&lt;/td>
- &lt;td>6&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>-4&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>3&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>2&lt;/td>
- &lt;td>S&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>-4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>4&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>3&lt;/td>
- &lt;td>S&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>4&lt;/td>
- &lt;td>-4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>4&lt;/td>
- &lt;td>S&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>3&lt;/td>
- &lt;td>-4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>2&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>5&lt;/td>
- &lt;td>S&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>-4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>6&lt;/td>
- &lt;td>S&lt;/td>
- &lt;td>2&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>1&lt;/td>
- &lt;td>-4&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>0&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;p>ちなみに通信量を5GB/monthとすると、&lt;br>
-プランM (1ヶ月) → プランS (2ヶ月) → プランM → &amp;hellip; のサイクルとなる&lt;/p></description></item></channel></rss>
+基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから 90 日。(ややこしい)&lt;/p></description></item></channel></rss>
