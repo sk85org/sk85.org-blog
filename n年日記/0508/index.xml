@@ -142,8 +142,7 @@ NR200だと3.5インチHDD二台搭載できるのでRAID1なら十分そう。�
 &lt;/li>
 &lt;li>
 &lt;p>&lt;a href="https://www.youtube.com/watch?v=4rJtF1EtKIc">くるり - コトコトことでん (feat. 畳野彩加) - YouTube&lt;/a>
-
- &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4rJtF1EtKIc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/4rJtF1EtKIc?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 &lt;/p></description></item></channel></rss>

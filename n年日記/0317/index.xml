@@ -154,7 +154,7 @@
 &lt;a href="https://sho.tdiary.net/20201104.html#p01">Google ChromeからMicrosoft Edgeに乗り換え&lt;/a>&lt;/li>
 &lt;li>MIUIはDual Appsという単一のアプリを別のアプリとして複製する機能がある。この機能でEdgeを複製してMIUIの二画面昨日と組み合わせると快適にyoutubeをブラウザで見ながら別のブラウザでweb閲覧ができる。&lt;/li>
 &lt;/ul>
-&lt;h4 id="tailscalehttpstailscalecom">&lt;a href="https://tailscale.com">tailscale&lt;/a>&lt;/h4>
+&lt;h4 id="tailscale">&lt;a href="https://tailscale.com">tailscale&lt;/a>&lt;/h4>
 &lt;p>&lt;a href="https://ja.wikipedia.org/wiki/WireGuard">WireGuard&lt;/a>ベースのVPS接続管理ツールで使いやすそう。台数が増えてくると、入れてもよかと思うけど、現状で自宅のサーバーは一台だけなので、しばらくはsshのトンネルで運用&lt;/p>
 &lt;h5 id="メモ">メモ&lt;/h5>
 &lt;p>&lt;a href="https://blog.koh.dev/2020-01-01-vpn/">WireGuardでVPNごしに自宅サーバ開発できる環境を作った&lt;/a>&lt;/p>

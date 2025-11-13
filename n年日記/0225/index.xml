@@ -69,7 +69,7 @@
 &lt;li>村越さんによれば現在は金融相場なので、押し目を拾って業績相場を待つのが良いとのこと&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul></description></item><item><title>DockerとCloudFlare Tunnelを使って自宅サーバーにMisskeyのインスタンスを立てる</title><link>/posts/2023/02/25/217770/</link><pubDate>Sat, 25 Feb 2023 22:51:39 +0900</pubDate><guid>/posts/2023/02/25/217770/</guid><description>&lt;h2 id="misskeyhttpsmisskey-hubnet">&lt;a href="https://misskey-hub.net">Misskey&lt;/a>&lt;/h2>
+&lt;/ul></description></item><item><title>DockerとCloudFlare Tunnelを使って自宅サーバーにMisskeyのインスタンスを立てる</title><link>/posts/2023/02/25/217770/</link><pubDate>Sat, 25 Feb 2023 22:51:39 +0900</pubDate><guid>/posts/2023/02/25/217770/</guid><description>&lt;h2 id="misskey">&lt;a href="https://misskey-hub.net">Misskey&lt;/a>&lt;/h2>
 &lt;p>分散型 SNS である &lt;a href="https://misskey-hub.net">Misskey&lt;/a> のインスタンスを &lt;a href="https://misskey.sk85.org/">misskey.sk85.org/&lt;/a>に立てました。自分のサーバーなので当然広告無しで快適。細かいことを記録するのにとっても便利。&lt;/p>
 &lt;h2 id="docker-でインスタンスを立てる">Docker でインスタンスを立てる&lt;/h2>
 &lt;p>&lt;a href="https://misskey-hub.net/docs/install/docker.html">Docker Compose を使った Misskey 構築 | Misskey Hub&lt;/a>にほぼ従った。nginx をフロントエンドに使っているので、nginx から misskey のコンテナにプロキシしている。&lt;/p>
@@ -134,9 +134,8 @@
 &lt;ul>
 &lt;li>日食なつこ
 &lt;ul>
-&lt;li>
- &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/XijHok1RRtk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
+&lt;li>&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/XijHok1RRtk?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
  &lt;/div>
 &lt;/li>
 &lt;/ul>
