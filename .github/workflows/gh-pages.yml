@@ -8,10 +8,10 @@ on:
       - Daily Automated File Creation
       - Monthly Automated File Creation (investment)
     branches:
-      - main  # Set a branch to deploy
-    types: 
+      - main # Set a branch to deploy
+    types:
       - completed
-    
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -20,19 +20,19 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.147.3'
+          hugo-version: "0.152.2"
           # extended: true
 
       - name: Build
         run: hugo --gc --minify --cleanDestinationDir --destination public
         env:
-          TZ: 'Asia/Tokyo'
+          TZ: "Asia/Tokyo"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
