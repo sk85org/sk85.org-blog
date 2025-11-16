@@ -187,6 +187,7 @@ li.ais-RefinementList-item {
 .ais-SortBy {
   display: inline-block; /* 他要素と並べやすくする */
   background-color: #f8f9fa;
+  border-radius: 8px; /* 角を丸くする */
 }
 
 /* select要素（ドロップダウン本体） */
