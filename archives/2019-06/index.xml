@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2019-06 on d.sk85.org</title><link>/archives/2019-06/</link><description>Recent content in 2019-06 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 10 Nov 2025 20:21:05 +0900</lastBuildDate><atom:link href="/archives/2019-06/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugoで作った静的サイトのデータをgithubで管理する</title><link>/posts/2019/06/29/395779/</link><pubDate>Sat, 29 Jun 2019 13:23:38 +0900</pubDate><guid>/posts/2019/06/29/395779/</guid><description>&lt;p>hugoでサイトを作るにあたって、Markdownファイルやテンプレートはgithub上で管理している。&lt;br>
-github上のリポジトリにcommitがあるとgithubからwebhookが飛ぶ。&lt;br>
-それを受け取ったサーバー上でgit pullして同期、その後hugoでデプロイ&lt;/p>
-&lt;h3 id="webhookサーバーを書いた">Webhookサーバーを書いた&lt;/h3>
-&lt;p>&lt;a href="https://github.com/skt1984/webhook">skt1984/webhook&lt;/a>&lt;br>
-hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行したいシェルスクリプトを指定する。&lt;/p>
-&lt;pre tabindex="0">&lt;code>[
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2019-06 on d.sk85.org</title><link>/archives/2019-06/</link><description>Recent content in 2019-06 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 10 Nov 2025 20:21:05 +0900</lastBuildDate><atom:link href="/archives/2019-06/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugoで作った静的サイトのデータをgithubで管理する</title><link>/posts/2019/06/29/395779/</link><pubDate>Sat, 29 Jun 2019 13:23:38 +0900</pubDate><guid>/posts/2019/06/29/395779/</guid><description>&lt;p&gt;hugoでサイトを作るにあたって、Markdownファイルやテンプレートはgithub上で管理している。&lt;br&gt;
+github上のリポジトリにcommitがあるとgithubからwebhookが飛ぶ。&lt;br&gt;
+それを受け取ったサーバー上でgit pullして同期、その後hugoでデプロイ&lt;/p&gt;
+&lt;h3 id="webhookサーバーを書いた"&gt;Webhookサーバーを書いた&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/skt1984/webhook"&gt;skt1984/webhook&lt;/a&gt;&lt;br&gt;
+hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行したいシェルスクリプトを指定する。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[
  {
  &amp;#34;path&amp;#34;: &amp;#34;/hugo&amp;#34;,
  &amp;#34;name&amp;#34;: &amp;#34;put&amp;#34;,
@@ -16,21 +16,21 @@ hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行�
  &amp;#34;secret&amp;#34;: &amp;#34;secret_key&amp;#34;
  }
 ]
-&lt;/code>&lt;/pre>&lt;p>起動時にjsonファイルとポートの指定が可能&lt;/p>
-&lt;pre tabindex="0">&lt;code>./webhook -f hook.json -p :8080
-&lt;/code>&lt;/pre>&lt;p>github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定&lt;/p>
-&lt;p>まずローカルにGitHubのリポジトリをcloneする&lt;/p>
-&lt;pre tabindex="0">&lt;code>cd /home/username
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;起動時にjsonファイルとポートの指定が可能&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;./webhook -f hook.json -p :8080
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定&lt;/p&gt;
+&lt;p&gt;まずローカルにGitHubのリポジトリをcloneする&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;cd /home/username
 git clone git@github.com:username/repository.git
-&lt;/code>&lt;/pre>&lt;p>hugoのbinaryを入手&lt;/p>
-&lt;pre tabindex="0">&lt;code>cd /home/username/repository
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;hugoのbinaryを入手&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;cd /home/username/repository
 git pull
 cd /home/username/repository 
 /path/to/hugobinary/hugo -d /phome/username/public```
-&lt;/code>&lt;/pre>&lt;ul>
-&lt;li>systemdの登録について (userを指定しないとgitpull　できない・)&lt;/li>
-&lt;/ul>
-&lt;pre tabindex="0">&lt;code>[Unit]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;systemdの登録について (userを指定しないとgitpull　できない・)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[Unit]
 Description = webhook
 
 [Service]
@@ -41,58 +41,58 @@ User=user
 
 [Install]
 WantedBy = multi-user.target
-&lt;/code>&lt;/pre></description></item><item><title>UQ mobileに移行した</title><link>/posts/2019/06/28/125688/</link><pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate><guid>/posts/2019/06/28/125688/</guid><description>&lt;p>SB , IIJmio , LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmio や LINE Mobile が悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安 sim だからと諦めていた(ただし「1Mbps 以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞る LINE Mobile はどうかと思う)。計算してみると UQ でも月額は大きく変わらない。そして、お試しで UQ から借りた sim で大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)&lt;/p>
-&lt;h2 id="移行に必要な費用">移行に必要な費用&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th>項目&lt;/th>
- &lt;th>費用&lt;/th>
- &lt;th>備考&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td>LINE 解約手数料&lt;/td>
- &lt;td>10584&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>LINE MNP 転出手数料&lt;/td>
- &lt;td>3240&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>UQ SIM パッケージ料金&lt;/td>
- &lt;td>0&lt;/td>
- &lt;td>キャンペーンのため&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>端末代&lt;/td>
- &lt;td>31,644&lt;/td>
- &lt;td>HUAWEI nova lite3&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>端末売却&lt;/td>
- &lt;td>-13600&lt;/td>
- &lt;td>手持ちの sim フリー端末を使うため&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>キャッシュバック&lt;/td>
- &lt;td>-9000&lt;/td>
- &lt;td>入金は数カ後だが初期費用として扱う&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td>合計&lt;/td>
- &lt;td>22768&lt;/td>
- &lt;td>&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="プラン選択">プラン選択&lt;/h2>
-&lt;p>UQ mobile は翌月のプランを自由に変更でき、なおかつ容量の繰越が可能。&lt;br>
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>UQ mobileに移行した</title><link>/posts/2019/06/28/125688/</link><pubDate>Fri, 28 Jun 2019 22:40:36 +0900</pubDate><guid>/posts/2019/06/28/125688/</guid><description>&lt;p&gt;SB , IIJmio , LINE Mobile と渡り歩いて来たが、若干のお金で快適を買うことにした。IIJmio や LINE Mobile が悪いわけではなく、料金プランのシンプルさは素晴らしいし混雑時間帯以外はそこそこ快適、そして何より安い。混雑時間帯は格安 sim だからと諦めていた(ただし「1Mbps 以上キープチャレンジキャンペーン」とか言って「混雑時間帯も快適」をアピールして顧客を集めてから徐々に速度を絞る LINE Mobile はどうかと思う)。計算してみると UQ でも月額は大きく変わらない。そして、お試しで UQ から借りた sim で大手キャリアを使っていた頃は混雑時間帯にネットが普通に使えていたことを思い出したので移行を決意。キャッシュバックがもらえるため、代理店経由で申込み。(小銭稼ぎのアフィリエイトサイトではないので、リンクは張りません)&lt;/p&gt;
+&lt;h2 id="移行に必要な費用"&gt;移行に必要な費用&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;項目&lt;/th&gt;
+ &lt;th&gt;費用&lt;/th&gt;
+ &lt;th&gt;備考&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;LINE 解約手数料&lt;/td&gt;
+ &lt;td&gt;10584&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;LINE MNP 転出手数料&lt;/td&gt;
+ &lt;td&gt;3240&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;UQ SIM パッケージ料金&lt;/td&gt;
+ &lt;td&gt;0&lt;/td&gt;
+ &lt;td&gt;キャンペーンのため&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;端末代&lt;/td&gt;
+ &lt;td&gt;31,644&lt;/td&gt;
+ &lt;td&gt;HUAWEI nova lite3&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;端末売却&lt;/td&gt;
+ &lt;td&gt;-13600&lt;/td&gt;
+ &lt;td&gt;手持ちの sim フリー端末を使うため&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;キャッシュバック&lt;/td&gt;
+ &lt;td&gt;-9000&lt;/td&gt;
+ &lt;td&gt;入金は数カ後だが初期費用として扱う&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;合計&lt;/td&gt;
+ &lt;td&gt;22768&lt;/td&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="プラン選択"&gt;プラン選択&lt;/h2&gt;
+&lt;p&gt;UQ mobile は翌月のプランを自由に変更でき、なおかつ容量の繰越が可能。&lt;br&gt;
 私の場合は通信量が 4GB/month のため、データを無駄なく消費しきれば、
-プラン M (1 ヶ月) &amp;ndash;&amp;gt; プラン S (5 ヶ月) &amp;ndash;&amp;gt; プラン M &amp;hellip; のサイクルとなる。&lt;br>
+プラン M (1 ヶ月) &amp;ndash;&amp;gt; プラン S (5 ヶ月) &amp;ndash;&amp;gt; プラン M &amp;hellip; のサイクルとなる。&lt;br&gt;
 繰越上限はプラン M で 6GB, プラン S で 2GB なので、それぞれのプランで「基本容量+繰越容量(基本データ分)」が 12GB と 4GB を超えることはない。
 また前月に繰越した容量は当月末まで有効。増量オプション付与容量は「追加購入容量」という扱いなので、
-基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから 90 日。(ややこしい)&lt;/p></description></item></channel></rss>
+基本容量とは扱いが異なり、有効期限は最後に行ったデータチャージから 90 日。(ややこしい)&lt;/p&gt;</description></item></channel></rss>

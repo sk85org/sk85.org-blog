@@ -1,214 +1,214 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on d.sk85.org</title><link>/tags/hugo/</link><description>Recent content in Hugo on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Mon, 10 Nov 2025 20:21:05 +0900</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-09[歯医者へ行く、リノベーション相談2社目]</title><link>/posts/2025/11/09/75417/</link><pubDate>Sun, 09 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/09/75417/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>朝から雨で寒い&lt;/li>
-&lt;li>子どもの朝食作り&lt;/li>
-&lt;li>風呂掃除&lt;/li>
-&lt;li>チョコスコーンを焼く&lt;/li>
-&lt;li>&lt;a href="/posts/2025/11/01/293604/">先日お願いしたところ&lt;/a>とは別のリフォーム屋さんに来ていただいて現地調査&lt;/li>
-&lt;li>スーパーでウーロン茶を買う&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>自宅で昼食、珍しくパスタ&lt;/li>
-&lt;li>自分の定期歯科検診。院長先生にやってもらって 20 分で終了。いつもは歯科衛生士の方に 45 分ぐらいかけてやってもらうのだが、すごいスピードで丁寧さを感じなかったので大丈夫かなあと。&lt;/li>
-&lt;li>眼鏡を Zoff で直してもらい帰宅&lt;/li>
-&lt;li>奥さんと息子は駅前の図書館に行ってきたよう&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>80&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>最後に散髪に行ったのがいつか知りたいので、検索結果を日付順でシートできるようにした
-&lt;ul>
-&lt;li>Meilisearch は UNIX timestamp で検索結果をソートすることができる。&lt;a href="https://www.meilisearch.com/docs/learn/filtering_and_sorting/working_with_dates">Filtering and sorting by date - Meilisearch Documentation&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://d.sk85.org/index.json">https://d.sk85.org/index.json&lt;/a>にファイル作成日の timestamp を出力できるようにした&lt;/li>
-&lt;li>Meilisearch の 設定の中の sortable-attributes に timestamp の項目を追加するだけで時間順にソートすることができる&lt;/li>
-&lt;li>あとは、ranking-rules を[&amp;ldquo;words&amp;rdquo;,&amp;ldquo;exactness&amp;rdquo;,&amp;ldquo;sort&amp;rdquo;,&amp;ldquo;typo&amp;rdquo;,&amp;ldquo;proximity&amp;rdquo;,&amp;ldquo;attribute&amp;rdquo;]に変更してソートの優先度を上げてやる。
-&lt;ul>
-&lt;li>ここらへんはお好み&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>ソートできるようにフロントエンドを修正して完成&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20251109-07-51-43-Xb2sOlBQlSmS_hdfVDDN.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20251109-07-51-43-Xb2sOlBQlSmS_hdfVDDN.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on d.sk85.org</title><link>/tags/hugo/</link><description>Recent content in Hugo on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 16 Nov 2025 23:53:48 +0900</lastBuildDate><atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-11-09[歯医者へ行く、リノベーション相談2社目]</title><link>/posts/2025/11/09/75417/</link><pubDate>Sun, 09 Nov 2025 00:00:00 +0900</pubDate><guid>/posts/2025/11/09/75417/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;朝から雨で寒い&lt;/li&gt;
+&lt;li&gt;子どもの朝食作り&lt;/li&gt;
+&lt;li&gt;風呂掃除&lt;/li&gt;
+&lt;li&gt;チョコスコーンを焼く&lt;/li&gt;
+&lt;li&gt;&lt;a href="/posts/2025/11/01/293604/"&gt;先日お願いしたところ&lt;/a&gt;とは別のリフォーム屋さんに来ていただいて現地調査&lt;/li&gt;
+&lt;li&gt;スーパーでウーロン茶を買う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;自宅で昼食、珍しくパスタ&lt;/li&gt;
+&lt;li&gt;自分の定期歯科検診。院長先生にやってもらって 20 分で終了。いつもは歯科衛生士の方に 45 分ぐらいかけてやってもらうのだが、すごいスピードで丁寧さを感じなかったので大丈夫かなあと。&lt;/li&gt;
+&lt;li&gt;眼鏡を Zoff で直してもらい帰宅&lt;/li&gt;
+&lt;li&gt;奥さんと息子は駅前の図書館に行ってきたよう&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;80&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;最後に散髪に行ったのがいつか知りたいので、検索結果を日付順でシートできるようにした
+&lt;ul&gt;
+&lt;li&gt;Meilisearch は UNIX timestamp で検索結果をソートすることができる。&lt;a href="https://www.meilisearch.com/docs/learn/filtering_and_sorting/working_with_dates"&gt;Filtering and sorting by date - Meilisearch Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://d.sk85.org/index.json"&gt;https://d.sk85.org/index.json&lt;/a&gt;にファイル作成日の timestamp を出力できるようにした&lt;/li&gt;
+&lt;li&gt;Meilisearch の 設定の中の sortable-attributes に timestamp の項目を追加するだけで時間順にソートすることができる&lt;/li&gt;
+&lt;li&gt;あとは、ranking-rules を[&amp;ldquo;words&amp;rdquo;,&amp;ldquo;exactness&amp;rdquo;,&amp;ldquo;sort&amp;rdquo;,&amp;ldquo;typo&amp;rdquo;,&amp;ldquo;proximity&amp;rdquo;,&amp;ldquo;attribute&amp;rdquo;]に変更してソートの優先度を上げてやる。
+&lt;ul&gt;
+&lt;li&gt;ここらへんはお好み&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;ソートできるようにフロントエンドを修正して完成&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20251109-07-51-43-Xb2sOlBQlSmS_hdfVDDN.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20251109-07-51-43-Xb2sOlBQlSmS_hdfVDDN.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-31[スカイツリーへ行く。検索システムにカテゴリ検索を追加]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子どもの朝食作り。ホットケーキを作る&lt;/li>
-&lt;li>子どもはスイミング&lt;/li>
-&lt;li>短時間ジムで運動&lt;/li>
-&lt;li>昼食は自宅で&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>永田町経由でスカイツリーに行く。人が多くてインバウンド絶好調ですなあ&lt;/li>
-&lt;li>奥さんと息子は昆虫博を見る&lt;/li>
-&lt;li>アイスなどを食べて 6 時前に帰宅&lt;/li>
-&lt;li>夜は回転寿司で夕食&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>日記を投稿年でフィルターできるようにした。&lt;a href="/posts/2025/02/18/437699/">index.json&lt;/a>に year の項目を足して、Meilisearch に読み込ませる。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attributes">filterable-attributes&lt;/a>に追加しないとフィルターできないため、 year のみ filterable-attributes に追加。あとは Instant Meilisearch の RefinementList を利用。またデザインの変え方を忘れてしまっていてたのだが、style.css を上書きした。便利だがちょっと遅い気がする&lt;/li>
-&lt;li>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-31[スカイツリーへ行く。検索システムにカテゴリ検索を追加]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子どもの朝食作り。ホットケーキを作る&lt;/li&gt;
+&lt;li&gt;子どもはスイミング&lt;/li&gt;
+&lt;li&gt;短時間ジムで運動&lt;/li&gt;
+&lt;li&gt;昼食は自宅で&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;永田町経由でスカイツリーに行く。人が多くてインバウンド絶好調ですなあ&lt;/li&gt;
+&lt;li&gt;奥さんと息子は昆虫博を見る&lt;/li&gt;
+&lt;li&gt;アイスなどを食べて 6 時前に帰宅&lt;/li&gt;
+&lt;li&gt;夜は回転寿司で夕食&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;日記を投稿年でフィルターできるようにした。&lt;a href="/posts/2025/02/18/437699/"&gt;index.json&lt;/a&gt;に year の項目を足して、Meilisearch に読み込ませる。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attributes"&gt;filterable-attributes&lt;/a&gt;に追加しないとフィルターできないため、 year のみ filterable-attributes に追加。あとは Instant Meilisearch の RefinementList を利用。またデザインの変え方を忘れてしまっていてたのだが、style.css を上書きした。便利だがちょっと遅い気がする&lt;/li&gt;
+&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://note.com/xcloche/n/n5cc0162fa607?sub_rt=share_pb">太陽光パネルはどれくらい悪いか計算する｜ xcloche&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-07/load-to-passkey-0.html">Passkey への道 #0: Intro | blog.jxck.io&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-25/digital-regacy.html">1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-16/load-to-passkey-9.html">Passkey への道 #9: ユーザに求められる令和のアカウントリテラシ | blog.jxck.io&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>2025-02-18[有給 / hugoの検索をMeilisearchにする]</title><link>/posts/2025/02/18/437699/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/18/437699/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>どうしようかなーと思ったけど、有給&lt;/li>
-&lt;li>meilisearch を使ったブログの検索の仕組みを作る&lt;/li>
-&lt;li>株主優待の 1 年間チョコザップ半額に惹かれて、ライザップの株を 200 ばかり購入&lt;/li>
-&lt;li>電車で蕨にカツ丼を食べにいく、ちょっと小さくなったような&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>歯医者で定期検診とクリーニング
-&lt;ul>
-&lt;li>特に問題なし&lt;/li>
-&lt;li>次は 4 ヶ月後&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>スーパーに寄って 17:00 過ぎに子供を迎えにいく&lt;/li>
-&lt;li>歯医者に行っている時、歯の模型面白いなあと思ってアリエクで注文
-&lt;ul>
-&lt;li>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250218-13-45-29-t7ukNBtjvwT2o0Mv4l57.jpg">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20250218-13-45-29-t7ukNBtjvwT2o0Mv4l57.jpg" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://note.com/xcloche/n/n5cc0162fa607?sub_rt=share_pb"&gt;太陽光パネルはどれくらい悪いか計算する｜ xcloche&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-07/load-to-passkey-0.html"&gt;Passkey への道 #0: Intro | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-25/digital-regacy.html"&gt;1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-16/load-to-passkey-9.html"&gt;Passkey への道 #9: ユーザに求められる令和のアカウントリテラシ | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>2025-02-18[有給 / hugoの検索をMeilisearchにする]</title><link>/posts/2025/02/18/437699/</link><pubDate>Tue, 18 Feb 2025 00:00:00 +0900</pubDate><guid>/posts/2025/02/18/437699/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;どうしようかなーと思ったけど、有給&lt;/li&gt;
+&lt;li&gt;meilisearch を使ったブログの検索の仕組みを作る&lt;/li&gt;
+&lt;li&gt;株主優待の 1 年間チョコザップ半額に惹かれて、ライザップの株を 200 ばかり購入&lt;/li&gt;
+&lt;li&gt;電車で蕨にカツ丼を食べにいく、ちょっと小さくなったような&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;歯医者で定期検診とクリーニング
+&lt;ul&gt;
+&lt;li&gt;特に問題なし&lt;/li&gt;
+&lt;li&gt;次は 4 ヶ月後&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;スーパーに寄って 17:00 過ぎに子供を迎えにいく&lt;/li&gt;
+&lt;li&gt;歯医者に行っている時、歯の模型面白いなあと思ってアリエクで注文
+&lt;ul&gt;
+&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250218-13-45-29-t7ukNBtjvwT2o0Mv4l57.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20250218-13-45-29-t7ukNBtjvwT2o0Mv4l57.jpg" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>72&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>最近は細かくお金を使わない生活を心がけている
-&lt;ul>
-&lt;li>使う時は使うが、自販機のペットボトル飲料とかは自粛&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>hugo の検索を Meilisearch にする (やっと)
-&lt;ul>
-&lt;li>やってることは簡単で、日記の更新時に自動的に/index.json を作成するようなテンプレートを作成する。n8n 経由で index.json を取得して、内容を Melisearch に REAT API を使って登録。n8n のワークフローは 1 日 1 回定期更新。公式の javascript ライブラリを使って、https://d.sk85.org/search/ から検索できるようにした。&lt;/li>
-&lt;li>Meilisearch は v1.12 を使用。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#localized-attributes">Localized attributes&lt;/a>という設定が使える様になり、日本語の漢字が中国語に誤認識されないようにデフォルト言語を日本語に変更できる。&lt;/li>
-&lt;li>長らく Hyper Estraier を使って検索してたが方法がシンプルになった。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-11-27</title><link>/posts/2022/11/27/830636/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0900</pubDate><guid>/posts/2022/11/27/830636/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>息子の朝食作り&lt;/li>
-&lt;li>息子は水泳&lt;/li>
-&lt;li>近くのハンバーガー屋で作業&lt;/li>
-&lt;li>息子の喘息の薬を処方してもらうために病院に&lt;/li>
-&lt;li>スーパーに寄って帰宅&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>息子はお母さんと公園に&lt;/li>
-&lt;li>僕はDVDを借りてきて、自宅でダラダラと過ごす&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>明日からの実験がうまくいくか不安&lt;/li>
-&lt;li>やや気持ちが落ち気味&lt;/li>
-&lt;li>早めに就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>Hugoのテーマを新しくした</title><link>/posts/2022/11/27/943256/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0900</pubDate><guid>/posts/2022/11/27/943256/</guid><description>&lt;ul>
-&lt;li>hugoのテーマを新しくした&lt;/li>
-&lt;li>&lt;a href="https://themes.gohugo.io/themes/accessible-minimalism-hugo-theme/">Accessible Minimalism | Hugo Themes&lt;/a>をベースに&lt;a href="https://tbsmcd.net/">Index | tbsmcd.net&lt;/a>を参考に
-&lt;ul>
-&lt;li>シンプルにしたので随分見やすくなった&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Hyper Nikki Systemにあるようなn年日記を追加
-&lt;ul>
-&lt;li>&lt;a href="http://localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/1127/">d.sk85.org | 1127&lt;/a>&lt;/li>
-&lt;li>こんな感じで過去の同じ月と日の日記が見える&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>細かい修正とダークモードを追加しないと&lt;/li>
-&lt;/ul></description></item><item><title>2021-08-21</title><link>/posts/2021/08/21/126670/</link><pubDate>Sat, 21 Aug 2021 17:14:16 +0900</pubDate><guid>/posts/2021/08/21/126670/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>息子朝から熱が高め&lt;/li>
-&lt;li>小児科に連れて行く、混んでいた
-&lt;ul>
-&lt;li>RSVと&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%88%E3%83%A1%E3%82%BF%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A2%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9">hMPV&lt;/a>はマイナス&lt;/li>
-&lt;li>ネブライザーで気管支拡張薬吸引&lt;/li>
-&lt;li>&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%84%E3%83%AD%E3%83%96%E3%83%86%E3%83%AD%E3%83%BC%E3%83%AB">ツロブテロール貼付剤&lt;/a>と風邪薬と座薬を処方された&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>しんどいのか食欲なし&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>長時間お昼寝&lt;/li>
-&lt;li>図書館で本を借りてくる
-&lt;ul>
-&lt;li>&lt;a href="https://calil.jp/book/4334044956">正義を振りかざす「極端な人」の正体 (光文社新書) | カーリル&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>夕食も食欲なし&lt;/li>
-&lt;li>座薬を入れて就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>普通&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h4 id="github-actions">GitHub Actions&lt;/h4>
-&lt;p>&lt;a href="https://github.com/sk85org/sk85.org-blog/tree/main/.github/workflows">sk85.org-blog/.github/workflows/&lt;/a>&lt;br>
-GithubActionsを利用して日記ファイル(md形式)をテンプレートエンジンで定期作成して、サーバーにデプロイするようにした。Keyboard Maestroのスクリプトでも簡単に作れるけど、GitHubのコードエディタでも作れるとipadでの編集が楽かなと思って。GitHub ActionsはUTCで動いているので、起動する時間に注意が必要。ジョブを実行するマシンではタイムゾーンを設定するとJSTで書ける。&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://docs.github.com/ja/actions/reference/events-that-trigger-workflows#scheduled-events">ワークフローをトリガーするイベント&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://crontab.guru/">Crontab.guru - The cron schedule expression editor&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.kaizenprogrammer.com/entry/2020/06/19/085529">『GitHub Actions 実践入門』の商業版が販売開始しました - 生産性向上ブログ&lt;/a>を購入&lt;/li>
-&lt;/ul></description></item><item><title>hugoのURL構成を変更した</title><link>/posts/2020/12/13/388521/</link><pubDate>Sun, 13 Dec 2020 23:05:43 +0900</pubDate><guid>/posts/2020/12/13/388521/</guid><description>&lt;p>フォルダでの管理をやめ、contents/post以下に YYYYMMDD_XXXXXX.md 命名ルール (X:数字)のファイルを置くようにした。&lt;br>
-ファイルのフロントマターにslug: XXXXXXを指定するようにした。&lt;br>
-URLの構成を変えて、/posts/YYYY/MM/DD/XXXXXX/でアクセスできるようにしたので、&lt;br>
-一日に複数の記事をかけるようになった。分類はtagのみ。&lt;/p></description></item><item><title>hugoのデプロイ方法を変更した</title><link>/posts/2020/12/13/758287/</link><pubDate>Sun, 13 Dec 2020 14:38:13 +0900</pubDate><guid>/posts/2020/12/13/758287/</guid><description>&lt;p>conoha VPSへの移行に伴って、hugoのデプロイ方法を変更した。&lt;br>
-今までは、GitHubにpushするとGitHubからVPSにWebhookが飛び、&lt;br>
-それを起点にVPSからリポジトリをpullして、VPS上でデプロイしていた。&lt;/p>
-&lt;p>それを変更し、Gtihub actionを利用してpushを起点にしてVPSに&lt;br>
-変更ファイルをrsyncして、VPS側で静的ファイルを出力するように変更した。&lt;br>
-VPSへの同期の方法しか変わっていないが、VPS側でwebhookサーバーを立てる必要がなくなった。&lt;/p></description></item><item><title>Hugoで作った静的サイトのデータをgithubで管理する</title><link>/posts/2019/06/29/395779/</link><pubDate>Sat, 29 Jun 2019 13:23:38 +0900</pubDate><guid>/posts/2019/06/29/395779/</guid><description>&lt;p>hugoでサイトを作るにあたって、Markdownファイルやテンプレートはgithub上で管理している。&lt;br>
-github上のリポジトリにcommitがあるとgithubからwebhookが飛ぶ。&lt;br>
-それを受け取ったサーバー上でgit pullして同期、その後hugoでデプロイ&lt;/p>
-&lt;h3 id="webhookサーバーを書いた">Webhookサーバーを書いた&lt;/h3>
-&lt;p>&lt;a href="https://github.com/skt1984/webhook">skt1984/webhook&lt;/a>&lt;br>
-hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行したいシェルスクリプトを指定する。&lt;/p>
-&lt;pre tabindex="0">&lt;code>[
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;72&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;最近は細かくお金を使わない生活を心がけている
+&lt;ul&gt;
+&lt;li&gt;使う時は使うが、自販機のペットボトル飲料とかは自粛&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;hugo の検索を Meilisearch にする (やっと)
+&lt;ul&gt;
+&lt;li&gt;やってることは簡単で、日記の更新時に自動的に/index.json を作成するようなテンプレートを作成する。n8n 経由で index.json を取得して、内容を Melisearch に REAT API を使って登録。n8n のワークフローは 1 日 1 回定期更新。公式の javascript ライブラリを使って、https://d.sk85.org/search/ から検索できるようにした。&lt;/li&gt;
+&lt;li&gt;Meilisearch は v1.12 を使用。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#localized-attributes"&gt;Localized attributes&lt;/a&gt;という設定が使える様になり、日本語の漢字が中国語に誤認識されないようにデフォルト言語を日本語に変更できる。&lt;/li&gt;
+&lt;li&gt;長らく Hyper Estraier を使って検索してたが方法がシンプルになった。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2022-11-27</title><link>/posts/2022/11/27/830636/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0900</pubDate><guid>/posts/2022/11/27/830636/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;息子の朝食作り&lt;/li&gt;
+&lt;li&gt;息子は水泳&lt;/li&gt;
+&lt;li&gt;近くのハンバーガー屋で作業&lt;/li&gt;
+&lt;li&gt;息子の喘息の薬を処方してもらうために病院に&lt;/li&gt;
+&lt;li&gt;スーパーに寄って帰宅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;息子はお母さんと公園に&lt;/li&gt;
+&lt;li&gt;僕はDVDを借りてきて、自宅でダラダラと過ごす&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;明日からの実験がうまくいくか不安&lt;/li&gt;
+&lt;li&gt;やや気持ちが落ち気味&lt;/li&gt;
+&lt;li&gt;早めに就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>Hugoのテーマを新しくした</title><link>/posts/2022/11/27/943256/</link><pubDate>Sun, 27 Nov 2022 00:00:00 +0900</pubDate><guid>/posts/2022/11/27/943256/</guid><description>&lt;ul&gt;
+&lt;li&gt;hugoのテーマを新しくした&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://themes.gohugo.io/themes/accessible-minimalism-hugo-theme/"&gt;Accessible Minimalism | Hugo Themes&lt;/a&gt;をベースに&lt;a href="https://tbsmcd.net/"&gt;Index | tbsmcd.net&lt;/a&gt;を参考に
+&lt;ul&gt;
+&lt;li&gt;シンプルにしたので随分見やすくなった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Hyper Nikki Systemにあるようなn年日記を追加
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://localhost:1313/n%E5%B9%B4%E6%97%A5%E8%A8%98/1127/"&gt;d.sk85.org | 1127&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;こんな感じで過去の同じ月と日の日記が見える&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;細かい修正とダークモードを追加しないと&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>2021-08-21</title><link>/posts/2021/08/21/126670/</link><pubDate>Sat, 21 Aug 2021 17:14:16 +0900</pubDate><guid>/posts/2021/08/21/126670/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;息子朝から熱が高め&lt;/li&gt;
+&lt;li&gt;小児科に連れて行く、混んでいた
+&lt;ul&gt;
+&lt;li&gt;RSVと&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%92%E3%83%88%E3%83%A1%E3%82%BF%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A2%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9"&gt;hMPV&lt;/a&gt;はマイナス&lt;/li&gt;
+&lt;li&gt;ネブライザーで気管支拡張薬吸引&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ja.wikipedia.org/wiki/%E3%83%84%E3%83%AD%E3%83%96%E3%83%86%E3%83%AD%E3%83%BC%E3%83%AB"&gt;ツロブテロール貼付剤&lt;/a&gt;と風邪薬と座薬を処方された&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;しんどいのか食欲なし&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;長時間お昼寝&lt;/li&gt;
+&lt;li&gt;図書館で本を借りてくる
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://calil.jp/book/4334044956"&gt;正義を振りかざす「極端な人」の正体 (光文社新書) | カーリル&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;夕食も食欲なし&lt;/li&gt;
+&lt;li&gt;座薬を入れて就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;普通&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h4 id="github-actions"&gt;GitHub Actions&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/sk85org/sk85.org-blog/tree/main/.github/workflows"&gt;sk85.org-blog/.github/workflows/&lt;/a&gt;&lt;br&gt;
+GithubActionsを利用して日記ファイル(md形式)をテンプレートエンジンで定期作成して、サーバーにデプロイするようにした。Keyboard Maestroのスクリプトでも簡単に作れるけど、GitHubのコードエディタでも作れるとipadでの編集が楽かなと思って。GitHub ActionsはUTCで動いているので、起動する時間に注意が必要。ジョブを実行するマシンではタイムゾーンを設定するとJSTで書ける。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.github.com/ja/actions/reference/events-that-trigger-workflows#scheduled-events"&gt;ワークフローをトリガーするイベント&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://crontab.guru/"&gt;Crontab.guru - The cron schedule expression editor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.kaizenprogrammer.com/entry/2020/06/19/085529"&gt;『GitHub Actions 実践入門』の商業版が販売開始しました - 生産性向上ブログ&lt;/a&gt;を購入&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>hugoのURL構成を変更した</title><link>/posts/2020/12/13/388521/</link><pubDate>Sun, 13 Dec 2020 23:05:43 +0900</pubDate><guid>/posts/2020/12/13/388521/</guid><description>&lt;p&gt;フォルダでの管理をやめ、contents/post以下に YYYYMMDD_XXXXXX.md 命名ルール (X:数字)のファイルを置くようにした。&lt;br&gt;
+ファイルのフロントマターにslug: XXXXXXを指定するようにした。&lt;br&gt;
+URLの構成を変えて、/posts/YYYY/MM/DD/XXXXXX/でアクセスできるようにしたので、&lt;br&gt;
+一日に複数の記事をかけるようになった。分類はtagのみ。&lt;/p&gt;</description></item><item><title>hugoのデプロイ方法を変更した</title><link>/posts/2020/12/13/758287/</link><pubDate>Sun, 13 Dec 2020 14:38:13 +0900</pubDate><guid>/posts/2020/12/13/758287/</guid><description>&lt;p&gt;conoha VPSへの移行に伴って、hugoのデプロイ方法を変更した。&lt;br&gt;
+今までは、GitHubにpushするとGitHubからVPSにWebhookが飛び、&lt;br&gt;
+それを起点にVPSからリポジトリをpullして、VPS上でデプロイしていた。&lt;/p&gt;
+&lt;p&gt;それを変更し、Gtihub actionを利用してpushを起点にしてVPSに&lt;br&gt;
+変更ファイルをrsyncして、VPS側で静的ファイルを出力するように変更した。&lt;br&gt;
+VPSへの同期の方法しか変わっていないが、VPS側でwebhookサーバーを立てる必要がなくなった。&lt;/p&gt;</description></item><item><title>Hugoで作った静的サイトのデータをgithubで管理する</title><link>/posts/2019/06/29/395779/</link><pubDate>Sat, 29 Jun 2019 13:23:38 +0900</pubDate><guid>/posts/2019/06/29/395779/</guid><description>&lt;p&gt;hugoでサイトを作るにあたって、Markdownファイルやテンプレートはgithub上で管理している。&lt;br&gt;
+github上のリポジトリにcommitがあるとgithubからwebhookが飛ぶ。&lt;br&gt;
+それを受け取ったサーバー上でgit pullして同期、その後hugoでデプロイ&lt;/p&gt;
+&lt;h3 id="webhookサーバーを書いた"&gt;Webhookサーバーを書いた&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://github.com/skt1984/webhook"&gt;skt1984/webhook&lt;/a&gt;&lt;br&gt;
+hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行したいシェルスクリプトを指定する。&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[
  {
  &amp;#34;path&amp;#34;: &amp;#34;/hugo&amp;#34;,
  &amp;#34;name&amp;#34;: &amp;#34;put&amp;#34;,
@@ -220,21 +220,21 @@ hook.jsonにアドレス, シークレットキー, X-GitHub-Event及び実行�
  &amp;#34;secret&amp;#34;: &amp;#34;secret_key&amp;#34;
  }
 ]
-&lt;/code>&lt;/pre>&lt;p>起動時にjsonファイルとポートの指定が可能&lt;/p>
-&lt;pre tabindex="0">&lt;code>./webhook -f hook.json -p :8080
-&lt;/code>&lt;/pre>&lt;p>github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定&lt;/p>
-&lt;p>まずローカルにGitHubのリポジトリをcloneする&lt;/p>
-&lt;pre tabindex="0">&lt;code>cd /home/username
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;起動時にjsonファイルとポートの指定が可能&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;./webhook -f hook.json -p :8080
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;github上のリポジトリでhostname:8080/hugoを対象にwebhookの設定を行い、commitが行われるとhugo.shが実行される。/home/username/repositoryではリモートリポジトリをgithubに指定&lt;/p&gt;
+&lt;p&gt;まずローカルにGitHubのリポジトリをcloneする&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;cd /home/username
 git clone git@github.com:username/repository.git
-&lt;/code>&lt;/pre>&lt;p>hugoのbinaryを入手&lt;/p>
-&lt;pre tabindex="0">&lt;code>cd /home/username/repository
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;hugoのbinaryを入手&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;cd /home/username/repository
 git pull
 cd /home/username/repository 
 /path/to/hugobinary/hugo -d /phome/username/public```
-&lt;/code>&lt;/pre>&lt;ul>
-&lt;li>systemdの登録について (userを指定しないとgitpull　できない・)&lt;/li>
-&lt;/ul>
-&lt;pre tabindex="0">&lt;code>[Unit]
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;systemdの登録について (userを指定しないとgitpull　できない・)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;[Unit]
 Description = webhook
 
 [Service]
@@ -245,4 +245,4 @@ User=user
 
 [Install]
 WantedBy = multi-user.target
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;</description></item></channel></rss>

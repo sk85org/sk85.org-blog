@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on d.sk85.org</title><link>/tags/golang/</link><description>Recent content in Golang on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>goのエラー処理</title><link>/posts/2020/02/12/880385/</link><pubDate>Wed, 12 Feb 2020 13:23:38 +0900</pubDate><guid>/posts/2020/02/12/880385/</guid><description>&lt;p>goはerrorインターフェイスを持っている、&lt;/p>
-&lt;pre tabindex="0">&lt;code>type error interface {
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on d.sk85.org</title><link>/tags/golang/</link><description>Recent content in Golang on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml"/><item><title>goのエラー処理</title><link>/posts/2020/02/12/880385/</link><pubDate>Wed, 12 Feb 2020 13:23:38 +0900</pubDate><guid>/posts/2020/02/12/880385/</guid><description>&lt;p&gt;goはerrorインターフェイスを持っている、&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;type error interface {
  Error() string
 }
-&lt;/code>&lt;/pre>&lt;p>よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。&lt;br>
-&lt;a href="https://play.golang.org/p/cO0-r95Hd_r">https://play.golang.org/p/cO0-r95Hd_r&lt;/a>&lt;/p>
-&lt;pre tabindex="0">&lt;code>package main
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。&lt;br&gt;
+&lt;a href="https://play.golang.org/p/cO0-r95Hd_r"&gt;https://play.golang.org/p/cO0-r95Hd_r&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;package main
 
 import (
 	&amp;#34;fmt&amp;#34;
@@ -28,7 +28,7 @@ func main() {
 		fmt.Println(err)
 	}
 }
-&lt;/code>&lt;/pre>&lt;p>ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が&lt;/p>
-&lt;blockquote>
-&lt;p>The fmt package formats an error value by calling its Error() string method.&lt;br>
-&lt;a href="https://blog.golang.org/error-handling-and-go">https://blog.golang.org/error-handling-and-go&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The fmt package formats an error value by calling its Error() string method.&lt;br&gt;
+&lt;a href="https://blog.golang.org/error-handling-and-go"&gt;https://blog.golang.org/error-handling-and-go&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

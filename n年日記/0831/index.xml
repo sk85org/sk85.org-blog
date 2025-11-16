@@ -1,217 +1,217 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0831 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0831/</link><description>Recent content in 0831 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 09 Nov 2025 18:06:59 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0831/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-08-31[スカイツリーへ行く。検索システムにカテゴリ検索を追加]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子どもの朝食作り。ホットケーキを作る&lt;/li>
-&lt;li>子どもはスイミング&lt;/li>
-&lt;li>短時間ジムで運動&lt;/li>
-&lt;li>昼食は自宅で&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>永田町経由でスカイツリーに行く。人が多くてインバウンド絶好調ですなあ&lt;/li>
-&lt;li>奥さんと息子は昆虫博を見る&lt;/li>
-&lt;li>アイスなどを食べて 6 時前に帰宅&lt;/li>
-&lt;li>夜は回転寿司で夕食&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>日記を投稿年でフィルターできるようにした。&lt;a href="/posts/2025/02/18/437699/">index.json&lt;/a>に year の項目を足して、Meilisearch に読み込ませる。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attributes">filterable-attributes&lt;/a>に追加しないとフィルターできないため、 year のみ filterable-attributes に追加。あとは Instant Meilisearch の RefinementList を利用。またデザインの変え方を忘れてしまっていてたのだが、style.css を上書きした。便利だがちょっと遅い気がする&lt;/li>
-&lt;li>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>0831 on d.sk85.org</title><link>/n%E5%B9%B4%E6%97%A5%E8%A8%98/0831/</link><description>Recent content in 0831 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 09 Nov 2025 18:06:59 +0900</lastBuildDate><atom:link href="/n%E5%B9%B4%E6%97%A5%E8%A8%98/0831/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-08-31[スカイツリーへ行く。検索システムにカテゴリ検索を追加]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子どもの朝食作り。ホットケーキを作る&lt;/li&gt;
+&lt;li&gt;子どもはスイミング&lt;/li&gt;
+&lt;li&gt;短時間ジムで運動&lt;/li&gt;
+&lt;li&gt;昼食は自宅で&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;永田町経由でスカイツリーに行く。人が多くてインバウンド絶好調ですなあ&lt;/li&gt;
+&lt;li&gt;奥さんと息子は昆虫博を見る&lt;/li&gt;
+&lt;li&gt;アイスなどを食べて 6 時前に帰宅&lt;/li&gt;
+&lt;li&gt;夜は回転寿司で夕食&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;日記を投稿年でフィルターできるようにした。&lt;a href="/posts/2025/02/18/437699/"&gt;index.json&lt;/a&gt;に year の項目を足して、Meilisearch に読み込ませる。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attributes"&gt;filterable-attributes&lt;/a&gt;に追加しないとフィルターできないため、 year のみ filterable-attributes に追加。あとは Instant Meilisearch の RefinementList を利用。またデザインの変え方を忘れてしまっていてたのだが、style.css を上書きした。便利だがちょっと遅い気がする&lt;/li&gt;
+&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://note.com/xcloche/n/n5cc0162fa607?sub_rt=share_pb">太陽光パネルはどれくらい悪いか計算する｜ xcloche&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-07/load-to-passkey-0.html">Passkey への道 #0: Intro | blog.jxck.io&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-25/digital-regacy.html">1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-16/load-to-passkey-9.html">Passkey への道 #9: ユーザに求められる令和のアカウントリテラシ | blog.jxck.io&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>2024-08-31[奥さんと喧嘩する]</title><link>/posts/2024/08/31/670144/</link><pubDate>Sat, 31 Aug 2024 00:00:00 +0900</pubDate><guid>/posts/2024/08/31/670144/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子供を体操教室に
-&lt;ul>
-&lt;li>体操教室はテストでした&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>お昼は自宅で&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>子供はボール教室に&lt;/li>
-&lt;li>僕はパン屋に行ってバケットを買って帰りに chocoZAP で運動&lt;/li>
-&lt;li>夜奥さんと子供との約束について喧嘩をする
-&lt;ul>
-&lt;li>気分が悪いわ&lt;/li>
-&lt;li>約束の当事者の僕を尊重せず勝手に約束を変えないで欲しい&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2023-08-31</title><link>/posts/2023/08/31/470538/</link><pubDate>Thu, 31 Aug 2023 00:00:00 +0900</pubDate><guid>/posts/2023/08/31/470538/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>息子通園&lt;/li>
-&lt;li>昨日の実験を分析すると、できていた&lt;/li>
-&lt;li>ということで、同じ条件でもう一回&lt;/li>
-&lt;li>ミーティング&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>何していたか思い出せず&lt;/li>
-&lt;li>ほぼ定時で退社&lt;/li>
-&lt;li>息子お迎え&lt;/li>
-&lt;li>&lt;a href="/posts/2022/09/13/272141/">PITAKA のケース&lt;/a>を使っていて、軽くて固いのはいいのだが、周辺部全体が覆われていないのが原因か、覆われていないところを起点にした衝撃でガラスフィルムにクラックが入る現象が多発している。2 ヶ月に一回ぐらいガラスフィルムを交換しているような気がする。
-&lt;ul>
-&lt;li>ということで Spigen のケース ACS04962 に変えてみた。重さが増えた感覚はない。デザイン的には PITAKA のほうが好きだが、滑りにくくもなったし、まあよし。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>78&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2022-08-31</title><link>/posts/2022/08/31/767764/</link><pubDate>Wed, 31 Aug 2022 00:00:00 +0900</pubDate><guid>/posts/2022/08/31/767764/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>朝から精神的にちょっと不安定
-&lt;ul>
-&lt;li>新しい案件が両方とも微妙だからなのかも&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>会社で不安感強く早退&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>うーんやっぱり仕事してた方がよかったかも&lt;/li>
-&lt;li>結局仕事していると不安感が収まるので&lt;/li>
-&lt;li>不安感というよりも罪悪感が強いかもしれない&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>75&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2></description></item><item><title>2021-08-31</title><link>/posts/2021/08/31/203079/</link><pubDate>Tue, 31 Aug 2021 00:00:00 +0900</pubDate><guid>/posts/2021/08/31/203079/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>7:00 起床&lt;/li>
-&lt;li>息子通園&lt;/li>
-&lt;li>8:30出社&lt;/li>
-&lt;li>資料作成&lt;/li>
-&lt;li>昨日の後処理&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>後処理継続&lt;/li>
-&lt;li>精製作業&lt;/li>
-&lt;li>事務作業が遅れがち&lt;/li>
-&lt;li>ほぼ定時で帰宅&lt;/li>
-&lt;li>寝かしつけながら就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>普通&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日のtabs">今日のTabs&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://www.uqwimax.jp/information/202108311.html">UQ mobile、くりこしプラン +5Gで「YouTube Premium™」を3カ月間無料提供 |&lt;/a>
-&lt;ul>
-&lt;li>9/2開始だが5g対応のsim交換のアナウンスがまだない&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;a href="https://wangchujiang.com/hotkeys/">hotkeys.js - A robust Javascript library for capturing keyboard input.&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://fabcross.jp/news/2021/20210819_if10_3dp.html">「Interface 2021年10月号」の特集は「3Dプリンタ＆メカ設計入門」 | fabcross&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://note.com/nhk_syuzai/n/n9ccbd599da50">記者に「プログラミングのスキル」って必要なの？ちなみにNHKニュースの画像生成も記者がコードを書いてます｜NHK取材ノート｜note&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Tp-Link Deco X20に関するメモ</title><link>/posts/2020/08/31/269927/</link><pubDate>Mon, 31 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/31/269927/</guid><description>&lt;p>Tp-Link Deco X20 (3 pack)を導入した。&lt;br>
-&lt;a href="https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/">https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/&lt;/a> &lt;br>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://note.com/xcloche/n/n5cc0162fa607?sub_rt=share_pb"&gt;太陽光パネルはどれくらい悪いか計算する｜ xcloche&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-07/load-to-passkey-0.html"&gt;Passkey への道 #0: Intro | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-25/digital-regacy.html"&gt;1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-16/load-to-passkey-9.html"&gt;Passkey への道 #9: ユーザに求められる令和のアカウントリテラシ | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>2024-08-31[奥さんと喧嘩する]</title><link>/posts/2024/08/31/670144/</link><pubDate>Sat, 31 Aug 2024 00:00:00 +0900</pubDate><guid>/posts/2024/08/31/670144/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子供を体操教室に
+&lt;ul&gt;
+&lt;li&gt;体操教室はテストでした&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;お昼は自宅で&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子供はボール教室に&lt;/li&gt;
+&lt;li&gt;僕はパン屋に行ってバケットを買って帰りに chocoZAP で運動&lt;/li&gt;
+&lt;li&gt;夜奥さんと子供との約束について喧嘩をする
+&lt;ul&gt;
+&lt;li&gt;気分が悪いわ&lt;/li&gt;
+&lt;li&gt;約束の当事者の僕を尊重せず勝手に約束を変えないで欲しい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2023-08-31</title><link>/posts/2023/08/31/470538/</link><pubDate>Thu, 31 Aug 2023 00:00:00 +0900</pubDate><guid>/posts/2023/08/31/470538/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;息子通園&lt;/li&gt;
+&lt;li&gt;昨日の実験を分析すると、できていた&lt;/li&gt;
+&lt;li&gt;ということで、同じ条件でもう一回&lt;/li&gt;
+&lt;li&gt;ミーティング&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;何していたか思い出せず&lt;/li&gt;
+&lt;li&gt;ほぼ定時で退社&lt;/li&gt;
+&lt;li&gt;息子お迎え&lt;/li&gt;
+&lt;li&gt;&lt;a href="/posts/2022/09/13/272141/"&gt;PITAKA のケース&lt;/a&gt;を使っていて、軽くて固いのはいいのだが、周辺部全体が覆われていないのが原因か、覆われていないところを起点にした衝撃でガラスフィルムにクラックが入る現象が多発している。2 ヶ月に一回ぐらいガラスフィルムを交換しているような気がする。
+&lt;ul&gt;
+&lt;li&gt;ということで Spigen のケース ACS04962 に変えてみた。重さが増えた感覚はない。デザイン的には PITAKA のほうが好きだが、滑りにくくもなったし、まあよし。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;78&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2022-08-31</title><link>/posts/2022/08/31/767764/</link><pubDate>Wed, 31 Aug 2022 00:00:00 +0900</pubDate><guid>/posts/2022/08/31/767764/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;朝から精神的にちょっと不安定
+&lt;ul&gt;
+&lt;li&gt;新しい案件が両方とも微妙だからなのかも&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;会社で不安感強く早退&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;うーんやっぱり仕事してた方がよかったかも&lt;/li&gt;
+&lt;li&gt;結局仕事していると不安感が収まるので&lt;/li&gt;
+&lt;li&gt;不安感というよりも罪悪感が強いかもしれない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;75&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-08-31</title><link>/posts/2021/08/31/203079/</link><pubDate>Tue, 31 Aug 2021 00:00:00 +0900</pubDate><guid>/posts/2021/08/31/203079/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;7:00 起床&lt;/li&gt;
+&lt;li&gt;息子通園&lt;/li&gt;
+&lt;li&gt;8:30出社&lt;/li&gt;
+&lt;li&gt;資料作成&lt;/li&gt;
+&lt;li&gt;昨日の後処理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;後処理継続&lt;/li&gt;
+&lt;li&gt;精製作業&lt;/li&gt;
+&lt;li&gt;事務作業が遅れがち&lt;/li&gt;
+&lt;li&gt;ほぼ定時で帰宅&lt;/li&gt;
+&lt;li&gt;寝かしつけながら就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;普通&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.uqwimax.jp/information/202108311.html"&gt;UQ mobile、くりこしプラン +5Gで「YouTube Premium™」を3カ月間無料提供 |&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;9/2開始だが5g対応のsim交換のアナウンスがまだない&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wangchujiang.com/hotkeys/"&gt;hotkeys.js - A robust Javascript library for capturing keyboard input.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://fabcross.jp/news/2021/20210819_if10_3dp.html"&gt;「Interface 2021年10月号」の特集は「3Dプリンタ＆メカ設計入門」 | fabcross&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://note.com/nhk_syuzai/n/n9ccbd599da50"&gt;記者に「プログラミングのスキル」って必要なの？ちなみにNHKニュースの画像生成も記者がコードを書いてます｜NHK取材ノート｜note&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Tp-Link Deco X20に関するメモ</title><link>/posts/2020/08/31/269927/</link><pubDate>Mon, 31 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/31/269927/</guid><description>&lt;p&gt;Tp-Link Deco X20 (3 pack)を導入した。&lt;br&gt;
+&lt;a href="https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/"&gt;https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/&lt;/a&gt; &lt;br&gt;
 アフィリエイトサイトでは「Wifi6だから早い」とか「メッシュWifiすごい」、といった本当にどうでもいいトラフィックの無駄使い程度の情報しかなく、
-価格.comの質問回答はかなり不正確なので、誰かのために書いておきます。&lt;br>
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-54-06-dXhSI7ZpbXq3cAZ96Bl4.jpg">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-54-06-dXhSI7ZpbXq3cAZ96Bl4.jpg" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+価格.comの質問回答はかなり不正確なので、誰かのために書いておきます。&lt;br&gt;
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-54-06-dXhSI7ZpbXq3cAZ96Bl4.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-54-06-dXhSI7ZpbXq3cAZ96Bl4.jpg" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  我が家にやってきたx20。かわいい
- &lt;/figcaption>
- &lt;/span>
-&lt;/p>
-&lt;h3 id="2台もしくは3台をルーターから有線で分岐させられますか">&lt;strong>2台(もしくは3台)をルーターから有線で分岐させられますか？&lt;/strong>&lt;/h3>
-&lt;p>できます。スイッチングハブを経由させてももちろん問題ありません。&lt;br>
-&lt;a href="https://www.tp-link.com/jp/support/faq/2399/">https://www.tp-link.com/jp/support/faq/2399/&lt;/a>&lt;/p>
-&lt;h3 id="ということは2台もしくは3台をすべてブリッジモードアクセスポイントモードとして動作させることが可能ということですか">&lt;strong>ということは2台(もしくは3台)をすべてブリッジモード(アクセスポイントモード)として動作させることが可能ということですか？&lt;/strong>&lt;/h3>
-&lt;p>そうです。メインのdeco X20を決める必要がありますが、メインのdeco X20が必ずしもルーターモードである必要はありません。
-正確には&lt;strong>各端末をルーター or ブリッジモードに設定するわけではなく&lt;/strong>、メインのdeco X20およびメイン以外のdexo X20があるだけです。&lt;/p>
-&lt;h3 id="ブリッジモードでルーターから有線で分岐させた場合はethernet-backhaulは有効になりますか">&lt;strong>ブリッジモードでルーターから有線で分岐させた場合はEthernet Backhaulは有効になりますか？&lt;/strong>&lt;/h3>
-&lt;p>なります。&lt;/p>
-&lt;h3 id="解説">&lt;strong>解説&lt;/strong>&lt;/h3>
-&lt;p>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 id="2台もしくは3台をルーターから有線で分岐させられますか"&gt;&lt;strong&gt;2台(もしくは3台)をルーターから有線で分岐させられますか？&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;できます。スイッチングハブを経由させてももちろん問題ありません。&lt;br&gt;
+&lt;a href="https://www.tp-link.com/jp/support/faq/2399/"&gt;https://www.tp-link.com/jp/support/faq/2399/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ということは2台もしくは3台をすべてブリッジモードアクセスポイントモードとして動作させることが可能ということですか"&gt;&lt;strong&gt;ということは2台(もしくは3台)をすべてブリッジモード(アクセスポイントモード)として動作させることが可能ということですか？&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;そうです。メインのdeco X20を決める必要がありますが、メインのdeco X20が必ずしもルーターモードである必要はありません。
+正確には&lt;strong&gt;各端末をルーター or ブリッジモードに設定するわけではなく&lt;/strong&gt;、メインのdeco X20およびメイン以外のdexo X20があるだけです。&lt;/p&gt;
+&lt;h3 id="ブリッジモードでルーターから有線で分岐させた場合はethernet-backhaulは有効になりますか"&gt;&lt;strong&gt;ブリッジモードでルーターから有線で分岐させた場合はEthernet Backhaulは有効になりますか？&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;なります。&lt;/p&gt;
+&lt;h3 id="解説"&gt;&lt;strong&gt;解説&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  Both possible
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
 自宅では上記のようなネットワーク構成になっています。メッシュwifiネットワーク全体としてブリッジモードでルーターからハブを介していないdexo X20をメインに設定しています。
 公式の設定アプリでブリッジモードにした後に、地球のロゴ(わかりにくい)をクリックすると接続されているdeco x20一覧が出てきます。この画面でメインの端末がどれか、またメインの端末を変更することができます。
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
 各端末をクリックすると詳細が出てきます。この画面では選択された端末が、メインのdeco X20とどのような接続形式を取っているか確認できます。
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  Connected via ethernet
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
 試しにLANケーブルを抜いてみると自動的にメインのdexo X20とワイヤレスで接続されます。
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  Connected via wireless
- &lt;/figcaption>
- &lt;/span>
-&lt;/p>
-&lt;h3 id="不満点-5ghz帯と24ghz帯でssidを分けることができない">&lt;strong>不満点 5GHz帯と2.4GHz帯でSSIDを分けることができない。&lt;/strong>&lt;/h3>
-&lt;p>モバイルアプリ経由で設定するタイプのIoT端末の場合、5GHz帯に対応していなければ一度deco X20の5GHzをoffにして2.4GHzに接続して設定しなければいけない場合がある。&lt;/p>
-&lt;h3 id="おまけ">&lt;strong>おまけ&lt;/strong>&lt;/h3>
-&lt;ol>
-&lt;li>&lt;strong>ハブとしても使える&lt;/strong>&lt;br>
-deco x20には1Gbpsの有線LANポートが2口あります。どちらにケーブルを刺しても端末が上位のネットワークを自動で認識してくれます。残ったポートに有線でパソコン等を接続することができます。&lt;/li>
-&lt;li>&lt;strong>webベースの管理画面がある(一応)&lt;/strong>&lt;br>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 id="不満点-5ghz帯と24ghz帯でssidを分けることができない"&gt;&lt;strong&gt;不満点 5GHz帯と2.4GHz帯でSSIDを分けることができない。&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;モバイルアプリ経由で設定するタイプのIoT端末の場合、5GHz帯に対応していなければ一度deco X20の5GHzをoffにして2.4GHzに接続して設定しなければいけない場合がある。&lt;/p&gt;
+&lt;h3 id="おまけ"&gt;&lt;strong&gt;おまけ&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ハブとしても使える&lt;/strong&gt;&lt;br&gt;
+deco x20には1Gbpsの有線LANポートが2口あります。どちらにケーブルを刺しても端末が上位のネットワークを自動で認識してくれます。残ったポートに有線でパソコン等を接続することができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;webベースの管理画面がある(一応)&lt;/strong&gt;&lt;br&gt;
 作り込みが甘いですが、ブラウザから端末のipアドレスにアクセスするとコントロールパネルを見ることができます。
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  web control panel
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;/ol></description></item></channel></rss>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item></channel></rss>

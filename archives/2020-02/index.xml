@@ -1,43 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2020-02 on d.sk85.org</title><link>/archives/2020-02/</link><description>Recent content in 2020-02 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2020-02/index.xml" rel="self" type="application/rss+xml"/><item><title>葱油メモ kiki麺を再現する</title><link>/posts/2020/02/22/937013/</link><pubDate>Sat, 22 Feb 2020 09:00:36 +0900</pubDate><guid>/posts/2020/02/22/937013/</guid><description>&lt;p>台湾にはkiki麺という素晴らしいインスタントラーメンがあるのだけど、&lt;br>
-それを自宅で再現するための研究。&lt;br>
-&lt;a href="https://kikifg.com">KiKi食品雜貨&lt;/a>&lt;br>
-もちろん本物のほうが美味しいけど、kiki感は出ている。&lt;/p>
-&lt;h2 id="葱油">葱油&lt;/h2>
-&lt;p>ネタ元はここ &lt;a href="https://cookpad.com/recipe/5524382">https://cookpad.com/recipe/5524382&lt;/a>&lt;/p>
-&lt;h3 id="材料">材料&lt;/h3>
-&lt;ul>
-&lt;li>万能ネギ1束(白いところが少ないやつ)&lt;/li>
-&lt;li>サラダ油200ml&lt;/li>
-&lt;li>醤油 300ml&lt;/li>
-&lt;li>砂糖大さじ5&lt;/li>
-&lt;/ul>
-&lt;h3 id="作り方">作り方&lt;/h3>
-&lt;ol>
-&lt;li>万能ねぎをザックリと切る&lt;/li>
-&lt;li>サラダ油に入れる&lt;/li>
-&lt;li>ネギがいきなり焦げないように超弱火で20~30分加熱&lt;/li>
-&lt;li>ネギの水分が完全に抜けてカサカサしたら火を止めてネギを出す。(そのまま加熱し続けると焦げて苦くなるので)&lt;/li>
-&lt;li>醤油と砂糖を入れて弱火で完全に砂糖を溶かす。(醤油が沸騰しないように100度以下で入れる)&lt;/li>
-&lt;li>十分に冷まして瓶詰め&lt;/li>
-&lt;/ol>
-&lt;h2 id="kiki麺再現バージョン">kiki麺再現バージョン&lt;/h2>
-&lt;h3 id="材料-1">材料&lt;/h3>
-&lt;ul>
-&lt;li>徳島半田麺&lt;/li>
-&lt;/ul>
-&lt;h3 id="作り方-1">作り方&lt;/h3>
-&lt;ol>
-&lt;li>葱油とにんにくチューブをお好みで混ぜる&lt;/li>
-&lt;li>半田麺は塩分が強いので多めの水で茹でる&lt;/li>
-&lt;li>湯で時間は表記-1分&lt;/li>
-&lt;li>葱油と絡める&lt;/li>
-&lt;/ol></description></item><item><title>goのエラー処理</title><link>/posts/2020/02/12/880385/</link><pubDate>Wed, 12 Feb 2020 13:23:38 +0900</pubDate><guid>/posts/2020/02/12/880385/</guid><description>&lt;p>goはerrorインターフェイスを持っている、&lt;/p>
-&lt;pre tabindex="0">&lt;code>type error interface {
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2020-02 on d.sk85.org</title><link>/archives/2020-02/</link><description>Recent content in 2020-02 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2020-02/index.xml" rel="self" type="application/rss+xml"/><item><title>葱油メモ kiki麺を再現する</title><link>/posts/2020/02/22/937013/</link><pubDate>Sat, 22 Feb 2020 09:00:36 +0900</pubDate><guid>/posts/2020/02/22/937013/</guid><description>&lt;p&gt;台湾にはkiki麺という素晴らしいインスタントラーメンがあるのだけど、&lt;br&gt;
+それを自宅で再現するための研究。&lt;br&gt;
+&lt;a href="https://kikifg.com"&gt;KiKi食品雜貨&lt;/a&gt;&lt;br&gt;
+もちろん本物のほうが美味しいけど、kiki感は出ている。&lt;/p&gt;
+&lt;h2 id="葱油"&gt;葱油&lt;/h2&gt;
+&lt;p&gt;ネタ元はここ &lt;a href="https://cookpad.com/recipe/5524382"&gt;https://cookpad.com/recipe/5524382&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="材料"&gt;材料&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;万能ネギ1束(白いところが少ないやつ)&lt;/li&gt;
+&lt;li&gt;サラダ油200ml&lt;/li&gt;
+&lt;li&gt;醤油 300ml&lt;/li&gt;
+&lt;li&gt;砂糖大さじ5&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="作り方"&gt;作り方&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;万能ねぎをザックリと切る&lt;/li&gt;
+&lt;li&gt;サラダ油に入れる&lt;/li&gt;
+&lt;li&gt;ネギがいきなり焦げないように超弱火で20~30分加熱&lt;/li&gt;
+&lt;li&gt;ネギの水分が完全に抜けてカサカサしたら火を止めてネギを出す。(そのまま加熱し続けると焦げて苦くなるので)&lt;/li&gt;
+&lt;li&gt;醤油と砂糖を入れて弱火で完全に砂糖を溶かす。(醤油が沸騰しないように100度以下で入れる)&lt;/li&gt;
+&lt;li&gt;十分に冷まして瓶詰め&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="kiki麺再現バージョン"&gt;kiki麺再現バージョン&lt;/h2&gt;
+&lt;h3 id="材料-1"&gt;材料&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;徳島半田麺&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="作り方-1"&gt;作り方&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;葱油とにんにくチューブをお好みで混ぜる&lt;/li&gt;
+&lt;li&gt;半田麺は塩分が強いので多めの水で茹でる&lt;/li&gt;
+&lt;li&gt;湯で時間は表記-1分&lt;/li&gt;
+&lt;li&gt;葱油と絡める&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>goのエラー処理</title><link>/posts/2020/02/12/880385/</link><pubDate>Wed, 12 Feb 2020 13:23:38 +0900</pubDate><guid>/posts/2020/02/12/880385/</guid><description>&lt;p&gt;goはerrorインターフェイスを持っている、&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;type error interface {
  Error() string
 }
-&lt;/code>&lt;/pre>&lt;p>よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。&lt;br>
-&lt;a href="https://play.golang.org/p/cO0-r95Hd_r">https://play.golang.org/p/cO0-r95Hd_r&lt;/a>&lt;/p>
-&lt;pre tabindex="0">&lt;code>package main
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;よく見る例としてError()関数を実装すれば、独自のerrorを作ることができる。&lt;br&gt;
+&lt;a href="https://play.golang.org/p/cO0-r95Hd_r"&gt;https://play.golang.org/p/cO0-r95Hd_r&lt;/a&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;package main
 
 import (
 	&amp;#34;fmt&amp;#34;
@@ -61,7 +61,7 @@ func main() {
 		fmt.Println(err)
 	}
 }
-&lt;/code>&lt;/pre>&lt;p>ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が&lt;/p>
-&lt;blockquote>
-&lt;p>The fmt package formats an error value by calling its Error() string method.&lt;br>
-&lt;a href="https://blog.golang.org/error-handling-and-go">https://blog.golang.org/error-handling-and-go&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;ここでError()関数はどうやって実行されているか疑問に思って調べてみると こんな記述が&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The fmt package formats an error value by calling its Error() string method.&lt;br&gt;
+&lt;a href="https://blog.golang.org/error-handling-and-go"&gt;https://blog.golang.org/error-handling-and-go&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,121 +1,121 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2020-08 on d.sk85.org</title><link>/archives/2020-08/</link><description>Recent content in 2020-08 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2020-08/index.xml" rel="self" type="application/rss+xml"/><item><title>Tp-Link Deco X20に関するメモ</title><link>/posts/2020/08/31/269927/</link><pubDate>Mon, 31 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/31/269927/</guid><description>&lt;p>Tp-Link Deco X20 (3 pack)を導入した。&lt;br>
-&lt;a href="https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/">https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/&lt;/a> &lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2020-08 on d.sk85.org</title><link>/archives/2020-08/</link><description>Recent content in 2020-08 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2020-08/index.xml" rel="self" type="application/rss+xml"/><item><title>Tp-Link Deco X20に関するメモ</title><link>/posts/2020/08/31/269927/</link><pubDate>Mon, 31 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/31/269927/</guid><description>&lt;p&gt;Tp-Link Deco X20 (3 pack)を導入した。&lt;br&gt;
+&lt;a href="https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/"&gt;https://www.tp-link.com/jp/home-networking/deco/deco-x20(3-pack)/&lt;/a&gt; &lt;br&gt;
 アフィリエイトサイトでは「Wifi6だから早い」とか「メッシュWifiすごい」、といった本当にどうでもいいトラフィックの無駄使い程度の情報しかなく、
-価格.comの質問回答はかなり不正確なので、誰かのために書いておきます。&lt;br>
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-54-06-dXhSI7ZpbXq3cAZ96Bl4.jpg">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-54-06-dXhSI7ZpbXq3cAZ96Bl4.jpg" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+価格.comの質問回答はかなり不正確なので、誰かのために書いておきます。&lt;br&gt;
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-54-06-dXhSI7ZpbXq3cAZ96Bl4.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-54-06-dXhSI7ZpbXq3cAZ96Bl4.jpg" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  我が家にやってきたx20。かわいい
- &lt;/figcaption>
- &lt;/span>
-&lt;/p>
-&lt;h3 id="2台もしくは3台をルーターから有線で分岐させられますか">&lt;strong>2台(もしくは3台)をルーターから有線で分岐させられますか？&lt;/strong>&lt;/h3>
-&lt;p>できます。スイッチングハブを経由させてももちろん問題ありません。&lt;br>
-&lt;a href="https://www.tp-link.com/jp/support/faq/2399/">https://www.tp-link.com/jp/support/faq/2399/&lt;/a>&lt;/p>
-&lt;h3 id="ということは2台もしくは3台をすべてブリッジモードアクセスポイントモードとして動作させることが可能ということですか">&lt;strong>ということは2台(もしくは3台)をすべてブリッジモード(アクセスポイントモード)として動作させることが可能ということですか？&lt;/strong>&lt;/h3>
-&lt;p>そうです。メインのdeco X20を決める必要がありますが、メインのdeco X20が必ずしもルーターモードである必要はありません。
-正確には&lt;strong>各端末をルーター or ブリッジモードに設定するわけではなく&lt;/strong>、メインのdeco X20およびメイン以外のdexo X20があるだけです。&lt;/p>
-&lt;h3 id="ブリッジモードでルーターから有線で分岐させた場合はethernet-backhaulは有効になりますか">&lt;strong>ブリッジモードでルーターから有線で分岐させた場合はEthernet Backhaulは有効になりますか？&lt;/strong>&lt;/h3>
-&lt;p>なります。&lt;/p>
-&lt;h3 id="解説">&lt;strong>解説&lt;/strong>&lt;/h3>
-&lt;p>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 id="2台もしくは3台をルーターから有線で分岐させられますか"&gt;&lt;strong&gt;2台(もしくは3台)をルーターから有線で分岐させられますか？&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;できます。スイッチングハブを経由させてももちろん問題ありません。&lt;br&gt;
+&lt;a href="https://www.tp-link.com/jp/support/faq/2399/"&gt;https://www.tp-link.com/jp/support/faq/2399/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="ということは2台もしくは3台をすべてブリッジモードアクセスポイントモードとして動作させることが可能ということですか"&gt;&lt;strong&gt;ということは2台(もしくは3台)をすべてブリッジモード(アクセスポイントモード)として動作させることが可能ということですか？&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;そうです。メインのdeco X20を決める必要がありますが、メインのdeco X20が必ずしもルーターモードである必要はありません。
+正確には&lt;strong&gt;各端末をルーター or ブリッジモードに設定するわけではなく&lt;/strong&gt;、メインのdeco X20およびメイン以外のdexo X20があるだけです。&lt;/p&gt;
+&lt;h3 id="ブリッジモードでルーターから有線で分岐させた場合はethernet-backhaulは有効になりますか"&gt;&lt;strong&gt;ブリッジモードでルーターから有線で分岐させた場合はEthernet Backhaulは有効になりますか？&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;なります。&lt;/p&gt;
+&lt;h3 id="解説"&gt;&lt;strong&gt;解説&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20200831-01-05-37-3YUUL6Awz50jYvsAXGXN.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  Both possible
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
 自宅では上記のようなネットワーク構成になっています。メッシュwifiネットワーク全体としてブリッジモードでルーターからハブを介していないdexo X20をメインに設定しています。
 公式の設定アプリでブリッジモードにした後に、地球のロゴ(わかりにくい)をクリックすると接続されているdeco x20一覧が出てきます。この画面でメインの端末がどれか、またメインの端末を変更することができます。
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-w2p8OoAtnKHu1A7ag-sC.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-4Ma-I5bGSZszmzwhgyJx.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
 各端末をクリックすると詳細が出てきます。この画面では選択された端末が、メインのdeco X20とどのような接続形式を取っているか確認できます。
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-tnrHCZY_1nDizKrQA-TO.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  Connected via ethernet
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
 試しにLANケーブルを抜いてみると自動的にメインのdexo X20とワイヤレスで接続されます。
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-00-58-02-pKTiVslmX4xMa2rdKskK.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  Connected via wireless
- &lt;/figcaption>
- &lt;/span>
-&lt;/p>
-&lt;h3 id="不満点-5ghz帯と24ghz帯でssidを分けることができない">&lt;strong>不満点 5GHz帯と2.4GHz帯でSSIDを分けることができない。&lt;/strong>&lt;/h3>
-&lt;p>モバイルアプリ経由で設定するタイプのIoT端末の場合、5GHz帯に対応していなければ一度deco X20の5GHzをoffにして2.4GHzに接続して設定しなければいけない場合がある。&lt;/p>
-&lt;h3 id="おまけ">&lt;strong>おまけ&lt;/strong>&lt;/h3>
-&lt;ol>
-&lt;li>&lt;strong>ハブとしても使える&lt;/strong>&lt;br>
-deco x20には1Gbpsの有線LANポートが2口あります。どちらにケーブルを刺しても端末が上位のネットワークを自動で認識してくれます。残ったポートに有線でパソコン等を接続することができます。&lt;/li>
-&lt;li>&lt;strong>webベースの管理画面がある(一応)&lt;/strong>&lt;br>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/p&gt;
+&lt;h3 id="不満点-5ghz帯と24ghz帯でssidを分けることができない"&gt;&lt;strong&gt;不満点 5GHz帯と2.4GHz帯でSSIDを分けることができない。&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;モバイルアプリ経由で設定するタイプのIoT端末の場合、5GHz帯に対応していなければ一度deco X20の5GHzをoffにして2.4GHzに接続して設定しなければいけない場合がある。&lt;/p&gt;
+&lt;h3 id="おまけ"&gt;&lt;strong&gt;おまけ&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;ハブとしても使える&lt;/strong&gt;&lt;br&gt;
+deco x20には1Gbpsの有線LANポートが2口あります。どちらにケーブルを刺しても端末が上位のネットワークを自動で認識してくれます。残ったポートに有線でパソコン等を接続することができます。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;webベースの管理画面がある(一応)&lt;/strong&gt;&lt;br&gt;
 作り込みが甘いですが、ブラウザから端末のipアドレスにアクセスするとコントロールパネルを見ることができます。
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20200831-01-43-40-XF6UsINpmwUWcERPrADQ.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  web control panel
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;/ol></description></item><item><title>吃音</title><link>/posts/2020/08/02/865995/</link><pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/02/865995/</guid><description>&lt;p>息子(2歳7ヶ月)が約2週間前(7月中旬)から連発型吃音のような発音をしている。&lt;br>
-特徴としては&lt;/p>
-&lt;ul>
-&lt;li>「か」行が苦手？&lt;/li>
-&lt;li>特定の音が常に必ず言えないわけではない&lt;/li>
-&lt;li>調子が良い(吃音が少ない)ときがある&lt;/li>
-&lt;li>単語が始まる前に5回程度同じ音を繰り返す&lt;/li>
-&lt;li>同じ音を繰り返して、結局言うのを諦めてしまうことがある&lt;/li>
-&lt;li>吃音が出た後は、その音から始まる単語を意図的に避ける傾向がある (ような気がする)&lt;br>
-「き」が言えなかった後に、こどもチャレンジの「いろっぴ」の名前を当てるクイズをすると「赤っぴ」や「青っぴ」は答えるのに、知っているはずの「黄色っぴ」は答えない。また黄色い靴の色も青とごまかしたりする。&lt;/li>
-&lt;/ul>
-&lt;p>息子の年齢的にも現時点で親ができることといえば、&lt;/p>
-&lt;ul>
-&lt;li>吃音に対する正しい知識の習得&lt;/li>
-&lt;li>保育園への連絡&lt;/li>
-&lt;li>吃音を直さない、意識させない&lt;/li>
-&lt;li>親がゆっくりとしゃべる&lt;/li>
-&lt;li>話を聞く&lt;/li>
-&lt;/ul>
-&lt;p>ぐらいしかない。
-私も軽度の吃音だが、吃音は悲しい病気だ。&lt;br>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>吃音</title><link>/posts/2020/08/02/865995/</link><pubDate>Sun, 02 Aug 2020 00:00:00 +0900</pubDate><guid>/posts/2020/08/02/865995/</guid><description>&lt;p&gt;息子(2歳7ヶ月)が約2週間前(7月中旬)から連発型吃音のような発音をしている。&lt;br&gt;
+特徴としては&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;「か」行が苦手？&lt;/li&gt;
+&lt;li&gt;特定の音が常に必ず言えないわけではない&lt;/li&gt;
+&lt;li&gt;調子が良い(吃音が少ない)ときがある&lt;/li&gt;
+&lt;li&gt;単語が始まる前に5回程度同じ音を繰り返す&lt;/li&gt;
+&lt;li&gt;同じ音を繰り返して、結局言うのを諦めてしまうことがある&lt;/li&gt;
+&lt;li&gt;吃音が出た後は、その音から始まる単語を意図的に避ける傾向がある (ような気がする)&lt;br&gt;
+「き」が言えなかった後に、こどもチャレンジの「いろっぴ」の名前を当てるクイズをすると「赤っぴ」や「青っぴ」は答えるのに、知っているはずの「黄色っぴ」は答えない。また黄色い靴の色も青とごまかしたりする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;息子の年齢的にも現時点で親ができることといえば、&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;吃音に対する正しい知識の習得&lt;/li&gt;
+&lt;li&gt;保育園への連絡&lt;/li&gt;
+&lt;li&gt;吃音を直さない、意識させない&lt;/li&gt;
+&lt;li&gt;親がゆっくりとしゃべる&lt;/li&gt;
+&lt;li&gt;話を聞く&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;ぐらいしかない。
+私も軽度の吃音だが、吃音は悲しい病気だ。&lt;br&gt;
 小学生の時に真似されたことから、入社式で「はい」と言えなかったことまで、
-少しづつ、少しづつだが確実に心が傷ついていく。&lt;br>
-息子には同じ思いを少しでも味わわせたくないな。&lt;/p>
-&lt;h3 id="経過-20200810">経過 2020/08/10&lt;/h3>
-&lt;p>調子がいいときと悪い時で相当差がある。&lt;br>
-今まで言えていた単語を言わなくなった。本人も言いにくく、苦しいいのだろうか。&lt;br>
-言いにくい単語をクイズ形式で無理に言わせるのは辞めようと奥さんと申し合わせ。&lt;/p>
-&lt;h3 id="経過-20200920">経過 2020/09/20&lt;/h3>
-&lt;p>発音の前に息を大きく吸っても音が出ないようなことが多かったが、ここ二週間ぐらいは大変調子が良い。&lt;br>
-言いにくそうな音も毎日変わって、傾向的なものがあるかよくわからない。この調子が続いてくれると良いのだけど&lt;/p>
-&lt;h3 id="経過-20201004">経過 2020/10/04&lt;/h3>
-&lt;p>あれ、最近吃音出てない？レベルで忘れていた。&lt;/p>
-&lt;h3 id="経過-20201126">経過 2020/11/26&lt;/h3>
-&lt;p>11月の第一週に、無音(口は空いているのに、音が出ず息だけ出る)型の吃音で、&lt;br>
-本人も体を揺らしながら頑張っていて見ていて辛かったが、一週間ぐらいで消失した。&lt;/p>
-&lt;h3 id="経過-20201211">経過 2020/12/11&lt;/h3>
-&lt;p>吃音は全く出ない&lt;/p>
-&lt;h3 id="経過-20210125">経過 2021/01/25&lt;/h3>
-&lt;p>吃音は全く出ない&lt;/p></description></item></channel></rss>
+少しづつ、少しづつだが確実に心が傷ついていく。&lt;br&gt;
+息子には同じ思いを少しでも味わわせたくないな。&lt;/p&gt;
+&lt;h3 id="経過-20200810"&gt;経過 2020/08/10&lt;/h3&gt;
+&lt;p&gt;調子がいいときと悪い時で相当差がある。&lt;br&gt;
+今まで言えていた単語を言わなくなった。本人も言いにくく、苦しいいのだろうか。&lt;br&gt;
+言いにくい単語をクイズ形式で無理に言わせるのは辞めようと奥さんと申し合わせ。&lt;/p&gt;
+&lt;h3 id="経過-20200920"&gt;経過 2020/09/20&lt;/h3&gt;
+&lt;p&gt;発音の前に息を大きく吸っても音が出ないようなことが多かったが、ここ二週間ぐらいは大変調子が良い。&lt;br&gt;
+言いにくそうな音も毎日変わって、傾向的なものがあるかよくわからない。この調子が続いてくれると良いのだけど&lt;/p&gt;
+&lt;h3 id="経過-20201004"&gt;経過 2020/10/04&lt;/h3&gt;
+&lt;p&gt;あれ、最近吃音出てない？レベルで忘れていた。&lt;/p&gt;
+&lt;h3 id="経過-20201126"&gt;経過 2020/11/26&lt;/h3&gt;
+&lt;p&gt;11月の第一週に、無音(口は空いているのに、音が出ず息だけ出る)型の吃音で、&lt;br&gt;
+本人も体を揺らしながら頑張っていて見ていて辛かったが、一週間ぐらいで消失した。&lt;/p&gt;
+&lt;h3 id="経過-20201211"&gt;経過 2020/12/11&lt;/h3&gt;
+&lt;p&gt;吃音は全く出ない&lt;/p&gt;
+&lt;h3 id="経過-20210125"&gt;経過 2021/01/25&lt;/h3&gt;
+&lt;p&gt;吃音は全く出ない&lt;/p&gt;</description></item></channel></rss>

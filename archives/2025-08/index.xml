@@ -1,777 +1,777 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025-08 on d.sk85.org</title><link>/archives/2025-08/</link><description>Recent content in 2025-08 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 11 Nov 2025 23:16:08 +0900</lastBuildDate><atom:link href="/archives/2025-08/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-08-31[スカイツリーへ行く。検索システムにカテゴリ検索を追加]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子どもの朝食作り。ホットケーキを作る&lt;/li>
-&lt;li>子どもはスイミング&lt;/li>
-&lt;li>短時間ジムで運動&lt;/li>
-&lt;li>昼食は自宅で&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>永田町経由でスカイツリーに行く。人が多くてインバウンド絶好調ですなあ&lt;/li>
-&lt;li>奥さんと息子は昆虫博を見る&lt;/li>
-&lt;li>アイスなどを食べて 6 時前に帰宅&lt;/li>
-&lt;li>夜は回転寿司で夕食&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>日記を投稿年でフィルターできるようにした。&lt;a href="/posts/2025/02/18/437699/">index.json&lt;/a>に year の項目を足して、Meilisearch に読み込ませる。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attributes">filterable-attributes&lt;/a>に追加しないとフィルターできないため、 year のみ filterable-attributes に追加。あとは Instant Meilisearch の RefinementList を利用。またデザインの変え方を忘れてしまっていてたのだが、style.css を上書きした。便利だがちょっと遅い気がする&lt;/li>
-&lt;li>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2025-08 on d.sk85.org</title><link>/archives/2025-08/</link><description>Recent content in 2025-08 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 11 Nov 2025 23:16:08 +0900</lastBuildDate><atom:link href="/archives/2025-08/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-08-31[スカイツリーへ行く。検索システムにカテゴリ検索を追加]</title><link>/posts/2025/08/31/577124/</link><pubDate>Sun, 31 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/31/577124/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子どもの朝食作り。ホットケーキを作る&lt;/li&gt;
+&lt;li&gt;子どもはスイミング&lt;/li&gt;
+&lt;li&gt;短時間ジムで運動&lt;/li&gt;
+&lt;li&gt;昼食は自宅で&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;永田町経由でスカイツリーに行く。人が多くてインバウンド絶好調ですなあ&lt;/li&gt;
+&lt;li&gt;奥さんと息子は昆虫博を見る&lt;/li&gt;
+&lt;li&gt;アイスなどを食べて 6 時前に帰宅&lt;/li&gt;
+&lt;li&gt;夜は回転寿司で夕食&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;日記を投稿年でフィルターできるようにした。&lt;a href="/posts/2025/02/18/437699/"&gt;index.json&lt;/a&gt;に year の項目を足して、Meilisearch に読み込ませる。&lt;a href="https://www.meilisearch.com/docs/reference/api/settings#filterable-attributes"&gt;filterable-attributes&lt;/a&gt;に追加しないとフィルターできないため、 year のみ filterable-attributes に追加。あとは Instant Meilisearch の RefinementList を利用。またデザインの変え方を忘れてしまっていてたのだが、style.css を上書きした。便利だがちょっと遅い気がする&lt;/li&gt;
+&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250831-14-43-25-F8BcXfx95yoDs0jkS7G2.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://note.com/xcloche/n/n5cc0162fa607?sub_rt=share_pb">太陽光パネルはどれくらい悪いか計算する｜ xcloche&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-07/load-to-passkey-0.html">Passkey への道 #0: Intro | blog.jxck.io&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-25/digital-regacy.html">1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://blog.jxck.io/entries/2025-07-16/load-to-passkey-9.html">Passkey への道 #9: ユーザに求められる令和のアカウントリテラシ | blog.jxck.io&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>2025-08-30[またスマホの保護ガラスを割る]</title><link>/posts/2025/08/30/375933/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/30/375933/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>今日もクソ暑い&lt;/li>
-&lt;li>朝食後に水回りの清掃&lt;/li>
-&lt;li>久々に子どものプログラミング教室
-&lt;ul>
-&lt;li>モノレールを作ってとても楽しそうだった&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>M4 の MacBook Air が欲しくなるが、15 インチかあ&lt;/li>
-&lt;li>自宅で昼食&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>夕方子供をボール教室に連れて行く&lt;/li>
-&lt;li>夜も暑い、空気が重い&lt;/li>
-&lt;li>子どもの靴を洗って、ジムで短時間運動&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>火曜に割って、木曜に取り替えて、金曜の昼にまた割った。原因はわかっていて &lt;a href="/posts/2025/05/07/898534/">PITAKA のケース&lt;/a>が良くない。薄いのはいいが、ガラスフィルムを貼るとフィルムの方が飛び出している。またフィルムの最も弱いエッジが全く守られない。次買うなら、高いけど純正のシリコンケースかなあ。&lt;/li>
-&lt;li>ワイヤレス充電はバッテリ・本体共に相当熱くなることがわかり敬遠していて、それなら MagSafe 非対応の普通のシリコンケースでも良いかも。ケーブルがいらないのは便利なのだが、いかんせん発熱がすごい。&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-29[出張]</title><link>/posts/2025/08/29/388703/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/29/388703/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>海老名の研究所に出張&lt;/li>
-&lt;li>同僚と海老名駅で待ち合わせ&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>19:00 ぐらいまでセミナーと懇親会&lt;/li>
-&lt;li>新宿経由で帰宅&lt;/li>
-&lt;li>あぶない刑事を見て 12:30 に就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-28[帰る]</title><link>/posts/2025/08/28/598893/</link><pubDate>Thu, 28 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/28/598893/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>出張 3 日目&lt;/li>
-&lt;li>ブース対応とセミナー聴講&lt;/li>
-&lt;li>昼過ぎに新大阪へ&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>お土産を買って東京へ帰る&lt;/li>
-&lt;li>高崎線経由で帰宅&lt;/li>
-&lt;li>自宅でかたずけや洗濯をして子どもの習字の迎え&lt;/li>
-&lt;li>自宅で報告書の作成など&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;li>営業活動が不調だった、モヤモヤ&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>投資記録2025年08月</title><link>/posts/2025/08/28/438086/</link><pubDate>Thu, 28 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/28/438086/</guid><description>&lt;h1 id="現在の評価額">現在の評価額&lt;/h1>
-&lt;p>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250830-00-19-52-iQ4ks7_yy4vPhdVBBXKK.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250830-00-19-52-iQ4ks7_yy4vPhdVBBXKK.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://note.com/xcloche/n/n5cc0162fa607?sub_rt=share_pb"&gt;太陽光パネルはどれくらい悪いか計算する｜ xcloche&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-07/load-to-passkey-0.html"&gt;Passkey への道 #0: Intro | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-25/digital-regacy.html"&gt;1Password と遺言保管制度を用いたデジタル終活 | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://blog.jxck.io/entries/2025-07-16/load-to-passkey-9.html"&gt;Passkey への道 #9: ユーザに求められる令和のアカウントリテラシ | blog.jxck.io&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>2025-08-30[またスマホの保護ガラスを割る]</title><link>/posts/2025/08/30/375933/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/30/375933/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;今日もクソ暑い&lt;/li&gt;
+&lt;li&gt;朝食後に水回りの清掃&lt;/li&gt;
+&lt;li&gt;久々に子どものプログラミング教室
+&lt;ul&gt;
+&lt;li&gt;モノレールを作ってとても楽しそうだった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;M4 の MacBook Air が欲しくなるが、15 インチかあ&lt;/li&gt;
+&lt;li&gt;自宅で昼食&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;夕方子供をボール教室に連れて行く&lt;/li&gt;
+&lt;li&gt;夜も暑い、空気が重い&lt;/li&gt;
+&lt;li&gt;子どもの靴を洗って、ジムで短時間運動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;火曜に割って、木曜に取り替えて、金曜の昼にまた割った。原因はわかっていて &lt;a href="/posts/2025/05/07/898534/"&gt;PITAKA のケース&lt;/a&gt;が良くない。薄いのはいいが、ガラスフィルムを貼るとフィルムの方が飛び出している。またフィルムの最も弱いエッジが全く守られない。次買うなら、高いけど純正のシリコンケースかなあ。&lt;/li&gt;
+&lt;li&gt;ワイヤレス充電はバッテリ・本体共に相当熱くなることがわかり敬遠していて、それなら MagSafe 非対応の普通のシリコンケースでも良いかも。ケーブルがいらないのは便利なのだが、いかんせん発熱がすごい。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-29[出張]</title><link>/posts/2025/08/29/388703/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/29/388703/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;海老名の研究所に出張&lt;/li&gt;
+&lt;li&gt;同僚と海老名駅で待ち合わせ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;19:00 ぐらいまでセミナーと懇親会&lt;/li&gt;
+&lt;li&gt;新宿経由で帰宅&lt;/li&gt;
+&lt;li&gt;あぶない刑事を見て 12:30 に就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-28[帰る]</title><link>/posts/2025/08/28/598893/</link><pubDate>Thu, 28 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/28/598893/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;出張 3 日目&lt;/li&gt;
+&lt;li&gt;ブース対応とセミナー聴講&lt;/li&gt;
+&lt;li&gt;昼過ぎに新大阪へ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;お土産を買って東京へ帰る&lt;/li&gt;
+&lt;li&gt;高崎線経由で帰宅&lt;/li&gt;
+&lt;li&gt;自宅でかたずけや洗濯をして子どもの習字の迎え&lt;/li&gt;
+&lt;li&gt;自宅で報告書の作成など&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;li&gt;営業活動が不調だった、モヤモヤ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>投資記録2025年08月</title><link>/posts/2025/08/28/438086/</link><pubDate>Thu, 28 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/28/438086/</guid><description>&lt;h1 id="現在の評価額"&gt;現在の評価額&lt;/h1&gt;
+&lt;p&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250830-00-19-52-iQ4ks7_yy4vPhdVBBXKK.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250830-00-19-52-iQ4ks7_yy4vPhdVBBXKK.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250830-00-19-52-13GLRhcw3J16Ly_hA8RG.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250830-00-19-52-13GLRhcw3J16Ly_hA8RG.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250830-00-19-52-13GLRhcw3J16Ly_hA8RG.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250830-00-19-52-13GLRhcw3J16Ly_hA8RG.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
-&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250830-00-19-52-EzaJxQo7rklkVY5j2mgI.png">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250830-00-19-52-EzaJxQo7rklkVY5j2mgI.png" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250830-00-19-52-EzaJxQo7rklkVY5j2mgI.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250830-00-19-52-EzaJxQo7rklkVY5j2mgI.png" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
 
-FRB が 9 月の利下げを指示。安定していたのであまり市場を見ていない。日本株は結構上がったのかな。夏の旅行でお金を使い、マウスやキーボードも買ったので節約モード&lt;/p></description></item><item><title>2025-08-27[学会2日目]</title><link>/posts/2025/08/27/703092/</link><pubDate>Wed, 27 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/27/703092/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>セミナー聴講と営業活動
-&lt;ul>
-&lt;li>ちょっと眠くなってしまった&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>セミナー聴講と営業活動&lt;/li>
-&lt;li>スーパーで夕食を買って今日はどこにも行かずにホテルに戻る&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;li>朝の不安感&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-26[学会に行く]</title><link>/posts/2025/08/26/270661/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/26/270661/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>始発で大阪に&lt;/li>
-&lt;li>気持ち悪い&lt;/li>
-&lt;li>10:00 前に会場に着きセミナー聴講や営業活動&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>午後もブースで営業活動するがあまり人が来ない&lt;/li>
-&lt;li>夜は懇親会&lt;/li>
-&lt;li>恩師と研究室の後輩と二次会&lt;/li>
-&lt;li>22:30 頃ホテルに到着&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-25[仕事再開]</title><link>/posts/2025/08/25/779523/</link><pubDate>Mon, 25 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/25/779523/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>朝は気分悪めだがマシ&lt;/li>
-&lt;li>子供を学童に送迎&lt;/li>
-&lt;li>急いで出社&lt;/li>
-&lt;li>細かいが面倒な仕事をいくつか片付ける&lt;/li>
-&lt;li>ミーティング&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>昼休みも仕事&lt;/li>
-&lt;li>早めに退社して散髪&lt;/li>
-&lt;li>また仕事&lt;/li>
-&lt;li>子どもの迎え&lt;/li>
-&lt;li>調査業務などを続ける&lt;/li>
-&lt;li>19:00 前ぐらいまで働いて終了&lt;/li>
-&lt;li>スイッチが反応しなくなっていた自宅の扇風機のタクトスイッチを外して、新品をはんだ付けする
-&lt;ul>
-&lt;li>子供に見せたが興味なさそう。子は思ったように育たないものだ&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>明日早いので 23:20 に就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>夜子どもが寝るのが遅くてイライラしてし怒鳴った。明日出張頑張ってねと手を握ってくれたのにごめん。怒鳴る原因も勘違いだった&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-24[夏休み最後]</title><link>/posts/2025/08/24/632173/</link><pubDate>Sun, 24 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/24/632173/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子どもの朝食作り&lt;/li>
-&lt;li>子供は水泳教室&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>息子はお母さんに口答えして叱られる&lt;/li>
-&lt;li>家族でスイミングスクールンジョプール開放に行く、水が綺麗で気持ちがよい&lt;/li>
-&lt;li>ロッテリアでおやつを食べて帰宅&lt;/li>
-&lt;li>早めに就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>今日で夏休み最後だが、むう s ことの時間を長く取れたのは良かった。来年はもっと涼しいところに行きたい&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://plamo.preferredai.jp/">PLaMo 翻訳&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>2025-08-23[暑い土曜日]</title><link>/posts/2025/08/23/204670/</link><pubDate>Sat, 23 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/23/204670/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子供が友達と遊ぶ約束をしたというので公園に行くが友達と会えず
-&lt;ul>
-&lt;li>よく約束をすっぽかされてかわいそうだ&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>家族でゲーセンで遊ぶ、最近息子は太鼓の達人にハマっている&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>自宅で昼食&lt;/li>
-&lt;li>夕方友達と銭湯に行って、銭湯で晩御飯を食べて、川で花火をする
-&lt;ul>
-&lt;li>楽しくてよかったね&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>21:30 頃帰宅して、もう 1 回風呂に入れて就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-22[ひとりの夏休み2日目]</title><link>/posts/2025/08/22/877700/</link><pubDate>Fri, 22 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/22/877700/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子どもの学童送迎&lt;/li>
-&lt;li>自宅で読書などをして過ごす&lt;/li>
-&lt;li>大宮の煮干丸で昼食&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>自宅で過ごす&lt;/li>
-&lt;li>子どもの迎え&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-21[やっと1人の夏休み]</title><link>/posts/2025/08/21/459833/</link><pubDate>Thu, 21 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/21/459833/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子供の学童送迎&lt;/li>
-&lt;li>ジムで運動、自宅読書など&lt;/li>
-&lt;li>新三郷のロピアに行く&lt;/li>
-&lt;li>コストコで会員権の更新&lt;/li>
-&lt;li>ロピアで昼食を買って帰宅。ロピアは中々良くて、コストコの量半分値段半分で買いやすい&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>自宅で過ごし夕方子供を迎えに行く&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-20[科学未来館に連れて行く]</title><link>/posts/2025/08/20/528634/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/20/528634/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子供は今日まで夏休み&lt;/li>
-&lt;li>科学未来館に連れて行くが、あまり興味なさそう。親が思うようには育たないなあ
-&lt;ul>
-&lt;li>個人的には LE-7 が見れて嬉しかった&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250820-14-21-48--Q92lNh6_6ERka7kwQkD.jpg">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20250820-14-21-48--Q92lNh6_6ERka7kwQkD.jpg" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+FRB が 9 月の利下げを指示。安定していたのであまり市場を見ていない。日本株は結構上がったのかな。夏の旅行でお金を使い、マウスやキーボードも買ったので節約モード&lt;/p&gt;</description></item><item><title>2025-08-27[学会2日目]</title><link>/posts/2025/08/27/703092/</link><pubDate>Wed, 27 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/27/703092/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;セミナー聴講と営業活動
+&lt;ul&gt;
+&lt;li&gt;ちょっと眠くなってしまった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;セミナー聴講と営業活動&lt;/li&gt;
+&lt;li&gt;スーパーで夕食を買って今日はどこにも行かずにホテルに戻る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;li&gt;朝の不安感&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-26[学会に行く]</title><link>/posts/2025/08/26/270661/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/26/270661/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;始発で大阪に&lt;/li&gt;
+&lt;li&gt;気持ち悪い&lt;/li&gt;
+&lt;li&gt;10:00 前に会場に着きセミナー聴講や営業活動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;午後もブースで営業活動するがあまり人が来ない&lt;/li&gt;
+&lt;li&gt;夜は懇親会&lt;/li&gt;
+&lt;li&gt;恩師と研究室の後輩と二次会&lt;/li&gt;
+&lt;li&gt;22:30 頃ホテルに到着&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-25[仕事再開]</title><link>/posts/2025/08/25/779523/</link><pubDate>Mon, 25 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/25/779523/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;朝は気分悪めだがマシ&lt;/li&gt;
+&lt;li&gt;子供を学童に送迎&lt;/li&gt;
+&lt;li&gt;急いで出社&lt;/li&gt;
+&lt;li&gt;細かいが面倒な仕事をいくつか片付ける&lt;/li&gt;
+&lt;li&gt;ミーティング&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;昼休みも仕事&lt;/li&gt;
+&lt;li&gt;早めに退社して散髪&lt;/li&gt;
+&lt;li&gt;また仕事&lt;/li&gt;
+&lt;li&gt;子どもの迎え&lt;/li&gt;
+&lt;li&gt;調査業務などを続ける&lt;/li&gt;
+&lt;li&gt;19:00 前ぐらいまで働いて終了&lt;/li&gt;
+&lt;li&gt;スイッチが反応しなくなっていた自宅の扇風機のタクトスイッチを外して、新品をはんだ付けする
+&lt;ul&gt;
+&lt;li&gt;子供に見せたが興味なさそう。子は思ったように育たないものだ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;明日早いので 23:20 に就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;夜子どもが寝るのが遅くてイライラしてし怒鳴った。明日出張頑張ってねと手を握ってくれたのにごめん。怒鳴る原因も勘違いだった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-24[夏休み最後]</title><link>/posts/2025/08/24/632173/</link><pubDate>Sun, 24 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/24/632173/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子どもの朝食作り&lt;/li&gt;
+&lt;li&gt;子供は水泳教室&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;息子はお母さんに口答えして叱られる&lt;/li&gt;
+&lt;li&gt;家族でスイミングスクールンジョプール開放に行く、水が綺麗で気持ちがよい&lt;/li&gt;
+&lt;li&gt;ロッテリアでおやつを食べて帰宅&lt;/li&gt;
+&lt;li&gt;早めに就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;今日で夏休み最後だが、むう s ことの時間を長く取れたのは良かった。来年はもっと涼しいところに行きたい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://plamo.preferredai.jp/"&gt;PLaMo 翻訳&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>2025-08-23[暑い土曜日]</title><link>/posts/2025/08/23/204670/</link><pubDate>Sat, 23 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/23/204670/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子供が友達と遊ぶ約束をしたというので公園に行くが友達と会えず
+&lt;ul&gt;
+&lt;li&gt;よく約束をすっぽかされてかわいそうだ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;家族でゲーセンで遊ぶ、最近息子は太鼓の達人にハマっている&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;自宅で昼食&lt;/li&gt;
+&lt;li&gt;夕方友達と銭湯に行って、銭湯で晩御飯を食べて、川で花火をする
+&lt;ul&gt;
+&lt;li&gt;楽しくてよかったね&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;21:30 頃帰宅して、もう 1 回風呂に入れて就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-22[ひとりの夏休み2日目]</title><link>/posts/2025/08/22/877700/</link><pubDate>Fri, 22 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/22/877700/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子どもの学童送迎&lt;/li&gt;
+&lt;li&gt;自宅で読書などをして過ごす&lt;/li&gt;
+&lt;li&gt;大宮の煮干丸で昼食&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;自宅で過ごす&lt;/li&gt;
+&lt;li&gt;子どもの迎え&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-21[やっと1人の夏休み]</title><link>/posts/2025/08/21/459833/</link><pubDate>Thu, 21 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/21/459833/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子供の学童送迎&lt;/li&gt;
+&lt;li&gt;ジムで運動、自宅読書など&lt;/li&gt;
+&lt;li&gt;新三郷のロピアに行く&lt;/li&gt;
+&lt;li&gt;コストコで会員権の更新&lt;/li&gt;
+&lt;li&gt;ロピアで昼食を買って帰宅。ロピアは中々良くて、コストコの量半分値段半分で買いやすい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;自宅で過ごし夕方子供を迎えに行く&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-20[科学未来館に連れて行く]</title><link>/posts/2025/08/20/528634/</link><pubDate>Wed, 20 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/20/528634/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子供は今日まで夏休み&lt;/li&gt;
+&lt;li&gt;科学未来館に連れて行くが、あまり興味なさそう。親が思うようには育たないなあ
+&lt;ul&gt;
+&lt;li&gt;個人的には LE-7 が見れて嬉しかった&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250820-14-21-48--Q92lNh6_6ERka7kwQkD.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20250820-14-21-48--Q92lNh6_6ERka7kwQkD.jpg" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;li>こうやって見ると、燃やすところよりも送液部分の方がはるかに複雑。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>青梅食堂で昼食、息子はラーメン僕はカツカレー&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>新橋経由で帰宅&lt;/li>
-&lt;li>夕方ゲームセンターに連れて行く&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>明日明後日は自分のために休む&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-19[越後湯沢2日目]</title><link>/posts/2025/08/19/679306/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/19/679306/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>ホテルで朝食&lt;/li>
-&lt;li>9 時頃チェックアウトして登川河川公園に&lt;/li>
-&lt;li>途中で稲田の大きさに感動する&lt;/li>
-&lt;li>実家の稲田は小さかったからなあ&lt;/li>
-&lt;li>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250820-13-18-22-jPKnKR5BFSy9qrXe0zMI.jpg">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250820-13-18-22-jPKnKR5BFSy9qrXe0zMI.jpg" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;こうやって見ると、燃やすところよりも送液部分の方がはるかに複雑。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;青梅食堂で昼食、息子はラーメン僕はカツカレー&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;新橋経由で帰宅&lt;/li&gt;
+&lt;li&gt;夕方ゲームセンターに連れて行く&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;明日明後日は自分のために休む&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-19[越後湯沢2日目]</title><link>/posts/2025/08/19/679306/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/19/679306/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ホテルで朝食&lt;/li&gt;
+&lt;li&gt;9 時頃チェックアウトして登川河川公園に&lt;/li&gt;
+&lt;li&gt;途中で稲田の大きさに感動する&lt;/li&gt;
+&lt;li&gt;実家の稲田は小さかったからなあ&lt;/li&gt;
+&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250820-13-18-22-jPKnKR5BFSy9qrXe0zMI.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250820-13-18-22-jPKnKR5BFSy9qrXe0zMI.jpg" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;li>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250820-13-18-22-UqH4l3sdN2AxFg6jLM2m.jpg">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250820-13-18-22-UqH4l3sdN2AxFg6jLM2m.jpg" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250820-13-18-22-UqH4l3sdN2AxFg6jLM2m.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250820-13-18-22-UqH4l3sdN2AxFg6jLM2m.jpg" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;li>1 時間ほど登川で遊んで、越後湯沢駅に&lt;/li>
-&lt;li>駅で爆弾おにぎりを買う。息子は大きすぎるとのことで、駅の売店で小さい 3 食おにぎりを買う&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>12:00 過ぎの新幹線で大宮に&lt;/li>
-&lt;li>高崎線に乗りたいとかで、赤羽まで移動してまた川口に&lt;/li>
-&lt;li>バスで帰宅&lt;/li>
-&lt;li>洗濯などをして、夜は二人で夕食&lt;/li>
-&lt;li>奥さんは飲み会とかで、遅くに帰宅&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>72&lt;/li>
-&lt;li>良い 2 日間だった&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-18[越後湯沢1日目]</title><link>/posts/2025/08/18/677194/</link><pubDate>Mon, 18 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/18/677194/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>毎年恒例の夏休みの息子との旅行&lt;/li>
-&lt;li>&lt;a href="/posts/2024/08/19/395564/">去年の旅行&lt;/a>&lt;/li>
-&lt;li>大宮から新幹線で越後湯沢に&lt;/li>
-&lt;li>レンタカーを借りて昼食はへぎそば&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250820-14-02-38-K8782s914GvZtsfbXJG5.jpg">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250820-14-02-38-K8782s914GvZtsfbXJG5.jpg" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;1 時間ほど登川で遊んで、越後湯沢駅に&lt;/li&gt;
+&lt;li&gt;駅で爆弾おにぎりを買う。息子は大きすぎるとのことで、駅の売店で小さい 3 食おにぎりを買う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;12:00 過ぎの新幹線で大宮に&lt;/li&gt;
+&lt;li&gt;高崎線に乗りたいとかで、赤羽まで移動してまた川口に&lt;/li&gt;
+&lt;li&gt;バスで帰宅&lt;/li&gt;
+&lt;li&gt;洗濯などをして、夜は二人で夕食&lt;/li&gt;
+&lt;li&gt;奥さんは飲み会とかで、遅くに帰宅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;72&lt;/li&gt;
+&lt;li&gt;良い 2 日間だった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-18[越後湯沢1日目]</title><link>/posts/2025/08/18/677194/</link><pubDate>Mon, 18 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/18/677194/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;毎年恒例の夏休みの息子との旅行&lt;/li&gt;
+&lt;li&gt;&lt;a href="/posts/2024/08/19/395564/"&gt;去年の旅行&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;大宮から新幹線で越後湯沢に&lt;/li&gt;
+&lt;li&gt;レンタカーを借りて昼食はへぎそば&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250820-14-02-38-K8782s914GvZtsfbXJG5.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20250820-14-02-38-K8782s914GvZtsfbXJG5.jpg" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;li>上越国際のホテルに移動してプールで遊ぶ&lt;/li>
-&lt;li>夕食はホテルで&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>82&lt;/li>
-&lt;li>へぎそばうまかった&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-17[息子の友達と公園に行く]</title><link>/posts/2025/08/17/97232/</link><pubDate>Sun, 17 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/17/97232/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>朝から息子の友達とそのお父さんと一緒に舎人公園いいく&lt;/li>
-&lt;li>じゃぶじゃぶ池で友達と楽しそうに水遊びをしていた&lt;/li>
-&lt;li>キッチンカーで冷たいものを買う&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>芝滑りを 10 分やる&lt;/li>
-&lt;li>そのあと、ファミレスで遅い夕食&lt;/li>
-&lt;li>15:00 過ぎに帰宅&lt;/li>
-&lt;li>日焼けして腕が痛い&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>72&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-16[自分の夏休み開始]</title><link>/posts/2025/08/16/347564/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/16/347564/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>自宅で過ごす&lt;/li>
-&lt;li>水回りの清掃&lt;/li>
-&lt;li>自宅で昼食&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>朝から息子は宿題のポスターのやる気がなく、奥さんと喧嘩して雰囲気が悪い&lt;/li>
-&lt;li>夕方家族で図書館に行く&lt;/li>
-&lt;li>スーパーで買い物をして帰宅&lt;/li>
-&lt;li>夕食後にジムで 15 分だけ運動&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-15[仕事が終わらないが明日から夏休み]</title><link>/posts/2025/08/15/943119/</link><pubDate>Fri, 15 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/15/943119/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>朝の不安感あり&lt;/li>
-&lt;li>子どもの送迎&lt;/li>
-&lt;li>事務仕事&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>昼休みも仕事&lt;/li>
-&lt;li>新製品関係の会議&lt;/li>
-&lt;li>子どもの迎え&lt;/li>
-&lt;li>仕事が終わらずモヤモヤするが諦める
-&lt;ul>
-&lt;li>夜に仕事をして罪悪感を薄めるようなことをしなかった&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-14[塊魂新作発売決定]</title><link>/posts/2025/08/14/11933/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/14/11933/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子供を学童に送迎&lt;/li>
-&lt;li>ラボのかたずけなど&lt;/li>
-&lt;li>ミーティング 2 つ&lt;/li>
-&lt;li>昼休みに定食屋に行ったら、今年部署を変わった方がいらっしゃってずっと愚痴を聞かされて少し不安感が出る&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>部下の実験がリカバリーできそうな感じ&lt;/li>
-&lt;li>装置の復旧を手伝う&lt;/li>
-&lt;li>自分の実験を少し&lt;/li>
-&lt;li>認知行動療法
-&lt;ul>
-&lt;li>比べるクセについて話し合う&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>19:00 頃退社&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a href="https://getnews.jp/archives/3651066">『ワンス・アポン・ア・塊魂』10 月発売決定！ こっちのけんとが歌う「素敵ソング」MV も公開中 ｜ ガジェット通信 GetNews&lt;/a>
-&lt;ul>
-&lt;li>塊魂の新作が発売される、スイッチ向けだがスイッチ 2 だと処理が良くなるのだろうか。楽しみだ&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>最近購入した Keychron V3 MAX が職場でも、自宅でも大変良い。
-&lt;ul>
-&lt;li>2 枚購入したうち、職場用の 1 枚は&lt;a href="/posts/2025/07/27/987591/">Outemu Silent Lemon &lt;/a>に交換しているが、こちらも静かで大変良い押しごごち。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-13[普通の1日]</title><link>/posts/2025/08/13/739363/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/13/739363/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>早めに出社&lt;/li>
-&lt;li>実験&lt;/li>
-&lt;li>ミーティング&lt;/li>
-&lt;li>昼も仕事&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>長めの会議&lt;/li>
-&lt;li>実験などをして 19:00 頃退社&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-12[息子の歯科治療が終わる。世の中一言多い人が多すぎる]</title><link>/posts/2025/08/12/579871/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/12/579871/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子供を学童に送っていく&lt;/li>
-&lt;li>出社、締め切りが近いデスクワーク&lt;/li>
-&lt;li>ミーティング (今日は兼務先のミーティングが無いので助かる)&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>昼休みに自宅に移動&lt;/li>
-&lt;li>在宅勤務&lt;/li>
-&lt;li>子供を迎えに行く&lt;/li>
-&lt;li>歯医者で虫歯の治療
-&lt;ul>
-&lt;li>相当初期だったようで、5 分で終わり。痛くなかったとのこと&lt;/li>
-&lt;li>歯医者の前は、今日俺は死ぬ、と言っていたので良かったね&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>自宅で夕方過ぎまで仕事&lt;/li>
-&lt;li>夜息子は電車の絵を描いていた。うまくなったなあと&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;li>今日の朝、だるくて休もうかと思ったが出社してよかった。調子を戻さないと&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>この前実家に帰った時の母親の小言もそうだが、世の中には自分を含めて一言多い人が多すぎる
-&lt;ul>
-&lt;li>上越市の市町が、兵庫の米は不味いと言ったり&lt;/li>
-&lt;li>ベンチャーの社長がまるで自分が悲劇のヒロインのごとく note でリストラを伝えるつらさを語ったり
-&lt;ul>
-&lt;li>&lt;a href="https://note.com/maochil/n/n82d307fe2264">レイオフを伝えるという仕事｜山田真央｜ダイニー&lt;/a>
-&lt;blockquote class="twitter-tweet">&lt;p lang="ja" dir="ltr">ポジティブなレイオフなんてないし、社員の人生に大きく影響を与えるような失態でもあるので、さすがにそれをオープンにあれこれ記事にしたりインタビューに答えてるのは社員へのケアとは真逆でよろしくないんではと思わざるを得ませんでした。もっと社員へのパッケージとケアを厚くして欲しい。…&lt;/p>&amp;mdash; まつもとりー / Ryosuke Matsumoto (@matsumotory) &lt;a href="https://twitter.com/matsumotory/status/1953170460226777336?ref_src=twsrc%5Etfw">August 6, 2025&lt;/a>&lt;/blockquote>
- &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;li&gt;上越国際のホテルに移動してプールで遊ぶ&lt;/li&gt;
+&lt;li&gt;夕食はホテルで&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;82&lt;/li&gt;
+&lt;li&gt;へぎそばうまかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-17[息子の友達と公園に行く]</title><link>/posts/2025/08/17/97232/</link><pubDate>Sun, 17 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/17/97232/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;朝から息子の友達とそのお父さんと一緒に舎人公園いいく&lt;/li&gt;
+&lt;li&gt;じゃぶじゃぶ池で友達と楽しそうに水遊びをしていた&lt;/li&gt;
+&lt;li&gt;キッチンカーで冷たいものを買う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;芝滑りを 10 分やる&lt;/li&gt;
+&lt;li&gt;そのあと、ファミレスで遅い夕食&lt;/li&gt;
+&lt;li&gt;15:00 過ぎに帰宅&lt;/li&gt;
+&lt;li&gt;日焼けして腕が痛い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;72&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-16[自分の夏休み開始]</title><link>/posts/2025/08/16/347564/</link><pubDate>Sat, 16 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/16/347564/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;自宅で過ごす&lt;/li&gt;
+&lt;li&gt;水回りの清掃&lt;/li&gt;
+&lt;li&gt;自宅で昼食&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;朝から息子は宿題のポスターのやる気がなく、奥さんと喧嘩して雰囲気が悪い&lt;/li&gt;
+&lt;li&gt;夕方家族で図書館に行く&lt;/li&gt;
+&lt;li&gt;スーパーで買い物をして帰宅&lt;/li&gt;
+&lt;li&gt;夕食後にジムで 15 分だけ運動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-15[仕事が終わらないが明日から夏休み]</title><link>/posts/2025/08/15/943119/</link><pubDate>Fri, 15 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/15/943119/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;朝の不安感あり&lt;/li&gt;
+&lt;li&gt;子どもの送迎&lt;/li&gt;
+&lt;li&gt;事務仕事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;昼休みも仕事&lt;/li&gt;
+&lt;li&gt;新製品関係の会議&lt;/li&gt;
+&lt;li&gt;子どもの迎え&lt;/li&gt;
+&lt;li&gt;仕事が終わらずモヤモヤするが諦める
+&lt;ul&gt;
+&lt;li&gt;夜に仕事をして罪悪感を薄めるようなことをしなかった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-14[塊魂新作発売決定]</title><link>/posts/2025/08/14/11933/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/14/11933/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子供を学童に送迎&lt;/li&gt;
+&lt;li&gt;ラボのかたずけなど&lt;/li&gt;
+&lt;li&gt;ミーティング 2 つ&lt;/li&gt;
+&lt;li&gt;昼休みに定食屋に行ったら、今年部署を変わった方がいらっしゃってずっと愚痴を聞かされて少し不安感が出る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;部下の実験がリカバリーできそうな感じ&lt;/li&gt;
+&lt;li&gt;装置の復旧を手伝う&lt;/li&gt;
+&lt;li&gt;自分の実験を少し&lt;/li&gt;
+&lt;li&gt;認知行動療法
+&lt;ul&gt;
+&lt;li&gt;比べるクセについて話し合う&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;19:00 頃退社&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://getnews.jp/archives/3651066"&gt;『ワンス・アポン・ア・塊魂』10 月発売決定！ こっちのけんとが歌う「素敵ソング」MV も公開中 ｜ ガジェット通信 GetNews&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;塊魂の新作が発売される、スイッチ向けだがスイッチ 2 だと処理が良くなるのだろうか。楽しみだ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;最近購入した Keychron V3 MAX が職場でも、自宅でも大変良い。
+&lt;ul&gt;
+&lt;li&gt;2 枚購入したうち、職場用の 1 枚は&lt;a href="/posts/2025/07/27/987591/"&gt;Outemu Silent Lemon &lt;/a&gt;に交換しているが、こちらも静かで大変良い押しごごち。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-13[普通の1日]</title><link>/posts/2025/08/13/739363/</link><pubDate>Wed, 13 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/13/739363/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;早めに出社&lt;/li&gt;
+&lt;li&gt;実験&lt;/li&gt;
+&lt;li&gt;ミーティング&lt;/li&gt;
+&lt;li&gt;昼も仕事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;長めの会議&lt;/li&gt;
+&lt;li&gt;実験などをして 19:00 頃退社&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-12[息子の歯科治療が終わる。世の中一言多い人が多すぎる]</title><link>/posts/2025/08/12/579871/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/12/579871/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子供を学童に送っていく&lt;/li&gt;
+&lt;li&gt;出社、締め切りが近いデスクワーク&lt;/li&gt;
+&lt;li&gt;ミーティング (今日は兼務先のミーティングが無いので助かる)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;昼休みに自宅に移動&lt;/li&gt;
+&lt;li&gt;在宅勤務&lt;/li&gt;
+&lt;li&gt;子供を迎えに行く&lt;/li&gt;
+&lt;li&gt;歯医者で虫歯の治療
+&lt;ul&gt;
+&lt;li&gt;相当初期だったようで、5 分で終わり。痛くなかったとのこと&lt;/li&gt;
+&lt;li&gt;歯医者の前は、今日俺は死ぬ、と言っていたので良かったね&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;自宅で夕方過ぎまで仕事&lt;/li&gt;
+&lt;li&gt;夜息子は電車の絵を描いていた。うまくなったなあと&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;li&gt;今日の朝、だるくて休もうかと思ったが出社してよかった。調子を戻さないと&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;この前実家に帰った時の母親の小言もそうだが、世の中には自分を含めて一言多い人が多すぎる
+&lt;ul&gt;
+&lt;li&gt;上越市の市町が、兵庫の米は不味いと言ったり&lt;/li&gt;
+&lt;li&gt;ベンチャーの社長がまるで自分が悲劇のヒロインのごとく note でリストラを伝えるつらさを語ったり
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://note.com/maochil/n/n82d307fe2264"&gt;レイオフを伝えるという仕事｜山田真央｜ダイニー&lt;/a&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;ポジティブなレイオフなんてないし、社員の人生に大きく影響を与えるような失態でもあるので、さすがにそれをオープンにあれこれ記事にしたりインタビューに答えてるのは社員へのケアとは真逆でよろしくないんではと思わざるを得ませんでした。もっと社員へのパッケージとケアを厚くして欲しい。…&lt;/p&gt;&amp;mdash; まつもとりー / Ryosuke Matsumoto (@matsumotory) &lt;a href="https://twitter.com/matsumotory/status/1953170460226777336?ref_src=twsrc%5Etfw"&gt;August 6, 2025&lt;/a&gt;&lt;/blockquote&gt;
+ &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
  
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>僕も失敗したなあと思うことが多々あり、悩み中&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-11[しながわ水族館に行く]</title><link>/posts/2025/08/11/505908/</link><pubDate>Mon, 11 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/11/505908/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>一日中雨が降ったり止んだり&lt;/li>
-&lt;li>子どもの朝食作り&lt;/li>
-&lt;li>昼前に京浜東北で大森に移動&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>駅のアトレでくら寿司で昼食&lt;/li>
-&lt;li>品川水族館に行く&lt;/li>
-&lt;li>帰りは京急経由で帰宅&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>実家から果物が大量に届き、困る&lt;/li>
-&lt;li>こういうの困るなあ&lt;/li>
-&lt;li>あと奥さんが細かくて疲れるわ&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-10[自宅近くでダラダラと過ごす]</title><link>/posts/2025/08/10/520998/</link><pubDate>Sun, 10 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/10/520998/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>雨が降ったり止んだり&lt;/li>
-&lt;li>遅めの起床&lt;/li>
-&lt;li>息子が文句ばかりで、やることをやらずにゲームゲーム言って僕がキレる&lt;/li>
-&lt;li>子供は水泳教室、僕はジムで運動&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>母親にお礼と苦言の電話をする、母親はキレて電話を切る
-&lt;ul>
-&lt;li>親は子供に強い権限と同時に責任を負っている&lt;/li>
-&lt;li>好きなだけ食べさせたり、甘やかせるのは違う&lt;/li>
-&lt;li>僕達がいないときはおまかせするが、僕達がいるときは決めるのは僕達&lt;/li>
-&lt;li>母親も年を追うごとに常識がなくなってきているな、頭が痛い&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>昼食後、図書館などにいいく&lt;/li>
-&lt;li>夜は早めに就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>1 週間甘やかされて生活していたので息子がだらけている、生活を立て直さないと&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-09[正気を保つにはどうすればよいか]</title><link>/posts/2025/08/09/684823/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/09/684823/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>みんなで馬立川に行くが雨が降っていたようで、川遊びは自己責任とのこと (当たり前だとは思うが)&lt;/li>
-&lt;li>新居浜の方の人工ビーチで遊ぶ&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>サービスエリアで昼食をとって、少しお土産を買う&lt;/li>
-&lt;li>息子が昼食後にアイスが食べたいとごねて、食べさせなかったら母親が奥さんに小言を言う
-&lt;ul>
-&lt;li>こんなにゴネる子は見たことないとか、将来反動が来るだの、余計なことを言う&lt;/li>
-&lt;li>奥さんがそれ以降、すごく機嫌の悪い空気を出す&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>実家で少し過ごして空港に移動
-&lt;ul>
-&lt;li>移動中も奥さんは子供にキレて、もう実家に帰らないだの、私が悪かったのかなど、社内の空気がピリつく&lt;/li>
-&lt;li>うちのは母親も、思っても言うなよ。&lt;/li>
-&lt;li>奥さんがキレるのもわかるよ&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>空港でも子供を無視して空気がピリつく&lt;/li>
-&lt;li>なんとかフォローして、羽田に着く頃には子供と話している状態に戻す&lt;/li>
-&lt;li>到着ゲート前の成城石井で夕食を買う&lt;/li>
-&lt;li>品川からグリーン車に乗って、夕食をとりながら川口に&lt;/li>
-&lt;li>自宅に帰って片付けをして就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>こんな空気になるなら来年実家帰りたくないわ&lt;/li>
-&lt;li>今回の帰省で奥さんと母親の相性は確実に悪くなったな&lt;/li>
-&lt;li>余計なことを言う母親や、偏屈になりすぐにキレる父親を見て、正気を保ちながら年を取るのがいかに難しいか実感した。金があっても 60 で仕事を辞めると、常識がアップデートされずに気が狂う気がする。自分は無知であり、自分の常識は自分の半径 1.5m しくらいしか通用しないことを忘れず、時代は若い人のものであり若い人を尊敬して、謙虚に生きていくためにはどうすればよいのか。自分も年を追うごとに偏屈になり、怒りっぽくなり、他責になり、父親に近づいている気がする。息子から尊敬されるような生き方をするためにはどうすればよいのか。一つのヒントは、奥さんの両親のような気がする。&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-08[実家で過ごす]</title><link>/posts/2025/08/08/535094/</link><pubDate>Fri, 08 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/08/535094/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>朝は高松は強い雨&lt;/li>
-&lt;li>遅めにホテルを出る&lt;/li>
-&lt;li>昼前に実家に着く&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>うどんを昼食&lt;/li>
-&lt;li>さっそく息子は奥さんに叱られる&lt;/li>
-&lt;li>息子は甥っ子とプールで遊ぶ&lt;/li>
-&lt;li>父親を見舞いに病院に&lt;/li>
-&lt;li>夜は甥っ子たちと花火&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-07[実家に帰る]</title><link>/posts/2025/08/07/544773/</link><pubDate>Thu, 07 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/07/544773/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>早めに出社&lt;/li>
-&lt;li>実験の片付けなど&lt;/li>
-&lt;li>ミーティング&lt;/li>
-&lt;li>昼も仕事&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>事務仕事をやって 16:00 頃退社&lt;/li>
-&lt;li>羽田に行く&lt;/li>
-&lt;li>こんがでおにぎりを夕食に&lt;/li>
-&lt;li>ほぼ定時に出発&lt;/li>
-&lt;li>高松空港近くのホテルで一泊&lt;/li>
-&lt;li>なんか疲れたなあ&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-06[暑い]</title><link>/posts/2025/08/06/895195/</link><pubDate>Wed, 06 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/06/895195/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>今日もバスで早めに出社&lt;/li>
-&lt;li>実験仕込&lt;/li>
-&lt;li>半期の会議&lt;/li>
-&lt;li>ミーティング&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>昼も実験&lt;/li>
-&lt;li>午前の後処理&lt;/li>
-&lt;li>会議 2 つ&lt;/li>
-&lt;li>19:00 頃退社&lt;/li>
-&lt;li>暑さにやられたのか、家に帰ってもだるい&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;ul>
-&lt;li>奥さんの愚痴を聞いていたら自分の時間がなくなってしまった&lt;/li>
-&lt;/ul>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-05[暑い]</title><link>/posts/2025/08/05/692475/</link><pubDate>Tue, 05 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/05/692475/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>今日も強烈な猛暑&lt;/li>
-&lt;li>バスで早めに出社&lt;/li>
-&lt;li>実験&lt;/li>
-&lt;li>ミーティング 2 つ&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>昼も実験&lt;/li>
-&lt;li>ほぼ定時で退社&lt;/li>
-&lt;li>川口に戻り夜は奥さんと居酒屋で夕食&lt;/li>
-&lt;li>スーパーで割引の鯵を買って、家に帰って鯵丼にする&lt;/li>
-&lt;li>帰ってすぐに風呂に入って、24:00 頃就寝&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;li>暑くてしんどい&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-04[強烈に暑い、子供を空港に連れて行く]</title><link>/posts/2025/08/04/125214/</link><pubDate>Mon, 04 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/04/125214/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子供は今日から実家に帰る&lt;/li>
-&lt;li>早めに京浜東北経由で羽田まで行く&lt;/li>
-&lt;li>夏のため混んでいると覚悟していたが、スムーズに手続きを済ませる&lt;/li>
-&lt;li>遅延したがゲートまで子供を送っていき、すぐに川口まで帰る&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>ラーメン屋で昼食をとり午後は自宅で仕事&lt;/li>
-&lt;li>業務で使うスクリプトなどを書く&lt;/li>
-&lt;li>定時で仕事終了&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>70&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-03[暑い]</title><link>/posts/2025/08/03/565169/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/03/565169/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>子どもの朝食作り&lt;/li>
-&lt;li>子どもの靴を洗濯に行く&lt;/li>
-&lt;li>ジムで運動して、シャワーを浴びて自宅で過ごす&lt;/li>
-&lt;li>夏祭りに行く&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>暑いので午後は自宅で過ごす&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>78&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-02[科学館へ行く]</title><link>/posts/2025/08/02/793003/</link><pubDate>Sat, 02 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/02/793003/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>朝からエアコン 2 の掃除、養生をして初めて高圧洗浄機を使ってみた。&lt;/li>
-&lt;li>&lt;a href="/posts/2023/05/12/395243/">前回は&lt;/a>噴霧器を使ったが、高圧洗浄機を使うとファンの奥側まで汚れが落ちる、洗剤は不要。
-&lt;ul>
-&lt;li>&lt;span class = "img" style='text-align:center;'>
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250806-14-53-12-xlfOlC1HQW5gieiBBrWQ.jpg">
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20250806-14-53-12-xlfOlC1HQW5gieiBBrWQ.jpg" loading=“lazy”>&lt;/a>
- &lt;figcaption>
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;僕も失敗したなあと思うことが多々あり、悩み中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-11[しながわ水族館に行く]</title><link>/posts/2025/08/11/505908/</link><pubDate>Mon, 11 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/11/505908/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;一日中雨が降ったり止んだり&lt;/li&gt;
+&lt;li&gt;子どもの朝食作り&lt;/li&gt;
+&lt;li&gt;昼前に京浜東北で大森に移動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;駅のアトレでくら寿司で昼食&lt;/li&gt;
+&lt;li&gt;品川水族館に行く&lt;/li&gt;
+&lt;li&gt;帰りは京急経由で帰宅&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;実家から果物が大量に届き、困る&lt;/li&gt;
+&lt;li&gt;こういうの困るなあ&lt;/li&gt;
+&lt;li&gt;あと奥さんが細かくて疲れるわ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-10[自宅近くでダラダラと過ごす]</title><link>/posts/2025/08/10/520998/</link><pubDate>Sun, 10 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/10/520998/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;雨が降ったり止んだり&lt;/li&gt;
+&lt;li&gt;遅めの起床&lt;/li&gt;
+&lt;li&gt;息子が文句ばかりで、やることをやらずにゲームゲーム言って僕がキレる&lt;/li&gt;
+&lt;li&gt;子供は水泳教室、僕はジムで運動&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;母親にお礼と苦言の電話をする、母親はキレて電話を切る
+&lt;ul&gt;
+&lt;li&gt;親は子供に強い権限と同時に責任を負っている&lt;/li&gt;
+&lt;li&gt;好きなだけ食べさせたり、甘やかせるのは違う&lt;/li&gt;
+&lt;li&gt;僕達がいないときはおまかせするが、僕達がいるときは決めるのは僕達&lt;/li&gt;
+&lt;li&gt;母親も年を追うごとに常識がなくなってきているな、頭が痛い&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;昼食後、図書館などにいいく&lt;/li&gt;
+&lt;li&gt;夜は早めに就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;1 週間甘やかされて生活していたので息子がだらけている、生活を立て直さないと&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-09[正気を保つにはどうすればよいか]</title><link>/posts/2025/08/09/684823/</link><pubDate>Sat, 09 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/09/684823/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;みんなで馬立川に行くが雨が降っていたようで、川遊びは自己責任とのこと (当たり前だとは思うが)&lt;/li&gt;
+&lt;li&gt;新居浜の方の人工ビーチで遊ぶ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;サービスエリアで昼食をとって、少しお土産を買う&lt;/li&gt;
+&lt;li&gt;息子が昼食後にアイスが食べたいとごねて、食べさせなかったら母親が奥さんに小言を言う
+&lt;ul&gt;
+&lt;li&gt;こんなにゴネる子は見たことないとか、将来反動が来るだの、余計なことを言う&lt;/li&gt;
+&lt;li&gt;奥さんがそれ以降、すごく機嫌の悪い空気を出す&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;実家で少し過ごして空港に移動
+&lt;ul&gt;
+&lt;li&gt;移動中も奥さんは子供にキレて、もう実家に帰らないだの、私が悪かったのかなど、社内の空気がピリつく&lt;/li&gt;
+&lt;li&gt;うちのは母親も、思っても言うなよ。&lt;/li&gt;
+&lt;li&gt;奥さんがキレるのもわかるよ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;空港でも子供を無視して空気がピリつく&lt;/li&gt;
+&lt;li&gt;なんとかフォローして、羽田に着く頃には子供と話している状態に戻す&lt;/li&gt;
+&lt;li&gt;到着ゲート前の成城石井で夕食を買う&lt;/li&gt;
+&lt;li&gt;品川からグリーン車に乗って、夕食をとりながら川口に&lt;/li&gt;
+&lt;li&gt;自宅に帰って片付けをして就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;こんな空気になるなら来年実家帰りたくないわ&lt;/li&gt;
+&lt;li&gt;今回の帰省で奥さんと母親の相性は確実に悪くなったな&lt;/li&gt;
+&lt;li&gt;余計なことを言う母親や、偏屈になりすぐにキレる父親を見て、正気を保ちながら年を取るのがいかに難しいか実感した。金があっても 60 で仕事を辞めると、常識がアップデートされずに気が狂う気がする。自分は無知であり、自分の常識は自分の半径 1.5m しくらいしか通用しないことを忘れず、時代は若い人のものであり若い人を尊敬して、謙虚に生きていくためにはどうすればよいのか。自分も年を追うごとに偏屈になり、怒りっぽくなり、他責になり、父親に近づいている気がする。息子から尊敬されるような生き方をするためにはどうすればよいのか。一つのヒントは、奥さんの両親のような気がする。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-08[実家で過ごす]</title><link>/posts/2025/08/08/535094/</link><pubDate>Fri, 08 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/08/535094/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;朝は高松は強い雨&lt;/li&gt;
+&lt;li&gt;遅めにホテルを出る&lt;/li&gt;
+&lt;li&gt;昼前に実家に着く&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;うどんを昼食&lt;/li&gt;
+&lt;li&gt;さっそく息子は奥さんに叱られる&lt;/li&gt;
+&lt;li&gt;息子は甥っ子とプールで遊ぶ&lt;/li&gt;
+&lt;li&gt;父親を見舞いに病院に&lt;/li&gt;
+&lt;li&gt;夜は甥っ子たちと花火&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-07[実家に帰る]</title><link>/posts/2025/08/07/544773/</link><pubDate>Thu, 07 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/07/544773/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;早めに出社&lt;/li&gt;
+&lt;li&gt;実験の片付けなど&lt;/li&gt;
+&lt;li&gt;ミーティング&lt;/li&gt;
+&lt;li&gt;昼も仕事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;事務仕事をやって 16:00 頃退社&lt;/li&gt;
+&lt;li&gt;羽田に行く&lt;/li&gt;
+&lt;li&gt;こんがでおにぎりを夕食に&lt;/li&gt;
+&lt;li&gt;ほぼ定時に出発&lt;/li&gt;
+&lt;li&gt;高松空港近くのホテルで一泊&lt;/li&gt;
+&lt;li&gt;なんか疲れたなあ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-06[暑い]</title><link>/posts/2025/08/06/895195/</link><pubDate>Wed, 06 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/06/895195/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;今日もバスで早めに出社&lt;/li&gt;
+&lt;li&gt;実験仕込&lt;/li&gt;
+&lt;li&gt;半期の会議&lt;/li&gt;
+&lt;li&gt;ミーティング&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;昼も実験&lt;/li&gt;
+&lt;li&gt;午前の後処理&lt;/li&gt;
+&lt;li&gt;会議 2 つ&lt;/li&gt;
+&lt;li&gt;19:00 頃退社&lt;/li&gt;
+&lt;li&gt;暑さにやられたのか、家に帰ってもだるい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;奥さんの愚痴を聞いていたら自分の時間がなくなってしまった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-05[暑い]</title><link>/posts/2025/08/05/692475/</link><pubDate>Tue, 05 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/05/692475/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;今日も強烈な猛暑&lt;/li&gt;
+&lt;li&gt;バスで早めに出社&lt;/li&gt;
+&lt;li&gt;実験&lt;/li&gt;
+&lt;li&gt;ミーティング 2 つ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;昼も実験&lt;/li&gt;
+&lt;li&gt;ほぼ定時で退社&lt;/li&gt;
+&lt;li&gt;川口に戻り夜は奥さんと居酒屋で夕食&lt;/li&gt;
+&lt;li&gt;スーパーで割引の鯵を買って、家に帰って鯵丼にする&lt;/li&gt;
+&lt;li&gt;帰ってすぐに風呂に入って、24:00 頃就寝&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;li&gt;暑くてしんどい&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-04[強烈に暑い、子供を空港に連れて行く]</title><link>/posts/2025/08/04/125214/</link><pubDate>Mon, 04 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/04/125214/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子供は今日から実家に帰る&lt;/li&gt;
+&lt;li&gt;早めに京浜東北経由で羽田まで行く&lt;/li&gt;
+&lt;li&gt;夏のため混んでいると覚悟していたが、スムーズに手続きを済ませる&lt;/li&gt;
+&lt;li&gt;遅延したがゲートまで子供を送っていき、すぐに川口まで帰る&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ラーメン屋で昼食をとり午後は自宅で仕事&lt;/li&gt;
+&lt;li&gt;業務で使うスクリプトなどを書く&lt;/li&gt;
+&lt;li&gt;定時で仕事終了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;70&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-03[暑い]</title><link>/posts/2025/08/03/565169/</link><pubDate>Sun, 03 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/03/565169/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;子どもの朝食作り&lt;/li&gt;
+&lt;li&gt;子どもの靴を洗濯に行く&lt;/li&gt;
+&lt;li&gt;ジムで運動して、シャワーを浴びて自宅で過ごす&lt;/li&gt;
+&lt;li&gt;夏祭りに行く&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;暑いので午後は自宅で過ごす&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;78&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-02[科学館へ行く]</title><link>/posts/2025/08/02/793003/</link><pubDate>Sat, 02 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/02/793003/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;朝からエアコン 2 の掃除、養生をして初めて高圧洗浄機を使ってみた。&lt;/li&gt;
+&lt;li&gt;&lt;a href="/posts/2023/05/12/395243/"&gt;前回は&lt;/a&gt;噴霧器を使ったが、高圧洗浄機を使うとファンの奥側まで汚れが落ちる、洗剤は不要。
+&lt;ul&gt;
+&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20250806-14-53-12-xlfOlC1HQW5gieiBBrWQ.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20250806-14-53-12-xlfOlC1HQW5gieiBBrWQ.jpg" loading=“lazy”&gt;&lt;/a&gt;
+ &lt;figcaption&gt;
  
- &lt;/figcaption>
- &lt;/span>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>風呂掃除とトイレ掃除もやって、シャワーを浴びる&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>家族で水道橋に行き、天下一品で昼食&lt;/li>
-&lt;li>そのあと、バスで中央区役所まで移動してお堀にある科学館へ
-&lt;ul>
-&lt;li>展示はまあまあ&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>夕方帰宅&lt;/li>
-&lt;li>夜は近くの公園で盆踊りが開催されているので見に行く&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>68&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item><item><title>2025-08-01[気持ちの落ち込みが強い]</title><link>/posts/2025/08/01/740607/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/01/740607/</guid><description>&lt;h2 id="午前">午前&lt;/h2>
-&lt;ul>
-&lt;li>明け方に抗不安薬を飲む&lt;/li>
-&lt;li>出社中も不安感強く仕事中に、細かい仕事が多くて、全部中途半端で吐きそうになる&lt;/li>
-&lt;li>今日は事務仕事をこなす&lt;/li>
-&lt;/ul>
-&lt;h2 id="午後">午後&lt;/h2>
-&lt;ul>
-&lt;li>会議&lt;/li>
-&lt;li>定時近くで退社&lt;/li>
-&lt;li>夜にエアコンを一台清掃する&lt;/li>
-&lt;/ul>
-&lt;h2 id="体調">体調&lt;/h2>
-&lt;ul>
-&lt;li>64&lt;/li>
-&lt;/ul>
-&lt;h2 id="その他">その他&lt;/h2>
-&lt;h2 id="今日の-tabs">今日の Tabs&lt;/h2></description></item></channel></rss>
+ &lt;/figcaption&gt;
+ &lt;/span&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;風呂掃除とトイレ掃除もやって、シャワーを浴びる&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;家族で水道橋に行き、天下一品で昼食&lt;/li&gt;
+&lt;li&gt;そのあと、バスで中央区役所まで移動してお堀にある科学館へ
+&lt;ul&gt;
+&lt;li&gt;展示はまあまあ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;夕方帰宅&lt;/li&gt;
+&lt;li&gt;夜は近くの公園で盆踊りが開催されているので見に行く&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;68&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2025-08-01[気持ちの落ち込みが強い]</title><link>/posts/2025/08/01/740607/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0900</pubDate><guid>/posts/2025/08/01/740607/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;明け方に抗不安薬を飲む&lt;/li&gt;
+&lt;li&gt;出社中も不安感強く仕事中に、細かい仕事が多くて、全部中途半端で吐きそうになる&lt;/li&gt;
+&lt;li&gt;今日は事務仕事をこなす&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;会議&lt;/li&gt;
+&lt;li&gt;定時近くで退社&lt;/li&gt;
+&lt;li&gt;夜にエアコンを一台清掃する&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item></channel></rss>
