@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 14 Feb 2026 14:43:49 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-02-14[draft]</title><link>/posts/2026/02/14/67205/</link><pubDate>Sat, 14 Feb 2026 00:00:00 +0900</pubDate><guid>/posts/2026/02/14/67205/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on d.sk85.org</title><link>/posts/</link><description>Recent content in Posts on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 14 Feb 2026 15:05:37 +0900</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-02-14[灯台下暗し]</title><link>/posts/2026/02/14/67205/</link><pubDate>Sat, 14 Feb 2026 00:00:00 +0900</pubDate><guid>/posts/2026/02/14/67205/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -11,6 +11,9 @@
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;ラップトップを自宅のWifiに繫ぐと100Mbpsしか出なくなっていて、ちょうどmacOSを26.3に上げたのでそれが原因だと考えた。iOSでは600 Mbpsぐらい出ていたが、いつの間にか100Mbpsに張り付いてしまった。ネットワークの設定を削除したり、ゲストアカウントでログインしても症状変わらず。iPadOSは26.3に上げていないが、こちらも100MBpsに張り付く。ここらへんで、tp-linkのメッシュwifiがおかしいと考え出して、再起動などしてみたがダメ。そこで、寝室の子機のみ通電させてみるとwifiでも600Mbps出る。しかしリビングの子機だと100Mbpsに張り付く。そこで、子機からケーブルを伸ばしてラップトップとつないでみると、100Mbpsに張り付く。ここで子機とルーターをつないでいるLANケーブルがおかしいことに気がつく。交換してみるとまっt買う問題なし。まさしく灯台下暗し。物理層からチェックするの大切だ。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2026-02-13[疲れた]</title><link>/posts/2026/02/13/610231/</link><pubDate>Fri, 13 Feb 2026 00:00:00 +0900</pubDate><guid>/posts/2026/02/13/610231/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;家でおむすび食べて出社&lt;/li&gt;
