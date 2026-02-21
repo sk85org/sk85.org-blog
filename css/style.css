@@ -3,76 +3,72 @@ body {
   padding: 1em;
   line-height: 1.7em;
   margin: auto;
-  background-color: rgb(253,245,230); /* 背景は白 */
-  color: #222222;           /* 文字は黒に近い色 */
+  background-color: #f4f4ef; /* 背景は白 */
+  color: #222222; /* 文字は黒に近い色 */
 }
 
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #1E2022;
-    color: #DDDDDD;
+    background-color: #1e2022;
+    color: #dddddd;
   }
   a {
-    color: #9A9A9B;
+    color: #9a9a9b;
   }
 }
 
 h1:before {
-  content: '# '
+  content: "# ";
 }
 
 h2:before {
-  content: '## '
+  content: "## ";
 }
 h3:before {
-  content: '### '
+  content: "### ";
 }
 
 h4:before {
-  content: '#### '
+  content: "#### ";
 }
 
 li {
-    list-style: none;
-    text-indent:-.75em
+  list-style: none;
+  text-indent: -0.75em;
 }
 
 li:before {
-  content: '- '
+  content: "- ";
 }
 
 dt {
   list-style: none;
-  text-indent:0.75em
+  text-indent: 0.75em;
 }
 
 dt:before {
-  content: '- '
+  content: "- ";
 }
 
-span.menu:before{
-  content: '/'
+span.menu:before {
+  content: "/";
 }
 
-span.img{
+span.img {
   display: block;
   text-align: center;
 }
 
-
-
-
-input[type=text] {
+input[type="text"] {
   border: 1px solid black; /* フォーム全体に青い枠線を追加 */
   border-radius: 4px; /* 角を丸くする */
   overflow: hidden; /* 角丸を適用するため */
   background-color: #f8f9fa; /* 背景色を薄いグレーに */
   font-size: 16px; /* 文字サイズ */
   color: #333; /* 文字色 */
-
 }
 
-input[type=text]:focus {
+input[type="text"]:focus {
   outline: none; /* フォーカス時の青い枠線（アウトライン）を削除 */
   box-shadow: none; /* ボックスシャドウも削除 */
   border: 2px solid steelblue; /* フォーム全体に青い枠線を追加 */
@@ -83,7 +79,6 @@ input[type=text]:focus {
 }
 
 .hit-comment {
-
   margin-bottom: 0.1em;
 }
 
@@ -105,7 +100,7 @@ li.ais-InfiniteHits-item:before {
 }
 
 li.ais-InfiniteHits-item {
-  text-indent:0em
+  text-indent: 0em;
 }
 
 .ais-RefinementList-list {
@@ -116,7 +111,7 @@ li.ais-InfiniteHits-item {
 }
 
 .ais-RefinementList-item {
-   padding-left: 0.5em;
+  padding-left: 0.5em;
 }
 
 li.ais-RefinementList-item:before {
@@ -124,15 +119,15 @@ li.ais-RefinementList-item:before {
 }
 
 span.ais-RefinementList-count::before {
-content: "(";
+  content: "(";
 }
 
 span.ais-RefinementList-count::after {
-content: ")";
+  content: ")";
 }
 
 li.ais-RefinementList-item {
-  text-indent:0em
+  text-indent: 0em;
 }
 
 /* 検索フォーム全体 */
@@ -182,7 +177,6 @@ li.ais-RefinementList-item {
   display: none; /* 確実に非表示にする */
 }
 
-
 /* SortByコンポーネントのラッパー */
 .ais-SortBy {
   display: inline-block; /* 他要素と並べやすくする */
@@ -192,7 +186,6 @@ li.ais-RefinementList-item {
 
 /* select要素（ドロップダウン本体） */
 .ais-SortBy-select {
-
   /* ▼ 基本的なスタイル ▼ */
   font-size: 16px;
   color: #333; /* 文字色 */
@@ -202,8 +195,6 @@ li.ais-RefinementList-item {
   cursor: pointer;
   outline: none; /* フォーカス時の枠線を消す */
 
-  
   /* 最小幅（必要に応じて調整） */
-  min-width: 150px; 
+  min-width: 150px;
 }
-
