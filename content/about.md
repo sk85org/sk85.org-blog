@@ -14,7 +14,7 @@ title = "About"
 
 ### Private
 
-- [img.sk85.org](https://img.sk85.org/)
+- [画像検索]({{<ref imgsearch.md>}})
 
 ### リンク集
 

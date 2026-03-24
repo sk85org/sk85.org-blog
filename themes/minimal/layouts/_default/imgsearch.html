@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <h1 class="title">{{ .Site.Title }}</h1>
+  画像検索
+  <div>
+    <div class="ais-SearchBox-form" style="margin-bottom: 1em;">
+      <input type="text" id="search-input" class="ais-SearchBox-input" placeholder="Enter to search" autocomplete="off">
+    </div>
+    
+    <div id="status" class="info"></div>
+    
+    <ul id="result-list"></ul>
+  </div>
+  <script src="{{ "imgsearch.js" | relURL }}"/></script>
+
+
+{{ end }}
