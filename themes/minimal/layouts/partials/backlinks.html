@@ -1,0 +1,63 @@
+{{/* 1. サイト全体で1回だけインデックスと辞書を構築する (O(n)処理) */}}
+{{ if not (site.Home.Store.Get "backlinks_index_built") }}
+    
+    {{/* 辞書の構築 */}}
+    {{ range site.RegularPages }}
+        {{ if .File }}
+            {{ site.Home.Store.Set (printf "lookup_%s" .File.LogicalName) .RelPermalink }}
+            {{ site.Home.Store.Set (printf "lookup_%s" .File.ContentBaseName) .RelPermalink }}
+        {{ end }}
+    {{ end }}
+
+    {{/* バックリンクの抽出と記録 */}}
+    {{ range site.RegularPages }}
+        {{ $sourcePage := . }}
+        
+        {{/* ref/relrefショートコードを抽出（スペースの有無に関わらず動作） */}}
+        {{ $matches := findRESubmatch `\{\{<\s*(?:ref|relref)\s*["']?([^"'>\s\}]+)["']?\s*>\}\}` .RawContent }}
+        
+        {{ range $matches }}
+            {{ $rawTarget := index . 1 }}
+            {{ $cleanTarget := replaceRE `(.*)#.*` "$1" $rawTarget }}
+            
+            {{ $targetPermalink := site.Home.Store.Get (printf "lookup_%s" $cleanTarget) }}
+            
+            {{ if $targetPermalink }}
+                {{ $storeKey := printf "bl_%s" $targetPermalink }}
+                {{ $currentList := default slice (site.Home.Store.Get $storeKey) }}
+                
+                {{/* 重複の排除 */}}
+                {{ $isDuplicate := false }}
+                {{ range $currentList }}
+                    {{ if eq .RelPermalink $sourcePage.RelPermalink }}
+                        {{ $isDuplicate = true }}
+                    {{ end }}
+                {{ end }}
+                
+                {{ if not $isDuplicate }}
+                    {{ site.Home.Store.Set $storeKey ($currentList | append $sourcePage) }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    
+    {{ site.Home.Store.Set "backlinks_index_built" true }}
+{{ end }}
+
+{{/* 2. 現在のページに対するバックリンクを取得する (O(1)処理) */}}
+{{ $myStoreKey := printf "bl_%s" .RelPermalink }}
+{{ $myBacklinks := site.Home.Store.Get $myStoreKey | default slice }}
+
+{{/* 3. 結果の出力 */}}
+{{ with $myBacklinks }}
+    <section class="backlinks">
+        <h2>リンク元</h2>
+        <nav>
+            <ul>
+                {{ range . }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                {{ end }}
+            </ul>
+        </nav>
+    </section>
+{{ end }}

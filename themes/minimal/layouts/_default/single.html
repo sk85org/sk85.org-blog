@@ -32,6 +32,7 @@
     <a href="{{.Site.Params.memos_url}}{{.Site.Params.memos_with_displayTime}}{{.Date.Format "2006-01-02"}}">今日memo</a>
   </span>
 {{ .Content }}
+{{ partial "backlinks.html" . }}
 {{- partial "singlepage_pagenation" . -}}
 slug: {{ .Params.slug }}, filename: {{.File.LogicalName}}
 {{ end }}
