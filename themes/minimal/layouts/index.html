@@ -1,18 +1,32 @@
 {{ define "main" }}
-  <h1 class="title">{{ .Site.Title }}</h1>
-  {{- partial "search.html" . -}}
-  {{ .Content }}
+  <h1 class="visually-hidden">{{ .Site.Title }}</h1>
+  {{ if .Site.Params.enable_search }}
+  <div class="home-search">
+    {{- partial "search-compact.html" . -}}
+  </div>
+  {{ end }}
+
+  {{ with .Content }}
+  <div class="post-body">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  <p class="today-nikki">{{- partial "today_n_nenn_nikki.html" . -}}</p>
+
   <h2>Recent Posts</h2>
-    <ul>
-      <li>{{- partial "today_n_nenn_nikki.html"}}</li>
-    {{ range first 15 site.RegularPages.ByDate.Reverse  }}
-        <li>
-            <time datetime="{{.Date.Format "2006-01-02"}}">{{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})</time>&ensp;
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
+  <ul class="post-list">
+    {{ range first 15 site.RegularPages.ByDate.Reverse }}
+    <li>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}（{{ index $.Site.Data "jweekday" (.Date.Format "Monday") }}）</time>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
     {{ end }}
-    </ul>
+  </ul>
+
+  <aside class="callout">
     <h2>kagi</h2>
-    みんな<a href="https://kagi.com">kagi</a>を使おう。kagiを使って、あなたの検索を広告会社から取り戻そう。<br>
-    <img src="https://img.sk85.org/imaginary/resize?width=150&quality=50&file=20251123-13-49-08-yfodNneNgh0qo6_8QEN0.png">
+    <p>みんな<a href="https://kagi.com">kagi</a>を使おう。kagiを使って、あなたの検索を広告会社から取り戻そう。</p>
+    <img src="https://img.sk85.org/imaginary/resize?width=150&amp;quality=50&amp;file=20251123-13-49-08-yfodNneNgh0qo6_8QEN0.png" alt="kagi" width="150" loading="lazy">
+  </aside>
 {{ end }}

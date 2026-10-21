@@ -1,14 +1,14 @@
 {{ define "main" }}
-  <main>
-    {{ .Content }}
+  <h1>{{ .Title }}</h1>
+  {{- partial "search.html" . -}}
+  {{ .Content }}
 
-    <ul>
-      {{ range .Pages }}
-        <li>
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          <p>Published on: {{ .Date.Format "January 2, 2006" }}</p>
-        </li>
-      {{ end }}
-    </ul>
-  </main>
+  <ul class="post-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <li>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}（{{ index $.Site.Data "jweekday" (.Date.Format "Monday") }}）</time>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
 {{ end }}

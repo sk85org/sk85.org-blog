@@ -1,10 +1,59 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html lang="{{ .Site.LanguageCode }}" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
     {{- partial "head.html" . -}}
     <body>
+        <a class="skip-link" href="#main">本文へ</a>
         {{- partial "header.html" . -}}
-        {{- block "main" . }}{{- end }}
+        <main id="main" tabindex="-1">
+            {{- block "main" . }}{{- end }}
+        </main>
         {{- partial "footer.html" . -}}
+        <script>
+          (function () {
+            var root = document.documentElement;
+            var button = document.getElementById("theme-toggle");
+            if (!button) return;
+
+            var media = window.matchMedia("(prefers-color-scheme: dark)");
+
+            function currentTheme() {
+              var explicit = root.getAttribute("data-theme");
+              if (explicit === "light" || explicit === "dark") return explicit;
+              return media.matches ? "dark" : "light";
+            }
+
+            function updateButton() {
+              var theme = currentTheme();
+              var next = theme === "dark" ? "light" : "dark";
+              button.hidden = false;
+              button.textContent = theme === "dark" ? "☀" : "☾";
+              button.setAttribute(
+                "aria-label",
+                next === "dark" ? "ダークモードに切り替える" : "ライトモードに切り替える"
+              );
+              button.setAttribute(
+                "title",
+                next === "dark" ? "ダークモードに切り替える" : "ライトモードに切り替える"
+              );
+            }
+
+            button.addEventListener("click", function () {
+              var next = currentTheme() === "dark" ? "light" : "dark";
+              root.setAttribute("data-theme", next);
+              try {
+                localStorage.setItem("theme", next);
+              } catch (e) {}
+              updateButton();
+            });
+
+            if (media.addEventListener) {
+              media.addEventListener("change", updateButton);
+            } else if (media.addListener) {
+              media.addListener(updateButton);
+            }
+
+            updateButton();
+          })();
+        </script>
     </body>
 </html>

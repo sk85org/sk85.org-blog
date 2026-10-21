@@ -1,7 +1,7 @@
-<span class = "img" style='text-align:center;'>
-    <a href="{{.Site.Params.imgresourceserver}}width=2000&quality=100&file={{.Get "file"}}">
-    <img src="{{.Site.Params.imgresourceserver}}width={{.Get "width"}}&quality=80&file={{.Get "file"}}" loading=“lazy”></a>
-    <figcaption>
-            {{.Get "title"}}
-            </figcaption>
-        </span>
+<span class="img">
+  <a href="{{ .Site.Params.imgresourceserver }}width=2000&amp;quality=100&amp;file={{ .Get "file" }}">
+    <img src="{{ .Site.Params.imgresourceserver }}width={{ .Get "width" }}&amp;quality=80&amp;file={{ .Get "file" }}"
+      alt="{{ .Get "title" | default "画像" }}" loading="lazy" decoding="async">
+  </a>
+  {{ with .Get "title" }}<span class="img-caption">{{ . }}</span>{{ end }}
+</span>

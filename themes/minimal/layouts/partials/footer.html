@@ -1,3 +1,7 @@
-<footer>
-  
+<footer class="site-footer">
+  <p>
+    © {{ now.Format "2006" }} {{ .Site.Title }} ·
+    <a href="{{ "index.xml" | relURL }}">RSS</a> ·
+    <a href="{{ "search/" | relURL }}">Search</a>
+  </p>
 </footer>

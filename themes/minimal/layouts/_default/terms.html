@@ -1,84 +1,85 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{- partial "search.html" . -}}
+  <h1>{{ .Title }}</h1>
+  {{ if not (in (slice "tags" "archives") .Data.Plural) }}
+    {{- partial "search.html" . -}}
+  {{ end }}
 
-{{/* --- Archives Page Logic --- */}}
-{{ if eq .Data.Plural "archives" }} 
+  {{/* --- Archives Page Logic --- */}}
+  {{ if eq .Data.Plural "archives" }}
 
-  {{- /* タームを変数に格納し、ループの準備をします */ -}}
-  {{- $terms := .Data.Terms.Alphabetical.Reverse -}}
-  {{- $termCount := len $terms -}}
-  {{- $plural := .Data.Plural -}}
-  {{- $currentYear := "" -}}
-  {{- $monthCounterInYear := 0 -}} {{/* 年内のカウンターを追加 */}}
+    {{- /* タームを変数に格納し、ループの準備をします */ -}}
+    {{- $terms := .Data.Terms.Alphabetical.Reverse -}}
+    {{- $termCount := len $terms -}}
+    {{- $plural := .Data.Plural -}}
+    {{- $currentYear := "" -}}
+    {{- $monthCounterInYear := 0 -}} {{/* 年内のカウンターを追加 */}}
 
-  {{- /* すべてのターム（例: "2025-09"）をループ処理します */ -}}
-  {{- range $index, $term := $terms }}
-    {{- /* ターム名から年（最初の4文字）を抽出します */ -}}
-    {{- $year := substr .Name 0 4 -}}
+    {{- /* すべてのターム（例: "2025-09"）をループ処理します */ -}}
+    {{- range $index, $term := $terms }}
+      {{- /* ターム名から年（最初の4文字）を抽出します */ -}}
+      {{- $year := substr .Name 0 4 -}}
 
-    {{- /* 前のタームから年が変わったかチェックします */ -}}
-    {{- if ne $year $currentYear -}}
-      {{- /* これが最初の年のグループでなければ、前の年のコンテナを閉じます */ -}}
-      {{- if ne $currentYear "" -}}
-        </div>
-      {{- end }}
-      
-      {{- /* 新しい年を見出しとして表示します */ -}}
-      <h2 style="font-size: 1.5rem; font-weight: 600; margin-top: 2rem; margin-bottom: 1rem;">{{ $year }}</h2>
-      
-      {{- /* 新しい年のためのコンテナ（div）を開始します */ -}}
-      <div>
-      
-      {{- /* 現在の年の変数を更新し、カウンターをリセットします */ -}}
-      {{- $currentYear = $year -}}
-      {{- $monthCounterInYear = 0 -}}
-    {{- end -}}
+      {{- /* 前のタームから年が変わったかチェックします */ -}}
+      {{- if ne $year $currentYear -}}
+        {{- /* これが最初の年のグループでなければ、前の年のコンテナを閉じます */ -}}
+        {{- if ne $currentYear "" -}}
+          </div>
+        {{- end }}
 
-    {{- /* 年内カウンターをインクリメント */}}
-    {{- $monthCounterInYear = add $monthCounterInYear 1 -}}
+        {{- /* 新しい年を見出しとして表示します */ -}}
+        <h2>{{ $year }}</h2>
 
-    {{- /* 月のリンクと記事数を表示します（リストタグなし） */ -}}
-    <a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ .Name | urlize }}">{{ .Name }}</a>&nbsp;
+        {{- /* 新しい年のためのコンテナ（div）を開始します */ -}}
+        <div>
 
-    {{- /* --- 区切り文字または改行を挿入するロジック --- */ -}}
-    {{- /* まず、現在のアイテムがその年の中で最後かどうかを判断します */ -}}
-    {{- $isLastOverall := eq (add $index 1) $termCount -}}
-    {{- $nextYear := "" -}}
-    {{- if not $isLastOverall -}}
-      {{- with index $terms (add $index 1) -}}
-        {{- $nextYear = substr .Name 0 4 -}}
+        {{- /* 現在の年の変数を更新し、カウンターをリセットします */ -}}
+        {{- $currentYear = $year -}}
+        {{- $monthCounterInYear = 0 -}}
       {{- end -}}
-    {{- end -}}
-    {{- $isLastInYear := or $isLastOverall (ne $year $nextYear) -}}
 
-    {{- /* 年の最後のアイテムでなければ、区切り文字または改行を追加します */ -}}
-    {{- if not $isLastInYear -}}
-      {{- if eq (mod $monthCounterInYear 4) 0 -}}
-        <br>
-      {{- else -}}
-        <span>&nbsp;/&nbsp;</span>
+      {{- /* 年内カウンターをインクリメント */}}
+      {{- $monthCounterInYear = add $monthCounterInYear 1 -}}
+
+      {{- /* 月のリンクと記事数を表示します（リストタグなし） */ -}}
+      <a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ .Name | urlize }}">{{ .Name }}</a>&nbsp;
+
+      {{- /* --- 区切り文字または改行を挿入するロジック --- */ -}}
+      {{- /* まず、現在のアイテムがその年の中で最後かどうかを判断します */ -}}
+      {{- $isLastOverall := eq (add $index 1) $termCount -}}
+      {{- $nextYear := "" -}}
+      {{- if not $isLastOverall -}}
+        {{- with index $terms (add $index 1) -}}
+          {{- $nextYear = substr .Name 0 4 -}}
+        {{- end -}}
       {{- end -}}
+      {{- $isLastInYear := or $isLastOverall (ne $year $nextYear) -}}
+
+      {{- /* 年の最後のアイテムでなければ、区切り文字または改行を追加します */ -}}
+      {{- if not $isLastInYear -}}
+        {{- if eq (mod $monthCounterInYear 4) 0 -}}
+          <br>
+        {{- else -}}
+          <span>&nbsp;/&nbsp;</span>
+        {{- end -}}
+      {{- end -}}
+
+    {{- end }}
+
+    {{- /* 最後の年のコンテナを閉じます */ -}}
+    {{- if gt $termCount 0 -}}
+      </div>
     {{- end -}}
 
-  {{- end }}
-  
-  {{- /* 最後の年のコンテナを閉じます */ -}}
-  {{- if gt $termCount 0 -}}
-    </div>
-  {{- end -}}
+  {{/* --- Tags Page Logic (or other taxonomies) --- */}}
+  {{ else if eq .Data.Plural "tags" }}
 
-{{/* --- Tags Page Logic (or other taxonomies) --- */}}
-{{ else if eq .Data.Plural "tags" }} 
+  <ul class="tag-list">
+    {{- $plural := .Data.Plural }}
+    {{- range $index, $term := .Data.Terms.Alphabetical }}
+      <li><a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ $term.Name | urlize }}">{{ $term.Name }}</a> <span>{{ $term.Count }}</span></li>
+    {{- end }}
+  </ul>
 
-<ul>
-  {{- $plural := .Data.Plural }}
-  {{- range $index, $term := .Data.Terms.Alphabetical }}
-    <li><a href="{{ $.Site.LanguagePrefix }}/{{ $plural }}/{{ $term.Name | urlize }}">{{ $term.Name }}</a> ({{ $term.Count }})
-  {{- end }}
-</ul>
+  {{ end }}
 
 {{ end }}
-
-{{ end }}
-

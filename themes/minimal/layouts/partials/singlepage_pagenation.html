@@ -1,30 +1,37 @@
-<script src="https://unpkg.com/hotkeys-js/dist/hotkeys-js.min.js"></script>
+{{ if and (eq .Section "posts") (or .Prev .Next) }}
+<nav class="post-nav" aria-label="前後の記事">
+  {{ with .Prev }}
+  <a class="post-nav-prev" href="{{ .RelPermalink }}" id="previous-post-link">
+    <span class="post-nav-label">← 前の記事</span>
+    <span class="post-nav-title">{{ .Title }}</span>
+  </a>
+  {{ end }}
+
+  {{ with .Next }}
+  <a class="post-nav-next" href="{{ .RelPermalink }}" id="next-post-link">
+    <span class="post-nav-label">次の記事 →</span>
+    <span class="post-nav-title">{{ .Title }}</span>
+  </a>
+  {{ end }}
+</nav>
 <script>
-hotkeys('n,p', function (event, handler){
-  switch (handler.key) {
-    case 'n': document.getElementById('next-post-link').click()
-      break;
-    case 'p': document.getElementById('previous-post-link').click()
+document.addEventListener("keydown", function (event) {
+  if (event.altKey || event.ctrlKey || event.metaKey) return;
+
+  var target = event.target;
+  if (target && (target.isContentEditable || /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName))) {
+    return;
+  }
+
+  var key = (event.key || "").toLowerCase();
+  var id = key === "n" ? "next-post-link" : key === "p" ? "previous-post-link" : null;
+  if (!id) return;
+
+  var link = document.getElementById(id);
+  if (link) {
+    event.preventDefault();
+    window.location.href = link.href;
   }
 });
 </script>
-<div id="pagination">
-    {{with .Prev}}
-        <a href="{{.Permalink }}" id="previous-post-link">
-            <span>Prev</span>
-        </a>
-    {{end}}
-    &ensp;
-    {{with .Next}}
-        <a href="{{.Permalink}}" id="next-post-link">
-            <span>Next</span>
-        </a>
-    {{end}}
-    <script src="https://utteranc.es/client.js"
-    repo="sk85org/sk85.org-blog-comment"
-    issue-term="pathname"
-    theme="preferred-color-scheme"
-    crossorigin="anonymous"
-    async>
-</script>
-</div>
+{{ end }}

@@ -1,38 +1,72 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{- partial "search.html" . -}}
-<time datetime="{{.Date.Format "2006-01-02"}}" id="single_page_date">
-  {{.Date.Format "2006-01-02"}}&ensp;({{ index $.Site.Data "jweekday" (.Date.Format "Monday")}})
-</time>
-|
-{{ if .Params.tags }}
-  Tags:
-  {{ with .Params.tags }}
-  {{ range . }}
-  {{ $href := print (absURL "tags/") (urlize .) }}
-  <span>
-    <a href="{{ $href }}">{{ . }}</a>
-  </span>
+<article class="post">
+  <div class="post-head">
+    <h1 class="post-title">{{ .Title }}</h1>
+    {{ if and (eq .Section "posts") .Site.Params.enable_search }}
+    <div class="post-head-search">
+      {{ partial "search-compact.html" . }}
+    </div>
+    {{ end }}
+  </div>
+
+  {{ if or (not .Date.IsZero) .Params.tags .Params.n年日記 }}
+  <div class="post-meta">
+    {{ if not .Date.IsZero }}
+    <time datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ .Date.Format "2006-01-02" }}（{{ index .Site.Data "jweekday" (.Date.Format "Monday") }}）
+    </time>
+    {{ end }}
+
+    {{ with .Params.tags }}
+      {{ range . }}
+        {{ if ne . "" }}
+        <a class="chip" href="{{ print (absURL "tags/") (urlize .) }}">#{{ . }}</a>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ with .Params.n年日記 }}
+      {{ range . }}
+        {{ if ne . "" }}
+        <a class="chip" href="{{ print (absURL "n年日記/") (urlize .) }}">n年日記 {{ . }}</a>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ if not .Date.IsZero }}
+    <a class="chip" href="{{ .Site.Params.memos_url }}{{ .Site.Params.memos_with_displayTime }}{{ .Date.Format "2006-01-02" }}">今日memo</a>
+    {{ end }}
+  </div>
   {{ end }}
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+
+  {{ if eq .Section "posts" }}
+    {{ if or .Params.slug .File }}
+    <p class="post-file">
+      {{ with .Params.slug }}<span>slug: {{ . }}</span>{{ end }}
+      {{ with .File }}{{ with .BaseFileName }}<span>filename: {{ . }}.md</span>{{ end }}{{ end }}
+    </p>
+    {{ end }}
   {{ end }}
-{{ end }}
-|
-{{ if .Params.n年日記 }}
-  {{ with .Params.n年日記 }}
-  {{ range . }}
-  {{ $href := print (absURL "n年日記/") (urlize .) }}
-  <span>
-    <a href="{{ $href }}">n年日記</a>
-  </span>
-  {{ end }}
-  {{ end }}
-{{ end }}
-|
-<span>
-    <a href="{{.Site.Params.memos_url}}{{.Site.Params.memos_with_displayTime}}{{.Date.Format "2006-01-02"}}">今日memo</a>
-  </span>
-{{ .Content }}
-{{ partial "backlinks.html" . }}
+
+  {{ partial "backlinks.html" . }}
+</article>
+
 {{- partial "singlepage_pagenation" . -}}
-slug: {{ .Params.slug }}, filename: {{.File.LogicalName}}
+
+{{ if eq .Section "posts" }}
+<section class="comments" id="comments">
+  <h2>コメント</h2>
+  <script src="https://utteranc.es/client.js"
+    repo="sk85org/sk85.org-blog-comment"
+    issue-term="pathname"
+    theme="preferred-color-scheme"
+    crossorigin="anonymous"
+    async>
+  </script>
+</section>
+{{ end }}
 {{ end }}

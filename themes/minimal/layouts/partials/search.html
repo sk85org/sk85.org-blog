@@ -1,6 +1,7 @@
 {{ if .Site.Params.enable_search }}
-<form method="get" action={{.Site.Params.searchserver_url}}>
-    <input type="text" name="q" value="" size="20" />
-    <input type="hidden" name="enc" value="UTF-8" />
+<form class="site-search" method="get" action="{{ .Site.Params.searchserver_url }}" role="search">
+  <label class="visually-hidden" for="site-search-input">サイト内検索</label>
+  <input id="site-search-input" type="text" name="q" value="" placeholder="検索" />
+  <input type="hidden" name="enc" value="UTF-8" />
 </form>
 {{ end }}

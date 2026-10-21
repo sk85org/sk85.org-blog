@@ -22,10 +22,35 @@ const search = instantsearch({
 instantsearch.widgets.configure({
   hitsPerPage: 25
 })
+
+function hasActiveRefinements() {
+  const state = search.helper?.state
+  if (!state) return false
+
+  return [state.refinementList, state.disjunctiveFacetsRefinements].some(
+    (group) =>
+      group &&
+      Object.values(group).some(
+        (values) => Array.isArray(values) && values.length > 0
+      )
+  )
+}
+
 search.addWidgets([
   instantsearch.widgets.searchBox({
     container: '#searchbox',
-    autofocus: false
+    autofocus: false,
+    placeholder: 'キーワードを入力'
+  }),
+  instantsearch.widgets.stats({
+    container: '#stats',
+    templates: {
+      text(data) {
+        if (data.nbHits === 0) return ''
+        if (!data.query && !hasActiveRefinements()) return ''
+        return `${data.nbHits.toLocaleString('ja-JP')}件の記事`
+      }
+    }
   }),
   instantsearch.widgets.infiniteHits({
     container: '#hits',
@@ -40,7 +65,10 @@ search.addWidgets([
              {{#helpers.snippet}}{ "attribute": "content" }{{/helpers.snippet}}
           </div>
       `,
-      empty: "" // Set empty template to an empty string, so nothing is shown when there are no hits.
+      empty: (results) => results.query
+        ? '<p class="search-empty">該当する記事がありません。<span>別のキーワードをお試しください。</span></p>'
+        : '',
+      showMoreText: 'さらに表示'
     },
   }),
   instantsearch.widgets.refinementList({
@@ -69,6 +97,30 @@ instantsearch.widgets.sortBy({
 ])
 
 search.start()
+
+const mainSearchInput = document.querySelector("#searchbox input")
+if (mainSearchInput) {
+  mainSearchInput.setAttribute("aria-label", "サイト内検索")
+}
+
+const sortContainer = document.querySelector("#sort-by")
+
+function labelSortSelect() {
+  const select = sortContainer?.querySelector("select")
+  if (select) {
+    select.id = "sort-by-select"
+    select.removeAttribute("aria-label")
+  }
+}
+
+if (sortContainer) {
+  new MutationObserver(labelSortSelect).observe(sortContainer, {
+    childList: true,
+    subtree: true
+  })
+}
+
+labelSortSelect()
 
 // DOMContentLoaded 時に URL パラメーター「q」を取得し、検索ボックスに代入
 document.addEventListener("DOMContentLoaded", function () {

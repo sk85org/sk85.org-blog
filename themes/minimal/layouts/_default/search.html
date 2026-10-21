@@ -1,10 +1,22 @@
 {{ define "main" }}
-  <h1 class="title">{{ .Site.Title }}</h1>
-  
-  <div>
+  <h1 class="visually-hidden">サイト内検索</h1>
+
+  <div class="search-page">
     <div id="searchbox"></div>
-    <div id="refinement-list"></div>
-    <div id="sort-by"></div>
+    <p class="search-help">日記のタイトルと本文から検索できます。年で絞り込むこともできます。</p>
+
+    <div class="search-toolbar">
+      <section class="search-filter" aria-labelledby="search-filter-label">
+        <h2 class="search-control-label" id="search-filter-label">年で絞り込む</h2>
+        <div id="refinement-list"></div>
+      </section>
+      <div class="search-sort">
+        <label class="search-control-label" for="sort-by-select">並び順</label>
+        <div id="sort-by"></div>
+      </div>
+    </div>
+
+    <div id="stats"></div>
     <div id="hits"></div>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/@meilisearch/instant-meilisearch/dist/instant-meilisearch.umd.min.js"></script>
