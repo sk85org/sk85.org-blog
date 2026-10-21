@@ -72,3 +72,8 @@ VPS サーバーを indigo に変更
 #### 2025-02
 
 - 検索を Hyper Estraier から Meilisearch に変更してインクリメンタル検索を使えるようにした
+
+#### 2026-10
+
+- サイトのデザインを刷新
+  - Deepseek V4.1 flashに作ってもらう
