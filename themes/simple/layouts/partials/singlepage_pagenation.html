@@ -1,0 +1,42 @@
+{{ if and (eq .Section "posts") (or .Prev .Next) }}
+<nav class="post-nav" aria-label="前後の記事">
+  {{ with .Prev }}
+  <a class="post-nav-prev" href="{{ .RelPermalink }}" id="previous-post-link">
+    <span class="post-nav-label">← 前の記事</span>
+    <span class="post-nav-title">{{ .Title }}</span>
+  </a>
+  {{ end }}
+
+  {{ with .Next }}
+  <a class="post-nav-next" href="{{ .RelPermalink }}" id="next-post-link">
+    <span class="post-nav-label">次の記事 →</span>
+    <span class="post-nav-title">{{ .Title }}</span>
+  </a>
+  {{ end }}
+</nav>
+<script>
+document.addEventListener("keydown", function (event) {
+  if (event.defaultPrevented || event.isComposing || event.repeat) return;
+  if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+
+  var target = event.target;
+  if (
+    target &&
+    target.closest &&
+    target.closest("a, button, input, textarea, select, summary, [contenteditable='true'], [role='button']")
+  ) {
+    return;
+  }
+
+  var key = (event.key || "").toLowerCase();
+  var id = key === "n" ? "next-post-link" : key === "p" ? "previous-post-link" : null;
+  if (!id) return;
+
+  var link = document.getElementById(id);
+  if (link) {
+    event.preventDefault();
+    window.location.href = link.href;
+  }
+});
+</script>
+{{ end }}

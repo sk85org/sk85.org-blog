@@ -1,0 +1,12 @@
+name = "Simple"
+license = "Unlicense"
+licenselink = "https://unlicense.org"
+description = "Custom Hugo theme for d.sk85.org, based on Accessible Minimalism"
+homepage = "https://d.sk85.org"
+tags = ["minimalist", "accessible", "simple", "diary"]
+features = ["Japanese diary layout", "Meilisearch search", "Light and dark themes", "Responsive"]
+min_version = "0.140.0"
+
+[author]
+  name = "Leon Stafford"
+  homepage = "https://ljs.dev"

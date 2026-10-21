@@ -1,0 +1,19 @@
+[{{- $i := 0 -}}
+  {{- $base := strings.TrimSuffix "/" .Site.BaseURL -}}
+  {{- range where .Site.RegularPages "Section" "ne" "" -}}
+    {{- if not .Params.noSearch -}}
+      {{- if gt $i 0 }},{{ end -}}
+      {
+        "id": {{ (print (.Date | time.Format "20060102") .Slug) | jsonify }},
+        "slug": {{ .Slug | jsonify }},
+        "date": {{ .Date | time.Format "2006-01-02" | jsonify }},
+        "year": {{ .Date | time.Format "2006" }},
+        "timestamp": {{ .Date.Unix }},
+        "url": {{ printf "%s%s" $base .RelPermalink | jsonify }},
+        "title": {{ .Title | jsonify }},
+        "content": {{ .Content | plainify | jsonify }}
+      }
+      {{- $i = add $i 1 -}}
+    {{- end -}}
+  {{- end -}}
+]

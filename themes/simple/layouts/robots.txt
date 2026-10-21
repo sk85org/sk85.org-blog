@@ -1,0 +1,4 @@
+User-agent: *
+
+{{- $sitemap := "sitemap.xml" | absURL }}
+Sitemap: {{ $sitemap }}

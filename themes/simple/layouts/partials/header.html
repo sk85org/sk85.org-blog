@@ -1,0 +1,17 @@
+<header class="site-header">
+  <a class="site-title" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+  <nav class="site-nav" aria-label="メインメニュー">
+    <ul>
+      {{ range .Site.Menus.main.ByWeight }}
+      {{ $active := or ($.IsMenuCurrent "main" .) (eq .URL $.RelPermalink) }}
+      {{ if and (ne .URL "/") (hasPrefix $.RelPermalink .URL) }}
+        {{ $active = true }}
+      {{ end }}
+      <li>
+        <a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+  <button class="theme-toggle" id="theme-toggle" type="button" aria-label="テーマを切り替える" title="テーマを切り替える" hidden>◐</button>
+</header>

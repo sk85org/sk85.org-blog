@@ -1,0 +1,10 @@
+{{- $title := .Get "title" -}}
+{{- $alt := .Get "alt" | default $title | default "Flickrの画像" -}}
+<figure class="img">
+  <a data-flickr-embed="true" href="https://www.flickr.com/photos/{{ .Get "href" }}" title="{{ $title }}">
+    <img src="https://live.staticflickr.com/{{ .Get "thumbnail" }}"
+      width="{{ .Get "width" }}" height="{{ .Get "height" }}"
+      alt="{{ $alt }}" loading="lazy" decoding="async">
+  </a>
+  {{ with $title }}<figcaption class="img-caption">{{ . }}</figcaption>{{ end }}
+</figure>

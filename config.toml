@@ -1,20 +1,35 @@
-baseURL = "/"
+baseURL = "https://d.sk85.org/"
 languageCode = 'ja'
 title = 'd.sk85.org'
-theme = 'minimal'
+theme = 'simple'
 enableGitInfo = true
-publishDir = "/Users/shuhei/hugo"
+enableRobotsTXT = true
 
 [outputs]
-  home = ["HTML", "JSON"]
+  home = ["HTML", "JSON", "RSS"]
 
 [params]
+  description = 'd.sk85.org の日記'
   imgresourceserver = "https://img.sk85.org/imaginary/resize?"
   enable_search = true
   searchserver_url = "/search/"
-  rss_base_url = 'https://d.sk85.org'
+  meilisearch_url = 'https://meilisearch.sk85.org'
+  meilisearch_key = '36b28bf9ad39d804a062105c8323177cb734366a8a4ca83e75330a6b6fb26960'
+  meilisearch_index = 'diary'
+  image_search_api = 'https://img.sk85.org/api/search'
+  image_search_url = 'https://img.sk85.org/imaginary/resize'
+  utterances_repo = 'sk85org/sk85.org-blog-comment'
+  home_post_limit = 15
   memos_url = 'https://memos.sk85.org'
   memos_with_displayTime = '/?filter=displayTime%3A'
+
+[params.home_callout]
+  title = 'kagi'
+  text = 'みんな<a href="https://kagi.com">kagi</a>を使おう。kagiを使って、あなたの検索を広告会社から取り戻そう。'
+  image = 'https://img.sk85.org/imaginary/resize?width=150&quality=50&file=20251123-13-49-08-yfodNneNgh0qo6_8QEN0.png'
+  image_alt = 'kagi'
+  image_width = 150
+  image_height = 129
 
 [permalinks]
   posts = "/:sections/:year/:month/:day/:slug/"

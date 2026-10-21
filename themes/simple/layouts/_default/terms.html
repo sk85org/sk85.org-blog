@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ if not (in (slice "tags" "archives") .Data.Plural) }}
+    {{- partial "search.html" . -}}
+  {{ end }}
+
+  {{ $plural := .Data.Plural }}
+
+  {{ if eq $plural "archives" }}
+    {{ $terms := .Data.Terms.Alphabetical.Reverse }}
+    {{ $currentYear := "" }}
+    {{ $open := false }}
+
+    {{ range $terms }}
+      {{ $year := substr .Name 0 4 }}
+      {{ if ne $year $currentYear }}
+        {{ if $open }}</ul></section>{{ end }}
+        <section class="archive-year">
+          <h2>{{ $year }}</h2>
+          <ul class="archive-months">
+        {{ $currentYear = $year }}
+        {{ $open = true }}
+      {{ end }}
+      <li><a href="{{ printf "%s/%s/" $plural (.Name | urlize) | relLangURL }}">{{ .Name }}</a></li>
+    {{ end }}
+
+    {{ if $open }}</ul></section>{{ end }}
+  {{ else if eq $plural "tags" }}
+    <ul class="tag-list" aria-label="タグ一覧">
+      {{ range .Data.Terms.Alphabetical }}
+        <li><a href="{{ printf "%s/%s/" $plural (.Name | urlize) | relLangURL }}">{{ .Name }}</a> <span>{{ .Count }}</span></li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    <ul class="tag-list">
+      {{ range .Data.Terms.Alphabetical }}
+        <li><a href="{{ printf "%s/%s/" $plural (.Name | urlize) | relLangURL }}">{{ .Name }}</a> <span>{{ .Count }}</span></li>
+      {{ end }}
+    </ul>
+  {{ end }}
+{{ end }}

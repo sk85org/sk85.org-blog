@@ -1,0 +1,3 @@
+{{- $keyword := .Get "keyword" -}}
+{{- $searchURL := .Site.Params.searchserver_url | default ("search/" | relURL) -}}
+<a href="{{ printf "%s?q=%s" $searchURL ($keyword | urlquery) }}">{{ $keyword }}</a>

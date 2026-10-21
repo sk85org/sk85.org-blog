@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <h1 class="visually-hidden">サイト内検索</h1>
+
+  <div class="search-page"
+    data-meili-host="{{ .Site.Params.meilisearch_url }}"
+    data-meili-key="{{ .Site.Params.meilisearch_key }}"
+    data-meili-index="{{ .Site.Params.meilisearch_index | default "diary" }}">
+    <div id="searchbox"></div>
+    <p class="search-help" id="search-help">日記のタイトルと本文から検索できます。年で絞り込むこともできます。</p>
+
+    <div class="search-toolbar">
+      <section class="search-filter" aria-labelledby="search-filter-label">
+        <h2 class="search-control-label" id="search-filter-label">年で絞り込む</h2>
+        <div id="refinement-list"></div>
+      </section>
+      <div class="search-sort">
+        <label class="search-control-label" for="sort-by-select">並び順</label>
+        <div id="sort-by"></div>
+      </div>
+    </div>
+
+    <div id="stats"></div>
+    <div id="hits"></div>
+    <noscript>
+      <p class="search-empty">検索にはJavaScriptが必要です。</p>
+    </noscript>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@meilisearch/instant-meilisearch@1.0.0/dist/instant-meilisearch.umd.min.js" integrity="sha384-JGtiWCRptpz5mHmoAE1kiN5U7yq2VXFbizX1NeTG21GSssNUnGGZ8EsVel2k89Wp" crossorigin="anonymous" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.120.0/dist/instantsearch.production.min.js" integrity="sha384-7njZ6wwMli9/xBM+S0hVr2MQx05aeyW6rEXqeCr34VysQDc3VSDnTyScLCiZVcPm" crossorigin="anonymous" defer></script>
+  <script src="{{ "search.js" | relURL }}" defer></script>
+{{ end }}

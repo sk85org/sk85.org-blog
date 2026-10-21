@@ -1,0 +1,22 @@
+{{ define "main" }}
+  <h1>画像検索</h1>
+  <p>画像ファイル名の一部を入力して検索できます。</p>
+
+  <div class="image-search"
+    data-api-url="{{ .Site.Params.image_search_api }}"
+    data-image-url="{{ .Site.Params.image_search_url }}">
+    <form class="image-search-form" id="image-search-form" role="search">
+      <label class="visually-hidden" for="image-search-input">画像ファイル名</label>
+      <input type="search" id="image-search-input" name="q" placeholder="ファイル名を入力" enterkeyhint="search" autocomplete="off" />
+      <button type="submit">検索</button>
+    </form>
+
+    <p id="image-search-status" class="image-search-status" role="status" aria-live="polite"></p>
+    <ul id="image-search-results" class="image-search-list" aria-label="画像検索結果"></ul>
+  </div>
+
+  <noscript>
+    <p class="search-empty">画像検索にはJavaScriptが必要です。</p>
+  </noscript>
+  <script src="{{ "imgsearch.js" | relURL }}" defer></script>
+{{ end }}

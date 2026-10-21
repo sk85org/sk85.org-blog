@@ -1,0 +1,4 @@
+{{- $termPath := printf "n年日記/%s" (now.Format "0102") -}}
+{{- with site.GetPage $termPath -}}
+<a href="{{ .RelPermalink }}">{{ now.Format "01月02日" }}のn年日記</a>
+{{- end -}}

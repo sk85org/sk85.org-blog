@@ -1,0 +1,15 @@
+{{- $file := .Get "file" -}}
+{{- $width := .Get "width" -}}
+{{- $height := .Get "height" -}}
+{{- $title := .Get "title" -}}
+{{- $alt := .Get "alt" | default $title -}}
+{{- if not $alt -}}
+  {{- $alt = $file | default "画像" -}}
+{{- end -}}
+<figure class="img">
+  <a href="{{ .Site.Params.imgresourceserver }}width=2000&amp;quality=100&amp;file={{ $file | urlquery }}">
+    <img src="{{ .Site.Params.imgresourceserver }}width={{ $width }}&amp;quality=80&amp;file={{ $file | urlquery }}"
+      alt="{{ $alt }}" loading="lazy" decoding="async"{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }}>
+  </a>
+  {{ with $title }}<figcaption class="img-caption">{{ . }}</figcaption>{{ end }}
+</figure>

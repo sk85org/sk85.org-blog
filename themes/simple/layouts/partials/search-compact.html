@@ -1,0 +1,14 @@
+{{ if .Site.Params.enable_search }}
+{{ $searchURL := .Site.Params.searchserver_url | default ("search/" | relURL) }}
+<form class="post-search" method="get" action="{{ $searchURL }}" role="search">
+  <label class="visually-hidden" for="post-search-input">サイト内検索</label>
+  <div class="post-search-field">
+    <svg class="post-search-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+      <circle cx="11" cy="11" r="7"></circle>
+      <path d="m20 20-4.2-4.2"></path>
+    </svg>
+    <input id="post-search-input" type="search" name="q" value="" placeholder="サイト内検索" enterkeyhint="search" />
+  </div>
+  <input type="hidden" name="enc" value="UTF-8" />
+</form>
+{{ end }}

@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <h1 class="visually-hidden">{{ .Site.Title }}</h1>
+  {{ if .Site.Params.enable_search }}
+  <div class="home-search">
+    {{- partial "search-compact.html" . -}}
+  </div>
+  {{ end }}
+
+  {{ with .Content }}
+  <div class="post-body">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  {{ $todayNikki := partial "today_n_nenn_nikki.html" . }}
+  {{ with $todayNikki }}<p class="today-nikki">{{ . }}</p>{{ end }}
+
+  <h2>最近の記事</h2>
+  <ul class="post-list">
+    {{ $limit := .Site.Params.home_post_limit | default 15 }}
+    {{ range first $limit site.RegularPages.ByDate.Reverse }}
+    <li>
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}（{{ index $.Site.Data "jweekday" (.Date.Format "Monday") }}）</time>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+
+  {{ with .Site.Params.home_callout }}
+  <aside class="callout">
+    {{ with .title }}<h2>{{ . }}</h2>{{ end }}
+    {{ with .text }}<p>{{ . | safeHTML }}</p>{{ end }}
+    {{ with .image }}<img src="{{ . }}" alt="{{ $.Site.Params.home_callout.image_alt | default "" }}"{{ with $.Site.Params.home_callout.image_width }} width="{{ . }}"{{ end }}{{ with $.Site.Params.home_callout.image_height }} height="{{ . }}"{{ end }} loading="lazy" decoding="async">{{ end }}
+  </aside>
+  {{ end }}
+{{ end }}

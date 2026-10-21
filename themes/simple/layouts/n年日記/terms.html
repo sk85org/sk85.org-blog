@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>{{ .Title | lower }}</h1>
+{{- partial "search.html" . -}}
+<ul class="tag-list">
+  {{- $plural := .Data.Plural }}
+  {{- range .Data.Terms.Alphabetical.Reverse }}
+    <li><a href="{{ printf "%s/%s/" $plural (.Name | urlize) | relLangURL }}">{{ .Name }}</a> <span>{{ .Count }}</span></li>
+  {{- end }}
+</ul>
+{{ end }}
