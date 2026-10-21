@@ -45,10 +45,10 @@
 
   {{ if eq .Section "posts" }}
     {{ if or .Params.slug .File }}
-    <p class="post-file">
-      {{ with .Params.slug }}<span>slug: {{ . }}</span>{{ end }}
-      {{ with .File }}{{ with .BaseFileName }}<span>filename: {{ . }}.md</span>{{ end }}{{ end }}
-    </p>
+    <aside class="post-file" aria-label="記事情報">
+      {{ with .Params.slug }}<span class="post-file-slug"><span class="post-file-label">slug</span><code>{{ . }}</code></span>{{ end }}
+      {{ with .File }}{{ with .BaseFileName }}<span class="post-file-filename"><span class="post-file-label">filename</span><code>{{ . }}.md</code></span>{{ end }}{{ end }}
+    </aside>
     {{ end }}
   {{ end }}
 

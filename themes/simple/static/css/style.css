@@ -793,15 +793,42 @@ figure.img img {
 .post-file {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem 1rem;
-  margin-top: 2.5rem;
+  align-items: baseline;
+  justify-content: flex-end;
+  gap: 0.3rem 1.5rem;
+  margin-top: 2.25rem;
   color: var(--muted);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   font-size: 0.75rem;
 }
 
-.post-file span {
-  white-space: nowrap;
+.post-file-slug,
+.post-file-filename {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.post-file-slug + .post-file-filename {
+  padding-left: 1.5rem;
+  border-left: 1px solid var(--border);
+}
+
+.post-file-label {
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.8;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+
+.post-file code {
+  padding: 0;
+  background: none;
+  color: var(--text);
+  font-size: 0.75rem;
+  overflow-wrap: anywhere;
 }
 
 .post-search {
@@ -1246,6 +1273,25 @@ span.ais-RefinementList-count::after {
 
   .search-sort {
     flex: 1 1 100%;
+  }
+
+  .post-file {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.15rem;
+    margin-top: 2rem;
+  }
+
+  .post-file-slug,
+  .post-file-filename {
+    display: grid;
+    grid-template-columns: 4.5rem minmax(0, 1fr);
+    gap: 0.5rem;
+  }
+
+  .post-file-slug + .post-file-filename {
+    padding-left: 0;
+    border-left: 0;
   }
 }
 
