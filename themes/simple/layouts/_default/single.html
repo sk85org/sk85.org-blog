@@ -2,14 +2,10 @@
 <article class="post">
   <div class="post-head">
     <h1 class="post-title">{{ .Title }}</h1>
-    {{ if and (eq .Section "posts") .Site.Params.enable_search }}
-    <div class="post-head-search">
-      {{ partial "search-compact.html" . }}
-    </div>
-    {{ end }}
   </div>
 
-  {{ if or (not .Date.IsZero) .Params.tags .Params.n年日記 }}
+  {{ $showSearch := and (eq .Section "posts") .Site.Params.enable_search }}
+  {{ if or (not .Date.IsZero) .Params.tags .Params.n年日記 $showSearch }}
   <div class="post-meta">
     {{ if not .Date.IsZero }}
     <time datetime="{{ .Date.Format "2006-01-02" }}">
@@ -35,6 +31,12 @@
 
     {{ if and (not .Date.IsZero) .Site.Params.memos_url }}
     <a class="chip" href="{{ printf "%s%s%s" .Site.Params.memos_url (default "" .Site.Params.memos_with_displayTime) (.Date.Format "2006-01-02") }}">今日memo</a>
+    {{ end }}
+
+    {{ if $showSearch }}
+    <div class="post-meta-search">
+      {{ partial "search-compact.html" . }}
+    </div>
     {{ end }}
   </div>
   {{ end }}
