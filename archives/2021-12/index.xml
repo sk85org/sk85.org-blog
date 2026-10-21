@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2021-12 on d.sk85.org</title><link>/archives/2021-12/</link><description>Recent content in 2021-12 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 28 Dec 2025 10:52:27 +0900</lastBuildDate><atom:link href="/archives/2021-12/index.xml" rel="self" type="application/rss+xml"/><item><title>2021-12-31</title><link>/posts/2021/12/31/676303/</link><pubDate>Fri, 31 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/31/676303/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2021-12 on d.sk85.org</title><link>https://d.sk85.org/archives/2021-12/</link><description>Recent content in 2021-12 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 21 Oct 2026 15:48:28 +0900</lastBuildDate><atom:link href="https://d.sk85.org/archives/2021-12/index.xml" rel="self" type="application/rss+xml"/><item><title>2021-12-31</title><link>https://d.sk85.org/posts/2021/12/31/676303/</link><pubDate>Fri, 31 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/31/676303/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;今日は子育てお休み(したい)&lt;/li&gt;
 &lt;li&gt;業務スーパーで買い物&lt;/li&gt;
@@ -30,7 +33,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;昼食は昨日の残りご飯&lt;/li&gt;
 &lt;li&gt;お昼寝&lt;/li&gt;
@@ -39,20 +45,32 @@
 &lt;li&gt;夜はうどんと、奥さんが作ってくれたてんぷらで年越しうどん&lt;/li&gt;
 &lt;li&gt;お互い、一年の激務(主に子育て)をねぎらって就寝&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h4 id="visual-studio-code-がおかしい"&gt;Visual Studio Code がおかしい&lt;/h4&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h4 id="visual-studio-code-がおかしい"&gt;
+ Visual Studio Code がおかしい
+ &lt;a class="heading-anchor" href="#visual-studio-code-%e3%81%8c%e3%81%8a%e3%81%8b%e3%81%97%e3%81%84" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://takacity.blog.fc2.com/blog-entry-391.html"&gt;Visual Studio Code の日本語変換が変？ - 考えるエンジニア&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/microsoft/vscode/issues/138704"&gt;Japanese IME doesn&amp;rsquo;t work well on macOS and Linux #138704&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;div style='text-align:center;'&gt;
+&lt;li&gt;&lt;figure class="img"&gt;
  &lt;a data-flickr-embed="true" href="https://www.flickr.com/photos/193320954@N03/51789976603/in/dateposted/" title="入力がへん"&gt;
- &lt;img src="https://live.staticflickr.com/31337/51789976603_8456919cb0_z.jpg" width="640" height="230" alt="入力がへん"&gt;&lt;/a&gt;
- &lt;script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"&gt;&lt;/script&gt;
-&lt;/div&gt;
+ &lt;img src="https://live.staticflickr.com/31337/51789976603_8456919cb0_z.jpg"
+ width="640" height="230"
+ alt="入力がへん" loading="lazy" decoding="async"&gt;
+ &lt;/a&gt;
+ &lt;figcaption class="img-caption"&gt;入力がへん&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;ul&gt;
 &lt;li&gt;まさしくこの症状で 1.62.3 に戻すことで解決&lt;/li&gt;
@@ -60,11 +78,14 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="visual-studio-code-のフォントを変更"&gt;Visual Studio Code のフォントを変更&lt;/h4&gt;
-&lt;p&gt;&lt;a href="https://github.com/yuru7/HackGen"&gt;yuru7/HackGen&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Hack と源柔ゴシックを合成したプログラミングフォント 白源 (はくげん／HackGen)
-ttf で配布されているのでインストールが便利&lt;/p&gt;</description></item><item><title>2021-12-30</title><link>/posts/2021/12/30/327592/</link><pubDate>Thu, 30 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/30/327592/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h4 id="visual-studio-code-のフォントを変更"&gt;
+ Visual Studio Code のフォントを変更
+ &lt;a class="heading-anchor" href="#visual-studio-code-%e3%81%ae%e3%83%95%e3%82%a9%e3%83%b3%e3%83%88%e3%82%92%e5%a4%89%e6%9b%b4" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://github.com/yuru7/HackGen"&gt;yuru7/HackGen&lt;/a&gt;&lt;/p&gt;</description></item><item><title>2021-12-30</title><link>https://d.sk85.org/posts/2021/12/30/327592/</link><pubDate>Thu, 30 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/30/327592/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子と日暮里舎人公園に
 &lt;ul&gt;
@@ -74,7 +95,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;昼食はふるさと納税でもらった一蘭のラーメン&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;奥さんは正月帰省用のお土産を買いに日本橋へ&lt;/li&gt;
 &lt;li&gt;3d プリンタをいじる&lt;/li&gt;
@@ -84,14 +108,17 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;一時間ちょっとで帰宅&lt;/li&gt;
-&lt;li&gt;夜は&lt;a href="/posts/2021/12/11/726308/"&gt;ぶりのショウガ醤油漬け&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;夜は&lt;a href="https://d.sk85.org/posts/2021/12/11/726308/"&gt;ぶりのショウガ醤油漬け&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;寝る前に 3d プリンタで印刷始めるが、夜中に確認したらもじゃもじゃになってた
 &lt;ul&gt;
 &lt;li&gt;プレートへの定着が甘くて、左右に激しく動く細かい fill でずれているよう&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ふう、子供の体力がすごい
 &lt;ul&gt;
@@ -101,8 +128,17 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日の-tabs"&gt;今日の Tabs&lt;/h2&gt;</description></item><item><title>2021-12-29</title><link>/posts/2021/12/29/300991/</link><pubDate>Wed, 29 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/29/300991/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日の-tabs"&gt;
+ 今日の Tabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%ae-tabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-29</title><link>https://d.sk85.org/posts/2021/12/29/300991/</link><pubDate>Wed, 29 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/29/300991/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;早めに起きて奥さんが作ってくれたフレンチトーストを食べる&lt;/li&gt;
 &lt;li&gt;午前中は家の掃除
@@ -122,7 +158,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;昼食は家族で回転寿司&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Ender3 V2の改造
 &lt;ul&gt;
@@ -134,17 +173,32 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;&lt;a href="https://takaratomymall.jp/shop/g/g4904810175025/"&gt;プラレール S-40 レールで往復!H5系新幹線はやぶさ】&lt;/a&gt;が届く&lt;/li&gt;
 &lt;li&gt;奥さんはお友達とオンラインの飲み会&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-28</title><link>/posts/2021/12/28/562968/</link><pubDate>Tue, 28 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/28/562968/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-28</title><link>https://d.sk85.org/posts/2021/12/28/562968/</link><pubDate>Tue, 28 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/28/562968/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子通園&lt;/li&gt;
 &lt;li&gt;ラボの掃除&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;有給&lt;/li&gt;
 &lt;li&gt;秋葉原で買い物
@@ -177,18 +231,33 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-27</title><link>/posts/2021/12/27/667393/</link><pubDate>Mon, 27 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/27/667393/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-27</title><link>https://d.sk85.org/posts/2021/12/27/667393/</link><pubDate>Mon, 27 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/27/667393/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子通園&lt;/li&gt;
 &lt;li&gt;8:30出社&lt;/li&gt;
 &lt;li&gt;本日午後半休&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;秋葉原で買い物
 &lt;ul&gt;
@@ -211,12 +280,21 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;息子お迎え&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;RSS関係
 &lt;ul&gt;
@@ -230,13 +308,19 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;&lt;a href="https://fumimaker.net/entry/2019/06/16/220408"&gt;電子工作でコネクタを作る！ おすすめの圧着工具 - fumiLab&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>2021-12-26</title><link>/posts/2021/12/26/518230/</link><pubDate>Sun, 26 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/26/518230/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>2021-12-26</title><link>https://d.sk85.org/posts/2021/12/26/518230/</link><pubDate>Sun, 26 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/26/518230/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子の朝食作り&lt;/li&gt;
 &lt;li&gt;息子プール&lt;/li&gt;
 &lt;li&gt;僕は自宅でだらだらと過ごす&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;お昼寝&lt;/li&gt;
 &lt;li&gt;夕方、シャトレーゼに出かける
@@ -247,16 +331,28 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;24:00過ぎに就寝&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://calil.jp/book/4152100753"&gt;mRNAワクチンの衝撃: コロナ制圧と医療の未来 | カーリル&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://huyukiitoichi.hatenadiary.jp/entry/2021/12/27/080000"&gt;mRNAワクチンを接種した人全員に読んでもらいたい、ワクチン開発の奮闘を描き出す一気読み必至のノンフィクション──『mRNAワクチンの衝撃　コロナ制圧と医療の未来』 - 基本読書&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-25</title><link>/posts/2021/12/25/135406/</link><pubDate>Sat, 25 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/25/135406/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-25</title><link>https://d.sk85.org/posts/2021/12/25/135406/</link><pubDate>Sat, 25 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/25/135406/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子にはサンタさんが来た
 &lt;ul&gt;
@@ -269,7 +365,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;日暮里から山手線と京浜東北線を使って帰宅&lt;/li&gt;
 &lt;li&gt;お昼はカレーうどん&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;お昼寝&lt;/li&gt;
 &lt;li&gt;夕方息子と公園に行き、後でシャトレーゼにケーキを受け取りに行く
@@ -283,18 +382,30 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子、ここ3,4日収まっていて安心していた吃音がまた出始めてる&lt;/li&gt;
 &lt;li&gt;波があるようだ&lt;/li&gt;
 &lt;li&gt;「あ、あ、あ」という感じの吃音と「あー」という伸ばすタイプの吃音両方出ている&lt;/li&gt;
 &lt;li&gt;体に力を入れて音を出そうとしている&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-24</title><link>/posts/2021/12/24/993898/</link><pubDate>Fri, 24 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/24/993898/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-24</title><link>https://d.sk85.org/posts/2021/12/24/993898/</link><pubDate>Fri, 24 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/24/993898/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;9:00前に出社&lt;/li&gt;
 &lt;li&gt;見積もりを確認&lt;/li&gt;
@@ -305,7 +416,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;実験続き
 &lt;ul&gt;
@@ -320,19 +434,34 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;夜プレゼントを3つ置く&lt;/li&gt;
 &lt;li&gt;一週間本当に疲れたよ&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;納期が短い仕事をしているのでややストレス&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-23</title><link>/posts/2021/12/23/92831/</link><pubDate>Thu, 23 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/23/92831/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-23</title><link>https://d.sk85.org/posts/2021/12/23/92831/</link><pubDate>Thu, 23 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/23/92831/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子通園&lt;/li&gt;
 &lt;li&gt;精製法をがんばって探す&lt;/li&gt;
 &lt;li&gt;うーむおかしい、変なものになっている&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;いくつか確認のための実験
 &lt;ul&gt;
@@ -342,13 +471,25 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;残業 1.5 時間&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h4 id="zombi-icloud-tab-の対処方法"&gt;Zombi icloud tab の対処方法&lt;/h4&gt;
-&lt;h4 id="症状"&gt;症状&lt;/h4&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h4 id="zombi-icloud-tab-の対処方法"&gt;
+ Zombi icloud tab の対処方法
+ &lt;a class="heading-anchor" href="#zombi-icloud-tab-%e3%81%ae%e5%af%be%e5%87%a6%e6%96%b9%e6%b3%95" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;h4 id="症状"&gt;
+ 症状
+ &lt;a class="heading-anchor" href="#%e7%97%87%e7%8a%b6" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;safari の tab は icloud で同期している&lt;/li&gt;
 &lt;li&gt;macOS の Safari において別デバイス(今回は iPhone)ではすでに閉じている tab が表示され続ける&lt;/li&gt;
@@ -358,20 +499,32 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;システムの再インストールでも改善しない&lt;/li&gt;
 &lt;li&gt;apple のサポートに連絡をしたが解決していない&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="対処"&gt;対処&lt;/h4&gt;
+&lt;h4 id="対処"&gt;
+ 対処
+ &lt;a class="heading-anchor" href="#%e5%af%be%e5%87%a6" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;safari を終了&lt;/li&gt;
 &lt;li&gt;/Users/USERNAME/Library/Containers/com.apple.Safari/Data/Library/Preferences を削除&lt;/li&gt;
 &lt;li&gt;safari を起動&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id="こういうのもあるらしい"&gt;こういうのもあるらしい&lt;/h4&gt;
-&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;1. ゾンビ iCloud Tabs ができるとどこからも消せなくなる&lt;br&gt;2. iCloud Tabs は 14日より過去のものは消すというロジックがある&lt;br&gt;3. ゾンビ iCloud Tabs を送ってきてるデバイスの時計を14日以上未来に進める&lt;br&gt;4. 一度 Safari を開いて同期する&lt;br&gt;5. 時計を戻す&lt;br&gt;6. ゾンビ iCloud Tabs が消える&lt;/p&gt;</description></item><item><title>2021-12-22</title><link>/posts/2021/12/22/547510/</link><pubDate>Wed, 22 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/22/547510/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h4 id="こういうのもあるらしい"&gt;
+ こういうのもあるらしい
+ &lt;a class="heading-anchor" href="#%e3%81%93%e3%81%86%e3%81%84%e3%81%86%e3%81%ae%e3%82%82%e3%81%82%e3%82%8b%e3%82%89%e3%81%97%e3%81%84" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;blockquote class="twitter-tweet"&gt;&lt;p lang="ja" dir="ltr"&gt;1. ゾンビ iCloud Tabs ができるとどこからも消せなくなる&lt;br&gt;2. iCloud Tabs は 14日より過去のものは消すというロジックがある&lt;br&gt;3. ゾンビ iCloud Tabs を送ってきてるデバイスの時計を14日以上未来に進める&lt;br&gt;4. 一度 Safari を開いて同期する&lt;br&gt;5. 時計を戻す&lt;br&gt;6. ゾンビ iCloud Tabs が消える&lt;/p&gt;</description></item><item><title>2021-12-22</title><link>https://d.sk85.org/posts/2021/12/22/547510/</link><pubDate>Wed, 22 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/22/547510/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;9:00前に出社&lt;/li&gt;
 &lt;li&gt;実験&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;技術系のミーティング&lt;/li&gt;
 &lt;li&gt;実験
@@ -381,22 +534,37 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;残業1.5時間&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.nikkei.com/article/DGXZQOUA224TK0S1A221C2000000/"&gt;エーザイ認知症新薬の承認可否、再度審議へ 厚労省部会: 日本経済新聞&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://cs50.jp/"&gt;CS50 for Japanese: コンピュータサイエンスの入門 – 当ウェブサイトは、Creative Commons ライセンスに基づいて管理されています。&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>2021-12-21</title><link>/posts/2021/12/21/278614/</link><pubDate>Tue, 21 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/21/278614/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>2021-12-21</title><link>https://d.sk85.org/posts/2021/12/21/278614/</link><pubDate>Tue, 21 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/21/278614/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子通園&lt;/li&gt;
 &lt;li&gt;昨日の精製作業&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;精製作業続き
 &lt;ul&gt;
@@ -409,12 +577,24 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-20</title><link>/posts/2021/12/20/863362/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/20/863362/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-20</title><link>https://d.sk85.org/posts/2021/12/20/863362/</link><pubDate>Mon, 20 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/20/863362/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子通園&lt;/li&gt;
 &lt;li&gt;今日は実験が忙しい
@@ -425,36 +605,63 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ミーティング続き&lt;/li&gt;
 &lt;li&gt;実験続き&lt;/li&gt;
 &lt;li&gt;処理まで終了&lt;/li&gt;
 &lt;li&gt;残業1.5h&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;icloudのtabを消しても復活する問題、海外ではzombi icloud tabと呼ばれている&lt;/p&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-19</title><link>/posts/2021/12/19/587258/</link><pubDate>Sun, 19 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/19/587258/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-19</title><link>https://d.sk85.org/posts/2021/12/19/587258/</link><pubDate>Sun, 19 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/19/587258/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子に朝ご飯&lt;/li&gt;
 &lt;li&gt;息子はプールへ&lt;/li&gt;
 &lt;li&gt;マクドナルドで作業&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;お昼は焼き肉&lt;/li&gt;
 &lt;li&gt;hugoのデプロイ先をGithub Pagesに変更&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;ふつう&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://medt00lz.s59.xrea.com/"&gt;レジデント初期研修用資料&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://mojix.org/"&gt;モジログ&lt;/a&gt;&lt;/li&gt;
@@ -471,69 +678,113 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;&lt;a href="https://satt99.hatenablog.com/entry/2020/01/13/124955"&gt;Original Prusa i3 MK3/S のアップグレードまとめ - SatT99の日記&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://miniflux.app/index.html"&gt;Miniflux - Minimalist and Opinionated Feed Reader&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://hitoriblog.com/kingroon_kp3s/"&gt;KINGROON KP3S INFO&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>2021-12-18</title><link>/posts/2021/12/18/178199/</link><pubDate>Sat, 18 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/18/178199/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>2021-12-18</title><link>https://d.sk85.org/posts/2021/12/18/178199/</link><pubDate>Sat, 18 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/18/178199/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;8:30起床&lt;/li&gt;
 &lt;li&gt;やや胃もたれ&lt;/li&gt;
 &lt;li&gt;舎人公園に子供向けの遊具公園があったのでお出かけ&lt;/li&gt;
 &lt;li&gt;柵があって道路から隔離されているので安心して遊ばせられる&lt;/li&gt;
-&lt;li&gt;遊具の数も多く息子は楽しかったようだ
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211218-12-34-13-BX-hBTDk4fhx7tsqNlEO.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211218-12-34-13-BX-hBTDk4fhx7tsqNlEO.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;li&gt;遊具の数も多く息子は楽しかったようだ&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211218-12-34-13-BX-hBTDk4fhx7tsqNlEO.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211218-12-34-13-BX-hBTDk4fhx7tsqNlEO.jpg"
+ alt="20211218-12-34-13-BX-hBTDk4fhx7tsqNlEO.jpg" loading="lazy" decoding="async" width="300" height="400"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
-&lt;/li&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
 &lt;li&gt;お昼は炒飯&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;お昼寝&lt;/li&gt;
 &lt;li&gt;夕方は無印におでかけ&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;li&gt;最近食事の後に胸焼けが&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-17</title><link>/posts/2021/12/17/923890/</link><pubDate>Fri, 17 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/17/923890/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-17</title><link>https://d.sk85.org/posts/2021/12/17/923890/</link><pubDate>Fri, 17 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/17/923890/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;本日在宅勤務&lt;/li&gt;
 &lt;li&gt;報告書の作成など&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;資料作成など&lt;/li&gt;
 &lt;li&gt;奥さんは夕方から友達と夕食へ&lt;/li&gt;
 &lt;li&gt;息子を迎えに行って、丸亀製麺で夕食&lt;/li&gt;
 &lt;li&gt;21:00過ぎに眠る&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;一週間お疲れ&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-16</title><link>/posts/2021/12/16/404697/</link><pubDate>Thu, 16 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/16/404697/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-16</title><link>https://d.sk85.org/posts/2021/12/16/404697/</link><pubDate>Thu, 16 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/16/404697/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;7:00起床&lt;/li&gt;
 &lt;li&gt;息子通園&lt;/li&gt;
 &lt;li&gt;朝から精製作業&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;実験続き&lt;/li&gt;
 &lt;li&gt;残業1.5時間&lt;/li&gt;
 &lt;li&gt;プラレールのジョイントを交換&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;bitwardenをお試しで使っている&lt;/li&gt;
 &lt;li&gt;息子が朝、隠していたクリスマスプレゼントを発見しそうになった
@@ -544,14 +795,23 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-15</title><link>/posts/2021/12/15/517721/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/15/517721/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-15</title><link>https://d.sk85.org/posts/2021/12/15/517721/</link><pubDate>Wed, 15 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/15/517721/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;090:0前に出社&lt;/li&gt;
 &lt;li&gt;技術系の発表会&lt;/li&gt;
 &lt;li&gt;見積もり確認&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;技術系の会議&lt;/li&gt;
 &lt;li&gt;実験
@@ -561,12 +821,21 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;最近は朝ご飯に青菜と柚子胡椒のおむすびを作っている&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://bitwarden.com/"&gt;Bitwarden Open Source Password Manager | Bitwarden&lt;/a&gt;
 &lt;ul&gt;
@@ -588,7 +857,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;&lt;a href="https://taikii.net/posts/2018/07/github-pages-with-custom-domain/"&gt;GitHub Pagesを独自ドメインで運用する - taikii blog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>2021-12-14</title><link>/posts/2021/12/14/480879/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/14/480879/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>2021-12-14</title><link>https://d.sk85.org/posts/2021/12/14/480879/</link><pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/14/480879/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;7:00起床&lt;/li&gt;
 &lt;li&gt;子供通園&lt;/li&gt;
@@ -599,35 +871,62 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;原料の精製&lt;/li&gt;
 &lt;li&gt;精製した原料で実験&lt;/li&gt;
 &lt;li&gt;残業1.5時間&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;p&gt;&lt;a href="/posts/2021/10/30/353859/"&gt;サイトの全文検索をVPSから自宅のサーバーに移行&lt;/a&gt;して、indigo VPSのインスタンスを削除。次は自宅サーバーのバックアップとらんとなあ&lt;/p&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-13</title><link>/posts/2021/12/13/701477/</link><pubDate>Mon, 13 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/13/701477/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://d.sk85.org/posts/2021/10/30/353859/"&gt;サイトの全文検索をVPSから自宅のサーバーに移行&lt;/a&gt;して、indigo VPSのインスタンスを削除。次は自宅サーバーのバックアップとらんとなあ&lt;/p&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-13</title><link>https://d.sk85.org/posts/2021/12/13/701477/</link><pubDate>Mon, 13 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/13/701477/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;本日有給&lt;/li&gt;
 &lt;li&gt;朝寝坊&lt;/li&gt;
 &lt;li&gt;昼食は隣のファミレスに&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;だらだらと過ごす&lt;/li&gt;
 &lt;li&gt;夕方子供おむかえ&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h4 id="vpsサーバーから転出"&gt;VPSサーバーから転出&lt;/h4&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h4 id="vpsサーバーから転出"&gt;
+ VPSサーバーから転出
+ &lt;a class="heading-anchor" href="#vps%e3%82%b5%e3%83%bc%e3%83%90%e3%83%bc%e3%81%8b%e3%82%89%e8%bb%a2%e5%87%ba" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;p&gt;費用削減のためにVPSサーバー上の静的ファイルをCloudflare PagesとGithubPagesに移行&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Cloudflare Pagesにsk85.orgにっきを移行&lt;/li&gt;
@@ -642,20 +941,26 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages"&gt;About custom domains and GitHub Pages&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain"&gt;Managing a custom domain for your GitHub Pages site&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://tellme.tokyo/post/2020/01/20/github-pages-with-https/"&gt;GitHub Pages で HTTPS を有効にする | tellme.tokyo&lt;/a&gt;
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211214-13-08-51-gOdGhtb_T90aMnYcElR_.png"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20211214-13-08-51-gOdGhtb_T90aMnYcElR_.png" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;li&gt;&lt;a href="https://tellme.tokyo/post/2020/01/20/github-pages-with-https/"&gt;GitHub Pages で HTTPS を有効にする | tellme.tokyo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211214-13-08-51-gOdGhtb_T90aMnYcElR_.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;amp;quality=80&amp;amp;file=20211214-13-08-51-gOdGhtb_T90aMnYcElR_.png"
+ alt="20211214-13-08-51-gOdGhtb_T90aMnYcElR_.png" loading="lazy" decoding="async" width="600" height="230"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;
-&lt;p&gt;なし&lt;/p&gt;</description></item><item><title>2021-12-12</title><link>/posts/2021/12/12/585348/</link><pubDate>Sun, 12 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/12/585348/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;なし&lt;/p&gt;</description></item><item><title>2021-12-12</title><link>https://d.sk85.org/posts/2021/12/12/585348/</link><pubDate>Sun, 12 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/12/585348/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子に朝食を作る&lt;/li&gt;
 &lt;li&gt;息子のスイミング
@@ -665,17 +970,32 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;昼食は自宅で&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;少し昼寝&lt;/li&gt;
 &lt;li&gt;夕方図書館に行き、帰りに公園へ&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-11</title><link>/posts/2021/12/11/726308/</link><pubDate>Sat, 11 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/11/726308/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-11</title><link>https://d.sk85.org/posts/2021/12/11/726308/</link><pubDate>Sat, 11 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/11/726308/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;胃もたれ&lt;/li&gt;
 &lt;li&gt;息子と近くの公園へ
@@ -685,37 +1005,52 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;昼食は回転寿司&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;眠すぎて昼寝&lt;/li&gt;
 &lt;li&gt;ぶり一本届いたのでさばいて柵にする
 &lt;ul&gt;
-&lt;li&gt;大変だった
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211214-12-51-24-E5ig5NVqXXKjIAMgPekk.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211214-12-51-24-E5ig5NVqXXKjIAMgPekk.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;li&gt;大変だった&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211214-12-51-24-E5ig5NVqXXKjIAMgPekk.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211214-12-51-24-E5ig5NVqXXKjIAMgPekk.jpg"
+ alt="20211214-12-51-24-E5ig5NVqXXKjIAMgPekk.jpg" loading="lazy" decoding="async" width="300" height="400"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211214-12-51-24-GjuViVlSdSMQfVT9TSfX.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211214-12-51-24-GjuViVlSdSMQfVT9TSfX.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211214-12-51-24-GjuViVlSdSMQfVT9TSfX.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211214-12-51-24-GjuViVlSdSMQfVT9TSfX.jpg"
+ alt="20211214-12-51-24-GjuViVlSdSMQfVT9TSfX.jpg" loading="lazy" decoding="async" width="300" height="225"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-10</title><link>/posts/2021/12/10/31286/</link><pubDate>Fri, 10 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/10/31286/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-10</title><link>https://d.sk85.org/posts/2021/12/10/31286/</link><pubDate>Fri, 10 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/10/31286/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;患部はすこし紫色感がでてきた、内出血？&lt;/li&gt;
 &lt;li&gt;6:45起床
@@ -731,7 +1066,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;午後は有給&lt;/li&gt;
 &lt;li&gt;ユニクロで服を受け取り&lt;/li&gt;
@@ -745,22 +1083,34 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;時間を潰して焼鳥屋で年末の男子会&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;灯花でラーメンを食べて帰宅
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211214-12-52-38-wy-98Cn7bAcVJDzk1RZL.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211214-12-52-38-wy-98Cn7bAcVJDzk1RZL.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
- 
- &lt;/figcaption&gt;
- &lt;/span&gt;
-&lt;/li&gt;
+&lt;li&gt;灯花でラーメンを食べて帰宅&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211214-12-52-38-wy-98Cn7bAcVJDzk1RZL.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211214-12-52-38-wy-98Cn7bAcVJDzk1RZL.jpg"
+ alt="20211214-12-52-38-wy-98Cn7bAcVJDzk1RZL.jpg" loading="lazy" decoding="async" width="300" height="400"&gt;
+ &lt;/a&gt;
+ 
+&lt;/figure&gt;
+
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-09</title><link>/posts/2021/12/09/994602/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/09/994602/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-09</title><link>https://d.sk85.org/posts/2021/12/09/994602/</link><pubDate>Thu, 09 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/09/994602/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;6:50起床&lt;/li&gt;
 &lt;li&gt;息子通園
@@ -772,7 +1122,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;実験&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;実験
 &lt;ul&gt;
@@ -781,12 +1134,24 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;残業1時間&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-08</title><link>/posts/2021/12/08/458905/</link><pubDate>Wed, 08 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/08/458905/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-08</title><link>https://d.sk85.org/posts/2021/12/08/458905/</link><pubDate>Wed, 08 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/08/458905/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;朝は胡椒餅&lt;/li&gt;
 &lt;li&gt;7:30ごろに出社&lt;/li&gt;
@@ -798,7 +1163,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;もう一発実験やるが、全然ダメ&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;長めの会議&lt;/li&gt;
 &lt;li&gt;急いで実験&lt;/li&gt;
@@ -810,15 +1178,24 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;散髪&lt;/li&gt;
 &lt;li&gt;夜、腕が痛いと言ったら息子が薬を塗って直してあげると言ってくれてうれしい&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;息子の吃音が3週間画ぐらい前から出始めて、いま結構気になる状態。「こ」が言いにくいようだ。また収まってくれれば良いのだけれど。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://satt99.hatenablog.com/entry/2020/01/13/124955"&gt;Original Prusa i3 MK3/S のアップグレードまとめ - SatT99の日記&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://rimo-ws.com/tag/ultimaker-cura/"&gt;Ultimaker Cura | rimo-WorkShop&lt;/a&gt;
@@ -838,14 +1215,20 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;&lt;a href="https://www.prusa3d.com/"&gt;Original Prusa 3D printers directly from Josef Prusa&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://help.prusa3d.com/en/tag/mk3s-2/"&gt;Prusa Knowledge Base | Original Prusa i3 MK3S+&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://typora.io/"&gt;Typora — a markdown editor, markdown reader.&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>2021-12-07</title><link>/posts/2021/12/07/116738/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/07/116738/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>2021-12-07</title><link>https://d.sk85.org/posts/2021/12/07/116738/</link><pubDate>Tue, 07 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/07/116738/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;6:50起床&lt;/li&gt;
 &lt;li&gt;息子通園&lt;/li&gt;
 &lt;li&gt;昨日の分析&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;文献が再現できないので、危険な試薬を使う
 &lt;ul&gt;
@@ -855,12 +1238,24 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;分析と精製&lt;/li&gt;
 &lt;li&gt;残業1時間&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-06</title><link>/posts/2021/12/06/654607/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/06/654607/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-06</title><link>https://d.sk85.org/posts/2021/12/06/654607/</link><pubDate>Mon, 06 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/06/654607/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;6:50息子通園&lt;/li&gt;
 &lt;li&gt;実験
@@ -871,7 +1266,10 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;実験その2
 &lt;ul&gt;
@@ -880,12 +1278,24 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;20:00過ぎに就寝&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-05</title><link>/posts/2021/12/05/43464/</link><pubDate>Sun, 05 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/05/43464/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-05</title><link>https://d.sk85.org/posts/2021/12/05/43464/</link><pubDate>Sun, 05 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/05/43464/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;6:30起床&lt;/li&gt;
 &lt;li&gt;息子にサンドイッチ作る&lt;/li&gt;
@@ -899,20 +1309,23 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;樹脂冷却用ファンのコネクタが抜けていたことに気がついた
 &lt;ul&gt;
 &lt;li&gt;入れてみると結構な音量だが、これも交換予定&lt;/li&gt;
-&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211205-12-33-17-VTHjrdYZ1bXUE_wTuG-q.png"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211205-12-33-17-VTHjrdYZ1bXUE_wTuG-q.png" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;li&gt;&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211205-12-33-17-VTHjrdYZ1bXUE_wTuG-q.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211205-12-33-17-VTHjrdYZ1bXUE_wTuG-q.png"
+ alt="20211205-12-33-17-VTHjrdYZ1bXUE_wTuG-q.png" loading="lazy" decoding="async" width="300" height="211"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;メインボード冷却用ファントと樹脂冷却用ファンはControllable fan portにそれぞれ刺さっているけど、回転数を操作すると連動してるっぽい。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;prusa i3 mk3s気になるなあ&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;昼食は昨日買った麻辣まぜそば
 &lt;ul&gt;
@@ -923,12 +1336,24 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;息子と公園に行き17:00ごろ帰宅&lt;/li&gt;
 &lt;li&gt;22:00ごろ帰宅&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;よいですね&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-04</title><link>/posts/2021/12/04/673034/</link><pubDate>Sat, 04 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/04/673034/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-04</title><link>https://d.sk85.org/posts/2021/12/04/673034/</link><pubDate>Sat, 04 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/04/673034/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;越谷レイクタウンへ&lt;/li&gt;
 &lt;li&gt;昼食はサイゼリア
@@ -939,45 +1364,63 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;セリアでお風呂用のおもちゃを買う&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;おもちゃなどを見て、新三郷へ移動&lt;/li&gt;
 &lt;li&gt;コストコへ&lt;/li&gt;
 &lt;li&gt;早めにクリスマス用のチキンを調達&lt;/li&gt;
 &lt;li&gt;明日用に麻辣まぜそばも
 &lt;ul&gt;
-&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211205-12-12-08-EjnQU4fxlEWnIfmzBHMI.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211205-12-12-08-EjnQU4fxlEWnIfmzBHMI.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;li&gt;&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211205-12-12-08-EjnQU4fxlEWnIfmzBHMI.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211205-12-12-08-EjnQU4fxlEWnIfmzBHMI.jpg"
+ alt="20211205-12-12-08-EjnQU4fxlEWnIfmzBHMI.jpg" loading="lazy" decoding="async" width="300" height="225"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 &lt;/li&gt;
-&lt;li&gt;&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211205-12-12-08-5G9b9OozFe3z2KR-66Qj.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211205-12-12-08-5G9b9OozFe3z2KR-66Qj.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;li&gt;&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211205-12-12-08-5G9b9OozFe3z2KR-66Qj.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211205-12-12-08-5G9b9OozFe3z2KR-66Qj.jpg"
+ alt="20211205-12-12-08-5G9b9OozFe3z2KR-66Qj.jpg" loading="lazy" decoding="async" width="300" height="400"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;疲れたので21:00ごろ就寝&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-03[通院13回目]</title><link>/posts/2021/12/03/143836/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/03/143836/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-03[通院13回目]</title><link>https://d.sk85.org/posts/2021/12/03/143836/</link><pubDate>Fri, 03 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/03/143836/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;8:30出社&lt;/li&gt;
 &lt;li&gt;昨日の微妙な実験結果の解釈&lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;物質が分解していることがわかった
 &lt;ul&gt;
@@ -987,14 +1430,29 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;li&gt;長めのミーティング&lt;/li&gt;
 &lt;li&gt;定時に退社して心療内科へ&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h4 id="心療内科受診"&gt;心療内科受診&lt;/h4&gt;
-&lt;p&gt;&lt;a href="/posts/2021/08/27/387330/"&gt;前回の診療&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-02</title><link>/posts/2021/12/02/303798/</link><pubDate>Thu, 02 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/02/303798/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h4 id="心療内科受診"&gt;
+ 心療内科受診
+ &lt;a class="heading-anchor" href="#%e5%bf%83%e7%99%82%e5%86%85%e7%a7%91%e5%8f%97%e8%a8%ba" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
+&lt;p&gt;&lt;a href="https://d.sk85.org/posts/2021/08/27/387330/"&gt;前回の診療&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-02</title><link>https://d.sk85.org/posts/2021/12/02/303798/</link><pubDate>Thu, 02 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/02/303798/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;8:30出社&lt;/li&gt;
 &lt;li&gt;朝調子が悪く保育園送迎をお願いした&lt;/li&gt;
@@ -1005,18 +1463,33 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;実験の後処理と分析&lt;/li&gt;
 &lt;li&gt;定時退社&lt;/li&gt;
 &lt;li&gt;23:00前に就寝&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item><item><title>2021-12-01</title><link>/posts/2021/12/01/509103/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>/posts/2021/12/01/509103/</guid><description>&lt;h2 id="午前"&gt;午前&lt;/h2&gt;
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item><item><title>2021-12-01</title><link>https://d.sk85.org/posts/2021/12/01/509103/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2021/12/01/509103/</guid><description>&lt;h2 id="午前"&gt;
+ 午前
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;今日は奥さんが在宅勤務しながら息子の世話&lt;/li&gt;
 &lt;li&gt;咳は落ち着いてきたようだ&lt;/li&gt;
@@ -1030,15 +1503,27 @@ ttf で配布されているのでインストールが便利&lt;/p&gt;</descrip
 &lt;/li&gt;
 &lt;li&gt;ミーティング&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="午後"&gt;午後&lt;/h2&gt;
+&lt;h2 id="午後"&gt;
+ 午後
+ &lt;a class="heading-anchor" href="#%e5%8d%88%e5%be%8c" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;技術系のミーティング&lt;/li&gt;
 &lt;li&gt;実験のあとしょり&lt;/li&gt;
 &lt;li&gt;定時に帰宅&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="体調"&gt;体調&lt;/h2&gt;
+&lt;h2 id="体調"&gt;
+ 体調
+ &lt;a class="heading-anchor" href="#%e4%bd%93%e8%aa%bf" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;普通&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="その他"&gt;その他&lt;/h2&gt;
-&lt;h2 id="今日のtabs"&gt;今日のTabs&lt;/h2&gt;</description></item></channel></rss>
+&lt;h2 id="その他"&gt;
+ その他
+ &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h2 id="今日のtabs"&gt;
+ 今日のTabs
+ &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;</description></item></channel></rss>

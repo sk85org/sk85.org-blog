@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Todo on d.sk85.org</title><link>/tags/todo/</link><description>Recent content in Todo on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Thu, 13 Feb 2025 17:52:30 +0900</lastBuildDate><atom:link href="/tags/todo/index.xml" rel="self" type="application/rss+xml"/><item><title>todo/目標</title><link>/posts/2021/05/02/776615/</link><pubDate>Sun, 02 May 2021 11:06:44 +0900</pubDate><guid>/posts/2021/05/02/776615/</guid><description>&lt;h3 id="todo"&gt;todo&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Todo on d.sk85.org</title><link>https://d.sk85.org/tags/todo/</link><description>Recent content in Todo on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Thu, 13 Feb 2025 17:52:30 +0900</lastBuildDate><atom:link href="https://d.sk85.org/tags/todo/index.xml" rel="self" type="application/rss+xml"/><item><title>todo/目標</title><link>https://d.sk85.org/posts/2021/05/02/776615/</link><pubDate>Sun, 02 May 2021 11:06:44 +0900</pubDate><guid>https://d.sk85.org/posts/2021/05/02/776615/</guid><description>&lt;h3 id="todo"&gt;
+ todo
+ &lt;a class="heading-anchor" href="#todo" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;サーバーのメンテナンス (掃除)&lt;/li&gt;
 &lt;li&gt;サーバーのメンテナンス (いらないサービスなどを止める)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="読書"&gt;読書&lt;/h3&gt;
+&lt;h3 id="読書"&gt;
+ 読書
+ &lt;a class="heading-anchor" href="#%e8%aa%ad%e6%9b%b8" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://calil.jp/book/4152100753"&gt;mRNA ワクチンの衝撃: コロナ制圧と医療の未来 | カーリル&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://calil.jp/book/4890633979"&gt;シリア原子炉を破壊せよ ─ イスラエル極秘作戦の内幕 | カーリル&lt;/a&gt;
@@ -58,7 +64,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="目標"&gt;目標&lt;/h3&gt;
+&lt;h3 id="目標"&gt;
+ 目標
+ &lt;a class="heading-anchor" href="#%e7%9b%ae%e6%a8%99" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;会社に健康に通う&lt;/li&gt;
 &lt;li&gt;月曜の調子を整える

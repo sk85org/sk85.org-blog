@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2020-12 on d.sk85.org</title><link>/archives/2020-12/</link><description>Recent content in 2020-12 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sat, 23 May 2026 22:48:13 +0900</lastBuildDate><atom:link href="/archives/2020-12/index.xml" rel="self" type="application/rss+xml"/><item><title>プラレール自動制御</title><link>/posts/2020/12/28/595555/</link><pubDate>Mon, 28 Dec 2020 23:19:42 +0900</pubDate><guid>/posts/2020/12/28/595555/</guid><description>&lt;p&gt;子供(2歳児)はプラレール好きで、最近はループやトンネルよりも複数車両が秩序を維持しながら走るのが面白いようだ。市販で手に入るのは経路を変更する2部品。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2020-12 on d.sk85.org</title><link>https://d.sk85.org/archives/2020-12/</link><description>Recent content in 2020-12 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 21 Oct 2026 15:48:28 +0900</lastBuildDate><atom:link href="https://d.sk85.org/archives/2020-12/index.xml" rel="self" type="application/rss+xml"/><item><title>プラレール自動制御</title><link>https://d.sk85.org/posts/2020/12/28/595555/</link><pubDate>Mon, 28 Dec 2020 23:19:42 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/28/595555/</guid><description>&lt;p&gt;子供(2歳児)はプラレール好きで、最近はループやトンネルよりも複数車両が秩序を維持しながら走るのが面白いようだ。市販で手に入るのは経路を変更する2部品。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;R-16 自動ポイントレール&lt;/li&gt;
 &lt;li&gt;R-19 自動ターンアウトレール&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;これだけだと停車-発車の制御ができないのでArduinoを使って制御してみよう。&lt;/p&gt;</description></item><item><title>2020-12-26のブックマーク</title><link>/posts/2020/12/26/530501/</link><pubDate>Sat, 26 Dec 2020 18:44:22 +0900</pubDate><guid>/posts/2020/12/26/530501/</guid><description>&lt;p&gt;バーチャルトレーダーの罪深さ&lt;br&gt;
-&lt;a href="https://kabutouma.hatenablog.com/entry/2020/12/26/155455"&gt;https://kabutouma.hatenablog.com/entry/2020/12/26/155455&lt;/a&gt;&lt;/p&gt;</description></item><item><title>物事を判断するときの基準</title><link>/posts/2020/12/25/412728/</link><pubDate>Fri, 25 Dec 2020 15:33:15 +0900</pubDate><guid>/posts/2020/12/25/412728/</guid><description>&lt;p&gt;人によって基準は様々だと思うけど、僕の場合は結局以下の３つに行き着く。&lt;/p&gt;
+&lt;p&gt;これだけだと停車-発車の制御ができないのでArduinoを使って制御してみよう。&lt;/p&gt;</description></item><item><title>2020-12-26のブックマーク</title><link>https://d.sk85.org/posts/2020/12/26/530501/</link><pubDate>Sat, 26 Dec 2020 18:44:22 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/26/530501/</guid><description>&lt;p&gt;バーチャルトレーダーの罪深さ&lt;br&gt;
+&lt;a href="https://kabutouma.hatenablog.com/entry/2020/12/26/155455"&gt;https://kabutouma.hatenablog.com/entry/2020/12/26/155455&lt;/a&gt;&lt;/p&gt;</description></item><item><title>物事を判断するときの基準</title><link>https://d.sk85.org/posts/2020/12/25/412728/</link><pubDate>Fri, 25 Dec 2020 15:33:15 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/25/412728/</guid><description>&lt;p&gt;人によって基準は様々だと思うけど、僕の場合は結局以下の３つに行き着く。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;子供が不自由なく進学できる&lt;/li&gt;
 &lt;li&gt;奥さんが幸せに暮らせる&lt;/li&gt;
@@ -12,22 +12,34 @@
 &lt;/ul&gt;
 &lt;p&gt;だから、上記の３つが満たされていれば変化の必要はないのだけれど、&lt;br&gt;
 そこが人間の難しいところで、自分のキャリアや研究についての希望がむくむくと&lt;br&gt;
-出てきてしまうのだ。&lt;/p&gt;</description></item><item><title>自分の思考特性</title><link>/posts/2020/12/23/343869/</link><pubDate>Wed, 23 Dec 2020 22:56:20 +0900</pubDate><guid>/posts/2020/12/23/343869/</guid><description>&lt;h4 id="嫌な不安な事象発生"&gt;嫌な(不安な)事象発生&lt;/h4&gt;
+出てきてしまうのだ。&lt;/p&gt;</description></item><item><title>自分の思考特性</title><link>https://d.sk85.org/posts/2020/12/23/343869/</link><pubDate>Wed, 23 Dec 2020 22:56:20 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/23/343869/</guid><description>&lt;h4 id="嫌な不安な事象発生"&gt;
+ 嫌な(不安な)事象発生
+ &lt;a class="heading-anchor" href="#%e5%ab%8c%e3%81%aa%e4%b8%8d%e5%ae%89%e3%81%aa%e4%ba%8b%e8%b1%a1%e7%99%ba%e7%94%9f" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;p&gt;0分~ 5時間 でまず回避や退避を考える&lt;br&gt;
 ほとんど頭が回ってない。悪い方に掘り下げ、食欲がなくなったり吐きそうになる&lt;br&gt;
 気持ち的には-100&lt;/p&gt;
-&lt;h4 id="回復期"&gt;回復期&lt;/h4&gt;
+&lt;h4 id="回復期"&gt;
+ 回復期
+ &lt;a class="heading-anchor" href="#%e5%9b%9e%e5%be%a9%e6%9c%9f" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;p&gt;~1日&lt;br&gt;
 気持ちは回避や退避が継続。
 実は大したこと無い、大丈夫なんじゃない？と少し気持ちが落ち着いてくる。&lt;br&gt;
 -50ぐらい？&lt;/p&gt;
-&lt;h4 id="過回復からマイナスへ"&gt;過回復からマイナスへ&lt;/h4&gt;
+&lt;h4 id="過回復からマイナスへ"&gt;
+ 過回復からマイナスへ
+ &lt;a class="heading-anchor" href="#%e9%81%8e%e5%9b%9e%e5%be%a9%e3%81%8b%e3%82%89%e3%83%9e%e3%82%a4%e3%83%8a%e3%82%b9%e3%81%b8" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;p&gt;~1.5日&lt;br&gt;
 自分に都合が良いように物事を捉え、うまくいくような妄想をする。&lt;br&gt;
 ここで回復したと誤認すると大変危険。&lt;br&gt;
 20ぐらい。
 それからすぐに、我に返ってマイナスに戻る。&lt;/p&gt;
-&lt;h4 id="メタ認知しつつ定常状態へ"&gt;メタ認知しつつ定常状態へ&lt;/h4&gt;
+&lt;h4 id="メタ認知しつつ定常状態へ"&gt;
+ メタ認知しつつ定常状態へ
+ &lt;a class="heading-anchor" href="#%e3%83%a1%e3%82%bf%e8%aa%8d%e7%9f%a5%e3%81%97%e3%81%a4%e3%81%a4%e5%ae%9a%e5%b8%b8%e7%8a%b6%e6%85%8b%e3%81%b8" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;p&gt;~3日
 問題を分解しはじめる。戦略を練る。&lt;/p&gt;
 &lt;ul&gt;
@@ -52,24 +64,23 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;これを繰り返しながら、だんだん振れ幅が小さくなり、0に落ち着く。
-この0まで戻す期間を短くするのが重要だ。&lt;/p&gt;</description></item><item><title>紅葉</title><link>/posts/2020/12/20/146397/</link><pubDate>Sun, 20 Dec 2020 15:10:33 +0900</pubDate><guid>/posts/2020/12/20/146397/</guid><description>&lt;p&gt;12月も半ばなのに、まだ紅葉だった
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201221-14-19-38-KS78ZG5SDErR5kPFYW6G.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20201221-14-19-38-KS78ZG5SDErR5kPFYW6G.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+この0まで戻す期間を短くするのが重要だ。&lt;/p&gt;</description></item><item><title>紅葉</title><link>https://d.sk85.org/posts/2020/12/20/146397/</link><pubDate>Sun, 20 Dec 2020 15:10:33 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/20/146397/</guid><description>&lt;p&gt;12月も半ばなのに、まだ紅葉だった&lt;/p&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20201221-14-19-38-KS78ZG5SDErR5kPFYW6G.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;amp;quality=80&amp;amp;file=20201221-14-19-38-KS78ZG5SDErR5kPFYW6G.jpg"
+ alt="20201221-14-19-38-KS78ZG5SDErR5kPFYW6G.jpg" loading="lazy" decoding="async" width="600" height="450"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201211-14-15-41-BmZl0bOALPdi9k-83aPA.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;quality=80&amp;file=20201211-14-15-41-BmZl0bOALPdi9k-83aPA.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20201211-14-15-41-BmZl0bOALPdi9k-83aPA.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;amp;quality=80&amp;amp;file=20201211-14-15-41-BmZl0bOALPdi9k-83aPA.jpg"
+ alt="20201211-14-15-41-BmZl0bOALPdi9k-83aPA.jpg" loading="lazy" decoding="async" width="600" height="800"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
-&lt;/p&gt;</description></item><item><title>胡椒餅</title><link>/posts/2020/12/17/261305/</link><pubDate>Thu, 17 Dec 2020 22:35:23 +0900</pubDate><guid>/posts/2020/12/17/261305/</guid><description>&lt;aside id="toc"&gt;
- &lt;h4&gt;Table of Contents&lt;/h4&gt;
+&lt;/figure&gt;</description></item><item><title>胡椒餅</title><link>https://d.sk85.org/posts/2020/12/17/261305/</link><pubDate>Thu, 17 Dec 2020 22:35:23 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/17/261305/</guid><description>&lt;aside id="toc" aria-labelledby="toc-title"&gt;
+ &lt;h2 id="toc-title"&gt;目次&lt;/h2&gt;
  &lt;nav id="TableOfContents"&gt;
  &lt;ul&gt;
  &lt;li&gt;&lt;a href="#胡椒餅が食べられるお店"&gt;胡椒餅が食べられるお店&lt;/a&gt;
@@ -112,119 +123,114 @@
 &lt;/aside&gt;
 
 &lt;p&gt;胡椒餅が好きなのでまとめ。&lt;/p&gt;
-&lt;h2 id="胡椒餅が食べられるお店"&gt;胡椒餅が食べられるお店&lt;/h2&gt;
-&lt;h3 id="四ツ谷一餅堂"&gt;四ツ谷一餅堂&lt;/h3&gt;
+&lt;h2 id="胡椒餅が食べられるお店"&gt;
+ 胡椒餅が食べられるお店
+ &lt;a class="heading-anchor" href="#%e8%83%a1%e6%a4%92%e9%a4%85%e3%81%8c%e9%a3%9f%e3%81%b9%e3%82%89%e3%82%8c%e3%82%8b%e3%81%8a%e5%ba%97" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="四ツ谷一餅堂"&gt;
+ 四ツ谷一餅堂
+ &lt;a class="heading-anchor" href="#%e5%9b%9b%e3%83%84%e8%b0%b7%e4%b8%80%e9%a4%85%e5%a0%82" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://www.instagram.com/yotsuya_ippindo/"&gt;https://www.instagram.com/yotsuya_ippindo/&lt;/a&gt;&lt;br&gt;
 窯で焼いた胡椒餅が食べられる&lt;br&gt;
-1個450円ぐらい、台湾豆乳大王よりも大きい。肉はばら肉タイプ
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211114-08-44-54-FwGlxh-JAe9lJIZBWpxX.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211114-08-44-54-FwGlxh-JAe9lJIZBWpxX.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+1個450円ぐらい、台湾豆乳大王よりも大きい。肉はばら肉タイプ&lt;/p&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211114-08-44-54-FwGlxh-JAe9lJIZBWpxX.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211114-08-44-54-FwGlxh-JAe9lJIZBWpxX.jpg"
+ alt="20211114-08-44-54-FwGlxh-JAe9lJIZBWpxX.jpg" loading="lazy" decoding="async" width="300" height="400"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20211114-08-44-55-Nr6sDbdvHPifIi-QUD3M.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20211114-08-44-55-Nr6sDbdvHPifIi-QUD3M.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20211114-08-44-55-Nr6sDbdvHPifIi-QUD3M.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20211114-08-44-55-Nr6sDbdvHPifIi-QUD3M.jpg"
+ alt="20211114-08-44-55-Nr6sDbdvHPifIi-QUD3M.jpg" loading="lazy" decoding="async" width="300" height="400"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
-&lt;/p&gt;
-&lt;h3 id="台湾豆乳大王"&gt;台湾豆乳大王&lt;/h3&gt;
+&lt;/figure&gt;
+
+&lt;h3 id="台湾豆乳大王"&gt;
+ 台湾豆乳大王
+ &lt;a class="heading-anchor" href="#%e5%8f%b0%e6%b9%be%e8%b1%86%e4%b9%b3%e5%a4%a7%e7%8e%8b" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://twitter.com/taiwantonyudaio"&gt;https://twitter.com/taiwantonyudaio&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://www.instagram.com/taiwan_tonyu_daio/"&gt;https://www.instagram.com/taiwan_tonyu_daio/&lt;/a&gt;&lt;br&gt;
 台湾の朝ごはん系。太陽餅もあり&lt;/p&gt;
-&lt;h2 id="胡椒餅の通販"&gt;胡椒餅の通販&lt;/h2&gt;
-&lt;h3 id="チャイデリカ-長崎成功胡椒餅"&gt;チャイデリカ 長崎成功胡椒餅&lt;/h3&gt;
+&lt;h2 id="胡椒餅の通販"&gt;
+ 胡椒餅の通販
+ &lt;a class="heading-anchor" href="#%e8%83%a1%e6%a4%92%e9%a4%85%e3%81%ae%e9%80%9a%e8%b2%a9" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="チャイデリカ-長崎成功胡椒餅"&gt;
+ チャイデリカ 長崎成功胡椒餅
+ &lt;a class="heading-anchor" href="#%e3%83%81%e3%83%a3%e3%82%a4%e3%83%87%e3%83%aa%e3%82%ab-%e9%95%b7%e5%b4%8e%e6%88%90%e5%8a%9f%e8%83%a1%e6%a4%92%e9%a4%85" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
 &lt;p&gt;&lt;a href="http://chaeon.shop-pro.jp/?mode"&gt;http://chaeon.shop-pro.jp/?mode&lt;/a&gt;&lt;br&gt;
 電子レンジで温めてから、オーブントースターで表面を焼くタイプ。&lt;br&gt;
-胡椒がしっかり効いていて美味しい。
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201220-06-58-14--EhNhEk5BiGNt3nI0iff.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20201220-06-58-14--EhNhEk5BiGNt3nI0iff.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+胡椒がしっかり効いていて美味しい。&lt;/p&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20201220-06-58-14--EhNhEk5BiGNt3nI0iff.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20201220-06-58-14--EhNhEk5BiGNt3nI0iff.jpg"
+ alt="20201220-06-58-14--EhNhEk5BiGNt3nI0iff.jpg" loading="lazy" decoding="async" width="300" height="400"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201220-06-58-14-Wg1pbtHu7WJ_TdYCY60k.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20201220-06-58-14-Wg1pbtHu7WJ_TdYCY60k.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20201220-06-58-14-Wg1pbtHu7WJ_TdYCY60k.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;amp;quality=80&amp;amp;file=20201220-06-58-14-Wg1pbtHu7WJ_TdYCY60k.jpg"
+ alt="20201220-06-58-14-Wg1pbtHu7WJ_TdYCY60k.jpg" loading="lazy" decoding="async" width="300" height="400"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
-&lt;/p&gt;
-&lt;h2 id="胡椒餅の店舗購入"&gt;胡椒餅の店舗購入&lt;/h2&gt;
-&lt;h3 id="kaldi-胡椒餅"&gt;KALDI 胡椒餅&lt;/h3&gt;
+&lt;/figure&gt;
+
+&lt;h2 id="胡椒餅の店舗購入"&gt;
+ 胡椒餅の店舗購入
+ &lt;a class="heading-anchor" href="#%e8%83%a1%e6%a4%92%e9%a4%85%e3%81%ae%e5%ba%97%e8%88%97%e8%b3%bc%e5%85%a5" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;h3 id="kaldi-胡椒餅"&gt;
+ KALDI 胡椒餅
+ &lt;a class="heading-anchor" href="#kaldi-%e8%83%a1%e6%a4%92%e9%a4%85" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
 &lt;p&gt;1個330円、やや小降り&lt;br&gt;
 電子レンジで温めてから、オーブントースターで表面を焼くタイプ。&lt;br&gt;
 胡椒がしっかり効いている本場タイプではなく、甘味もあり&lt;br&gt;
-おいしい
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20220417-08-29-43-q-sCSGmI28AlOmf75-YU.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20220417-08-29-43-q-sCSGmI28AlOmf75-YU.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
- 
- &lt;/figcaption&gt;
- &lt;/span&gt;
-
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20220417-08-29-43-le3Cc2Zdw0pfnse_VrsQ.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20220417-08-29-43-le3Cc2Zdw0pfnse_VrsQ.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
- 
- &lt;/figcaption&gt;
- &lt;/span&gt;
-
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20220417-08-29-43-GoDY0HcI4HGikqbkQg0J.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20220417-08-29-43-GoDY0HcI4HGikqbkQg0J.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
- 
- &lt;/figcaption&gt;
- &lt;/span&gt;
-
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20220417-08-29-43-CAclrR2_3vLvI9gOXj7F.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=300&amp;quality=80&amp;file=20220417-08-29-43-CAclrR2_3vLvI9gOXj7F.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
- 
- &lt;/figcaption&gt;
- &lt;/span&gt;
-&lt;/p&gt;</description></item><item><title>hugoのURL構成を変更した</title><link>/posts/2020/12/13/388521/</link><pubDate>Sun, 13 Dec 2020 23:05:43 +0900</pubDate><guid>/posts/2020/12/13/388521/</guid><description>&lt;p&gt;フォルダでの管理をやめ、contents/post以下に YYYYMMDD_XXXXXX.md 命名ルール (X:数字)のファイルを置くようにした。&lt;br&gt;
+おいしい&lt;/p&gt;</description></item><item><title>hugoのURL構成を変更した</title><link>https://d.sk85.org/posts/2020/12/13/388521/</link><pubDate>Sun, 13 Dec 2020 23:05:43 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/13/388521/</guid><description>&lt;p&gt;フォルダでの管理をやめ、contents/post以下に YYYYMMDD_XXXXXX.md 命名ルール (X:数字)のファイルを置くようにした。&lt;br&gt;
 ファイルのフロントマターにslug: XXXXXXを指定するようにした。&lt;br&gt;
 URLの構成を変えて、/posts/YYYY/MM/DD/XXXXXX/でアクセスできるようにしたので、&lt;br&gt;
-一日に複数の記事をかけるようになった。分類はtagのみ。&lt;/p&gt;</description></item><item><title>hugoのデプロイ方法を変更した</title><link>/posts/2020/12/13/758287/</link><pubDate>Sun, 13 Dec 2020 14:38:13 +0900</pubDate><guid>/posts/2020/12/13/758287/</guid><description>&lt;p&gt;conoha VPSへの移行に伴って、hugoのデプロイ方法を変更した。&lt;br&gt;
+一日に複数の記事をかけるようになった。分類はtagのみ。&lt;/p&gt;</description></item><item><title>hugoのデプロイ方法を変更した</title><link>https://d.sk85.org/posts/2020/12/13/758287/</link><pubDate>Sun, 13 Dec 2020 14:38:13 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/13/758287/</guid><description>&lt;p&gt;conoha VPSへの移行に伴って、hugoのデプロイ方法を変更した。&lt;br&gt;
 今までは、GitHubにpushするとGitHubからVPSにWebhookが飛び、&lt;br&gt;
 それを起点にVPSからリポジトリをpullして、VPS上でデプロイしていた。&lt;/p&gt;
 &lt;p&gt;それを変更し、Gtihub actionを利用してpushを起点にしてVPSに&lt;br&gt;
 変更ファイルをrsyncして、VPS側で静的ファイルを出力するように変更した。&lt;br&gt;
-VPSへの同期の方法しか変わっていないが、VPS側でwebhookサーバーを立てる必要がなくなった。&lt;/p&gt;</description></item><item><title>買ってよかったもの2020</title><link>/posts/2020/12/12/683040/</link><pubDate>Sat, 12 Dec 2020 13:23:34 +0900</pubDate><guid>/posts/2020/12/12/683040/</guid><description>&lt;h2 id="dell-u3219q"&gt;DELL U3219Q&lt;/h2&gt;
-&lt;p&gt;&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201211-14-15-41-Td9qWrwTIYajpA8--sUh.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20201211-14-15-41-Td9qWrwTIYajpA8--sUh.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+VPSへの同期の方法しか変わっていないが、VPS側でwebhookサーバーを立てる必要がなくなった。&lt;/p&gt;</description></item><item><title>買ってよかったもの2020</title><link>https://d.sk85.org/posts/2020/12/12/683040/</link><pubDate>Sat, 12 Dec 2020 13:23:34 +0900</pubDate><guid>https://d.sk85.org/posts/2020/12/12/683040/</guid><description>&lt;h2 id="dell-u3219q"&gt;
+ DELL U3219Q
+ &lt;a class="heading-anchor" href="#dell-u3219q" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20201211-14-15-41-Td9qWrwTIYajpA8--sUh.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;amp;quality=80&amp;amp;file=20201211-14-15-41-Td9qWrwTIYajpA8--sUh.jpg"
+ alt="20201211-14-15-41-Td9qWrwTIYajpA8--sUh.jpg" loading="lazy" decoding="async" width="400" height="300"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 
-5年ぐらい前に買ったLGの27インチ4kをDell U3219Q (31.5インチ 4K)に交換。&lt;br&gt;
+&lt;p&gt;5年ぐらい前に買ったLGの27インチ4kをDell U3219Q (31.5インチ 4K)に交換。&lt;br&gt;
 U3219QはKVMが付いているすぐれもので、MacBookProはUSB Type-C、Windowsのデスクトップ機はDPとUSBで接続した。液晶側で映像入力ソースを変更すると、KVMも自動的に入力ソースに合わせてくれるので、今までみたいにUSBスイッチャーでカチカチやらなくてもよいのが最高。&lt;br&gt;
 本体側面についているUSBポートも当然切り替わるので、ここに認証用のYubikeyドングルを挿して使っている。&lt;br&gt;
 さらにUSB Type-Cの端子はUSB PD対応で90W給電ができる。未来だ、、、&lt;/p&gt;
-&lt;span class = "img" style='text-align:center;'&gt;
- &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;quality=100&amp;file=20201211-14-15-41-GUMKxIQrqWbsM7kOxidC.jpg"&gt;
- &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;quality=80&amp;file=20201211-14-15-41-GUMKxIQrqWbsM7kOxidC.jpg" loading=“lazy”&gt;&lt;/a&gt;
- &lt;figcaption&gt;
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20201211-14-15-41-GUMKxIQrqWbsM7kOxidC.jpg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=400&amp;amp;quality=80&amp;amp;file=20201211-14-15-41-GUMKxIQrqWbsM7kOxidC.jpg"
+ alt="20201211-14-15-41-GUMKxIQrqWbsM7kOxidC.jpg" loading="lazy" decoding="async" width="400" height="533"&gt;
+ &lt;/a&gt;
  
- &lt;/figcaption&gt;
- &lt;/span&gt;
+&lt;/figure&gt;
 
-&lt;h2 id="apple-watch-se"&gt;Apple Watch SE&lt;/h2&gt;
+&lt;h2 id="apple-watch-se"&gt;
+ Apple Watch SE
+ &lt;a class="heading-anchor" href="#apple-watch-se" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;使っていたAppleWatch 3をwatchOS 7にアップデートしようとしたら、&lt;br&gt;
 容量が足りないと言われたので初期化してアップデート&amp;amp;復元したのに、&lt;br&gt;
 その後すぐに3GBぐらいの追加アップデートがまた降ってきた。&lt;br&gt;

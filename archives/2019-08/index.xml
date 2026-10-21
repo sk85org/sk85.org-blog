@@ -1,7 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2019-08 on d.sk85.org</title><link>/archives/2019-08/</link><description>Recent content in 2019-08 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="/archives/2019-08/index.xml" rel="self" type="application/rss+xml"/><item><title>20200424のブックマーク</title><link>/posts/2019/08/16/304588/</link><pubDate>Fri, 16 Aug 2019 23:54:06 +0900</pubDate><guid>/posts/2019/08/16/304588/</guid><description>&lt;h2 id="javascript"&gt;javascript&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2019-08 on d.sk85.org</title><link>https://d.sk85.org/archives/2019-08/</link><description>Recent content in 2019-08 on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 27 Nov 2022 12:23:42 +0900</lastBuildDate><atom:link href="https://d.sk85.org/archives/2019-08/index.xml" rel="self" type="application/rss+xml"/><item><title>20200424のブックマーク</title><link>https://d.sk85.org/posts/2019/08/16/304588/</link><pubDate>Fri, 16 Aug 2019 23:54:06 +0900</pubDate><guid>https://d.sk85.org/posts/2019/08/16/304588/</guid><description>&lt;h2 id="javascript"&gt;
+ javascript
+ &lt;a class="heading-anchor" href="#javascript" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/naptha/tesseract.js#tesseractjs"&gt;https://github.com/naptha/tesseract.js#tesseractjs&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://qiita.com/kskinaba/items/3e8887d45b11f9132012"&gt;https://qiita.com/kskinaba/items/3e8887d45b11f9132012&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="golang"&gt;golang&lt;/h2&gt;
+&lt;h2 id="golang"&gt;
+ golang
+ &lt;a class="heading-anchor" href="#golang" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://ashitani.jp/golangtips/tips_time.html"&gt;https://ashitani.jp/golangtips/tips_time.html&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://www.tweeeety.blog/entry/2017/08/17/021040"&gt;https://www.tweeeety.blog/entry/2017/08/17/021040&lt;/a&gt;&lt;br&gt;
 &lt;a href="http://www.spinute.org/go-by-example/"&gt;http://www.spinute.org/go-by-example/&lt;/a&gt;&lt;br&gt;
@@ -9,15 +15,27 @@
 &lt;a href="https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/"&gt;https://skatsuta.github.io/2015/12/29/value-receiver-pointer-receiver/&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://qiita.com/rtok/items/46eadbf7b0b7a1b0eb08"&gt;https://qiita.com/rtok/items/46eadbf7b0b7a1b0eb08&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://qiita.com/sh-tatsuno/items/0c32c01eaeaf2d726fdf"&gt;https://qiita.com/sh-tatsuno/items/0c32c01eaeaf2d726fdf&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id="cgo"&gt;cgo&lt;/h4&gt;
+&lt;h4 id="cgo"&gt;
+ cgo
+ &lt;a class="heading-anchor" href="#cgo" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h4&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/taiyo/items/d89cb99a52d9cea9b3de"&gt;https://qiita.com/taiyo/items/d89cb99a52d9cea9b3de&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://github.com/chai2010/cgo"&gt;https://github.com/chai2010/cgo&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://qiita.com/74th/items/0362bea2012ef253c539"&gt;https://qiita.com/74th/items/0362bea2012ef253c539&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id="golangでgroongaを使う"&gt;golangでgroongaを使う&lt;/h3&gt;
+&lt;h3 id="golangでgroongaを使う"&gt;
+ golangでgroongaを使う
+ &lt;a class="heading-anchor" href="#golang%e3%81%a7groonga%e3%82%92%e4%bd%bf%e3%81%86" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h3&gt;
 &lt;p&gt;&lt;a href="https://gist.github.com/msh5/2dc2914fbc901b309511f7c9b95e3a46"&gt;https://gist.github.com/msh5/2dc2914fbc901b309511f7c9b95e3a46&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://gist.github.com/naoa/6777040"&gt;https://gist.github.com/naoa/6777040&lt;/a&gt;&lt;br&gt;
 &lt;a href="https://qiita.com/naoa/items/38df1cb153f2bd1c1628"&gt;https://qiita.com/naoa/items/38df1cb153f2bd1c1628&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="systemd"&gt;systemd&lt;/h2&gt;
+&lt;h2 id="systemd"&gt;
+ systemd
+ &lt;a class="heading-anchor" href="#systemd" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://qiita.com/a_yasui/items/f2d8b57aa616e523ede4"&gt;https://qiita.com/a_yasui/items/f2d8b57aa616e523ede4&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="imageproxy"&gt;imageproxy&lt;/h2&gt;
+&lt;h2 id="imageproxy"&gt;
+ imageproxy
+ &lt;a class="heading-anchor" href="#imageproxy" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
+&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://github.com/willnorris/imageproxy"&gt;https://github.com/willnorris/imageproxy&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
