@@ -4,6 +4,5 @@
     {{- $rss := .OutputFormats.Get "rss" }}
     {{- if not $rss }}{{ $rss = .Site.Home.OutputFormats.Get "rss" }}{{ end }}
     {{- with $rss }} · <a href="{{ .RelPermalink }}">RSS</a>{{ end }}
-    {{ if .Site.Params.enable_search }} · <a href="{{ .Site.Params.searchserver_url | default ("search/" | relURL) }}">検索</a>{{ end }}
   </p>
 </footer>
