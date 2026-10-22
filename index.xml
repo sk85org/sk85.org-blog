@@ -23,6 +23,9 @@
  その他
  &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PHPの脆弱性対応のため、使っていないFreshRSSコンテナを停止&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id="今日のtabs"&gt;
  今日のTabs
  &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
