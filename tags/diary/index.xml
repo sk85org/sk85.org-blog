@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diary on d.sk85.org</title><link>https://d.sk85.org/tags/diary/</link><description>Recent content in Diary on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 03 Nov 2026 08:14:08 +0900</lastBuildDate><atom:link href="https://d.sk85.org/tags/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-11-03[draft]</title><link>https://d.sk85.org/posts/2026/11/03/16509/</link><pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2026/11/03/16509/</guid><description>&lt;h2 id="午前"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Diary on d.sk85.org</title><link>https://d.sk85.org/tags/diary/</link><description>Recent content in Diary on d.sk85.org</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Tue, 03 Nov 2026 13:45:47 +0900</lastBuildDate><atom:link href="https://d.sk85.org/tags/diary/index.xml" rel="self" type="application/rss+xml"/><item><title>2026-11-03[休日]</title><link>https://d.sk85.org/posts/2026/11/03/16509/</link><pubDate>Tue, 03 Nov 2026 00:00:00 +0900</pubDate><guid>https://d.sk85.org/posts/2026/11/03/16509/</guid><description>&lt;h2 id="午前"&gt;
  午前
  &lt;a class="heading-anchor" href="#%e5%8d%88%e5%89%8d" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
@@ -23,6 +23,35 @@
  その他
  &lt;a class="heading-anchor" href="#%e3%81%9d%e3%81%ae%e4%bb%96" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
 &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Appleアカウントと1passwordの新規ログインに物理キーを必須とした
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20261103-04-34-40-8pwqWe0N7ZlRm12t8X1W.jpeg"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;amp;quality=80&amp;amp;file=20261103-04-34-40-8pwqWe0N7ZlRm12t8X1W.jpeg"
+ alt="20261103-04-34-40-8pwqWe0N7ZlRm12t8X1W.jpeg" loading="lazy" decoding="async" width="600"&gt;
+ &lt;/a&gt;
+ 
+ &lt;/figure&gt;
+
+&lt;a href="https://d.sk85.org/posts/2026/11/01/71759/"&gt;購入したのは&lt;/a&gt;Yubicoのセキュリティー。認証だけなら高いyubikeyを買わなくてもこれで十分。yubico.jpから購入したが、翌日に千葉から届いた。物理キーが消失すると大変なので1本は自宅に、もう1本は職場に保管しておくことにする。
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20261103-04-33-23-8ZoIAMW89SmgJhFCQ5dw.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;amp;quality=80&amp;amp;file=20261103-04-33-23-8ZoIAMW89SmgJhFCQ5dw.png"
+ alt="20261103-04-33-23-8ZoIAMW89SmgJhFCQ5dw.png" loading="lazy" decoding="async" width="600"&gt;
+ &lt;/a&gt;
+ 
+ &lt;/figure&gt;
+
+&lt;figure class="img"&gt;
+ &lt;a href="https://img.sk85.org/imaginary/resize?width=2000&amp;amp;quality=100&amp;amp;file=20261103-04-37-23-ortPBV3Yw_vGg2A56ouR.png"&gt;
+ &lt;img src="https://img.sk85.org/imaginary/resize?width=600&amp;amp;quality=80&amp;amp;file=20261103-04-37-23-ortPBV3Yw_vGg2A56ouR.png"
+ alt="20261103-04-37-23-ortPBV3Yw_vGg2A56ouR.png" loading="lazy" decoding="async" width="600"&gt;
+ &lt;/a&gt;
+ 
+ &lt;/figure&gt;
+
+1PasswotdもAppleアカウントも問題なく物理キーが追加できた。物理キーが必要なのは、新しいAppleデバイスにAppleアカウントを紐付けたり、新しい端末で1passwordにログインする時など。一度物理キーで認証してしまえば、それ以降の通常の使用は物理キーは不要。ここら辺のセキュリティと利便性のバランスが絶妙だと思う。盗まれて圧倒的にヤバイのはappleアカウントと1passwordなので、この2つだけに物理キーを設定した。&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id="今日のtabs"&gt;
  今日のTabs
  &lt;a class="heading-anchor" href="#%e4%bb%8a%e6%97%a5%e3%81%aetabs" aria-label="この見出しへのリンク"&gt;#&lt;/a&gt;
@@ -94,7 +123,7 @@
 &lt;/figure&gt;
 &lt;/li&gt;
 &lt;li&gt;1passwordとappleアカウントがすべての起点になるため、とりあえずここを固めておけば大丈夫という発想。&lt;/li&gt;
-&lt;li&gt;公式から買うの面倒だったので、JP経由でUS Amazonから購入&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://yubico.jp/"&gt;yubico.jp – Yubico 日本公式オンラインストア&lt;/a&gt;から購入、大丈夫だよね&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="今日のtabs"&gt;
  今日のTabs
